@@ -26,3 +26,25 @@
 *.exe
 *.out
 *.app
+
+# Others
+Debug/
+*.log
+*.ini
+*.sup
+*.pdb
+*.wlt
+*.nlb
+*.map
+*.exp
+*.bsc
+*.suo
+*.ncb
+*.cod
+*.sbr
+*.tlh
+*.tli
+*.idb
+*.htm
+*.APS
+*.bak
