@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ID2Monitor", "ID2Monitor\ID2Monitor.vcproj", "{52B2F553-5159-4FD2-8FC9-C02CC51CD680}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{52B2F553-5159-4FD2-8FC9-C02CC51CD680}.Debug.ActiveCfg = Debug|Win32
+		{52B2F553-5159-4FD2-8FC9-C02CC51CD680}.Debug.Build.0 = Debug|Win32
+		{52B2F553-5159-4FD2-8FC9-C02CC51CD680}.Release.ActiveCfg = Release|Win32
+		{52B2F553-5159-4FD2-8FC9-C02CC51CD680}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+欢迎光临[netbarname]
+
+操作时间:[now]
+收银员:[operator]
+================================
+姓名:[name]
+帐号:[cardserialnumber]
+用户级别:[memberclass]
+合计帐户余额:[totalmoney]
+================================

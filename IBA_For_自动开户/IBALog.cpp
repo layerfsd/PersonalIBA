@@ -1,0 +1,73 @@
+#include "stdafx.h"
+#include "ibalog.h"
+#include "IBAConfig.h"
+#include "IBA.h"
+#include "Encrypt.h"
+
+SINGLETON_IMPLEMENT(CIBALog)
+
+CIBALog::CIBALog(void)
+{
+	SetLogPath(theApp.GetWorkPath() + _T("\\IBALog"));
+	SetAutoDelLogFile(true);
+	SetMaxLogFileNumber(7);
+	SetLogOption(CIBAConfig::GetInstance()->GetLogLevel());
+
+	WriteLogHead();
+}
+
+CIBALog::~CIBALog(void)
+{
+}
+
+void CIBALog::WriteLogHead()
+{
+	Write(_T("*******************************************************"));	
+	Write(_T("**                                                   **"));
+
+	CFileVersionInfo fvi;
+	fvi.Create();
+
+	CString strVer = fvi.GetProductVersion();
+	
+	strVer.Replace(_T(", "), _T("."));
+	
+	m_strVer = strVer;
+
+	m_strComment = fvi.GetComments();
+
+	CString strFilePath;
+	::GetModuleFileName(NULL, strFilePath.GetBuffer(512), 512);
+	CFile file;
+	file.Open(strFilePath, CFile::modeRead, NULL);
+	long nLen = (long)file.GetLength();
+	BYTE *pBuf = new BYTE[nLen];
+	if (file.Read(pBuf, nLen) != nLen)
+	{
+		Write(_T("¶ÁÈ¡ÎÄ¼þÊ§°Ü"));
+	}
+
+	char ch[33] = {0};
+	CEncrypt::CalcMD5Bytes(pBuf, nLen, ch);
+	m_strFileMD5Hash = CA2T(ch);
+
+	WriteFormat(_T("**                  IBA(%s)                     **"), strVer);
+
+	Write(_T("**                                                   **"));
+	Write(_T("*******************************************************"));
+}
+
+CString CIBALog::GetAppVer() const
+{
+	return m_strVer;
+}
+
+CString CIBALog::GetAppBuildTime() const
+{
+	return m_strComment;
+}
+
+CString CIBALog::GetFileHash() const
+{
+	return m_strFileMD5Hash;
+}

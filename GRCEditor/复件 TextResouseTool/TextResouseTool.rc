@@ -1,0 +1,332 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\TextResouseTool.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TextResouseTool.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "关于 TextResouseTool"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "GrcEditor Version 1.0.0.1",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011 Gxx.",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_TEXTRESOUSETOOL_DIALOG DIALOGEX 0, 0, 322, 199
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "grc文件编辑工具"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "保存",ID_SAVE,7,21,50,16
+    PUSHBUTTON      "取消",IDCANCEL,265,21,50,16
+    CONTROL         "",IDC_LIST_STRING,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,38,308,154
+    PUSHBUTTON      "打开资源文件",IDC_OPEN,66,21,45,16
+    PUSHBUTTON      "Load From RC file",IDC_LOADRC,121,21,70,14
+    PUSHBUTTON      "另存为",IDC_BTN_SAVE_AS,195,21,50,14
+END
+
+IDD_DLG_FIND DIALOGEX 0, 0, 222, 91
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "查找"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "查找下一个",IDOK,7,62,50,14
+    PUSHBUTTON      "关闭",IDCANCEL,74,62,50,14
+    LTEXT           "查找内容:",IDC_STATIC,7,8,48,8
+    COMBOBOX        IDC_COMBO1,49,7,158,52,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "大小写匹配",IDC_CHECK_CAP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,28,56,10
+    CONTROL         "完全匹配",IDC_CHECK_WHOLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,44,48,10
+END
+
+IDD_DLG_HIT DIALOGEX 0, 0, 205, 99
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "提示"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "替换",IDOK,87,78,50,14
+    PUSHBUTTON      "不替换",IDCANCEL,148,78,50,14
+    LTEXT           "加载资源时ID重复，是否替换ID对应的内容",IDC_STATIC_TEXT,
+                    39,31,152,8
+    CONTROL         "下次不再提醒",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,82,64,10
+    ICON            "",IDC_STATIC_PIC,7,25,20,20
+END
+
+IDD_DLG_SETTING DIALOGEX 0, 0, 312, 218
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,128,197,50,14
+    PUSHBUTTON      "取消",IDCANCEL,255,197,50,14
+    PUSHBUTTON      "应用",IDC_BUTTON1,191,197,50,14
+    CONTROL         "导入资源时如果ID重复那么就替换原ID的内容",
+                    IDC_CHECK_REPLACE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    37,30,250,10
+    CONTROL         "加载RC文件时，勾选表示先解析菜单后解析字符串表，否则反之",
+                    IDC_CHECK_ORDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,
+                    49,256,10
+    CONTROL         "更改内容时检查格式是否发生改变",IDC_CHECK_CHANGE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,37,69,184,10
+    EDITTEXT        IDC_EDIT_FMT_CHARS,74,87,181,14,ES_AUTOHSCROLL
+    CONTROL         "禁止编辑ID",IDC_CHECK_FORBID_ID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,37,11,163,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "Gxx."
+            VALUE "FileDescription", "Grc file editor"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "TextResouseTool.exe"
+            VALUE "LegalCopyright", "版权所有(C) Gxx.保留所有权利。"
+            VALUE "OriginalFilename", "GrcEdit.exe"
+            VALUE "ProductName", "GrcEditor"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TEXTRESOUSETOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_DLG_FIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_DLG_HIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_DLG_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS 
+BEGIN
+    "F",            ID_FIND,                VIRTKEY, CONTROL, NOINVERT
+    VK_F3,          ID_FIND_NEXT,           VIRTKEY, NOINVERT
+    "S",            ID_SAVE,                VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "打开GRC资源文件(&G)",         ID_OPEN
+        MENUITEM "打开RC资源文件(&R)",          ID_OPEN_RC
+        MENUITEM "保存(&S)",                    ID_SAVE
+        MENUITEM "另存为(&A)",                  ID_SAVE_AS
+        MENUITEM "退出(&E)",                    ID_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "新增字符串(&A)",              ID_ADD
+        MENUITEM "删除当前行(&S)",              ID_DELETE
+        MENUITEM "插入字符串(&I)",              32789
+        MENUITEM "查找(&F)\tCtrl+F",            ID_FIND
+        MENUITEM "查找下一个(&N)\tF3",          ID_FIND_NEXT
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "设置 (&S)",                   32792
+        MENUITEM "关于(&A)",                    32798
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 TextResouseTool(&A)..."
+    IDS_MASK                "标识符"
+    IDS_CONTENT             "当前内容"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CONTENT_OLD         "原始内容"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\TextResouseTool.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,219 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\HWConnect.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\HWConnect.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_HWCONNECT_DIALOG DIALOGEX 0, 0, 121, 117
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "HW.Connect..._..."
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "1.[&C]校正扫描仪",IDC_BUTTON_Calibrate,24,7,74,14
+    PUSHBUTTON      "2.[&I]初始化扫描仪",IDC_BUTTON_Init,24,29,74,14
+    COMBOBOX        IDC_COMBO_IDTYPE,24,51,74,234,CBS_DROPDOWNLIST | 
+                    CBS_SORT | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "4.[&S]扫描",IDC_BUTTON_Scan,24,71,74,14
+    CONTROL         "Progress1",IDC_PROGRESS_SCAN,"msctls_progress32",
+                    WS_BORDER,7,95,107,14
+    CONTROL         "",IDC_HWIDCARDCTRL1,
+                    "{AA784F0F-90DF-44A1-A38D-532813B541B8}",WS_TABSTOP,7,7,
+                    11,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "有任何疑问请与深圳希之光科技客服人员联系！\0"
+            VALUE "CompanyName", "深圳希之光科技\0"
+            VALUE "FileDescription", "HWConnect HW扫描器连接程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "HWConnect\0"
+            VALUE "LegalCopyright", "深圳希之光科技版权所有 (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "HWConnect.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "HWConnect 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_HWCONNECT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 114
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_HWCONNECT_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_IDTYPE, 0x403, 14, 0
+0x3031, 0xd22c, 0xb4bb, 0xc9fa, 0xb7ed, 0xd6dd, 0x00a4, 
+    IDC_COMBO_IDTYPE, 0x403, 14, 0
+0x3131, 0xb62c, 0xb4fe, 0xc9fa, 0xb7ed, 0xd6dd, 0x00a4, 
+    IDC_COMBO_IDTYPE, 0x403, 10, 0
+0x3531, 0xd12c, 0xc9a7, 0xd6fa, 0x00a4, 
+    IDC_COMBO_IDTYPE, 0x403, 10, 0
+0x3039, 0xbe2c, 0xb9fc, 0xd6d9, 0x00a4, 
+    IDC_COMBO_IDTYPE, 0x403, 10, 0
+0x3139, 0xbe2c, 0xb9af, 0xd6d9, 0x00a4, 
+    IDC_COMBO_IDTYPE, 0x403, 10, 0
+0x3239, 0xca2c, 0xb1bf, 0xd6f8, 0x00a4, 
+    IDC_COMBO_IDTYPE, 0x403, 10, 0
+0x3339, 0xbb2c, 0xbfa7, 0xb2da, 0x00be, 
+    IDC_COMBO_IDTYPE, 0x403, 8, 0
+0x3439, 0xbb2c, 0xd5a4, 0x00d5, 
+    IDC_COMBO_IDTYPE, 0x403, 10, 0
+0x3539, 0xcc2c, 0xb0a8, 0xd6fb, 0x00a4, 
+    IDC_COMBO_IDTYPE, 0x403, 12, 0
+0x3939, 0xc62c, 0xcbe4, 0xd6fc, 0xbca4, 0x00fe, 
+    IDC_HWIDCARDCTRL1, 0x376, 20, 0
+0x0000, 0x0000, 0x0000, 0x0002, 0x01c2, 0x0000, 0x018d, 0x0000, 0x0000, 
+0x0000, 
+    0
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\HWConnect.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

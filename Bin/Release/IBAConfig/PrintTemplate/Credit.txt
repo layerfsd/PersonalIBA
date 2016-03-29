@@ -1,0 +1,13 @@
+欢迎光临[netbarname]
+
+操作时间:[now]
+收银员:[operator]
+================================
+姓名:[name]
+用户号:[memberid]
+证件号码:[idnumber]
+印刷号:[cardserialnumber]
+用户级别:[memberclass]
+本次充值金额:[inmoney]
+合计帐户余额:[totalmoney]
+================================

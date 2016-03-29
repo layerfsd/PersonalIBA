@@ -1,0 +1,16 @@
+欢迎光临[netbarname]
+
+操作时间:[now]
+收银员:[operator]
+================================
+姓名:[name]
+用户号:[memberid]
+证件号码:[idnumber]
+印刷号:[cardserialnumber]
+用户级别:[memberclass]
+包时区域:[pcclass]
+包时金额:[money]
+包时开始时间:[starttime]
+包时结束时间:[endtime]
+帐户余额:[totalmoney]
+================================

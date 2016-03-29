@@ -1,0 +1,3 @@
+LIBRARY	CallIBARegUser
+EXPORTS 
+	fnCallIBARegUser

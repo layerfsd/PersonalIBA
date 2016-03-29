@@ -1,0 +1,25 @@
+IBA8413-01
+1. Reconstruct the whole process of converting network status
+2. Popup selection dialog while there are more than 1 candidates that matches the number input in convinient input filed.
+3. Add GetCostRateFromCostRate function.
+4. Set ActiveMember.policyInfo in HandleReportLogon. 
+5.CheckActiveMember中，临时用户未上机，但还有钱时，不设IsAvtive为false，也即用户视图不会显示为灰色
+6.新建数据表AllowReturn,保存Dobalance顺便返回的allowReturn的参数.在本地下检查时，若读取到相关参数则按相关参数进行操作，若没有，则按照不可退款进行操作。0:不允许 1:允许 2:只退押金。UserClass 用户级别，0表示临时用户,其他表示会员用户
+7.本地模式下不收银台不主动更新用户账户余额和消费金额，只更新localMember不更新activeMember
+8.删除部分无用日志
+9.标记所有线程名称
+e.g.
+    Start thread:Get ZSB info. from center
+    Start thread:Get bundletime list
+    Start thread:Local charging
+    Start thread:Test network status
+    Start thread:Check offline ActiveMember
+    Start thread:Test network resume
+    Start thread:Upload local mode data for offline users
+    Start thread:CBrokenNetworkResume
+10.gintInputActivation=1设置时，便捷通道允许激活，没有设置时，便捷通道只弹窗，不激活
+11.不处理换机消息.OnClientCheckout中,checkoutType = 0时，不进行处理.
+12.取消LocalCenter的探测网络是否断开的线程,即ThreadEntryTestNetworking
+13.修复：本地激活用户按照SerialNum字段查找.(之前按idNumber)
+14.更新网络状态切换流程
+15.ActiveMemberList::RemoveActiveMember取消实名下机动作

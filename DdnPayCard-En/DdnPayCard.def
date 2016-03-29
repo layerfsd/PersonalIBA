@@ -1,0 +1,28 @@
+; DdnPayCard.def : 声明 DLL 的模块参数。
+
+LIBRARY      "DdnPcp"
+
+EXPORTS
+    ; 此处可以是显式导出
+    
+    CreatePayCardPlatformA @1
+    
+    CreatePayCardPlatformW @2
+    
+    DestroyPayCardPlatform @3
+    
+    DdnInitializePcpA @4
+    
+	DdnInitializePcpW @5
+
+	DdnShowPcp @6
+
+	DdnHidePcp @7
+
+	DdnTerminatePcp @8
+
+    DdnGetTime
+    
+    DdnMD5String
+    
+    DdnMD5File

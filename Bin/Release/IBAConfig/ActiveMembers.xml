@@ -1,0 +1,24 @@
+<ActiveMembers>
+<Operator>2824</Operator>
+<Time>2016-01-09 14:20:36</Time>
+<MemberInfo>
+<TermId>CLIENT1</TermId>
+<TermIP>192.168.11.172</TermIP>
+<Status>用户在线</Status>
+<NetId>0282400199</NetId>
+<MemberId>260878</MemberId>
+<UserName>ralphkfds</UserName>
+<Sex>0</Sex>
+<IdType>0</IdType>
+<PersonalId>282400199</PersonalId>
+<ClassName>会员卡用户</ClassName>
+<ClassId>2</ClassId>
+<IsMember>1</IsMember>
+<AvailavleBalance>100000</AvailavleBalance>
+<Amount>0</Amount>
+<PayType>0</PayType>
+<Lcation>本地</Lcation>
+<CheckInTime>2016-01-09 14:19:23</CheckInTime>
+<UseTime>00:01</UseTime>
+</MemberInfo>
+</ActiveMembers>

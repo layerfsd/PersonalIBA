@@ -1,0 +1,17 @@
+LIBRARY   SCANRECO
+EXPORTS
+
+OpenDevice          @1
+SetCallBack         @2
+ScanImage           @3
+RecogniseImage      @4
+IsSupportCallBack   @5
+IsSupportRecognise  @6
+IsSupportHeadImage  @7
+GetErrorMessage     @8
+CloseDevice         @9
+IsDeviceValid		@10
+IsSupportReader     @11
+IsSupportScanner    @12
+ReadCard            @13
+

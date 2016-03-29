@@ -1,0 +1,4315 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\IBA.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\IBA.ico"
+IDR_UDO                 ICON                    "res\\UDO.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_TOOLBAR256          BITMAP                  "res\\Toolbar256.bmp"
+IDR_FASTLANE            BITMAP                  "res\\toolbar1.bmp"
+IDB_USERIMAGES          BITMAP                  "res\\UserImages.bmp"
+IDB_TOOLBARLARGE        BITMAP                  "res\\Toolbar32.bmp"
+IDB_NETBARUSER          BITMAP                  "res\\netbaruser.bmp"
+IDR_FASTDLG             BITMAP                  "res\\bmp00001.bmp"
+IDB_BUGLE2              BITMAP                  "res\\bugle2.BMP"
+IDB_BUGLE1              BITMAP                  "res\\bugle1.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_DUTY_OFF
+    BUTTON      IDM_MYREFRESH
+    SEPARATOR
+    BUTTON      IDM_NEWUSER
+    BUTTON      IDM_CREDIT
+    SEPARATOR
+    BUTTON      IDM_CREDITREVERSE
+    BUTTON      IDM_CARDCREDIT
+    SEPARATOR
+    BUTTON      IDM_MODIFYPWD
+    BUTTON      IDM_BOUNDTIME
+    SEPARATOR
+    BUTTON      IDM_SELL
+    SEPARATOR
+    BUTTON      ID_ZENGSHOUBAO
+    BUTTON      IDM_DIANKA
+    BUTTON      ID_LABEL
+END
+
+IDR_FASTLANE TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FASTLANELABEL
+    BUTTON      ID_FASTLANECOMBO
+    BUTTON      ID_BUTTON33104
+    BUTTON      ID_BUTTON33105
+END
+
+IDR_FASTDLG TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FASTLANEDLG
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "收银台(&C)"
+    BEGIN
+        MENUITEM "上下班(&F)",                  ID_DUTY_OFF
+        MENUITEM SEPARATOR
+        MENUITEM "点卡销售",                    33115
+        MENUITEM "全场结账(&A)",                IDM_MUTICHECKOUT
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_EXIT
+    END
+    POPUP "用户管理(&D)"
+    BEGIN
+        MENUITEM "新开账户(&N)",                IDM_NEWUSER
+        MENUITEM "充值退款(&C)",                IDM_CREDIT
+        MENUITEM "充值修正(&R)",                IDM_CREDITREVERSE
+        MENUITEM "充值卡充值(&P)",              IDM_CARDCREDIT
+        MENUITEM "收银台包时(&B)",              IDM_BOUNDTIME
+        MENUITEM SEPARATOR
+        MENUITEM "修改密码(&P)",                IDM_MODIFYPWD
+        MENUITEM "修改账号(&S)",                IDM_CHANGESN
+        MENUITEM "修改资料(&I)",                IDM_MODIFYUSERINFO
+        MENUITEM "用户升级(&U)",                IDM_UPGRADE
+        MENUITEM "合并账户(&M)",                IDM_MERGEMEMBER
+        MENUITEM SEPARATOR
+        MENUITEM "账户直充(&Z)",                IDM_CREDITDIRECT
+        MENUITEM "礼品兑换(&D)",                IDM_POINTEXCHANGE
+        MENUITEM "闲时包月(&Y)",                IDM_BOUNDTIME2
+        MENUITEM "包房管理",                    33123
+    END
+    POPUP "查询统计(&Q)"
+    BEGIN
+        MENUITEM "收银员操作查询(&P)",          IDM_OPERATION
+        MENUITEM "收银员交款查询(&S)",          IDM_SHIFTCASH
+        MENUITEM SEPARATOR
+        MENUITEM "用户消费查询(&C)",            IDM_CONSUMELIST
+        MENUITEM "终端消费查询(&T)",            IDM_TERMCONSUME
+        MENUITEM "开户未消费查询(&N)",          IDM_CARDOPENCONSUME
+        MENUITEM SEPARATOR
+        MENUITEM "客户端消息查询(&M)",          IDM_SHORTMSGQUERY
+    END
+    POPUP "系统设置(&S)"
+    BEGIN
+        MENUITEM "门店建设设置(&N)",            IDM_NETBARSET
+        MENUITEM "客户端设置(&C)",              IDM_CLIENTSET
+        MENUITEM "实名设置(&R)",                IDM_REALNAMESET
+        MENUITEM SEPARATOR
+        POPUP "窗口布局(&V)"
+        BEGIN
+            MENUITEM "",                            ID_VIEW_TOOLBARS
+        END
+        POPUP "更换皮肤(&F)"
+        BEGIN
+            MENUITEM "蓝天白云",                    ID_VIEW_APPLOOK_2007_1
+            MENUITEM "我行我素",                    ID_VIEW_APPLOOK_2003
+            MENUITEM "黑客帝国",                    ID_VIEW_APPLOOK_2007_2
+            MENUITEM "温文尔雅",                    ID_VIEW_APPLOOK_VS2005
+            MENUITEM "倾国倾城",                    ID_VIEW_APPLOOK_2007_3
+            MENUITEM "白银帝国",                    ID_VIEW_APPLOOK_2007_4
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "收银台设置(&0)",              IDM_IBASET
+    END
+    POPUP "实名系统(&R)"
+    BEGIN
+        MENUITEM "扫描一代证(&1)",              IDM_SCAN1
+        MENUITEM "扫描二代证(&2)",              IDM_SCAN2
+        MENUITEM "读取二代证(&3)",              32952
+        MENUITEM "扫描护照(&6)",                IDM_SCAN_PASSPORT
+        MENUITEM SEPARATOR
+        MENUITEM "发行卡",                      IDM_RN_OPENCARD
+        MENUITEM "挂失卡",                      IDM_RN_LOSE
+        MENUITEM "修改密码",                    IDM_RN_MODIFYPWD
+        MENUITEM "加入会员",                    IDM_RN_ADDMEMBER
+        MENUITEM "注销临时卡",                  IDM_RN_DEREG
+    END
+    POPUP "常用工具(&T)"
+    BEGIN
+        MENUITEM "计算器(&C)",                  IDM_CALC
+        MENUITEM "记事本(&N)",                  IDM_NOTEPAD
+        MENUITEM "电脑锁(&L)",                  ID_LOCK_SCREEN
+        MENUITEM SEPARATOR
+        MENUITEM "场景视图(&D)",                IDM_SEATOPERATION
+        POPUP "座位操作(&S)"
+        BEGIN
+            MENUITEM "机器菜单",                    ID_SEAT_COMPUTER_MENU
+            , CHECKED
+            MENUITEM "添加编辑单个终端",            ID_SEAT_ADDSEAT
+            MENUITEM "添加所有终端",                ID_SEAT_ADDALL
+            MENUITEM "删除所有终端",                ID_SEAT_DELALL
+        END
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "相关帮助文档(&W)",            IDM_SERVERWEB
+        MENUITEM "打印模板目录(&P)",            IDM_PRINTTEMPLATE
+        MENUITEM "语音模板文件(&H)",            IDM_SPEECHTEMPLATE
+        MENUITEM SEPARATOR
+        MENUITEM "打开日志目录(&L)",            IDM_LOGPATH
+        MENUITEM "输出全部日志(&F)",            IDM_ALLLOG
+        MENUITEM SEPARATOR
+        MENUITEM "网吧增收宝(&N)",              ID_ZENGSHOUBAO
+        MENUITEM SEPARATOR
+        MENUITEM "帮助中心(&C)",                IDM_AGENT
+        MENUITEM "关于(&A)",                    ID_ABOUT
+    END
+END
+
+IDR_COMPUTER_MENU MENU 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "充值(&A)",                    IDM_CREDITONLINE
+        MENUITEM "结账(&P)",                    IDM_PAYOUT
+        MENUITEM "包时(&B)",                    IDM_BUNDTIMEONLINE
+        MENUITEM "换机(&C)",                    IDM_UNUSUAL
+        MENUITEM SEPARATOR
+        MENUITEM "发送消息(&M)",                IDM_SENDSHORTMESSAGE
+        POPUP "远程操作(&Y)"
+        BEGIN
+            MENUITEM "解屏维护(&U)",                IDM_UNLOCKSCREEN
+            MENUITEM "终端截屏(&S)",                IDM_SNAPSCREEN
+            MENUITEM "上传日志(&L)",                IDM_GETLOG
+            MENUITEM SEPARATOR
+            MENUITEM "关机(&F)",                    IDM_POWEROFF
+            MENUITEM "重启(&R)",                    IDM_REBOOT
+            MENUITEM "开机(&O)",                    IDM_POWERON
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "在线购物(&S)",                IDM_RETAILONLINE
+        MENUITEM "消费记录(&U)",                IDM_CONSUMELIST2
+        MENUITEM "终端消费查询(&T)",            IDM_TERMCONSUME2
+        MENUITEM SEPARATOR
+        MENUITEM "仅刷新此终端(&E)",            IDM_PING
+        MENUITEM "刷新(&R)",                    IDM_MYREFRESH
+    END
+    POPUP "全场结账"
+    BEGIN
+        MENUITEM "确认退款",                    ID_CONFORMRETURN
+        MENUITEM "取消退款",                    ID_CANCELRETURN
+    END
+END
+
+IDR_POPUP_TOOLBAR MENU 
+BEGIN
+    POPUP "DUMMY"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "便捷通道(&F)",                IDM_FASTLANE
+        MENUITEM "侧边栏(&L)",                  ID_VIEW_OUTLOOKBAR
+        MENUITEM "信息栏(&M)",                  ID_VIEW_CAPTIONBAR
+        MENUITEM "状态栏(&S)",                  ID_TOOL_STATUS
+        MENUITEM SEPARATOR
+        MENUITEM "自定义(&C)...",               ID_VIEW_CUSTOMIZE
+    END
+END
+
+IDR_QUICKMSG_MENU MENU 
+BEGIN
+    POPUP "QUICKMSG"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "编辑快捷短信(&E)...",         IDM_EDITQUICKMSG
+    END
+END
+
+IDR_MENU_COLUMN MENU 
+BEGIN
+    POPUP "COLUMN"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "设置(&S)...",                 IDM_COLUMN_SET
+    END
+END
+
+IDR_MENU_SCAN MENU 
+BEGIN
+    POPUP "SCAN"
+    BEGIN
+        MENUITEM "扫描一代证(&1)",              IDM_SCAN1
+        MENUITEM "扫描二代证(&2)",              32951
+        MENUITEM "扫描二代证背面(&5)",          IDM_SCAN2_BACK
+        MENUITEM SEPARATOR
+        MENUITEM "读取二代证(&3)",              IDM_READ2
+        MENUITEM "扫描护照(&6)",                33135
+        MENUITEM "扫描其他证件(&4)",            ID_SCAN_OTHER
+    END
+END
+
+IDR_POPUP_SEATZOOM MENU 
+BEGIN
+    POPUP "放缩显示"
+    BEGIN
+        MENUITEM "完整显示(&A)",                ID_MENU_FULLZOOM
+        MENUITEM "滚动显示(&S)",                ID_MENU_SCROLLZOOM
+    END
+END
+
+IDR_POPUP_SEATEDIT MENU 
+BEGIN
+    POPUP "座位编辑菜单栏"
+    BEGIN
+        MENUITEM "刷新(&R)",                    IDM_SEAT_REFRESH
+        MENUITEM "删除座位(&D)",                IDM_SEAT_DEL
+        MENUITEM "顺时钟旋转(&W)",              IDM_CLOCKWISE
+    END
+END
+
+IDR_MENU_MUTIPAYOUT MENU 
+BEGIN
+    POPUP "_PopUp_"
+    BEGIN
+        MENUITEM "结账",                        IDM_POPUP_PAYOUT
+    END
+END
+
+IDR_ACTIVEMEMBER_MENU MENU 
+BEGIN
+    POPUP "ACTIVEMEMBER"
+    BEGIN
+        MENUITEM "充值(&A)",                    IDM_CREDITONLINE
+        MENUITEM "结账(&P)",                    IDM_PAYOUT
+        MENUITEM "包时(&B)",                    IDM_BUNDTIMEONLINE
+        MENUITEM SEPARATOR
+        MENUITEM "充值修正(&E)",                ID_CREDITMODIFY
+        MENUITEM SEPARATOR
+        MENUITEM "重新计费",                    ID_RE_BILLING
+        MENUITEM SEPARATOR
+        MENUITEM "上机(&I)",                    IDM_CHECKIN
+        MENUITEM "换机(&C)",                    IDM_CHANGECOMPUTER
+        MENUITEM "发送消息(&M)",                IDM_SENDSHORTMESSAGE
+        MENUITEM SEPARATOR
+        MENUITEM "修改备注(&D)",                ID_ACTIVE_REMARK
+        MENUITEM "在线购物(&S)",                IDM_RETAILONLINE
+        MENUITEM "消费记录(&U)",                IDM_CONSUMELIST2
+        MENUITEM SEPARATOR
+        MENUITEM "刷新(&R)",                    IDM_MYREFRESH
+    END
+    POPUP "REFRESH"
+    BEGIN
+        MENUITEM "刷新(&R)",                    IDM_MYREFRESH
+    END
+END
+
+IDR_MSG_MENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "复制本条消息",                ID_COPY_MSG
+    END
+END
+
+IDR_MENU_CHECKOUT MENU 
+BEGIN
+    POPUP "结账记录"
+    BEGIN
+        MENUITEM "导出到Excel",                 IDM_EXPORTEXCEL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    VK_F10,         IDM_BOUNDTIME,          VIRTKEY, NOINVERT
+    VK_F5,          IDM_CARDCREDIT,         VIRTKEY, NOINVERT
+    VK_F8,          IDM_CHANGESN,           VIRTKEY, NOINVERT
+    VK_F3,          IDM_CREDIT,             VIRTKEY, NOINVERT
+    VK_F4,          IDM_CREDITREVERSE,      VIRTKEY, NOINVERT
+    VK_F11,         IDM_DIANKA,             VIRTKEY, NOINVERT
+    VK_F7,          IDM_MODIFYPWD,          VIRTKEY, NOINVERT
+    VK_F6,          IDM_MODIFYUSERINFO,     VIRTKEY, NOINVERT
+    VK_F1,          IDM_MYREFRESH,          VIRTKEY, NOINVERT
+    VK_F2,          IDM_NEWUSER,            VIRTKEY, NOINVERT
+    "3",            IDM_READ2,              VIRTKEY, CONTROL, NOINVERT
+    "4",            IDM_READ_CARD,          VIRTKEY, CONTROL, NOINVERT
+    "1",            IDM_SCAN1,              VIRTKEY, CONTROL, NOINVERT
+    "2",            IDM_SCAN2,              VIRTKEY, CONTROL, NOINVERT
+    VK_F12,         IDM_SELL,               VIRTKEY, NOINVERT
+    VK_F9,          IDM_UPGRADE,            VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 8,2,0,9
+ PRODUCTVERSION 8,2,0,9
+ FILEFLAGSMASK 0x1fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "2014-12-18 16:10:04"
+            VALUE "CompanyName", "深圳市希之光科技有限公司"
+            VALUE "FileDescription", "嘟嘟牛收银台"
+            VALUE "FileVersion", "8.2.0.9"
+            VALUE "LegalCopyright", "版权所有(C) 2010-2011 深圳市希之光科技有限公司。保留所有权利。"
+            VALUE "OriginalFilename", "IBA.EXE"
+            VALUE "ProductName", "嘟嘟牛计费系统"
+            VALUE "ProductVersion", "8.2.0.9"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "res\\xptheme.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_LOGIN DIALOGEX 0, 0, 208, 146
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "登录",IDOK,145,124,53,14
+    COMBOBOX        IDC_COMBO_CASHIER,57,78,113,15,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PWD,57,99,113,14,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "设置",IDC_BUTTON_SET,8,128,20,10
+    PUSHBUTTON      "X",IDCANCEL,179,1,28,10
+    LTEXT           "账号：",IDC_STATIC_1,25,82,24,11,NOT WS_VISIBLE
+    LTEXT           "密码：",IDC_STATIC_2,25,101,27,11,NOT WS_VISIBLE
+    PUSHBUTTON      "全场结账",IDC_BUTTON_ENMERGENCY,40,128,51,10
+END
+
+IDD_DIALOG_SHORTMSG DIALOGEX 0, 0, 299, 164
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 发送消息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "发送(&S)",IDC_SENDSHORMSG,243,133,50,14
+    PUSHBUTTON      "关闭(&C)",IDC_CLOSE,189,133,50,14
+    EDITTEXT        IDC_EDIT_SHORTMSG,7,45,286,70,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    COMBOBOX        IDC_COMBO_PCCLASS,53,134,111,13,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "发送范围：",IDC_STATIC_2,8,136,42,11
+    LTEXT           "       在编辑框输入要发送的内容后点击“发送”按钮，您也可以选择发送范围。\n若要使用快捷短信，请不要在编辑框输入，直接点击“发送”按钮就会弹出快捷短信菜单。",
+                    IDC_STATIC_1,15,15,267,29
+END
+
+IDD_ND_REGISTER DIALOGEX 0, 0, 386, 279
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 开户"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_IDCARDSNO,73,57,133,14,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_USERNAME,73,78,133,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PERSONALID,73,120,132,14,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MONEY,162,243,68,20,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "开户(&R)",IDOK,246,244,63,19
+    RTEXT           "用户姓名：",IDC_STATIC_3,28,81,40,8
+    RTEXT           "证件号码：",IDC_STATIC_5,28,123,40,8
+    RTEXT           "证件类型：",IDC_STATIC_4,28,102,40,8
+    LTEXT           "性别：",IDC_STATIC_7,144,102,26,9
+    RTEXT           "实收(元)：",IDC_STATIC0,95,248,53,13
+    COMBOBOX        IDC_COMBO_SEX,172,99,34,18,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_IDTYPE,73,99,59,99,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_USERCLASS,211,11,102,18,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "用户自带ID卡",IDC_CHECK_USERHASCARD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,189,213,64,8
+    CONTROL         "进行无送充值(这些钱可以到增收宝消费)",IDC_CHECK_PRESENT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,213,156,8
+    PUSHBUTTON      "查询(&Q)",IDC_BUTTON_QUERY,217,97,52,14
+    PUSHBUTTON      "扫描证件(&S)",IDC_BUTTON_READID2,217,57,51,15
+    CONTROL         "打印小票",IDC_CHECK_PRINT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,262,213,48,8
+    RTEXT           "上网账号：",IDC_STATIC_2,28,61,40,8
+    PUSHBUTTON      "选包时(&B)",IDC_BUTTON_BUNDLETIME,287,179,45,14
+    CONTROL         "自动生成上网账号",IDC_CHECK_TEMPMEMBER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,280,61,80,10
+    PUSHBUTTON      "重复打印",IDC_BUTTON_REPRINT,315,210,51,15
+    COMBOBOX        IDC_COMBO_BTSEL,26,180,256,170,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "押金",IDC_STATIC_DEPOSIT,320,13,61,10
+    CONTROL         "开临时用户",IDC_RADIO_TEMPUSER,"Button",
+                    BS_AUTORADIOBUTTON,17,12,55,12
+    CONTROL         "开会员",IDC_RADIO_MEMBER,"Button",BS_AUTORADIOBUTTON,
+                    169,12,42,12
+    COMBOBOX        IDC_COMBO_TEMPUSERCLASS,76,11,81,15,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "用户信息",IDC_STATIC_1,18,31,349,132
+    GROUPBOX        "开户直接包时",IDC_STATIC_GROUP,18,166,349,36
+    RTEXT           "选择电脑上机：",IDC_STATIC_6,216,123,60,9
+    COMBOBOX        IDC_COMBO_COMPUTER,279,120,78,13,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TEMPSORT,333,247,26,14,CBS_DROPDOWNLIST | 
+                    CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "自定义",IDC_BTN_CUSTOM_BOUNDLETIME,335,181,30,14,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "输入手机号码",IDC_BTN_INPUT_NUMBER,73,39,60,14,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "聚宝验证",IDC_BTN_JUBAO,17,243,63,19
+    PUSHBUTTON      "实名注册",IDC_BTN_RN_REG,217,39,51,15
+    EDITTEXT        IDC_EDIT_TELNUM,73,142,132,14,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "手机号码：",IDC_STATIC_8,28,144,40,8
+    PUSHBUTTON      "查询(&W)",IDC_BUTTON_QUERY_TEL,217,141,52,14,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "拍照(&P)",IDC_BTN_PHOTO,280,78,52,14
+    PUSHBUTTON      "刷二代证(&J)",IDC_BUTTON_READCARD,218,78,52,14
+END
+
+IDD_ND_REGISTER_PASSWORD DIALOGEX 0, 0, 210, 57
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION " 请输入密码"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PWD,49,23,82,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,144,23,50,14
+    LTEXT           "密码：",IDC_STATIC_1,15,25,30,11
+END
+
+IDD_ND_CREDITANDDEREG DIALOGEX 0, 0, 295, 245
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 充值退款"
+FONT 9, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_IDCARDSNO,49,13,177,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CREDIT,225,42,63,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,165,198,64,15,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "充值(&C)",IDOK,228,111,58,20,NOT WS_TABSTOP
+    RTEXT           "积分：",IDC_STATIC_9,16,107,36,11
+    RTEXT           "开户网吧：",IDC_STATIC_7,16,83,36,11
+    RTEXT           "有送账户：",IDC_STATIC_11,16,143,36,11
+    RTEXT           "无送账户：",IDC_STATIC_21,16,131,36,11
+    RTEXT           "用户号：",IDC_STATIC_5,16,59,36,11
+    RTEXT           "证件号码：",IDC_STATIC_6,16,71,36,11
+    RTEXT           "赠送账户：",IDC_STATIC_12,16,155,36,11
+    RTEXT           "用户级别：",IDC_STATIC_8,16,95,36,11
+    LTEXT           "充值金额(元)：",IDC_STATIC_14,172,47,49,12
+    LTEXT           "可退金额(元)：",IDC_STATICZTJE,13,202,48,11
+    LTEXT           "用户密码：",IDC_STATIC_20,126,202,37,11
+    PUSHBUTTON      "退款(&R)",IDC_BUTTON_REFUNDMENT,236,197,46,17,NOT 
+                    WS_TABSTOP
+    GROUPBOX        "用户信息",IDC_STATIC_3,7,36,156,150
+    GROUPBOX        "账户信息",IDC_STATIC_19,7,188,281,31
+    CONTROL         "进行无送充值(即不参与充值赠送)",IDC_CHECK_PRESENT,
+                    "Button",BS_AUTOCHECKBOX,172,64,118,13
+    CONTROL         "用户自带ID卡",IDC_CHECK_USERHASCARD,"Button",
+                    BS_AUTOCHECKBOX,120,227,55,12
+    LTEXT           "",IDC_STATIC_RESULT,7,226,238,12
+    LTEXT           "上网账号：",IDC_STATIC_2,13,17,34,9
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,235,13,45,15,NOT WS_TABSTOP
+    GROUPBOX        "用户查询",IDC_STATIC_1,7,4,281,30
+    PUSHBUTTON      "远程下机",IDC_BUTTON_CHECKOUT,244,222,43,17,NOT 
+                    WS_TABSTOP
+    LTEXT           "姓名：",IDC_STATIC_USERNAME,60,47,64,11
+    LTEXT           "开户网吧：",IDC_STATIC_NETBAR,60,83,84,11
+    LTEXT           "有送账户：",IDC_STATIC_YSCZ,60,143,84,11
+    LTEXT           "无送账户：",IDC_STATIC_WSCZ,60,130,84,11
+    LTEXT           "用户号：",IDC_STATIC_MEMBERID,60,59,84,11
+    LTEXT           "证件号码：",IDC_STATIC_PERSONALID,60,71,84,11
+    LTEXT           "赠送账户：",IDC_STATIC_ZSZH,60,155,50,11
+    LTEXT           "用户级别：",IDC_STATIC_CLASS,60,95,84,11
+    RTEXT           "用户姓名：",IDC_STATIC_4,16,47,36,11
+    LTEXT           "积分：",IDC_STATIC_POINT,60,107,36,11
+    LTEXT           "静态",IDC_STATIC_ZTJE,63,199,48,13
+    RTEXT           "押金：",IDC_STATIC_10,16,119,36,11
+    LTEXT           "押金：",IDC_STATIC_DEPOSIT,60,119,95,9
+    PUSHBUTTON      "消费记录",IDC_BUTTON_CONSUMELIST,125,167,32,12,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "重复打印(&T)",IDC_BUTTON_REPRINT,240,84,45,15
+    GROUPBOX        "包时信息",IDC_STATIC_15,170,137,116,49
+    LTEXT           "剩余时间：",IDC_STATIC_16,176,148,34,9
+    LTEXT           "包时时段：",IDC_STATIC_17,176,160,34,9
+    LTEXT           "包时金额：",IDC_STATIC_18,176,172,34,9
+    LTEXT           "静态",IDC_STATIC_BTREMAINTIME,217,148,59,9
+    LTEXT           "静态",IDC_STATIC_BUNDTINELIMIT,217,160,59,9
+    LTEXT           "静态",IDC_STATIC_BUNDTIMEMONEY,217,172,59,9
+    PUSHBUTTON      "取消激活",IDC_BUTTON_CANCELACTIVE,125,46,32,12,BS_FLAT
+    PUSHBUTTON      "充值并打印",IDC_BUTTON_CREDITPRINT,172,114,38,15
+    RTEXT           "上网预留：",IDC_STATIC_13,16,167,36,11
+    LTEXT           "上网预留：",IDC_STATIC_ONLINEAMOUNT,60,167,50,11
+    PUSHBUTTON      "选择包时",IDC_BUTTON_BUNDTIME,172,85,39,14
+END
+
+IDD_ND_MODIFYPWD DIALOGEX 0, 0, 293, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 修改密码"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "修改密码(&M)",IDOK,209,112,63,18
+    EDITTEXT        IDC_EDIT_IDCARDSNO,57,16,155,17,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,222,17,53,16
+    EDITTEXT        IDC_EDIT_PASSWORD,155,76,79,17,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "上网账号：",IDC_STATIC_2,13,21,40,9
+    GROUPBOX        "用户查询",IDC_STATIC_1,8,7,276,34
+    RTEXT           "用户姓名：",IDC_STATIC_4,14,59,41,9
+    RTEXT           "开户网吧：",IDC_STATIC_7,14,96,41,9
+    RTEXT           "用户号：",IDC_STATIC_5,14,71,41,9
+    RTEXT           "证件号码：",IDC_STATIC_6,14,83,41,9
+    GROUPBOX        "用户信息",IDC_STATIC_3,8,46,137,89
+    LTEXT           "请输入您的新密码(最长限制8位)：",IDC_STATIC_10,154,56,
+                    124,9
+    LTEXT           "静态",IDC_STATIC_USERNAME,58,59,85,9
+    LTEXT           "静态",IDC_STATIC_MEMBERID,58,71,85,9
+    LTEXT           "静态",IDC_STATIC_PERSONALID,58,83,85,9
+    LTEXT           "静态",IDC_STATIC_NETBAR,58,96,85,9
+    RTEXT           "用户级别：",IDC_STATIC_8,14,108,41,9
+    LTEXT           "用户级别",IDC_STATIC_CLASS,58,108,85,9
+    RTEXT           "账户合计：",IDC_STATIC_9,13,121,42,12
+    LTEXT           "账户合计",IDC_STATIC_ALL,57,121,85,12
+END
+
+IDD_DIALOG_ABOUT DIALOGEX 0, 0, 215, 129
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 关于"
+FONT 10, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    LTEXT           "嘟嘟牛收银台",IDC_STATIC_1,51,19,65,9
+    LTEXT           "网吧服务中心：",IDC_STATIC_2,18,70,73,9
+    LTEXT           "版权所有(C) 2010-2011 深圳市希之光科技有限公司",
+                    IDC_STATIC_3,8,113,190,9
+    LTEXT           "公司网站：",IDC_STATIC_4,18,52,46,9
+    LTEXT           "",IDC_STATIC_VER,107,19,44,9
+    ICON            IDR_MAINFRAME,IDC_STATIC,18,13,20,20
+    PUSHBUTTON      "http://www.dodonew.com",IDC_BUTTON_DODONEW,88,88,96,10
+    PUSHBUTTON      "http://www.sunlike.cn",IDC_BUTTON_SUNLIKE,64,52,97,9
+    LTEXT           "网民在线生活圈：",IDC_STATIC_5,18,89,71,9
+    PUSHBUTTON      "http://www.duduniu.cn",IDC_BUTTON_DUDUNIU,81,70,97,9
+    LTEXT           "",IDC_STATIC_BUILD,51,35,162,8
+END
+
+IDD_DUTY DIALOGEX 0, 0, 520, 338
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 上下班"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "我要下班(&F)",IDOK,432,316,66,17
+    RTEXT           "现金购物：",IDC_STATIC_12,134,53,74,12
+    RTEXT           "班次收入：",IDC_STATIC_17,328,19,56,12
+    RTEXT           "其他支出：",IDC_STATIC_15,160,106,48,18
+    RTEXT           "退款金额：",IDC_STATIC_11,160,36,48,12
+    LTEXT           "充值卡金额：",IDC_STATIC_5,12,96,48,12
+    RTEXT           "上一班预留：",IDC_STATIC_18,318,37,66,18
+    EDITTEXT        IDC_EDIT_PAYOUT,213,104,72,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    RTEXT           "充值金额：",IDC_STATIC_10,160,19,48,12
+    RTEXT           "现金总额：",IDC_STATIC_SELFDUTY,322,63,93,12
+    PUSHBUTTON      "统计数据(&S)",IDC_BUTTON_STAT,81,316,66,17,NOT 
+                    WS_VISIBLE
+    RTEXT           "备注：",IDC_STATIC_16,155,149,52,12
+    EDITTEXT        IDC_EDIT_MEMO,213,146,271,16,ES_AUTOHSCROLL
+    LTEXT           "",IDC_STATIC_CASHPAY,213,53,79,10
+    LTEXT           "",IDC_STATIC_RETURNED,213,35,56,12
+    LTEXT           "",IDC_STATIC_CREDITCARD,70,95,72,12
+    LTEXT           "",IDC_STATIC_RESERVE,387,35,56,12
+    LTEXT           "",IDC_STATIC_CREDIT,213,18,56,12
+    PUSHBUTTON      "打印交班表(&P)",IDC_BUTTON_PRINT,359,316,66,17
+    RTEXT           "本班备用金：",IDC_STATIC_3,4,41,55,11
+    EDITTEXT        IDC_EDIT_RESERVE,62,38,72,14,ES_AUTOHSCROLL
+    RTEXT           "班别：",IDC_STATIC_2,19,17,40,11
+    COMBOBOX        IDC_COMBO_SHIFT,62,14,72,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "上班信息",IDC_STATIC_1,7,3,138,72
+    GROUPBOX        "本班信息",IDC_STATIC_GROUP_TEXT,146,3,367,210
+    LTEXT           "",IDC_STATIC_NETCASH,388,17,56,12
+    LTEXT           "",IDC_STATIC_ALL,415,60,72,12
+    PUSHBUTTON      "打印商品(&R)",IDC_BUTTON_JXCPRINT,286,316,66,17,NOT 
+                    WS_VISIBLE
+    RTEXT           "上缴金额：",IDC_STATIC2_HANDLEIN,292,117,123,12
+    LTEXT           "",IDC_STATIC_HANDLEIN,414,112,72,17
+    GROUPBOX        "本班其他信息",IDC_STATIC_4,7,80,138,70
+    RTEXT           "留给下一班：",IDC_STATIC2_NEXTRESERVE,314,90,70,20
+    EDITTEXT        IDC_EDIT_NEXTREVERSE,389,88,72,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "盘点库存(&T)",IDC_BUTTON_STORECHECK,7,316,66,17
+    RTEXT           "押金：",IDC_STATIC2_DEPOSIT,156,126,52,19
+    LTEXT           "",IDC_STATIC_DEPOSIT,214,126,56,10
+    RTEXT           "账户购物：",IDC_STATIC_6,12,115,48,12
+    LTEXT           "",IDC_STATIC_NETBARPAY,70,115,72,12
+    RTEXT           "商品采购支出：",IDC_STATIC_14,150,88,58,12
+    LTEXT           "",IDC_STATIC_STOREIN,213,87,72,10
+    CONTROL         "",IDC_STATIC_JXC,"Static",SS_BLACKFRAME,7,219,505,95
+    LTEXT           "增收宝消费：",IDC_STATIC_8,12,179,48,12
+    LTEXT           "",IDC_STATIC_ZSB_CONSUME,70,178,72,12
+    GROUPBOX        "增收宝信息",IDC_STATIC_7,7,155,138,57
+    RTEXT           "预存款余额：",IDC_STATIC_9,12,191,48,12,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_ZSB_BALANCE,70,190,72,12,NOT WS_VISIBLE
+    LTEXT           "班次收入 = 充值 - 退款 + 购物 + 点卡销售 - 采购支出 - 其他支出 (+ 押金)\n现金总额 = 班次收入 + 上一班预留   \n上缴金额 = 现金总额 - 留给下一班",
+                    IDC_STATIC_HELP,156,168,352,26
+    RTEXT           "点卡销售：",IDC_STATIC_13,160,71,48,12
+    LTEXT           "",IDC_STATIC_DIANKA,213,69,57,14
+    LTEXT           "",IDC_STATIC_BYJ_HIT,13,55,129,16,NOT WS_VISIBLE
+    RTEXT           "微信充值金额：",IDC_STATIC_WXTEXT,8,133,57,12,NOT 
+                    WS_VISIBLE
+    LTEXT           "",IDC_STATIC_WXAMOUNT,69,134,72,12
+END
+
+IDD_ND_CREDITREVERSE DIALOGEX 0, 0, 318, 260
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 充值修正"
+FONT 9, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "冲正(&D)",IDOK,252,70,57,16,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST_CREDIT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,94,304,159,
+                    WS_EX_CLIENTEDGE
+    RTEXT           "用户姓名：",IDC_STATIC_4,8,53,42,12
+    RTEXT           "证件号码：",IDC_STATIC_6,145,54,42,12
+    RTEXT           "账户合计：",IDC_STATIC_5,8,70,42,12
+    GROUPBOX        "用户信息",IDC_STATIC_3,6,42,304,45
+    LTEXT           "上网账号：",IDC_STATIC_2,12,20,40,9
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,242,15,57,16
+    GROUPBOX        "用户查询",IDC_STATIC_1,6,4,305,36
+    EDITTEXT        IDC_EDIT_IDCARDSNO,56,15,177,17,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_USERNAME,57,53,85,11
+    LTEXT           "静态",IDC_STATIC_PERSONALID,195,54,102,11
+    LTEXT           "静态",IDC_STATIC_ALL,58,70,88,11
+END
+
+IDD_SET_IBA DIALOGEX 0, 0, 305, 227
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "基本设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "显示离线终端",IDC_CHECK_SHOWALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,13,61,9
+    CONTROL         "自动打开截屏图片或日志",IDC_CHECK_OPEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,29,109,9
+    CONTROL         "登录界面显示“全场结账”按钮",IDC_CHECK_ENMERGENCY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,129,28,131,9
+    CONTROL         "暂停接收客户端消息",IDC_CHECK_PAUSEREVMSG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,129,13,95,9
+    COMBOBOX        IDC_COMBO_SCAN,47,148,138,17,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "扫描仪：",IDC_STATIC_2,11,151,34,9
+    LTEXT           "(重启程序才能生效)",IDC_STATIC_3,191,151,75,9
+    LTEXT           "刷卡或扫描后：",IDC_STATIC_4,11,173,62,12
+    COMBOBOX        IDC_COMBO_OPERATIONAFTERSWIPINGCARD,105,171,184,15,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "界面字体：",IDC_STATIC_6,11,129,42,10
+    COMBOBOX        IDC_COMBO_FONTTYPE,55,126,39,15,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "(重启程序才能生效)",IDC_STATIC_5,101,130,75,9
+    CONTROL         "在屏幕右上方显示最后操作的上网账号",IDC_CHECK_LASTUSER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,46,209,9
+    CONTROL         "在屏幕左下角弹出客户端消息提示",IDC_CHECK_MSG_RB,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,62,136,10
+    CONTROL         "15秒后自动关闭客户端消息提示",IDC_CHECK_MSG_AUTOHIDE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,78,128,10
+    LTEXT           "用户视图按下回车后：",IDC_STATIC_7,11,190,81,12
+    COMBOBOX        IDC_COMBO_AFTER_ENTER,105,188,184,15,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "用户视图双击鼠标后：",IDC_STATIC_8,11,206,81,12
+    COMBOBOX        IDC_COMBO_AFTER_DCLICK,105,205,184,15,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "禁用用户视图右键上机功能",IDC_CHECK_USER_CHECKIN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,95,159,10
+    CONTROL         "禁止远程终端解屏",IDC_CHECK_FORBID_SCREEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,111,159,10
+END
+
+IDD_DIALOG_BOSSPWD DIALOGEX 0, 0, 151, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 输入管理密码(默认:dodonew)"
+FONT 9, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,45,50,42,14
+    PUSHBUTTON      "取消",IDCANCEL,92,50,42,14
+    EDITTEXT        IDC_EDIT_PASSWORD,16,27,118,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "您没有权限，请输入管理密码。",IDC_STATIC_1,16,9,100,10
+END
+
+IDD_SET_MONITORCOLOR DIALOGEX 0, 0, 290, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "监控颜色"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Button1",IDC_BUTTON_CLONLINE,62,117,68,16,NOT 
+                    WS_VISIBLE
+    RTEXT           "锁屏：",IDC_STATIC_1,24,61,30,8
+    PUSHBUTTON      "Button2",IDC_BUTTON_CLOFFLINE,62,37,68,16
+    PUSHBUTTON      "Button3",IDC_BUTTON_CLLOCK,62,57,68,16
+    PUSHBUTTON      "Button4",IDC_BUTTON_CLBD,62,97,68,16
+    PUSHBUTTON      "Button5",IDC_BUTTON_CLBLACK,194,77,68,16,NOT WS_VISIBLE
+    PUSHBUTTON      "Button6",IDC_BUTTON_CLVIP,194,37,68,16,NOT WS_VISIBLE
+    PUSHBUTTON      "Button7",IDC_BUTTON_CLLM,62,18,68,16
+    RTEXT           "在线：",IDC_STATIC_2,24,121,30,8,NOT WS_VISIBLE
+    RTEXT           "离线：",IDC_STATIC_3,24,42,30,8
+    RTEXT           "黑名单：",IDC_STATIC_4,146,81,41,8,NOT WS_VISIBLE
+    RTEXT           "生日：",IDC_STATIC_5,24,101,30,8
+    RTEXT           "重点用户：",IDC_STATIC_6,146,43,41,8,NOT WS_VISIBLE
+    PUSHBUTTON      "Button8",IDC_BUTTON_CLSUSPEND,194,97,68,16
+    PUSHBUTTON      "Button9",IDC_BUTTON_CLTHIEF,194,57,68,16
+    PUSHBUTTON      "Button10",IDC_BUTTON_CLUNLOCK,194,18,68,16
+    RTEXT           "余额不多：",IDC_STATIC_7,13,23,41,8
+    RTEXT           "挂机：",IDC_STATIC_8,157,101,30,8
+    RTEXT           "可疑电脑：",IDC_STATIC_9,146,62,41,8
+    RTEXT           "维护模式：",IDC_STATIC_10,146,23,41,8
+    GROUPBOX        "状态颜色",IDC_STATIC_11,7,7,276,139
+    PUSHBUTTON      "Button1",IDC_BUTTON_BUNDTIMECOLOR,62,77,68,16
+    RTEXT           "包时：",IDC_STATIC_12,24,81,30,8
+END
+
+IDD_ND_MODIFYMEMBER DIALOGEX 0, 0, 262, 175
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 修改用户资料"
+FONT 9, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,198,17,49,16
+    EDITTEXT        IDC_EDIT_IDCARDSNO,55,17,137,17,ES_AUTOHSCROLL
+    LTEXT           "上网账号：",IDC_STATIC_1,16,23,37,9
+    PUSHBUTTON      "修改资料(&M)",IDC_BUTTON_MODIFY,200,148,53,16
+    RTEXT           "姓名：",IDC_STATIC_2,116,50,38,8
+    RTEXT           "证件号码：",IDC_STATIC_3,116,112,38,8
+    RTEXT           "证件类型：",IDC_STATIC_4,116,91,38,8
+    RTEXT           "性别：",IDC_STATIC_5,116,71,38,8
+    COMBOBOX        IDC_COMBO_SEX,159,69,63,18,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PERSONALID,159,110,95,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERNAME,159,48,63,13,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_IDTYPE,159,89,63,16,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "用户级别：",IDC_STATIC_6,15,75,40,12
+    LTEXT           "开户门店：",IDC_STATIC_7,15,92,40,12
+    LTEXT           "用户号：",IDC_STATIC_8,22,58,32,12
+    EDITTEXT        IDC_EDIT_PASSWORD,119,149,70,13,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "修改资料需要用户密码，请输入：",IDC_STATIC_9,11,151,105,
+                    11
+    GROUPBOX        "用户查询",IDC_STATIC_10,8,7,248,34
+    GROUPBOX        "用户信息",IDC_STATIC_11,8,45,102,78
+    LTEXT           "静态",IDC_STATIC_MEMBERID,53,57,52,9
+    LTEXT           "静态",IDC_STATIC_CLASS,53,75,52,9
+    LTEXT           "静态",IDC_STATIC_NETBAR,53,92,52,9
+    LTEXT           "账户合计：",IDC_STATIC_12,15,109,40,12
+    LTEXT           "静态",IDC_STATIC_ALL,53,108,52,9
+    RTEXT           "手机号码：",IDC_STATIC_13,116,131,38,8
+    EDITTEXT        IDC_EDIT_TELNUM,159,129,95,14,ES_AUTOHSCROLL
+END
+
+IDD_ND_BUNDLETIME DIALOGEX 0, 0, 346, 265
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 收银台包时"
+FONT 9, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "包时(&B)",IDOK,97,149,42,16
+    PUSHBUTTON      "取消包时(&C)",IDC_BUTTON_CANCELBT,238,149,42,16
+    CONTROL         "",IDC_LIST_BUNDLETIME,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,6,176,334,83,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_EDIT_IDCARDSNO,51,12,166,17,ES_AUTOHSCROLL
+    LTEXT           "上网账号：",IDC_STATIC_2,14,17,36,9
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,224,12,51,16
+    RTEXT           "用户姓名：",IDC_STATIC_4,11,49,40,11
+    RTEXT           "开户网吧：",IDC_STATIC_6,11,77,40,11
+    RTEXT           "证件号码：",IDC_STATIC_7,11,91,40,11
+    RTEXT           "包时类型：",IDC_STATIC_10,176,76,50,11
+    RTEXT           "包时区域：",IDC_STATIC_11,176,90,50,11
+    GROUPBOX        "用户信息",IDC_STATIC_3,7,38,333,133
+    RTEXT           "开始时间：",IDC_STATIC_13,189,118,37,11
+    RTEXT           "包时金额：",IDC_STATIC_9,176,62,50,11
+    RTEXT           "包时编号：",IDC_STATIC_8,176,48,50,11
+    RTEXT           "结束时间：",IDC_STATIC_14,188,132,38,11
+    GROUPBOX        "用户查询",IDC_STATIC_1,7,3,333,32
+    RTEXT           "实扣金额：",IDC_STATIC_12,176,104,50,11
+    PUSHBUTTON      "提前包时(&T)",IDC_BUTTON_FORWARDBT,144,149,42,16
+    PUSHBUTTON      "转包时(&Z)",IDC_BUTTON_CHANGEBT,191,149,42,16
+    CONTROL         "打印小票",IDC_CHECK_PRINT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,16,152,40,10
+    RTEXT           "用户级别：",IDC_STATIC_5,11,63,40,11
+    LTEXT           "静态",IDC_STATIC_USERNAME,53,49,108,9
+    LTEXT           "静态",IDC_STATIC_CLASS,53,63,108,9
+    LTEXT           "静态",IDC_STATIC_BTMONEY,231,62,102,11
+    LTEXT           "静态",IDC_STATIC_BTSTARTTIME,231,118,102,11
+    LTEXT           "静态",IDC_STATIC_BTID,231,48,102,11
+    LTEXT           "静态",IDC_STATIC_BTMONEY2,231,104,102,11
+    LTEXT           "静态",IDC_STATIC_NETBAR,53,77,108,9
+    LTEXT           "静态",IDC_STATIC_PERSONALID,53,91,108,9
+    LTEXT           "静态",IDC_STATIC_BTYPE,231,76,102,11
+    LTEXT           "静态",IDC_STATIC_BTAREA,231,90,102,11
+    LTEXT           "静态",IDC_STATIC_BTENDTIME,231,132,102,11
+    RTEXT           "账户合计(元)：",IDC_STATIC0,13,109,51,11
+    PUSHBUTTON      "打印",IDC_BUTTON_REPRINT,58,151,29,12
+    PUSHBUTTON      "自定义包时(&S)",IDC_SELFBUNDTIME,285,149,48,16
+    RTEXT           "应扣账户(元)：",IDC_STATIC_CAPTION,14,129,49,10
+    LTEXT           "静态",IDC_STATIC_ALL,71,107,39,12,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_CREDITMONEY,72,127,52,16
+    PUSHBUTTON      "充值",IDC_BUTTON_CREDIT,110,109,25,11
+    EDITTEXT        IDC_EDIT_CREDITMONEY,64,125,52,16,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "查看余额",IDC_BUTTON_BALANCE,16,107,48,11
+END
+
+IDD_ND_CHANGEUSERSN DIALOGEX 0, 0, 329, 153
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 修改上网账号"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_IDCARDSNO,57,16,189,17,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,258,17,53,16
+    EDITTEXT        IDC_EDIT_IDCARDSNO2,209,78,108,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,209,104,61,14,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "修改账号(&M)",IDC_BUTTON_CHANGEUSERSN,251,124,65,16
+    LTEXT           "上网账号：",IDC_STATIC_1,13,21,42,9
+    GROUPBOX        "用户查询",IDC_STATIC_2,8,7,315,34
+    RTEXT           "用户姓名：",IDC_STATIC_3,14,54,41,9
+    RTEXT           "开户网吧：",IDC_STATIC_4,14,97,41,9
+    RTEXT           "用户号：",IDC_STATIC_5,14,69,41,9
+    RTEXT           "证件号码：",IDC_STATIC_6,14,83,41,9
+    RTEXT           "账户合计：",IDC_STATIC_7,14,124,41,9
+    GROUPBOX        "用户信息",IDC_STATIC_8,8,42,144,99
+    RTEXT           "原上网密码：",IDC_STATIC_9,155,107,51,9
+    RTEXT           "新上网账号：",IDC_STATIC_10,155,82,51,9
+    LTEXT           "静态",IDC_STATIC_USERNAME,58,54,85,9
+    LTEXT           "静态",IDC_STATIC_MEMBERID,58,69,85,9
+    LTEXT           "静态",IDC_STATIC_PERSONALID,58,83,85,9
+    LTEXT           "静态",IDC_STATIC_NETBAR,58,97,85,9
+    RTEXT           "用户级别：",IDC_STATIC_11,14,111,41,9
+    LTEXT           "用户级别",IDC_STATIC_CLASS,58,111,85,9
+    LTEXT           "        修改上网账号需要输入用户原来的上网密码，密码正确才能修改上网账号，修改账号后密码不变。",
+                    IDC_STATIC_12,159,46,163,27
+    LTEXT           "静态",IDC_STATIC_ALL,58,124,85,9
+END
+
+IDD_SET_REGISTER DIALOGEX 0, 0, 291, 167
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "开户设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "会员用户密码类型：",IDC_STATIC_1,7,122,74,13
+    COMBOBOX        IDC_COMBO_PASSWORDTYPE,85,119,74,15,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "开户默认用户级别：",IDC_STATIC_2,8,78,73,12
+    COMBOBOX        IDC_COMBO_USERCLASS,86,76,94,18,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PWD,163,119,73,14,ES_AUTOHSCROLL
+    LTEXT           "临时用户密码类型：",IDC_STATIC_3,7,144,74,13
+    COMBOBOX        IDC_COMBO_PASSWORDTYPE2,85,141,74,15,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PWD2,164,140,73,14,ES_AUTOHSCROLL
+    LTEXT           "开户默认证件类型：",IDC_STATIC_4,8,98,73,12
+    COMBOBOX        IDC_COMBO_IDTYPE,86,95,94,18,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "开户年龄限制：",IDC_STATIC_5,141,53,57,8
+    COMBOBOX        IDC_COMBO_REGISTERAGE,203,51,34,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "开户默认金额：",IDC_STATIC_6,7,53,58,12
+    EDITTEXT        IDC_EDIT_REGISTERMONEY,69,51,34,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "元",IDC_STATIC_7,108,53,12,8
+    CONTROL         "显示“用户自带卡”",IDC_CHECK_HASCARD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,9,93,9
+    CONTROL         "校验身份证号码",IDC_CHECK_CHECKIDCARDNUMBER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,32,77,9
+END
+
+IDD_CONFIG_CLIENT DIALOGEX 0, 0, 325, 162
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "基本设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_SHUTDOWNTIME,88,71,51,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    COMBOBOX        IDC_COMBO_PASSWORDTYPE,250,95,65,14,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_AFFTERCHECKOUT,88,95,66,16,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "结账后客户端：",IDC_STATIC_1,8,98,74,11
+    LTEXT           "客户端登入密码方式：",IDC_STATIC0,162,98,82,10
+    CONTROL         "允许临时用户在线换机",IDC_CHECK_TMPCHANGECOMPUTER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,12,97,8
+    CONTROL         "允许会员用户在线换机",IDC_CHECK_MEMBERCHANGECOMPUTER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,122,13,97,8
+    LTEXT           "锁屏时间(分钟)：",IDC_STATIC2,8,74,77,11
+    CONTROL         "允许客户端显示使用时间",IDC_CHECK_SHOWUSETIME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,122,32,102,8
+    CONTROL         "允许客户端挂机",IDC_CHECK_ALLOWSUSPEND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,32,97,8
+    LTEXT           "当余额不足使用",IDC_STATIC_2,9,124,56,11
+    EDITTEXT        IDC_EDIT_NOENOUGHTIME,69,120,27,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "分钟时开始提醒用户",IDC_STATIC_3,101,124,79,10
+    LTEXT           "(提醒两次，比如设置10分，就是10分钟时候提示一次，5分钟时候提示一次)",
+                    IDC_STATIC_4,8,141,289,13
+    CONTROL         "允许客户端重启自动登录",IDC_CHECK_AUTO_START,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,50,104,10
+END
+
+IDD_NETBARINFO DIALOGEX 0, 0, 336, 242
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 门店建设"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "名称：",IDC_STATIC_1,12,81,26,10
+    LTEXT           "负责人：",IDC_STATIC_2,172,81,34,10,NOT WS_VISIBLE
+    LTEXT           "电话：",IDC_STATIC_3,246,81,27,10,NOT WS_VISIBLE
+    LTEXT           "管理密码：",IDC_STATIC_4,9,197,41,13
+    EDITTEXT        IDC_EDIT_PWD,51,193,277,16,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,220,222,50,14
+    PUSHBUTTON      "取消",IDCANCEL,276,222,50,14
+    RTEXT           "门店ID：",IDC_STATIC_5,27,18,33,10
+    RTEXT           "主中心地址：",IDC_STATIC_6,11,41,49,10
+    LTEXT           "识别码：",IDC_STATIC_7,111,18,33,10
+    EDITTEXT        IDC_EDIT_NETBARID,63,14,41,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CENTERIP,63,38,110,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NETBARKEY,145,14,122,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "校验",IDC_BUTTON_SYNC,256,37,60,17
+    LTEXT           "端口：",IDC_STATIC_8,180,42,25,10
+    LTEXT           "收银台ID：",IDC_STATIC_9,11,119,42,11
+    EDITTEXT        IDC_EDIT_CASHREGISTERID,55,116,44,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CENTERPORT,207,38,31,15,ES_AUTOHSCROLL
+    GROUPBOX        "中心设置",IDC_STATIC1,5,3,325,58
+    GROUPBOX        "门店信息",IDC_STATIC2,5,65,326,32
+    GROUPBOX        "本收银台设置(添加副收银台仅需要配置收银台ID)",
+                    IDC_STATIC3,5,102,326,34
+    LTEXT           "本机MAC：",IDC_STATIC_10,119,119,42,11
+    EDITTEXT        IDC_EDIT_MAC,161,115,93,16,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "",IDC_STATIC_NETBAR,37,81,126,10
+    LTEXT           "",IDC_STATIC_NAME,205,81,36,10,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_TEL,271,81,58,10,NOT WS_VISIBLE
+    PUSHBUTTON      "全场结账",IDC_BUTTON_ALLCHECKOUT,9,221,58,14
+    GROUPBOX        "应急模式设置",IDC_STATIC5,5,143,326,37
+    CONTROL         "禁止启用",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,10,159,
+                    48,10
+    CONTROL         "凭管理密码启用",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    105,159,83,10
+    CONTROL         "允许直接启用",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,
+                    208,159,83,10
+END
+
+IDD_NETBAROTHERINFO DIALOGEX 0, 0, 409, 225
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 附加设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_CONFIG,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,0,109,325,111
+    EDITTEXT        IDC_EDIT_CONFIG1,45,8,62,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_CONFIG2,153,8,60,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_CONFIG3,45,28,223,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "保存(&S)",IDC_BUTTON_SAVE,292,6,77,17
+    LTEXT           "数值1：",IDC_STATIC_1,9,11,29,9
+    LTEXT           "数值2：",IDC_STATIC_2,119,11,29,9
+    LTEXT           "字符串：",IDC_STATIC_3,9,31,35,9
+    LTEXT           "(所有修改都要重启程序才能生效)",IDC_STATIC_4,274,32,122,
+                    10
+    EDITTEXT        IDC_EDIT_MEMO,45,48,351,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "说明：",IDC_STATIC_5,10,51,32,11
+END
+
+IDD_BUNDLETINE_LISTDLG DIALOGEX 0, 0, 318, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 选择包时"
+FONT 9, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,188,138,50,14
+    PUSHBUTTON      "取消",IDCANCEL,245,138,50,14
+    CONTROL         "",IDC_LIST_BUNDLETIME,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,3,4,312,128,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_ND_UPGRADE DIALOGEX 0, 0, 287, 203
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 用户升级"
+FONT 9, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_IDCARDSNO,46,17,174,17,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_USERCLASS,54,136,108,18,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_REESON,54,159,225,16,ES_AUTOHSCROLL
+    LTEXT           "上网账号：",IDC_STATIC_1,9,22,36,9
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,228,18,45,16,NOT WS_TABSTOP
+    GROUPBOX        "用户查询",IDC_STATIC_2,7,7,276,36
+    RTEXT           "用户姓名：",IDC_STATIC_3,5,57,41,12
+    RTEXT           "开户网吧：",IDC_STATIC_4,4,70,42,12
+    RTEXT           "积分：",IDC_STATIC_5,131,82,42,12
+    RTEXT           "有送充值：",IDC_STATIC_6,131,96,42,12
+    RTEXT           "无送充值：",IDC_STATIC_7,6,96,40,12
+    RTEXT           "用户号：",IDC_STATIC_8,131,57,42,12
+    RTEXT           "证件号码：",IDC_STATIC_9,131,69,42,12
+    RTEXT           "赠送账户：",IDC_STATIC_10,5,110,41,12
+    RTEXT           "用户级别：",IDC_STATIC_11,4,83,42,12
+    RTEXT           "账户合计：",IDC_STATIC_12,131,111,42,12
+    GROUPBOX        "用户信息",IDC_STATIC_13,7,46,276,80
+    LTEXT           "升级理由：",IDC_STATIC_14,17,162,37,11
+    LTEXT           "新用户级别：",IDC_STATIC_15,10,139,44,11
+    PUSHBUTTON      "升级(&U)",IDC_BUTTON_UPGRADE,206,181,71,15,NOT 
+                    WS_TABSTOP
+    LTEXT           "静态",IDC_STATIC_USERNAME,50,57,85,15
+    LTEXT           "静态",IDC_STATIC_NETBAR,50,70,85,8
+    LTEXT           "静态",IDC_STATIC_CLASS,50,83,85,14
+    LTEXT           "静态",IDC_STATIC_WSCZ,50,96,85,15
+    LTEXT           "静态",IDC_STATIC_ZSZH,50,110,85,14
+    LTEXT           "静态",IDC_STATIC_YSCZ,176,96,96,14
+    LTEXT           "静态",IDC_STATIC_ALL,176,110,96,14
+    LTEXT           "静态",IDC_STATIC_DEPOSIT,176,82,96,13
+    LTEXT           "静态",IDC_STATIC_PERSONALID,177,69,100,8
+    LTEXT           "静态",IDC_STATIC_MEMBERID,176,56,96,14
+END
+
+IDD_ND_CARDCREDIT DIALOGEX 0, 0, 294, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 充值卡充值"
+FONT 9, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_IDCARDSNO,47,17,178,17,ES_AUTOHSCROLL
+    LTEXT           "上网账号：",IDC_STATIC_2,11,22,36,9
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,232,17,42,16
+    GROUPBOX        "用户查询",IDC_STATIC_1,7,7,279,33
+    RTEXT           "用户姓名：",IDC_STATIC_4,11,57,41,8
+    RTEXT           "开户网吧：",IDC_STATIC_5,11,72,41,12
+    RTEXT           " 积分：",IDC_STATIC_11,139,87,43,12
+    RTEXT           "有送充值：",IDC_STATIC_12,139,102,43,12
+    RTEXT           "无送充值：",IDC_STATIC_7,11,102,41,12
+    RTEXT           "用户号：",IDC_STATIC_9,139,57,43,8
+    RTEXT           "证件号码：",IDC_STATIC_10,139,72,43,12
+    RTEXT           "赠送账户：",IDC_STATIC_8,11,119,41,12
+    RTEXT           "用户级别：",IDC_STATIC_6,11,86,41,12
+    RTEXT           "账户合计：",IDC_STATIC_13,129,120,53,12
+    GROUPBOX        "用户信息",IDC_STATIC_3,7,45,280,92
+    PUSHBUTTON      "充值(&C)",IDC_BUTTON_CREDIT,204,205,59,17
+    LTEXT           "卡号：",IDC_STATIC_15,12,161,27,10
+    LTEXT           "密码：",IDC_STATIC_16,123,159,25,9
+    EDITTEXT        IDC_EDIT_PASSWORD,150,154,72,16,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ID,38,156,72,16,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_IDTYPE,38,181,72,48,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "类型：",IDC_STATIC_17,12,183,26,11
+    EDITTEXT        IDC_EDIT_CREDIT,150,178,72,16,ES_AUTOHSCROLL
+    LTEXT           "金额：",IDC_STATIC_18,123,182,26,10
+    PUSHBUTTON      "读取充值卡(&D)",IDC_BUTTON_READCARD,139,204,59,18
+    GROUPBOX        "充值卡信息",IDC_STATIC_14,7,139,280,90
+    LTEXT           "静态",IDC_STATIC_USERNAME,57,57,57,12
+    LTEXT           "静态",IDC_STATIC_NETBARID,57,72,57,12
+    LTEXT           "静态",IDC_STATIC_CLASS,57,86,57,12
+    LTEXT           "静态",IDC_STATIC_WSCZ,57,102,57,12
+    LTEXT           "静态",IDC_STATIC_ZSZH,57,119,57,12
+    LTEXT           "静态",IDC_STATIC_MEMBERID,185,57,96,10
+    LTEXT           "静态",IDC_STATIC_PERSONALID,185,72,94,10
+    LTEXT           "静态",IDC_STATIC_POINT,185,87,96,10
+    LTEXT           "静态",IDC_STATIC_YSCZ,185,102,96,10
+    LTEXT           "静态",IDC_STATIC_ALL,185,120,96,10
+END
+
+IDV_TERMCONSUME DIALOGEX 0, 0, 549, 310
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,447,15,59,16
+    GROUPBOX        "查询条件",IDC_STATIC_1,7,3,533,51
+    CONTROL         "",IDC_LIST_CONSUMELIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,9,74,361,175,
+                    WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_COMBO_TERMID,366,16,69,89,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "终端编号：",IDC_STATIC_2,323,19,41,9
+    PUSHBUTTON      "S",IDC_BUTTON_STARTTIME,59,16,64,14
+    LTEXT           "开始时间：",IDC_STATIC_3,15,19,41,11
+    LTEXT           "结束时间：",IDC_STATIC_4,171,19,42,11
+    PUSHBUTTON      "E",IDC_BUTTON_ENDTIME,213,16,66,15
+    LTEXT           "静态",IDC_STATIC_RESULT,15,37,236,13
+END
+
+IDV_OPERATION DIALOGEX 0, 0, 578, 345
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "查询条件",IDC_STATIC_1,7,3,535,78
+    CONTROL         "",IDC_LIST_COMMON,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,85,543,198,
+                    WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,344,38,69,15
+    COMBOBOX        IDC_COMBO_OPERATION,212,39,98,89,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "操作类型：",IDC_STATIC_2,169,41,41,9
+    PUSHBUTTON      "S",IDC_BUTTON_STARTTIME,54,16,64,14
+    LTEXT           "开始时间：",IDC_STATIC_3,12,19,41,11
+    LTEXT           "结束时间：",IDC_STATIC_4,169,19,42,11
+    PUSHBUTTON      "E",IDC_BUTTON_ENDTIME,212,16,66,15
+    LTEXT           "收银员：",IDC_STATIC_5,352,19,35,12
+    LTEXT           "静态",IDC_STATIC_RESULT,15,57,521,21
+    LTEXT           "用户级别：",IDC_STATIC_6,11,41,44,10
+    COMBOBOX        IDC_COMBO_USERCLASS,54,39,98,15,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "<上一页",IDC_BUTTON_PREV,421,38,50,15,WS_DISABLED
+    PUSHBUTTON      "下一页>",IDC_BUTTON_NEXT,475,38,50,15,WS_DISABLED
+    COMBOBOX        IDC_COMBO_CASHIER,387,16,100,15,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDV_SHIFTCASH DIALOGEX 0, 0, 555, 302
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "查询条件",IDC_STATIC_1,7,3,528,49
+    CONTROL         "",IDC_LIST_COMMON,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,65,432,188,
+                    WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,456,14,62,16
+    LTEXT           "这里只能查询最近三天的交款记录，如需更多详细交款信息，请登录嘟嘟管家查询！",
+                    IDC_STATIC_SHIFTCASH,18,18,428,11
+    LTEXT           "静态",IDC_STATIC_RESULT,18,35,507,12
+END
+
+IDV_CONSUMELIST DIALOGEX 0, 0, 613, 345
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_IDCARDSNO,56,39,125,15,ES_AUTOHSCROLL
+    LTEXT           "上网账号：",IDC_STATIC_1,13,42,40,9
+    GROUPBOX        "查询条件",IDC_STATIC_2,7,5,530,75
+    CONTROL         "",IDC_LIST_CONSUMELIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,103,92,503,183,
+                    WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_CONSUMELIST,456,38,52,16
+    COMBOBOX        IDC_COMBO_CONSUMETYPE,371,18,76,89,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "消费类型：",IDC_STATIC_3,326,21,41,9
+    LTEXT           "姓名：",IDC_STATIC_4,190,43,25,12
+    LTEXT           "证件号码：",IDC_STATIC_5,278,43,40,8
+    EDITTEXT        IDC_EDIT_PERSONALID,322,39,125,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERNAME,218,39,50,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "S",IDC_BUTTON_STARTTIME,56,17,64,14
+    LTEXT           "开始时间：",IDC_STATIC_6,14,20,41,11
+    LTEXT           "结束时间：",IDC_STATIC_7,172,20,42,11
+    PUSHBUTTON      "E",IDC_BUTTON_ENDTIME,215,17,66,15
+    LTEXT           "静态",IDC_STATIC_RESULT,14,62,517,15
+END
+
+IDD_REALNAMECONFIG DIALOGEX 0, 0, 195, 105
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 实名设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,71,76,50,14
+    PUSHBUTTON      "取消",IDCANCEL,128,76,50,14
+    EDITTEXT        IDC_EDIT_PROXYIP,88,31,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_WWMIP,88,49,90,14,ES_AUTOHSCROLL
+    CONTROL         "启用客户端实名上下机",IDC_CHECK_REAALNAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,10,128,12
+    RTEXT           "实名代理服务器IP：",IDC_STATIC_1,11,34,71,12
+    RTEXT           "实名系统服务器IP：",IDC_STATIC_WWMIP,10,52,72,12
+END
+
+IDD_JXC DIALOGEX 0, 0, 554, 294
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "商品销售管理 - 嘟嘟牛收银台"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_JXC_SELLDLG DIALOGEX 0, 0, 493, 271
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "结账(&S)",IDOK,420,250,66,14
+    LTEXT           "上网账号：",IDC_STATIC_1,13,46,41,9
+    LTEXT           "商品编码：",IDC_STATIC_2,181,12,41,9
+    LTEXT           "商品名称：",IDC_STATIC_3,181,31,41,9
+    LTEXT           "商品类别：",IDC_STATIC_4,181,47,41,9
+    LTEXT           "销售单价：",IDC_STATIC_5,181,63,41,9
+    CONTROL         "",IDC_LIST_COMMODITY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,118,479,126
+    EDITTEXT        IDC_EDIT_COMMODITYID,223,9,97,15,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_NAME,226,31,253,11
+    LTEXT           "静态",IDC_STATIC_TYPE,226,47,128,11
+    LTEXT           "静态",IDC_STATIC_PRICE,226,63,82,11
+    PUSHBUTTON      "选择商品(&O)...",IDC_BUTTON_COMMODITY,325,9,66,15
+    LTEXT           "购买数量：",IDC_STATIC_6,181,97,44,9
+    EDITTEXT        IDC_EDIT_COUNT,225,94,37,15,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "增加(&A)",IDC_BUTTON_ADD,266,94,54,15
+    PUSHBUTTON      "删除(&D)",IDC_BUTTON_DEL,7,250,66,14
+    PUSHBUTTON      "取消(&C)",IDC_BUTTON_CLEAR,79,250,66,14
+    LTEXT           "上网密码：",IDC_STATIC_7,13,63,42,10
+    EDITTEXT        IDC_EDIT_NETID,56,41,100,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,56,61,100,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC_8,7,4,157,108
+    LTEXT           "购买方式：",IDC_STATIC_9,14,19,43,10
+    COMBOBOX        IDC_COMBO_PAYTYPE,56,16,100,39,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "待结账金额：",IDC_STATIC_10,14,91,51,12
+    LTEXT           "静态",IDC_STATIC_MONEY,66,87,86,16
+    LTEXT           "库存数量：",IDC_STATIC_11,181,79,41,9
+    LTEXT           "库存数量：",IDC_STATIC_STORE,226,79,41,9
+END
+
+IDD_JXC_EXCHANGE DIALOGEX 0, 0, 493, 271
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_IDCARDSNO,56,13,100,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "查询(&Q)",IDC_BUTTON_QUERY,98,93,56,14
+    EDITTEXT        IDC_EDIT_COMMODITYID,223,9,97,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择商品(&O)...",IDC_BUTTON_COMMODITY,325,9,66,15
+    EDITTEXT        IDC_EDIT_COUNT,225,94,37,15,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "增加(&A)",IDC_BUTTON_ADD,266,94,54,15
+    CONTROL         "",IDC_LIST_COMMODITY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,118,479,126
+    PUSHBUTTON      "删除(&D)",IDC_BUTTON_DEL,7,250,66,14
+    PUSHBUTTON      "取消(&C)",IDC_BUTTON_CLEAR,79,250,66,14
+    DEFPUSHBUTTON   "兑换(&S)",IDOK,420,250,66,14
+    LTEXT           "上网账号：",IDC_STATIC_1,13,18,41,9
+    LTEXT           "商品编码：",IDC_STATIC_2,181,12,41,9
+    LTEXT           "商品名称：",IDC_STATIC_3,181,31,41,9
+    LTEXT           "商品类别：",IDC_STATIC_4,181,47,41,9
+    LTEXT           "所需积分：",IDC_STATIC_5,181,63,41,9
+    LTEXT           "静态",IDC_STATIC_NAME,226,31,253,11
+    LTEXT           "静态",IDC_STATIC_TYPE,226,47,128,11
+    LTEXT           "静态",IDC_STATIC_PRICE,226,63,82,11
+    LTEXT           "购买数量：",IDC_STATIC_6,181,97,44,9
+    GROUPBOX        "",IDC_STATIC_7,7,4,157,108
+    LTEXT           "待结算积分：",IDC_STATIC_8,384,97,51,12
+    LTEXT           "静态",IDC_STATIC_MONEY,437,93,42,16
+    LTEXT           "库存数量：",IDC_STATIC_9,181,79,41,9
+    LTEXT           "库存数量：",IDC_STATIC_STORE,226,79,41,9
+    RTEXT           "积分：",IDC_STATIC_10,11,65,42,12
+    RTEXT           "用户级别：",IDC_STATIC_11,11,51,42,12
+    RTEXT           "账户合计：",IDC_STATIC_12,11,79,42,12
+    LTEXT           "姓名",IDC_STATIC_USERNAME,58,36,98,11
+    LTEXT           "用户级别",IDC_STATIC_CLASS,58,51,98,11
+    LTEXT           "账户合计",IDC_STATIC_ALL,58,79,98,11
+    RTEXT           "用户姓名：",IDC_STATIC_13,11,36,42,12
+    LTEXT           "积分",IDC_STATIC_POINT,58,65,42,11
+END
+
+IDD_MSGBOXDLG DIALOGEX 0, 0, 188, 58
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 嘟嘟牛收银台"
+FONT 9, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "确定",IDOK,40,36,50,14
+    PUSHBUTTON      "取消",IDCANCEL,97,36,50,14
+    LTEXT           "确定退出嘟嘟牛收银台吗？",IDC_STATIC_INFO,41,12,140,11
+    PUSHBUTTON      "是(&Y)",IDYES,40,36,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "否(&N)",IDNO,97,36,50,14,NOT WS_VISIBLE
+END
+
+IDD_JXC_COMMODITY DIALOGEX 0, 0, 425, 262
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 选择商品"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "增加并关闭(&D)",IDOK,338,238,70,14
+    LTEXT           "数目：",IDC_STATIC_1,207,241,25,8
+    EDITTEXT        IDC_EDIT_COUNT,233,238,34,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "增加(&A)",IDC_BUTTON_ADD,278,238,53,15
+    CONTROL         "",IDC_LIST_COMMODITY,"Static",SS_BLACKFRAME,4,2,415,230
+    LTEXT           "静态",IDC_STATIC_NAME,57,241,143,10
+    LTEXT           "商品名称：",IDC_STATIC_2,14,241,41,9
+END
+
+IDD_JXC_RETURNDLG DIALOGEX 0, 0, 493, 272
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "退货(&S)",IDOK,420,250,66,14
+    LTEXT           "商品编码：",IDC_STATIC_1,181,12,41,9,NOT WS_VISIBLE
+    LTEXT           "商品条码：",IDC_STATIC_2,181,80,41,9,NOT WS_VISIBLE
+    LTEXT           "商品名称：",IDC_STATIC_3,181,29,41,9,NOT WS_VISIBLE
+    LTEXT           "商品类别：",IDC_STATIC_4,181,46,41,9,NOT WS_VISIBLE
+    LTEXT           "销售单价：",IDC_STATIC_5,181,63,41,9,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST_COMMODITY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,118,479,126
+    EDITTEXT        IDC_EDIT_COMMODITYTD,225,76,153,15,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "静态",IDC_STATIC_NAME,226,29,82,11,NOT WS_VISIBLE
+    LTEXT           "静态",IDC_STATIC_TYPE,226,46,82,11,NOT WS_VISIBLE
+    LTEXT           "静态",IDC_STATIC_PRICE,226,61,82,11,NOT WS_VISIBLE
+    PUSHBUTTON      "选择商品(&O)...",IDC_BUTTON_COMMODITY,314,8,66,15,NOT 
+                    WS_VISIBLE
+    LTEXT           "购买数量：",IDC_STATIC_6,181,99,44,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_COUNT,225,96,77,15,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_VISIBLE
+    PUSHBUTTON      "增加(&A)",IDC_BUTTON_ADD,314,96,66,15,NOT WS_VISIBLE
+    PUSHBUTTON      "删除(&D)",IDC_BUTTON_DEL,7,250,66,14
+    PUSHBUTTON      "取消(&C)",IDC_BUTTON_CLEAR,79,250,66,14
+    GROUPBOX        "",IDC_STATIC_7,7,4,157,108
+    LTEXT           "销售单号：",IDC_STATIC_8,14,20,43,10
+    LTEXT           "静态",IDC_STATIC_COMMODITYID,226,12,82,11,NOT 
+                    WS_VISIBLE
+    LTEXT           "待退货金额：",IDC_STATIC_9,14,91,51,12
+    LTEXT           "静态",IDC_STATIC_MONEY,66,87,86,16
+    EDITTEXT        IDC_EDIT_VOUCHERNO,56,16,100,15,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "选择销售单号(&V)...",IDC_BUTTON_VOUCHERNO,71,39,85,16
+END
+
+IDD_JXC_VOUCHERNO DIALOGEX 0, 0, 447, 278
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 选择销售单"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_COMMODITY,"Static",SS_BLACKFRAME,3,1,439,246
+    LTEXT           "静态",IDC_STATIC_NAME,91,258,143,10
+    LTEXT           "当前选择的销售单：",IDC_STATIC_1,16,258,74,9
+    DEFPUSHBUTTON   "确定",IDOK,312,255,50,14
+    PUSHBUTTON      "取消",IDCANCEL,366,255,50,14
+END
+
+IDD_JXC_QUERYDLG DIALOGEX 0, 0, 542, 278
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_COMMODITYID,266,27,97,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_WAY,51,28,48,13,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_PAYTYPE,153,28,58,39,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CASHIER,371,7,65,15,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "S",IDC_BUTTON_STARTTIME,50,6,64,14
+    PUSHBUTTON      "E",IDC_BUTTON_ENDTIME,211,6,66,15
+    DEFPUSHBUTTON   "查询(&Q)",IDOK,379,28,57,14
+    LTEXT           "开始时间：",IDC_STATIC_1,8,9,41,11
+    LTEXT           "结束时间：",IDC_STATIC_2,169,9,42,11
+    LTEXT           "收银员：",IDC_STATIC_3,337,10,33,10
+    LTEXT           "购买方式：",IDC_STATIC_4,110,31,40,9
+    LTEXT           "销售类别：",IDC_STATIC_5,8,31,40,10
+    CONTROL         "",IDC_LIST_COMMODITY,"Static",SS_BLACKFRAME,3,48,536,
+                    208
+    LTEXT           "商品编码：",IDC_STATIC_6,224,31,41,9
+    LTEXT           "静态",IDC_STATIC_INFO,6,260,441,13
+END
+
+IDD_SET_JXC DIALOGEX 0, 0, 275, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "进 销 存"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "选择仓库：",IDC_STATIC_1,7,10,43,8
+    COMBOBOX        IDC_COMBO_STORE,53,7,88,31,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "从吧台付款(不选中表示不付款)",IDC_CHECK_PAY_TYPE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,52,26,180,10
+    LTEXT           "商品入库：",IDC_STATIC_2,7,27,44,8
+END
+
+IDD_SET_TTS DIALOGEX 0, 0, 338, 206
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "语音设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "启用语音播报",IDC_CHECK_TTS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,12,63,12
+    LTEXT           "语音：",IDC_STATIC_1,8,36,34,10
+    COMBOBOX        IDC_COMBO_TTS,34,34,103,16,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",IDC_SLIDER_SOUND,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,29,56,112,17
+    LTEXT           "音量：",IDC_STATIC_2,8,59,25,9
+    EDITTEXT        IDC_EDIT_MEMO,7,82,275,34,ES_AUTOHSCROLL
+    PUSHBUTTON      "测试",IDC_BUTTON_TTS,218,125,64,13
+    CONTROL         "余额不足时语音提醒",IDC_CHECK_REMINDER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,144,189,10
+    CONTROL         "系统自动退款时语音提醒",IDC_CHECK_AUTO_RETURN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,165,152,10
+END
+
+IDD_RN_REGIMAGEDLG DIALOGEX 0, 0, 444, 193
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 上传照片"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "拍照并上传",IDOK,357,164,72,18
+    CONTROL         "",IDC_STATIC_IDIMAGE,"Static",SS_BLACKFRAME,7,7,213,148
+    CONTROL         "",IDC_STATIC_PERSONGIMAGE,"Static",SS_BLACKFRAME,224,7,
+                    213,148
+END
+
+IDD_RN_CHECKMEMBER DIALOGEX 0, 0, 308, 146
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION " 用户资料对比"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PASSWORD,91,4,78,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    DEFPUSHBUTTON   "确定",IDOK,229,117,53,17
+    GROUPBOX        "实名卡用户信息",IDC_STATIC_1,9,12,140,92
+    GROUPBOX        "计费系统用户信息",IDC_STATIC_2,159,13,140,92
+    RTEXT           "上网账号：",IDC_STATIC_3,16,28,44,11
+    RTEXT           "姓名：",IDC_STATIC_4,16,45,44,11
+    RTEXT           "证件类型：",IDC_STATIC_5,16,62,44,11
+    RTEXT           "上网账号：",IDC_STATIC_6,164,28,44,11
+    RTEXT           "姓名：",IDC_STATIC_7,164,45,44,11
+    RTEXT           "证件类型：",IDC_STATIC_8,164,64,44,11
+    RTEXT           "证件号码：",IDC_STATIC_9,164,84,44,11
+    RTEXT           "证件号码：",IDC_STATIC_10,16,82,44,11
+    LTEXT           "1",IDC_STATIC_RNCARDID,60,28,80,13
+    LTEXT           "2",IDC_STATIC_RNNAME,60,44,80,13
+    LTEXT           "5",IDC_STATIC_SLCERTIFICATEID,208,84,81,13
+    LTEXT           "",IDC_STATIC_11,59,27,81,13
+    LTEXT           "1",IDC_STATIC_SLCARDID,208,27,81,13
+    LTEXT           "用户信息不一致，系统已经修正，请确认！",IDC_STATIC_TIP,
+                    9,121,210,9
+    LTEXT           "4",IDC_STATIC_SLCERTIFICATECLASS,208,64,81,13
+    LTEXT           "2",IDC_STATIC_SLNAME,208,44,81,13
+    LTEXT           "",IDC_STATIC_12,214,25,73,15
+    LTEXT           "5",IDC_STATIC_RNCERTIFICATEID,60,82,80,13
+    LTEXT           "4",IDC_STATIC_RNCERTIFICATECLASS,60,62,80,13
+END
+
+IDD_JXC_POINT DIALOGEX 0, 0, 335, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 礼品兑换"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "兑换(&S)",IDOK,257,135,58,20
+    EDITTEXT        IDC_EDIT_IDCARDSNO,63,15,170,16,ES_AUTOHSCROLL
+    LTEXT           "上网账号：",IDC_STATIC_1,16,19,40,11
+    GROUPBOX        "查询",IDC_STATIC_2,9,3,321,37
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,251,15,63,18
+    GROUPBOX        "用户信息",IDC_STATIC_3,9,46,151,124
+    CTEXT           "用户姓名：",IDC_STATIC_4,16,62,43,9
+    LTEXT           "姓名",IDC_STATIC_USERNAME,66,62,82,12
+    CTEXT           "用户级别：",IDC_STATIC_5,16,110,43,9
+    LTEXT           "用户级别",IDC_STATIC_CLASS,66,110,82,12
+    CTEXT           "当前积分： ",IDC_STATIC_6,15,150,43,9
+    LTEXT           "积分",IDC_STATIC_POINT,66,149,82,12
+    CTEXT           "账户合计：",IDC_STATIC_7,16,127,43,9
+    LTEXT           "账户合计",IDC_STATIC_ALL,66,127,82,12
+    LTEXT           "礼品名称：",IDC_STATIC_8,167,58,43,9
+    EDITTEXT        IDC_EDIT_PRESENTNAME,213,55,113,14,ES_AUTOHSCROLL
+    LTEXT           "所需积分：",IDC_STATIC_9,167,106,48,11
+    LTEXT           "兑换数量：",IDC_STATIC_10,167,81,49,13
+    EDITTEXT        IDC_EDIT_COUNT,213,79,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EXCHANGEPOINT,213,103,64,14,ES_AUTOHSCROLL
+    RTEXT           "开户网吧：",IDC_STATIC_11,15,94,42,12
+    RTEXT           "证件号码：",IDC_STATIC_12,15,78,42,12
+    LTEXT           "开户网吧：",IDC_STATIC_NETBAR,66,94,92,12
+    LTEXT           "证件号码：",IDC_STATIC_PERSONALID,66,78,91,12
+END
+
+IDD_DIALOG_AGENT DIALOGEX 0, 0, 287, 170
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 帮助中心"
+FONT 10, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "直接服务商：",IDC_STATIC_1,48,11,53,11
+    LTEXT           "名称",IDC_STATIC_AGENTNAME,106,12,111,12
+    LTEXT           "值班手机：",IDC_STATIC_2,48,25,49,11
+    LTEXT           "手机号",IDC_STATIC_MOBILEPHONE,106,26,77,8
+    LTEXT           "固定电话：",IDC_STATIC_3,48,39,44,11
+    LTEXT           "固话",IDC_STATIC_REGULARTEL,106,40,77,12
+    ICON            IDR_UDO,IDC_STATIC_4,14,7,20,20
+    GROUPBOX        "全国统一服务方式",IDC_STATIC_5,13,57,260,104
+    LTEXT           "服务邮箱：",IDC_STATIC_6,26,73,45,10
+    LTEXT           "网吧服务中心：",IDC_STATIC_7,15,87,60,11
+    LTEXT           "服务传真：",IDC_STATIC_8,26,103,48,10
+    LTEXT           "7*24小时服务热线：",IDC_STATIC_9,27,139,79,10
+    LTEXT           "在线客服：",IDC_STATIC_10,26,119,51,9
+    PUSHBUTTON      "10000@sunlike.cn",IDC_BUTTON_EMAIL,73,72,73,10
+    PUSHBUTTON      "http://www.duduniu.cn",IDC_BUTTON_BBS,73,87,103,9
+    LTEXT           "0755-82535542（服务时间：9:00-18:00）",IDC_STATIC_11,73,
+                    103,161,10
+    PUSHBUTTON      "服务时间：9:00-凌晨1:00",IDC_BUTTON_ONLINE,73,119,111,
+                    10
+    LTEXT           "400-668-3755",IDC_STATIC_400TEL,112,138,122,13
+END
+
+IDD_SET_SEAT DIALOGEX 0, 0, 286, 126
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "座位设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_BIYMAPPATH,63,17,182,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSER,251,17,23,12
+    RTEXT           "座位图路径：",IDC_STATIC_1,6,20,53,11
+END
+
+IDD_SEAT_ADDTERMINAL DIALOGEX 0, 0, 194, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "添加终端"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,23,82,50,14
+    PUSHBUTTON      "取消",IDCANCEL,118,82,50,14
+    LTEXT           "终端ID：",IDC_STATIC_1,19,16,31,13
+    LTEXT           "终端IP：",IDC_STATIC_2,19,46,31,13
+    COMBOBOX        IDC_COMBO_TERMINALID,70,13,100,127,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TREMINALIP,70,43,99,81,CBS_DROPDOWN | CBS_SORT | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+END
+
+IDD_DIALOG_MEMBERINFO DIALOGEX 0, 0, 379, 211
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 请选择用户"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_MEMBERINFO,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,6,365,173
+    DEFPUSHBUTTON   "确定",IDOK,262,189,48,14
+    PUSHBUTTON      "取消",IDCANCEL,317,189,48,14
+END
+
+IDD_JXC_PRESENT DIALOGEX 0, 0, 503, 273
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_IDCARDSNO,56,13,100,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "查询(&Q)",IDC_BUTTON_QUERY,98,93,56,14
+    EDITTEXT        IDC_EDIT_COMMODITYID,223,9,97,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择商品(&O)...",IDC_BUTTON_COMMODITY,325,9,66,15
+    EDITTEXT        IDC_EDIT_COUNT,225,94,37,15,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "增加(&A)",IDC_BUTTON_ADD,266,94,54,15
+    CONTROL         "",IDC_LIST_COMMODITY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,118,479,126
+    PUSHBUTTON      "删除(&D)",IDC_BUTTON_DEL,7,250,66,14
+    PUSHBUTTON      "取消(&C)",IDC_BUTTON_CLEAR,79,250,66,14
+    DEFPUSHBUTTON   "赠送(&S)",IDOK,420,250,66,14
+    LTEXT           "上网账号：",IDC_STATIC_1,13,18,41,9
+    LTEXT           "商品编码：",IDC_STATIC_2,181,12,41,9
+    LTEXT           "商品名称：",IDC_STATIC_3,181,31,41,9
+    LTEXT           "商品类别：",IDC_STATIC_4,181,47,41,9
+    LTEXT           "所需积分：",IDC_STATIC_5,181,63,41,9
+    LTEXT           "静态",IDC_STATIC_NAME,226,31,253,11
+    LTEXT           "静态",IDC_STATIC_TYPE,226,47,128,11
+    LTEXT           "静态",IDC_STATIC_PRICE,226,63,82,11
+    LTEXT           "赠送数量：",IDC_STATIC_6,181,97,44,9
+    GROUPBOX        "",IDC_STATIC_7,7,4,157,108
+    LTEXT           "待结算积分：",IDC_STATIC_8,384,97,51,12,NOT WS_VISIBLE
+    LTEXT           "静态",IDC_STATIC_MONEY,437,93,42,16,NOT WS_VISIBLE
+    LTEXT           "库存数量：",IDC_STATIC_9,181,79,41,9
+    LTEXT           "库存数量：",IDC_STATIC_STORE,226,79,41,9
+    RTEXT           "积分：",IDC_STATIC_10,11,65,42,12
+    RTEXT           "用户级别：",IDC_STATIC_11,11,51,42,12
+    RTEXT           "账户合计：",IDC_STATIC_12,11,79,42,12
+    LTEXT           "姓名",IDC_STATIC_USERNAME,58,36,98,11
+    LTEXT           "用户级别",IDC_STATIC_CLASS,58,51,98,11
+    LTEXT           "账户合计",IDC_STATIC_ALL,58,79,98,11
+    RTEXT           "用户姓名：",IDC_STATIC_13,11,36,42,12
+    LTEXT           "积分",IDC_STATIC_POINT,58,65,42,11
+END
+
+IDD_DUTY_STORECHECK DIALOGEX 0, 0, 496, 290
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 盘点库存"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,430,270,50,14
+    COMBOBOX        IDC_COMBO_SORT,67,268,100,70,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "商品分类选择：",IDC_STATIC_1,7,271,60,11
+    CONTROL         "",IDC_STATIC_COMMODITY,"Static",SS_BLACKFRAME,7,7,482,
+                    254
+    PUSHBUTTON      "打印商品(&P)",IDC_BUTTON_PRINTCOMMODITY,363,271,50,14
+END
+
+IDV_SHORTMSG DIALOGEX 0, 0, 547, 320
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,351,16,59,16
+    GROUPBOX        "查询条件",IDC_STATIC_1,6,3,454,51
+    PUSHBUTTON      "S",IDC_BUTTON_STARTTIME,58,17,64,14
+    LTEXT           "开始时间：",IDC_STATIC_2,14,19,41,11
+    LTEXT           "结束时间：",IDC_STATIC_3,170,19,42,11
+    PUSHBUTTON      "E",IDC_BUTTON_ENDTIME,212,16,66,15
+    LTEXT           "静态",IDC_STATIC_RESULT,14,38,236,13
+    CONTROL         "",IDC_LIST_MSG,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,6,67,353,181
+END
+
+IDD_RN_CARDDEREGISTER DIALOGEX 0, 0, 204, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 注销临时卡资料"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "注销",IDOK,139,55,50,16
+    RTEXT           "卡号：",IDC_STATIC_1,11,31,28,10
+    EDITTEXT        IDC_EDIT_NETID,43,28,145,16,ES_AUTOHSCROLL
+    LTEXT           "请输入卡号进行手动注销临时卡实名资料！",IDC_STATIC_2,15,
+                    9,178,11
+END
+
+IDV_CARDOPENCONSUME DIALOGEX 0, 0, 524, 296
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_INFO,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,10,50,502,236
+    LTEXT           "开始时间：",IDC_STATIC_1,362,21,41,11,NOT WS_VISIBLE
+    PUSHBUTTON      "开始时间",IDC_BUTTON_STARTTIME,404,18,60,15,NOT 
+                    WS_VISIBLE
+    LTEXT           "结束时间：",IDC_STATIC_2,409,22,42,10,NOT WS_VISIBLE
+    PUSHBUTTON      "结束时间",IDC_BUTTON_ENDTIME,431,18,60,15,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "查询(&Q)",IDC_BUTTON_QUERY,280,18,71,14
+    LTEXT           "结果显示",IDC_STATIC_RESULT,19,20,262,12
+    GROUPBOX        "查询条件",IDC_STATIC_3,9,1,502,41
+END
+
+IDD_SET_CREDIT DIALOGEX 0, 0, 276, 138
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "充值退款"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "临时用户钱用完",IDC_CHECK_REFUNDMENT,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,10,91,71,
+                    11
+    EDITTEXT        IDC_EDIT_REFUNDTIME,70,29,35,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "分钟后自动退款",IDC_STATIC_1,108,31,58,12
+    LTEXT           "充值退款界面充值金额为空时的回车动作：",IDC_STATIC_2,9,
+                    51,153,12
+    COMBOBOX        IDC_COMBO_RETURNACTION,164,48,66,15,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "允许充值退款操作时弹出确认提示框",IDC_CHECK_POPMSGBOX,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,6,170,12
+    LTEXT           "临时用户钱用完",IDC_STATIC_3,9,31,59,9
+    LTEXT           "每笔充值的最大金额：",IDC_STATIC_4,9,70,81,8
+    EDITTEXT        IDC_EDIT_MAX_MONEY,91,67,57,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "(元)  如果填0，则表示不做限制",IDC_STATIC_5,151,69,120,
+                    8
+END
+
+IDD_SET_DUTY DIALOGEX 0, 0, 259, 212
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "上 下 班"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "交班报表类型：",IDC_STATIC_1,11,89,61,10
+    COMBOBOX        IDC_COMBO_SHIFTREPORTTYPE,69,87,106,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "启用动态备用金(本收银台临时用户的预付款总和)",
+                    IDC_CHECK_DYNAMICREVERSE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,41,206,11
+    CONTROL         "自动打印交班表",IDC_CHECK_PRINTSHIFT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,8,73,11
+    CONTROL         "显示交班信息",IDC_CHECK_FETCHAMOUNT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,25,62,11
+    CONTROL         "允许编辑“其他支出”项",IDC_CHECK_EDITPAYOUT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,102,26,124,10
+    GROUPBOX        "班别设置：",IDC_STATIC_2,10,115,217,86
+    LTEXT           "从",IDC_STATIC_3,48,140,11,11
+    COMBOBOX        IDC_COMBO_SHIFT1STARTTIME,64,137,36,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "到",IDC_STATIC_4,108,140,11,10
+    COMBOBOX        IDC_COMBO_SHIFT1ENDTIME,124,137,36,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "从",IDC_STATIC_5,48,161,11,11
+    COMBOBOX        IDC_COMBO_SHIFT2STARTTIME,64,158,36,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "到",IDC_STATIC_6,108,161,11,10
+    COMBOBOX        IDC_COMBO_SHIFT2ENDTIME,124,158,36,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SHIFTCOUNT,57,112,54,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "早班：",IDC_STATIC_7,18,140,26,8
+    LTEXT           "中班：",IDC_STATIC_8,19,161,25,10
+    LTEXT           "晚班：",IDC_STATIC_9,19,181,25,9
+    LTEXT           "从",IDC_STATIC_10,48,181,11,11
+    COMBOBOX        IDC_COMBO_SHIFT3STARTTIME,64,179,36,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "到",IDC_STATIC_11,108,181,11,10
+    COMBOBOX        IDC_COMBO_SHIFT3ENDTIME,124,179,36,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "允许编辑""留给下一班金额""项",IDC_CHECK_ALLOWNEXT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,102,9,117,10
+    CONTROL         "不显示交班按钮",IDC_CHECK_NOTSHOW_DUTYBTN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,58,71,11
+    LTEXT           "固定备用金：",IDC_STATIC,11,73,53,8
+    EDITTEXT        IDC_EDIT_FIX_RESERVE,69,70,105,14,ES_AUTOHSCROLL
+END
+
+IDD_ND_MERGEMEMBER DIALOGEX 0, 0, 493, 199
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 合并账户"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "合并账户",IDOK,372,174,53,16
+    EDITTEXT        IDC_EDIT_IDCARDSNO,56,14,153,17,ES_AUTOHSCROLL
+    RTEXT           "开户网吧：",IDC_STATIC_1,19,86,42,12
+    RTEXT           "有送账户：",IDC_STATIC_2,19,122,42,12
+    RTEXT           "无送账户：",IDC_STATIC_3,19,111,42,12
+    RTEXT           "用户号：",IDC_STATIC_4,19,63,42,12
+    RTEXT           "证件号码：",IDC_STATIC_5,19,74,42,12
+    RTEXT           "赠送账户：",IDC_STATIC_6,19,135,42,12
+    RTEXT           "用户级别：",IDC_STATIC_7,19,98,42,12
+    RTEXT           "账户合计：",IDC_STATIC_8,19,148,42,12
+    GROUPBOX        "主账户信息",IDC_STATIC_9,8,39,182,127
+    LTEXT           "上网账号：",IDC_STATIC_10,15,18,40,10
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,217,14,53,16,NOT WS_TABSTOP
+    GROUPBOX        "主账户查询",IDC_STATIC_11,8,4,207,33
+    LTEXT           "姓名：",IDC_STATIC_USERNAME,70,50,98,12
+    LTEXT           "开户网吧：",IDC_STATIC_NETBAR,70,86,98,12
+    LTEXT           "有送账户：",IDC_STATIC_YSCZ,70,122,98,12
+    LTEXT           "无送账户：",IDC_STATIC_WSCZ,70,111,98,12
+    LTEXT           "用户号：",IDC_STATIC_MEMBERID,70,63,98,12
+    LTEXT           "证件号码：",IDC_STATIC_PERSONALID,70,74,98,12
+    LTEXT           "赠送账户：",IDC_STATIC_ZSZH,70,135,59,12
+    LTEXT           "用户级别：",IDC_STATIC_CLASS,70,98,98,12
+    LTEXT           "账户合计：",IDC_STATIC_ALL,69,147,59,12
+    RTEXT           "用户姓名：",IDC_STATIC_12,19,50,42,12
+    EDITTEXT        IDC_EDIT_IDCARDSNO2,320,15,153,17,ES_AUTOHSCROLL
+    RTEXT           "开户网吧：",IDC_STATIC_13,316,87,42,12
+    RTEXT           "有送账户：",IDC_STATIC_14,316,121,42,12
+    RTEXT           "无送账户：",IDC_STATIC_15,316,110,42,12
+    RTEXT           "用户号：",IDC_STATIC_16,316,63,42,12
+    RTEXT           "证件号码：",IDC_STATIC_17,316,74,42,12
+    RTEXT           "赠送账户：",IDC_STATIC_18,316,134,42,12
+    RTEXT           "用户级别：",IDC_STATIC_19,316,98,42,12
+    RTEXT           "账户合计：",IDC_STATIC_21,316,147,42,12
+    GROUPBOX        "被合并账号信息",IDC_STATIC_26,304,39,182,127
+    LTEXT           "上网账号：",IDC_STATIC_23,277,18,40,10
+    GROUPBOX        "被合并账号查询",IDC_STATIC_24,274,5,212,33
+    LTEXT           "姓名：",IDC_STATIC_USERNAME2,366,50,98,12
+    LTEXT           "开户网吧：",IDC_STATIC_NETBAR2,366,87,98,12
+    LTEXT           "有送账户：",IDC_STATIC_YSCZ2,366,121,98,12
+    LTEXT           "无送账户：",IDC_STATIC_WSCZ2,366,110,98,12
+    LTEXT           "用户号：",IDC_STATIC_MEMBERID2,366,63,98,12
+    LTEXT           "证件号码：",IDC_STATIC_PERSONALID2,366,74,98,12
+    LTEXT           "赠送账户：",IDC_STATIC_ZSZH2,366,134,59,12
+    LTEXT           "用户级别：",IDC_STATIC_CLASS2,366,98,98,12
+    LTEXT           "账户合计：",IDC_STATIC_ALL2,366,145,59,12
+    RTEXT           "用户姓名：",IDC_STATIC_20,316,50,42,12
+    LTEXT           "合并账户，需要输入被合并账号密码：",IDC_STATIC_25,9,176,
+                    150,12
+    EDITTEXT        IDC_EDIT_PASSWORD,157,173,104,16,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "<=================",IDC_STATIC1,206,103,79,14
+    LTEXT           "合并",IDC_STATIC_22,234,88,17,11
+END
+
+IDD_JXC_STORE DIALOGEX 0, 0, 534, 276
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_COMMODITYID,53,8,120,15,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "入库(&S)",IDOK,466,254,57,14
+    LTEXT           "商品编码：",IDC_STATIC_1,9,10,41,9
+    LTEXT           "商品名称：",IDC_STATIC_2,9,27,41,9
+    LTEXT           "商品类别：",IDC_STATIC_3,9,41,41,9
+    LTEXT           "采购单价：",IDC_STATIC_4,9,73,41,9
+    CONTROL         "",IDC_LIST_COMMODITY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,6,127,527,118
+    LTEXT           "静态",IDC_STATIC_NAME,54,27,184,11
+    LTEXT           "静态",IDC_STATIC_TYPE,54,41,128,11
+    PUSHBUTTON      "选择商品(&O)...",IDC_BUTTON_COMMODITY,178,8,66,15
+    LTEXT           "入库数量：",IDC_STATIC_5,9,91,41,9
+    EDITTEXT        IDC_EDIT_COUNT,54,88,61,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "加入列表(&A)",IDC_BUTTON_ADD,314,106,60,15
+    PUSHBUTTON      "删除列表(&D)",IDC_BUTTON_DEL,381,106,60,15
+    LTEXT           "库存数量：",IDC_STATIC_6,9,56,41,9
+    LTEXT           "库存数量：",IDC_STATIC_STORE,54,56,41,9
+    LTEXT           "单位",IDC_STATIC_UINT,119,91,20,10
+    EDITTEXT        IDC_EDIT_PRICE,54,69,62,15,ES_AUTOHSCROLL
+    LTEXT           "商品总价：",IDC_STATIC_7,9,110,41,9
+    LTEXT           "静态",IDC_STATIC_TOTALAMOUNT,54,110,74,11
+    LTEXT           "元/(?)",IDC_STATIC_PRICEUNIT,119,72,20,10
+    PUSHBUTTON      "同步商品信息",IDC_BUTTON_SYNCSERVER,314,25,60,15
+    GROUPBOX        "",IDC_STATIC_8,6,1,299,122
+    LTEXT           "如果中心添加新商品，请入库前同步商品信息！",
+                    IDC_STATIC_9,314,9,170,11
+    EDITTEXT        IDC_EDIT_COUNT2,144,88,61,15,ES_AUTOHSCROLL
+    LTEXT           "单位",IDC_STATIC_UINT2,211,91,20,10
+    LTEXT           "换算率：",IDC_STATIC_UNITMUTIPLE,146,72,52,9
+    LTEXT           "静态",IDC_STATIC_RESULT,10,254,291,14
+    LTEXT           "您没有权限，入库时需要输入管理密码！",IDC_STATIC_TIP,
+                    314,257,146,14,NOT WS_VISIBLE
+    LTEXT           "采购单价不能高于默认价格！",IDC_STATIC_10,197,72,105,10
+END
+
+IDD_JXC_COMMODITYSEL DIALOGEX 0, 0, 469, 254
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 选择入库商品"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_COMMODITY,"Static",SS_BLACKFRAME,6,6,454,219
+    LTEXT           "如果没有找到您要入库的商品信息，请点击“同步商品信息”！",
+                    IDC_STATIC_1,5,235,221,11
+    PUSHBUTTON      "同步商品信息",IDC_BUTTON_SYNCSERVER,223,231,62,16
+    DEFPUSHBUTTON   "确定",IDOK,407,231,53,15
+END
+
+IDD_DIALOG_ALLCHECKOUT DIALOGEX 0, 0, 570, 351
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 全场结账"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "全场停止计费",IDOK,307,10,77,26
+    LTEXT           "断电或者断网后应急全场结账：会员用户结账，临时用户退款。",
+                    IDC_STATIC_INFO,10,17,285,18
+    GROUPBOX        "",IDC_STATIC_2,9,43,376,39
+    EDITTEXT        IDC_EDIT_FIND,60,57,241,16,ES_AUTOHSCROLL
+    LTEXT           "便捷通道：",IDC_STATIC_3,15,60,44,10
+    PUSHBUTTON      "查询(&Q)",IDC_BUTTON_QUERY,312,57,60,15
+    LTEXT           "正常情况下，严禁操作！该操作会导致全场锁屏，停止计费！！！",
+                    IDC_STATIC_RESULT,399,13,164,44
+    CONTROL         "",IDC_STATIC_CHECKOUT,"Static",SS_BLACKFRAME,9,91,548,
+                    244
+    PUSHBUTTON      "打印(&P)",IDC_BUTTON_PRINT,494,67,60,15,WS_DISABLED
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,10,91,547,245
+END
+
+IDD_DIALOG_SELTERMID DIALOGEX 0, 0, 292, 226
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 选择计算机"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_INFO,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,8,59,275,140
+    RTEXT           "终端号：",IDC_STATIC_1,16,34,37,11
+    EDITTEXT        IDC_EDIT_TERMID,56,31,65,15,ES_AUTOHSCROLL
+    GROUPBOX        "定位条件",IDC_STATIC_2,9,22,219,31
+    DEFPUSHBUTTON   "定位所输计算机",IDC_BUTTON_QUERY,142,31,69,14
+    LTEXT           "如要选择对应终端的计算机，请双击该项。",IDC_STATIC_3,11,
+                    8,156,13
+    PUSHBUTTON      "确定",IDOK,156,206,56,15
+    PUSHBUTTON      "取消",IDCANCEL,226,206,56,15
+END
+
+IDD_JXC_RETAILONLINE DIALOGEX 0, 0, 569, 271
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_TERMID,53,15,100,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "结账(&S)",IDOK,420,250,66,14
+    RTEXT           "上网账号：",IDC_STATIC_1,10,38,41,9
+    LTEXT           "商品编码：",IDC_STATIC_2,264,12,41,9
+    LTEXT           "商品名称：",IDC_STATIC_3,264,31,41,9
+    LTEXT           "商品类别：",IDC_STATIC_4,264,47,41,9
+    LTEXT           "销售单价：",IDC_STATIC_5,264,63,41,9
+    CONTROL         "",IDC_LIST_COMMODITY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,118,479,126
+    EDITTEXT        IDC_EDIT_COMMODITYID,306,9,97,15,ES_AUTOHSCROLL
+    LTEXT           "静态",IDC_STATIC_NAME,309,31,169,11
+    LTEXT           "静态",IDC_STATIC_TYPE,309,47,128,11
+    LTEXT           "静态",IDC_STATIC_PRICE,309,63,82,11
+    LTEXT           "购买数量：",IDC_STATIC_6,264,97,44,9
+    EDITTEXT        IDC_EDIT_COUNT,308,94,37,15,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "增加(&A)",IDC_BUTTON_ADD,349,94,54,15
+    PUSHBUTTON      "删除(&D)",IDC_BUTTON_DEL,7,250,66,14
+    PUSHBUTTON      "取消(&C)",IDC_BUTTON_CLEAR,79,250,66,14
+    EDITTEXT        IDC_EDIT_IDCARDSNO,53,34,100,15,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC_7,7,4,245,108
+    RTEXT           "待结账金额：",IDC_STATIC_8,8,97,51,12
+    LTEXT           "静态",IDC_STATIC_MONEY,66,95,86,13
+    LTEXT           "库存数量：",IDC_STATIC_9,264,79,41,9
+    LTEXT           "库存数量：",IDC_STATIC_STORE,309,79,41,9
+    PUSHBUTTON      "查询(&Q)",IDC_BUTTON_QUERY,186,91,54,16
+    RTEXT           "电脑名称：",IDC_STATIC_10,10,18,42,10
+    RTEXT           "账户合计：",IDC_STATIC_11,11,84,42,12
+    LTEXT           "姓名",IDC_STATIC_USERNAME,58,55,98,11
+    LTEXT           "账户合计",IDC_STATIC_ALL,58,84,98,11
+    RTEXT           "用户姓名：",IDC_STATIC_12,11,55,42,12
+    RTEXT           "用户级别：",IDC_STATIC_13,11,69,42,12
+    LTEXT           "用户级别",IDC_STATIC_CLASS,58,69,98,11
+    PUSHBUTTON      "扫描",IDC_BUTTON_SCANRECO,186,13,54,16,NOT WS_VISIBLE
+    PUSHBUTTON      "选择商品(&O)...",IDC_BUTTON_COMMODITY,405,9,60,15
+END
+
+IDD_SET_MONITOR DIALOGEX 0, 0, 296, 199
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "监控设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "余额不多提示额度(单位：元)：",IDC_STATIC_1,9,75,113,12
+    EDITTEXT        IDC_EDIT_MINIMONEY,123,72,47,15,ES_AUTOHSCROLL
+    GROUPBOX        "用户级别颜色",IDC_STATIC_2,7,4,276,40
+    COMBOBOX        IDC_COMBO_USERTYPE,55,18,68,130,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "级别：",IDC_STATIC_3,18,22,30,8
+    PUSHBUTTON      "颜色按钮",IDC_BUTTON_CLUSERTYPE,187,17,68,16
+    RTEXT           "颜色设置：",IDC_STATIC_4,140,22,41,8
+    LTEXT           "机器视图显示下列区域的机器",IDC_STATIC_5,9,96,116,11
+    LISTBOX         IDC_SHOWZONELIST,9,112,161,50,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "按下回车键弹出结账(退款)对话框",
+                    IDC_CHECK_OPENAFTERENTER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,52,142,12
+END
+
+IDD_ND_BUNDTIME_SELFDEFINE DIALOGEX 0, 0, 214, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 自定义包时"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_HOUR,59,33,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_MIN,114,33,27,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_BUNDTIMEMONEY,72,125,44,17,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_ZONE,59,80,127,101,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ACCOUNTTYPE,59,101,128,68,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "包时(&B)",IDOK,132,125,55,17
+    PUSHBUTTON      "S",IDC_BUTTON_STARTTIME,59,11,64,14
+    LTEXT           "开始时间：",IDC_STATIC_1,13,14,41,11
+    LTEXT           "应扣账户(元)：",IDC_STATIC_CAPTION,13,129,57,12
+    LTEXT           "包时区域：",IDC_STATIC_2,13,84,41,11
+    LTEXT           "账户类型：",IDC_STATIC0,13,105,41,11
+    LTEXT           "包时时长：",IDC_STATIC_3,13,36,41,11
+    LTEXT           "小时",IDC_STATIC_4,90,35,19,10
+    LTEXT           "分钟",IDC_STATIC_5,145,36,24,10
+    PUSHBUTTON      "E",IDC_BUTTON_ENDTIME,59,56,64,14
+    LTEXT           "结束时间：",IDC_STATIC_6,13,59,41,11
+END
+
+IDD_DIALOG_RETURN DIALOGEX 0, 0, 199, 118
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 退款"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,67,90,50,14
+    PUSHBUTTON      "取消",IDCANCEL,123,90,50,14
+    LTEXT           "上网账号：",IDC_STATIC_1,17,12,54,10
+    LTEXT           "用户姓名：",IDC_STATIC_2,17,31,54,10
+    LTEXT           "可退金额：",IDC_STATIC_3,17,69,56,13
+    LTEXT           "静态",IDC_STATIC_NETID,76,11,105,11
+    LTEXT           "静态",IDC_STATIC_USERNAME,76,30,105,11
+    LTEXT           "静态",IDC_STATIC_MONEY,76,68,112,13
+    LTEXT           "证件号码：",IDC_STATIC_4,17,50,56,10
+    LTEXT           "静态",IDC_STATIC_PERSONALID,76,49,105,11
+END
+
+IDD_CONFIGCLIENT_BUNDLETIME DIALOGEX 0, 0, 311, 113
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "包时设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "允许网民在客户端自助包时",IDC_CHECK_ALLOWBUNDTIME,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,8,123,10
+    LTEXT           "临时用户包时结束后：",IDC_STATIC_1,7,31,81,9
+    LTEXT           "会员用户包时结束后：",IDC_STATIC_2,7,53,81,11
+    COMBOBOX        IDC_COMBO_TEMP,91,28,213,13,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MEMBER,91,49,213,13,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "离包时结束          分钟之内不允许包时",IDC_STATIC_3,7,
+                    75,247,8
+    EDITTEXT        IDC_EDIT_BT_LIMIT,49,73,34,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_CLIENTCONFIG_UNLOCK DIALOGEX 0, 0, 254, 105
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "维护设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PASSWORD,54,9,187,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "维护密码：",IDC_STATIC1,7,12,43,11
+    LTEXT           "解屏维护时间(分钟)：",IDC_STATIC4,7,39,83,11
+    EDITTEXT        IDC_EDIT_MAXKEEPTIME,89,35,58,15,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    LTEXT           "硬件刻盘维护时间(分钟)：",IDC_STATIC3,7,64,102,12
+    EDITTEXT        IDC_EDIT_MAXKEEPTIMEOFUKEY,110,61,44,15,ES_AUTOHSCROLL | 
+                    NOT WS_TABSTOP
+END
+
+IDD_ND_BUNDLETIME2 DIALOGEX 0, 0, 385, 268
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 闲时包月"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "包月(&B)",IDOK,253,145,49,17
+    PUSHBUTTON      "取消包月(&C)",IDC_BUTTON_CANCELBT,312,145,49,17
+    CONTROL         "",IDC_LIST_BUNDLETIME,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,6,171,370,89,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_EDIT_IDCARDSNO,62,14,219,18,ES_AUTOHSCROLL
+    LTEXT           "上网账号：",IDC_STATIC_1,17,19,42,10
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,295,14,59,17
+    RTEXT           "用户姓名：",IDC_STATIC_2,14,54,47,12
+    RTEXT           "开户网吧：",IDC_STATIC_3,14,98,47,12
+    RTEXT           "无送充值：",IDC_STATIC_4,199,230,47,12,NOT WS_VISIBLE
+    RTEXT           "用户号：",IDC_STATIC_5,14,68,47,12
+    RTEXT           "证件号码：",IDC_STATIC_6,14,113,47,12
+    RTEXT           "包时类型：",IDC_STATIC_7,19,150,59,12,NOT WS_VISIBLE
+    RTEXT           "包月区域：",IDC_STATIC_8,176,84,59,12
+    GROUPBOX        "用户信息",IDC_STATIC_9,7,41,367,127
+    RTEXT           "开始时间：",IDC_STATIC_10,176,114,59,12
+    RTEXT           "包月金额：",IDC_STATIC_11,176,68,59,12
+    RTEXT           "包月编号：",IDC_STATIC_12,176,53,59,12
+    RTEXT           "结束时间：",IDC_STATIC_13,176,129,59,12
+    GROUPBOX        "用户查询",IDC_STATIC_14,7,4,366,34
+    RTEXT           "已用金额：",IDC_STATIC_15,176,99,59,12
+    RTEXT           "用户级别：",IDC_STATIC_16,14,83,47,12
+    LTEXT           "静态",IDC_STATIC_USERNAME,65,54,126,10
+    LTEXT           "静态",IDC_STATIC_WSCZ,253,228,70,13,NOT WS_VISIBLE
+    LTEXT           "静态",IDC_STATIC_CLASS,65,84,126,10
+    LTEXT           "静态",IDC_STATIC_BTMONEY,240,67,119,12
+    LTEXT           "静态",IDC_STATIC_BTSTARTTIME,240,114,119,12
+    LTEXT           "静态",IDC_STATIC_MEMBERID,65,69,126,10
+    LTEXT           "静态",IDC_STATIC_BTID,240,53,119,12
+    LTEXT           "静态",IDC_STATIC_BTMONEY2,240,99,119,12
+    LTEXT           "静态",IDC_STATIC_NETBAR,65,99,126,10
+    LTEXT           "静态",IDC_STATIC_PERSONALID,65,114,126,10
+    LTEXT           "静态",IDC_STATIC_BTYPE,83,150,119,12,NOT WS_VISIBLE
+    LTEXT           "静态",IDC_STATIC_BTAREA,240,84,119,12
+    LTEXT           "静态",IDC_STATIC_BTENDTIME,240,129,119,12
+    LTEXT           "静态",IDC_STATIC_YSCZ,255,248,70,13,NOT WS_VISIBLE
+    RTEXT           "有送充值：",IDC_STATIC_17,199,246,47,12,NOT WS_VISIBLE
+    RTEXT           "账户合计：",IDC_STATIC_18,14,129,47,12
+    LTEXT           "静态",IDC_STATIC_ALL,65,129,126,10
+END
+
+IDD_ND_CREDIT DIALOGEX 0, 0, 474, 194
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 充值"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_CREDIT,145,157,55,19,ES_AUTOHSCROLL
+    PUSHBUTTON      "结账(F3)>>",IDC_BUTTON_RETURN,256,48,61,14,BS_FLAT | 
+                    NOT WS_TABSTOP
+    DEFPUSHBUTTON   "充值(&C)",IDOK,213,156,57,21
+    RTEXT           "实收(元)：",IDC_STATIC_5,85,162,56,13
+    CONTROL         "进行无送充值(这些钱可以到增收宝消费)",IDC_CHECK_PRESENT,
+                    "Button",BS_AUTOCHECKBOX,73,135,158,11
+    PUSHBUTTON      "取消激活",IDC_BUTTON_CANCELACTIVE,167,89,53,13,BS_FLAT
+    RTEXT           "余额(元)：",IDC_STATIC_4,23,89,40,10
+    LTEXT           "静态",IDC_STATIC_ALL,69,85,91,15,SS_NOTIFY
+    GROUPBOX        "",IDC_STATIC,12,34,217,93
+    PUSHBUTTON      "消费记录",IDC_BUTTON_CONSUMELIST,255,95,61,14,BS_FLAT | 
+                    NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    RTEXT           "电脑名称：",IDC_STATIC_3,23,67,40,10
+    LTEXT           "姓名：",IDC_STATIC_USERNAME,69,46,153,12
+    RTEXT           "用户姓名：",IDC_STATIC_2,24,46,40,10
+    CONTROL         "123456789012345678",IDC_EDIT_IDCARDSNO,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,37,13,201,14
+    LTEXT           "我想去:",IDC_STATIC_1,235,36,40,11
+    PUSHBUTTON      "包时>>",IDC_BUTTON_BUNDLETIME,256,67,61,14,BS_FLAT
+    LTEXT           "静态",IDC_STATIC_TERMID,69,66,80,12
+    PUSHBUTTON      "增收宝消费",IDC_BUTTON_CONSUMELIST2,255,114,61,14,
+                    BS_FLAT | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "详情>>",IDC_BUTTON_DETAIL,230,135,35,13,BS_FLAT | NOT 
+                    WS_TABSTOP,WS_EX_TRANSPARENT
+    LTEXT           "静态",IDC_STATIC_BIRTHDAY,252,17,49,8
+    CONTROL         "打印小票",IDC_CHECK_TICKET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,135,52,10
+    LTEXT           "查询:",IDC_STATIC_27,235,84,40,10
+    CONTROL         "",IDC_STATIC_ZJIMG,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    321,7,139,80
+    CONTROL         "",IDC_STATIC_ZCIMG,"Static",SS_BLACKRECT,321,91,139,80
+    PUSHBUTTON      "实名注册",IDC_BTN_RN_REG,413,173,46,14
+    PUSHBUTTON      "拍照(&P)",IDC_BTN_PHOTO,361,173,46,14
+END
+
+IDD_ND_DREG DIALOGEX 0, 0, 329, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 结账"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "充值(F3)>>",IDC_BUTTON_CREDIT,262,37,60,14,BS_FLAT | 
+                    NOT WS_TABSTOP
+    PUSHBUTTON      "结账退款(&R)",IDOK,246,154,56,21
+    PUSHBUTTON      "消费记录",IDC_BUTTON_CONSUMELIST,262,105,60,14,BS_FLAT | 
+                    NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    LTEXT           "姓名：",IDC_STATIC_USERNAME,69,45,167,12
+    RTEXT           "用户姓名：",IDC_STATIC_2,24,45,40,10
+    LTEXT           "实退(元)：",IDC_STATIC0,76,162,54,10,0,WS_EX_RIGHT
+    LTEXT           "123456789012345678",IDC_EDIT_IDCARDSNO,38,13,157,14
+    LTEXT           "静态",IDC_STATIC_ALL,134,158,103,15,SS_NOTIFY
+    GROUPBOX        "",IDC_STATIC,14,37,227,103
+    LTEXT           "我想去:",IDC_STATIC_1,244,22,40,12
+    RTEXT           "开户网吧：",IDC_STATIC_3,21,64,42,17
+    LTEXT           "开户网吧：",IDC_STATIC_NETBAR,69,64,165,12
+    RTEXT           "电脑名称：",IDC_STATIC_4,23,83,40,10
+    LTEXT           "静态",IDC_STATIC_TERMID,69,82,80,12
+    RTEXT           "包时信息：",IDC_STATIC_5,19,100,44,9
+    LTEXT           "静态",IDC_STATIC_BTENDTIME,69,101,162,24
+    PUSHBUTTON      "退包时后余额",IDC_BUTTON_RETURN2,262,72,60,14,BS_FLAT | 
+                    NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "包时>>",IDC_BUTTON_BUNDLETIME,262,54,60,14,BS_FLAT
+    PUSHBUTTON      "增收宝消费",IDC_BUTTON_CONSUMELIST2,262,123,60,14,
+                    BS_FLAT | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    CONTROL         "打印小票",IDC_CHECK_TICKET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,162,61,10
+    LTEXT           "查询:",IDC_STATIC_27,245,91,27,11
+    PUSHBUTTON      "取消激活",IDC_BUTTON_CANCELACTIVE,174,82,53,13,BS_FLAT
+END
+
+IDD_ND_CHECKINDLG DIALOGEX 0, 0, 249, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 上机"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "123456789012345678",IDC_EDIT_IDCARDSNO,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,35,12,163,14
+    CONTROL         "",IDC_GIRD_RECT,"Static",SS_BLACKFRAME,7,32,235,124
+    CONTROL         "自动开机",IDC_CHECK_POWERON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,121,166,68,12
+    DEFPUSHBUTTON   "确定",IDOK,192,165,50,14
+    PUSHBUTTON      "刷新",IDC_BUTTON_REFRESH,7,165,50,14
+END
+
+IDD_UNLOCKSCREENDLG DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 解屏维护"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,72,61,50,14
+    PUSHBUTTON      "取消",IDCANCEL,129,61,50,14
+    LTEXT           "请输入维护密码：",IDC_STATIC_1,14,14,74,11
+    EDITTEXT        IDC_EDIT_PASSWORD,15,32,156,16,ES_AUTOHSCROLL
+END
+
+IDD_ND_CREDITDIRECT DIALOGEX 0, 0, 304, 185
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 账户直充"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_IDCARDSNO,59,19,155,17,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BUTTON_QUERY,228,20,53,16
+    LTEXT           "上网账号：",IDC_STATIC_1,14,24,40,9
+    GROUPBOX        "用户查询",IDC_STATIC_2,9,10,284,34
+    EDITTEXT        IDC_EDIT_CREDIT,224,113,61,19,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,227,145,57,21
+    RTEXT           "金额(元)：",IDC_STATIC_3,170,119,47,13
+    COMBOBOX        IDC_COMBO_ACCOUNT,224,83,64,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_KIND,224,60,64,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "账户类型：",IDC_STATIC_4,178,86,41,8
+    LTEXT           "操作类型：",IDC_STATIC_5,178,63,41,8
+    RTEXT           "开户网吧：",IDC_STATIC_6,15,91,42,12
+    RTEXT           "有送账户：",IDC_STATIC_7,15,131,42,12
+    RTEXT           "无送账户：",IDC_STATIC_8,15,118,42,12
+    RTEXT           "证件号码：",IDC_STATIC_9,15,78,42,12
+    RTEXT           "赠送账户：",IDC_STATIC_10,15,144,42,12
+    RTEXT           "用户级别：",IDC_STATIC_11,15,104,42,12
+    GROUPBOX        "用户信息",IDC_STATIC_12,8,51,160,123
+    LTEXT           "姓名：",IDC_STATIC_USERNAME,66,64,75,12
+    LTEXT           "开户网吧：",IDC_STATIC_NETBAR,66,91,80,12
+    LTEXT           "有送账户：",IDC_STATIC_YSCZ,66,131,75,12
+    LTEXT           "无送账户：",IDC_STATIC_WSCZ,66,118,77,12
+    LTEXT           "证件号码：",IDC_STATIC_PERSONALID,66,78,98,12
+    LTEXT           "赠送账户：",IDC_STATIC_ZSZH,66,144,59,12
+    LTEXT           "用户级别：",IDC_STATIC_CLASS,66,104,78,12
+    RTEXT           "用户姓名：",IDC_STATIC_13,15,64,42,12
+    RTEXT           "账户合计：",IDC_STATIC_14,15,158,42,12
+    LTEXT           "上网预留：",IDC_STATIC_ONLINEAMOUNT,66,158,59,12
+END
+
+IDD_ND_DEFINEBUNDTIME DIALOGEX 0, 0, 214, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 自定义包时"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_HOUR,59,33,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_MIN,114,33,27,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_BUNDTIMEMONEY,72,125,44,17,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_ZONE,59,80,127,101,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ACCOUNTTYPE,59,101,128,68,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定(&B)",IDOK,132,125,55,17
+    PUSHBUTTON      "S",IDC_BUTTON_STARTTIME,59,11,64,14
+    LTEXT           "开始时间：",IDC_STATIC_1,13,14,41,11
+    LTEXT           "包时金额(元)：",IDC_STATIC_CAPTION,13,129,57,12
+    LTEXT           "包时区域：",IDC_STATIC_2,13,84,41,11
+    LTEXT           "账户类型：",IDC_STATIC0,13,105,41,11
+    LTEXT           "包时时长：",IDC_STATIC_3,13,36,41,11
+    LTEXT           "小时",IDC_STATIC_4,90,35,19,10
+    LTEXT           "分钟",IDC_STATIC_5,145,36,24,10
+    PUSHBUTTON      "E",IDC_BUTTON_ENDTIME,59,56,64,14
+    LTEXT           "结束时间：",IDC_STATIC_6,13,59,41,11
+END
+
+IDD_DLG_IBA_FAST DIALOGEX 0, 0, 604, 15
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "便捷通道",IDC_STATIC_1,0,3,39,8
+    COMBOBOX        IDC_COMBO_FAST,39,0,318,30,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "增收宝",IDC_STATIC_2,364,3,36,8
+    CONTROL         "",IDC_PIC_BUGLE,"Static",SS_BLACKRECT,404,1,13,12
+    CONTROL         "",IDC_STATIC_CONTENT,"Static",SS_BLACKRECT,422,1,120,12
+    CONTROL         "",IDC_PIC_STATUS,"Static",SS_BLACKRECT | NOT WS_VISIBLE,
+                    545,1,58,13
+END
+
+IDD_DLG_INPUT_PARAM DIALOGEX 0, 0, 258, 98
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 输入参数"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,135,73,50,14
+    PUSHBUTTON      "取消",IDCANCEL,191,73,50,14
+    EDITTEXT        IDC_EDIT1,54,7,188,57,ES_MULTILINE | ES_WANTRETURN
+    RTEXT           "静态",IDC_STATIC_TXT,7,9,40,8
+END
+
+IDD_DLG_CREDIT_MODIFY DIALOGEX 0, 0, 323, 151
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION " 修改充值金额"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "修改",IDOK,255,7,50,14
+    LTEXT           "这一笔充入的金额：",IDC_STATIC_1,23,12,73,8
+    LTEXT           "金额",IDC_STATIC_CURRENT,98,12,55,8
+    LTEXT           "实际应该充入的金额：",IDC_STATIC_2,15,31,81,8
+    EDITTEXT        IDC_EDIT_REAL,98,28,60,14,ES_AUTOHSCROLL
+    LTEXT           "输入的金额必须小于这一笔充入的金额",IDC_STATIC_3,169,30,
+                    147,8
+    GROUPBOX        "说明",IDC_STATIC_4,16,48,289,89
+    LTEXT           "\n\n   1、收银员多充钱给用户时，使用本功能。\n\n   2、系统不允许输入负数（例如-1），如果用户已将充错的钱用完，修改会提             示余额不足。",
+                    IDC_STATIC_5,23,61,279,69
+END
+
+IDD_DIALOG_BOSSPWD_EX DIALOGEX 0, 0, 310, 129
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "嘟嘟牛请求进入应急模式"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,179,107,49,15
+    EDITTEXT        IDC_EDIT_PASSWORD,60,79,193,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "收银台与计费中心的网络已中断，进入应急模式之后，您需要注意几下3点：\n\n1.收银台只能使用开户，充值退款，修改密码，全场结账功能\n2.客户端只能查看余额，扣率，请勿随意上下机，更换机器\n3.网络刚恢复正常时，交班将有少许延迟，请等待几分钟之后重试",
+                    IDC_STATIC_CAPTION,19,10,277,45
+    LTEXT           "管理密码:",IDC_STATIC_1,19,82,36,8
+    LTEXT           "请先输入管理密码然后再确认(默认为:dodonew),确认之后收银台进入应急模式",
+                    IDC_STATIC_MODE,19,67,276,8
+    PUSHBUTTON      "取消",IDCANCEL,242,107,49,15
+END
+
+IDD_DUTY_LOCAL DIALOGEX 0, 0, 515, 258
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "恢复模式班次信息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,454,232,50,14
+    LTEXT           "",IDC_STATIC_CREDITCARD,74,28,67,12
+    GROUPBOX        "本班其他信息",IDC_STATIC_1,7,7,138,63
+    RTEXT           "账户购物：",IDC_STATIC_2,12,48,48,12
+    LTEXT           "",IDC_STATIC_NETBARPAY,74,48,68,12
+    LTEXT           "增收宝消费：",IDC_STATIC_4,12,98,48,12
+    LTEXT           "",IDC_STATIC_ZSB_CONSUME,70,97,72,12
+    GROUPBOX        "增收宝信息",IDC_STATIC_5,7,77,138,64
+    RTEXT           "预存款余额：",IDC_STATIC_6,12,120,48,12
+    LTEXT           "",IDC_STATIC_ZSB_BALANCE,70,119,72,12
+    RTEXT           "现金购物：",IDC_STATIC_7,167,57,48,12
+    RTEXT           "班次收入：",IDC_STATIC_8,338,23,56,12
+    RTEXT           "其他支出：",IDC_STATIC_9,167,94,48,12
+    RTEXT           "退款金额：",IDC_STATIC_10,167,40,48,12
+    RTEXT           "上一班预留：",IDC_STATIC_11,346,41,48,12
+    RTEXT           "充值金额：",IDC_STATIC_12,167,23,48,12
+    RTEXT           "现金总额：",IDC_STATIC_SELFDUTY,291,73,99,18,0,
+                    WS_EX_RIGHT
+    LTEXT           "",IDC_STATIC_CASHPAY,221,57,79,10
+    LTEXT           "",IDC_STATIC_RETURNED,221,39,56,12
+    LTEXT           "",IDC_STATIC_RESERVE,398,38,56,12
+    LTEXT           "",IDC_STATIC_CREDIT,221,22,56,12
+    GROUPBOX        "本班信息",IDC_STATIC_GROUP_TEXT,155,7,349,134
+    LTEXT           "",IDC_STATIC_NETCASH,398,21,56,12
+    LTEXT           "",IDC_STATIC_ALL,393,73,79,18
+    LTEXT           "",IDC_STATIC_DEPOSIT,221,112,56,10
+    RTEXT           "商品采购支出：",IDC_STATIC_13,157,76,58,12
+    LTEXT           "",IDC_STATIC_STOREIN,221,74,72,10
+    LTEXT           "",IDC_STATIC_OTHER,221,95,78,12
+    RTEXT           "充值卡金额：",IDC_STATIC_14,10,28,49,8
+    RTEXT           "押金：",IDC_STATIC_15,157,114,57,8,0,WS_EX_RIGHT
+    LTEXT           "由于之前网络中断，系统进入应急模式，但目前本地用户正在上网，暂时不能交班。\n如果需要现在交班，请通知本地用户结账下机，然后重新开户即可。\n\n\n提示：用户视图中绿色用户就是本地用户。",
+                    IDC_STATIC_REMARK,35,154,451,65
+END
+
+IDD_SET_PRINT DIALOGEX 0, 0, 274, 207
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "打印设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "会员用户",IDC_STATIC_2,18,33,203,77
+    GROUPBOX        "临时用户",IDC_STATIC_3,18,118,203,72
+    CONTROL         "开户默认打印小票",IDC_CHECK_MEM_OPEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,49,80,10
+    CONTROL         "充值默认打印小票",IDC_CHECK_MEM_CREDIT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,64,80,10
+    CONTROL         "包时默认打印小票",IDC_CHECK_MEM_BT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,79,80,10
+    CONTROL         "开户默认打印小票",IDC_CHECK_TEMP_OPEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,132,80,10
+    CONTROL         "充值默认打印小票",IDC_CHECK_TEMP_CREDIT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,147,80,10
+    CONTROL         "包时默认打印小票",IDC_CHECK_TEMP_BT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,162,80,10
+    CONTROL         "结账时默认打印小票",IDC_CHECK_MEM_RETURN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,94,88,10
+    CONTROL         "退款默认打印小票",IDC_CHECK_TEMP_RETURN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,176,80,10
+    LTEXT           "小票字体：",IDC_STATIC_1,17,9,43,12
+    COMBOBOX        IDC_COMBO_FONTSIZE,63,7,39,15,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DIALOG_NOTICE DIALOGEX 0, 0, 203, 106
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "通告"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,144,86,50,14
+    LTEXT           "",IDC_STATIC_INFO,9,9,185,74,SS_NOTIFY
+END
+
+IDD_ND_ROOM DIALOGEX 0, 0, 367, 267
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "包房管理"
+FONT 9, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    RTEXT           "上网账号：",IDC_STATIC_1,8,18,62,8
+    DEFPUSHBUTTON   "查询(&Q)",IDC_BTN_QUERY,262,13,51,17
+    RTEXT           "证件号码：",IDC_STATIC_2,12,50,58,9
+    RTEXT           "用户姓名：",IDC_STATIC_3,12,63,58,9
+    RTEXT           "开户网吧：",IDC_STATIC_4,12,76,58,9
+    RTEXT           "用户级别：",IDC_STATIC_5,12,89,58,9
+    RTEXT           "账户合计(元)：",IDC_STATIC_6,12,109,58,10
+    LTEXT           "静态",IDC_STATIC_PERSONALID,77,50,125,10
+    LTEXT           "静态",IDC_STATIC_USERNAME,77,63,111,9
+    LTEXT           "静态",IDC_STATIC_NETBAR,77,76,91,9
+    LTEXT           "静态",IDC_STATIC_CLASS,77,89,94,9
+    LTEXT           "静态",IDC_STATIC_ALL,77,105,51,18
+    PUSHBUTTON      "充值",IDC_BTN_CREDIT,181,107,48,13,BS_FLAT
+    EDITTEXT        IDC_EDIT_IDCARDSNO,71,13,183,17,ES_AUTOHSCROLL
+    GROUPBOX        "用户信息",IDC_STATIC_7,7,38,353,88
+    PUSHBUTTON      "",IDOK,239,106,39,15,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,7,133,353,132
+    GROUPBOX        "用户查询",IDC_STATIC_27,7,3,353,32
+END
+
+IDD_DLG_INPUT_MOBILE DIALOGEX 0, 0, 186, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "输入手机号码(Ctrl+Q)"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,65,50,50,14
+    EDITTEXT        IDC_EDIT1,47,22,123,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "手机号码:",IDC_STATIC,7,26,36,8
+END
+
+IDD_DLG_USER_PHOTO DIALOGEX 0, 0, 196, 132
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC_PHOTO,"Static",SS_BLACKRECT,44,7,78,88
+END
+
+IDD_DLG_CAPPHOTO DIALOGEX 0, 0, 203, 229
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "聚宝"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC_PIC,"Static",SS_BITMAP | SS_CENTERIMAGE,7,
+                    7,188,149
+    PUSHBUTTON      "拍照并验证",IDC_BTN_CAPPHOTO,127,159,50,18
+    PUSHBUTTON      "选择摄像头",IDC_BTN_CHOOSECAMERA,145,203,50,18
+    EDITTEXT        IDC_EDIT_NAME,56,160,59,13,ES_AUTOHSCROLL
+    LTEXT           "姓名：",IDC_STATIC,7,162,28,11
+    EDITTEXT        IDC_EDIT_ID,55,184,124,13,ES_AUTOHSCROLL
+    LTEXT           "证件号码：",IDC_STATIC,7,186,41,11
+    COMBOBOX        IDC_COMBO_CAMERADEVICES,7,204,139,20,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_REALNAME_ZDcrc DIALOGEX 0, 0, 182, 60
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "智多接口认证CRC"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,33,33,50,14
+    PUSHBUTTON      "取消",IDCANCEL,97,33,50,14
+    LTEXT           "请输入CRC值:",IDC_STATIC,11,12,54,10
+    EDITTEXT        IDC_EDIT_CRC,68,10,104,16,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CAPTURE DIALOGEX 0, 0, 212, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "拍照"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "拍照",IDOK,30,160,50,14
+    PUSHBUTTON      "退出",IDCANCEL,116,160,50,14
+    LTEXT           "",IDC_STATIC_VIDEO,5,5,190,125
+    PUSHBUTTON      "选择摄像头",IDC_BTN_CHOOSECAMERA,150,136,50,18
+    COMBOBOX        IDC_COMBO_CAMERADEVICES,7,137,139,20,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SET_CLEARDATA DIALOGEX 0, 0, 401, 79
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "删除数据"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "清除客户端消息",IDC_STATIC_1,7,7,387,40
+    PUSHBUTTON      "S",IDC_BTN_STARTTIME,63,19,64,14
+    LTEXT           "开始时间：",IDC_STATIC_2,18,22,41,11
+    LTEXT           "结束时间：",IDC_STATIC_3,175,21,42,11
+    PUSHBUTTON      "E",IDC_BTN_ENDTIME,221,19,66,15
+    PUSHBUTTON      "清除",IDC_BTN_CLAEAN_SHORTMSG,331,18,59,17
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 186, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "请输入上机密码"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,36,29,50,14
+    PUSHBUTTON      "取消",IDCANCEL,109,28,50,14
+    LTEXT           "密码：",IDC_STATIC,7,10,32,10
+    EDITTEXT        IDC_EDIT_PWD,37,7,132,16,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SET_IBA DLGINIT
+BEGIN
+    IDC_COMBO_SCAN, 0x403, 11, 0
+0xbbc3, 0xd0d3, 0xa8c9, 0xe8c3, 0xc7d2, "\000" 
+    IDC_COMBO_SCAN, 0x403, 6, 0
+0xd145, 0xcde9, 0x00a8, 
+    IDC_COMBO_SCAN, 0x403, 5, 0
+0xa6b6, 0xb6ca, "\000" 
+    IDC_COMBO_SCAN, 0x403, 9, 0
+0xe5c7, 0xaabb, 0xc4ce, 0xa8cd, "\000" 
+    IDC_COMBO_SCAN, 0x403, 5, 0
+0xbaba, 0xf5cd, "\000" 
+    IDC_COMBO_SCAN, 0x403, 21, 0
+0xf0bd, 0xd7c2, 0xa2a1, 0xaabb, 0xf1d0, 0xf0bd, 0xa8bf, 0xfeb6, 0xfab4, 
+0xa4d6, "\000" 
+    IDC_COMBO_SCAN, 0x403, 5, 0
+0xf9ce, 0xd0b8, "\000" 
+    IDC_COMBO_SCAN, 0x403, 11, 0
+0xaabb, 0xd3ca, 0xa8c9, 0xe8c3, 0xc7d2, "\000" 
+    IDC_COMBO_SCAN, 0x403, 11, 0
+0xaabb, 0xd3ca, 0xfeb6, 0xfab4, 0xa4d6, "\000" 
+    IDC_COMBO_SCAN, 0x403, 7, 0
+0xecbf, 0xa4d6, 0xa8cd, "\000" 
+    IDC_COMBO_OPERATIONAFTERSWIPINGCARD, 0x403, 13, 0
+0xbbb2, 0xafb5, 0xf6b3, 0xd4b6, 0xb0bb, 0xf2bf, "\000" 
+    IDC_COMBO_OPERATIONAFTERSWIPINGCARD, 0x403, 19, 0
+0xafb5, 0xf6b3, 0xe4b3, 0xb5d6, 0xcbcd, 0xeebf, 0xd4b6, 0xb0bb, 0xf2bf, 
+"\000" 
+    IDC_COMBO_OPERATIONAFTERSWIPINGCARD, 0x403, 43, 0
+0xe1bb, 0xb1d4, 0xafb5, 0xf6b3, 0xe4b3, 0xb5d6, 0xd4b6, 0xb0bb, 0xf2bf, 
+0xaca3, 0xd9c1, 0xb1ca, 0xc3d3, 0xa7bb, 0xafb5, 0xf6b3, 0xe1bd, 0xcbd5, 
+0xd4b6, 0xb0bb, 0xf2bf, "\000" 
+    IDC_COMBO_FONTTYPE, 0x403, 3, 0
+0xa1d0, "\000" 
+    IDC_COMBO_FONTTYPE, 0x403, 3, 0
+0xd0d6, "\000" 
+    IDC_COMBO_FONTTYPE, 0x403, 3, 0
+0xf3b4, "\000" 
+    0
+END
+
+IDD_SET_REGISTER DLGINIT
+BEGIN
+    IDC_COMBO_PASSWORDTYPE, 0x403, 9, 0
+0xe6cb, 0xfabb, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO_PASSWORDTYPE, 0x403, 10, 0
+0xa4d6, 0xfebc, 0xf3ba, 0xce36, 0x00bb, 
+    IDC_COMBO_PASSWORDTYPE, 0x403, 9, 0
+0xccb9, 0xa8b6, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO_PASSWORDTYPE, 0x403, 13, 0
+0xc3d3, 0xa7bb, 0xe4ca, 0xebc8, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO_PASSWORDTYPE, 0x403, 7, 0
+0xd5bf, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO_PASSWORDTYPE2, 0x403, 9, 0
+0xe6cb, 0xfabb, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO_PASSWORDTYPE2, 0x403, 10, 0
+0xa4d6, 0xfebc, 0xf3ba, 0xce36, 0x00bb, 
+    IDC_COMBO_PASSWORDTYPE2, 0x403, 9, 0
+0xccb9, 0xa8b6, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO_PASSWORDTYPE2, 0x403, 13, 0
+0xc3d3, 0xa7bb, 0xe4ca, 0xebc8, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO_PASSWORDTYPE2, 0x403, 7, 0
+0xd5bf, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO_REGISTERAGE, 0x403, 3, 0
+0xdece, "\000" 
+    IDC_COMBO_REGISTERAGE, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_COMBO_REGISTERAGE, 0x403, 3, 0
+0x3831, "\000" 
+    0
+END
+
+IDD_CONFIG_CLIENT DLGINIT
+BEGIN
+    IDC_COMBO_PASSWORDTYPE, 0x403, 3, 0
+0xdece, "\000" 
+    IDC_COMBO_PASSWORDTYPE, 0x403, 9, 0
+0xc3d3, 0xa7bb, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO_PASSWORDTYPE, 0x403, 11, 0
+0xedc9, 0xddb7, 0xa4d6, 0xc5ba, 0xebc2, "\000" 
+    IDC_COMBO_AFFTERCHECKOUT, 0x403, 5, 0
+0xf8cb, 0xc1c6, "\000" 
+    IDC_COMBO_AFFTERCHECKOUT, 0x403, 5, 0
+0xd8b9, 0xfabb, "\000" 
+    IDC_COMBO_AFFTERCHECKOUT, 0x403, 5, 0
+0xd8d6, 0xf4c6, "\000" 
+    0
+END
+
+IDD_ND_REGISTER DLGINIT
+BEGIN
+    IDC_COMBO_BTSEL, 0x403, 3, 0
+0xdece, "\000" 
+    0
+END
+
+IDV_OPERATION DLGINIT
+BEGIN
+    IDC_COMBO_OPERATION, 0x403, 5, 0
+0xaabf, 0xa7bb, "\000" 
+    IDC_COMBO_OPERATION, 0x403, 5, 0
+0xe4b3, 0xb5d6, "\000" 
+    IDC_COMBO_OPERATION, 0x403, 5, 0
+0xcbcd, 0xeebf, "\000" 
+    IDC_COMBO_OPERATION, 0x403, 9, 0
+0xb7b3, 0xfacf, 0xe4b3, 0xb5d6, "\000" 
+    IDC_COMBO_OPERATION, 0x403, 11, 0
+0xe4b3, 0xb5d6, 0xa8bf, 0xe4b3, 0xb5d6, "\000" 
+    IDC_COMBO_OPERATION, 0x403, 9, 0
+0xc3d3, 0xa7bb, 0xfdc9, 0xb6bc, "\000" 
+    0
+END
+
+IDV_CONSUMELIST DLGINIT
+BEGIN
+    IDC_COMBO_CONSUMETYPE, 0x403, 5, 0
+0xabc8, 0xbfb2, "\000" 
+    IDC_COMBO_CONSUMETYPE, 0x403, 5, 0
+0xcfc9, 0xf8cd, "\000" 
+    IDC_COMBO_CONSUMETYPE, 0x403, 5, 0
+0xe4b3, 0xb5d6, "\000" 
+    IDC_COMBO_CONSUMETYPE, 0x403, 7, 0
+0xe4b3, 0xb5d6, 0xa8bf, "\000" 
+    IDC_COMBO_CONSUMETYPE, 0x403, 5, 0
+0xcbcd, 0xeebf, "\000" 
+    IDC_COMBO_CONSUMETYPE, 0x403, 11, 0
+0xf6d4, 0xd5ca, 0xa6b1, 0xfbcf, 0xd1b7, "\000" 
+    IDC_COMBO_CONSUMETYPE, 0x403, 11, 0
+0xf6d4, 0xd5ca, 0xa6b1, 0xe4b3, 0xb5d6, "\000" 
+    0
+END
+
+IDD_JXC_SELLDLG DLGINIT
+BEGIN
+    IDC_COMBO_PAYTYPE, 0x403, 9, 0
+0xd6cf, 0xf0bd, 0xbab9, 0xefce, "\000" 
+    IDC_COMBO_PAYTYPE, 0x403, 9, 0
+0xcbd5, 0xa7bb, 0xbab9, 0xefce, "\000" 
+    0
+END
+
+IDD_JXC_QUERYDLG DLGINIT
+BEGIN
+    IDC_COMBO_WAY, 0x403, 5, 0
+0xabc8, 0xbfb2, "\000" 
+    IDC_COMBO_WAY, 0x403, 5, 0
+0xfacf, 0xdbca, "\000" 
+    IDC_COMBO_WAY, 0x403, 5, 0
+0xcbcd, 0xf5bb, "\000" 
+    IDC_COMBO_WAY, 0x403, 5, 0
+0xf9d4, 0xcdcb, "\000" 
+    IDC_COMBO_PAYTYPE, 0x403, 5, 0
+0xabc8, 0xbfb2, "\000" 
+    IDC_COMBO_PAYTYPE, 0x403, 9, 0
+0xd6cf, 0xf0bd, 0xbab9, 0xefce, "\000" 
+    IDC_COMBO_PAYTYPE, 0x403, 9, 0
+0xcbd5, 0xa7bb, 0xbab9, 0xefce, "\000" 
+    0
+END
+
+IDD_DUTY_STORECHECK DLGINIT
+BEGIN
+    IDC_COMBO_SORT, 0x403, 13, 0
+0xccc9, 0xb7c6, 0xd6d6, 0xe0c0, 0xd6b7, 0xe0c0, "\000" 
+    IDC_COMBO_SORT, 0x403, 13, 0
+0xccc9, 0xb7c6, 0xdbbc, 0xf1b8, 0xd6b7, 0xe0c0, "\000" 
+    IDC_COMBO_SORT, 0x403, 19, 0
+0xccc9, 0xb7c6, 0xd6d6, 0xe0c0, 0xcdba, 0xdbbc, 0xf1b8, 0xd6b7, 0xe0c0, 
+"\000" 
+    0
+END
+
+IDD_SET_DUTY DLGINIT
+BEGIN
+    IDC_COMBO_SHIFTREPORTTYPE, 0x403, 9, 0
+0x3441, 0xbdd6, 0xa8b1, 0xedb1, "\000" 
+    IDC_COMBO_SHIFTREPORTTYPE, 0x403, 14, 0
+0x4f50, 0xbb53, 0xd0fa, 0xc6a1, 0xb1b1, 0xb1a8, 0x00ed, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3132, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3332, "\000" 
+    IDC_COMBO_SHIFT1STARTTIME, 0x403, 3, 0
+0x3432, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3132, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3332, "\000" 
+    IDC_COMBO_SHIFT1ENDTIME, 0x403, 3, 0
+0x3432, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3132, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3332, "\000" 
+    IDC_COMBO_SHIFT2STARTTIME, 0x403, 3, 0
+0x3432, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3132, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3332, "\000" 
+    IDC_COMBO_SHIFT2ENDTIME, 0x403, 3, 0
+0x3432, "\000" 
+    IDC_COMBO_SHIFTCOUNT, 0x403, 9, 0
+0xfdc8, 0xf6b8, 0xe0b0, 0xf0b1, "\000" 
+    IDC_COMBO_SHIFTCOUNT, 0x403, 9, 0
+0xbdc1, 0xf6b8, 0xe0b0, 0xf0b1, "\000" 
+    IDC_COMBO_SHIFTCOUNT, 0x403, 9, 0
+0xbbd2, 0xf6b8, 0xe0b0, 0xf0b1, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3132, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3332, "\000" 
+    IDC_COMBO_SHIFT3STARTTIME, 0x403, 3, 0
+0x3432, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3132, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3332, "\000" 
+    IDC_COMBO_SHIFT3ENDTIME, 0x403, 3, 0
+0x3432, "\000" 
+    0
+END
+
+IDD_SET_CREDIT DLGINIT
+BEGIN
+    IDC_COMBO_RETURNACTION, 0x403, 9, 0
+0xd8b9, 0xd5b1, 0xb0b4, 0xdabf, "\000" 
+    IDC_COMBO_RETURNACTION, 0x403, 9, 0
+0xb4d6, 0xd0d0, 0xcbcd, 0xeebf, "\000" 
+    0
+END
+
+IDD_ND_BUNDTIME_SELFDEFINE DLGINIT
+BEGIN
+    IDC_COMBO_ZONE, 0x403, 9, 0
+0xbbb2, 0xdecf, 0xf8c7, 0xf2d3, "\000" 
+    IDC_COMBO_ACCOUNTTYPE, 0x403, 9, 0
+0xbbb2, 0xdecf, 0xcbd5, 0xa7bb, "\000" 
+    IDC_COMBO_ACCOUNTTYPE, 0x403, 20, 0
+0xe4b3, 0xb5d6, 0xcbd5, 0xa7bb, 0xce28, 0xcbde, 0x2bcd, 0xd0d3, 0xcdcb, 
+0x0029, 
+    IDC_COMBO_ACCOUNTTYPE, 0x403, 14, 0
+0xf6bd, 0xdecf, 0xdece, 0xcdcb, 0xcbd5, 0xa7bb, 0x0020, 
+    0
+END
+
+IDD_CONFIGCLIENT_BUNDLETIME DLGINIT
+BEGIN
+    IDC_COMBO_TEMP, 0x403, 11, 0
+0xaad7, 0xfdd5, 0xa3b3, 0xc6bc, 0xd1b7, "\000" 
+    IDC_COMBO_TEMP, 0x403, 9, 0
+0xd4d7, 0xafb6, 0xe1bd, 0xcbd5, "\000" 
+    IDC_COMBO_TEMP, 0x403, 50, 0
+0xe1cc, 0xb0c7, 0xb733, 0xd6d6, 0xccd3, 0xcae1, 0xd3be, 0xbbc3, 0xd1a7, 
+0xd4a1, 0xd7f1, 0xd5aa, 0xb3fd, 0xbca3, 0xb7c6, 0xa1d1, 0xd7a2, 0xb6d4, 
+0xbdaf, 0xd5e1, 0xa1cb, 0xd0a2, 0xb0f8, 0xcafc, 0x00b1, 
+    IDC_COMBO_MEMBER, 0x403, 11, 0
+0xaad7, 0xfdd5, 0xa3b3, 0xc6bc, 0xd1b7, "\000" 
+    IDC_COMBO_MEMBER, 0x403, 9, 0
+0xd4d7, 0xafb6, 0xe1bd, 0xcbd5, "\000" 
+    IDC_COMBO_MEMBER, 0x403, 50, 0
+0xe1cc, 0xb0c7, 0xb733, 0xd6d6, 0xccd3, 0xcae1, 0xd3be, 0xbbc3, 0xd1a7, 
+0xd4a1, 0xd7f1, 0xd5aa, 0xb3fd, 0xbca3, 0xb7c6, 0xa1d1, 0xd7a2, 0xb6d4, 
+0xbdaf, 0xd5e1, 0xa1cb, 0xd0a2, 0xb0f8, 0xcafc, 0x00b1, 
+    0
+END
+
+IDD_ND_CREDITDIRECT DLGINIT
+BEGIN
+    IDC_COMBO_ACCOUNT, 0x403, 9, 0
+0xdece, 0xcdcb, 0xcbd5, 0xa7bb, "\000" 
+    IDC_COMBO_ACCOUNT, 0x403, 9, 0
+0xf9d4, 0xcdcb, 0xcbd5, 0xa7bb, "\000" 
+    IDC_COMBO_ACCOUNT, 0x403, 9, 0
+0xd0d3, 0xcdcb, 0xcbd5, 0xa7bb, "\000" 
+    IDC_COMBO_KIND, 0x403, 5, 0
+0xd3bc, 0xaec7, "\000" 
+    IDC_COMBO_KIND, 0x403, 5, 0
+0xf5bc, 0xaec7, "\000" 
+    0
+END
+
+IDD_ND_DEFINEBUNDTIME DLGINIT
+BEGIN
+    IDC_COMBO_ZONE, 0x403, 9, 0
+0xbbb2, 0xdecf, 0xf8c7, 0xf2d3, "\000" 
+    IDC_COMBO_ACCOUNTTYPE, 0x403, 9, 0
+0xbbb2, 0xdecf, 0xcbd5, 0xa7bb, "\000" 
+    IDC_COMBO_ACCOUNTTYPE, 0x403, 20, 0
+0xe4b3, 0xb5d6, 0xcbd5, 0xa7bb, 0xce28, 0xcbde, 0x2bcd, 0xd0d3, 0xcdcb, 
+0x0029, 
+    IDC_COMBO_ACCOUNTTYPE, 0x403, 14, 0
+0xf6bd, 0xdecf, 0xdece, 0xcdcb, 0xcbd5, 0xa7bb, 0x0020, 
+    0
+END
+
+IDD_SET_PRINT DLGINIT
+BEGIN
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3231, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_SHORTMSG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_ND_REGISTER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 381
+        BOTTOMMARGIN, 271
+    END
+
+    IDD_ND_CREDITANDDEREG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_ND_MODIFYPWD, DIALOG
+    BEGIN
+        RIGHTMARGIN, 285
+        BOTTOMMARGIN, 140
+    END
+
+    IDD_DIALOG_ABOUT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 214
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_DUTY, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 333
+    END
+
+    IDD_SET_IBA, DIALOG
+    BEGIN
+        RIGHTMARGIN, 296
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_DIALOG_BOSSPWD, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_ND_MODIFYMEMBER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 261
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_ND_CHANGEUSERSN, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_SET_REGISTER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_CONFIG_CLIENT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_NETBARINFO, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_BUNDLETINE_LISTDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 158
+    END
+
+    IDV_TERMCONSUME, DIALOG
+    BEGIN
+        HORZGUIDE, 189
+    END
+
+    IDD_REALNAMECONFIG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 194
+    END
+
+    IDD_SET_TTS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 289
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_DIALOG_AGENT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 282
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_SET_SEAT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 285
+    END
+
+    IDD_DIALOG_MEMBERINFO, DIALOG
+    BEGIN
+        RIGHTMARGIN, 365
+    END
+
+    IDV_SHORTMSG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 546
+    END
+
+    IDV_CARDOPENCONSUME, DIALOG
+    BEGIN
+        RIGHTMARGIN, 523
+        BOTTOMMARGIN, 284
+    END
+
+    IDD_SET_CREDIT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 271
+    END
+
+    IDD_SET_DUTY, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_ND_MERGEMEMBER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 492
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_JXC_STORE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 533
+        BOTTOMMARGIN, 271
+    END
+
+    IDD_JXC_COMMODITYSEL, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_DIALOG_ALLCHECKOUT, DIALOG
+    BEGIN
+        TOPMARGIN, 2
+    END
+
+    IDD_JXC_RETAILONLINE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 516
+    END
+
+    IDD_SET_MONITOR, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_ND_BUNDTIME_SELFDEFINE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 212
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DIALOG_RETURN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_CONFIGCLIENT_BUNDLETIME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_CLIENTCONFIG_UNLOCK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_ND_BUNDLETIME2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 377
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 261
+    END
+
+    IDD_ND_CREDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 467
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_ND_DREG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 322
+        TOPMARGIN, 7
+    END
+
+    IDD_ND_CHECKINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_UNLOCKSCREENDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_ND_CREDITDIRECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 297
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_ND_DEFINEBUNDTIME, DIALOG
+    BEGIN
+        RIGHTMARGIN, 212
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DLG_IBA_FAST, DIALOG
+    BEGIN
+        RIGHTMARGIN, 598
+    END
+
+    IDD_DLG_INPUT_PARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DLG_CREDIT_MODIFY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_DIALOG_BOSSPWD_EX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_DUTY_LOCAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 511
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_SET_PRINT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 267
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_ND_ROOM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+    END
+
+    IDD_DLG_INPUT_MOBILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_DLG_USER_PHOTO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_DLG_CAPPHOTO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_DLG_REALNAME_ZDcrc, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_DIALOG_CAPTURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SET_CLEARDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 394
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+        HORZGUIDE, 18
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG_ENMERGENCY      PNG                     "res\\Enmergency.png"
+IDR_PNG_STATE           PNG                     "res\\state.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "嘟嘟牛收银台\n\nOutloo\n\n\nIBA.Document\nOutloo Document"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LOCALUSER           "本地用户"
+    IDS_DISABLEBT           "本地用户不允许包时"
+    IDS_ZENGSHOUBAO         "增收宝"
+    IDS_CREDITERRORLOCAL    "本地用户充值失败"
+    IDS_OPENLOCALUSER       "开本地用户 - (应急模式)"
+    IDS_FORBID_CREDIT       "应急模式下不允许中心用户充值"
+    IDS_FORBID_BUNDTIME     "应急模式下不允许包时"
+    IDS_LOCALOPEN           "本地开户"
+    IDS_LOCALOFFDUTYERROR   "本地消费信息没有完全上传到中心，不允许下班"
+    IDS_FORBID_REVERSE      "应急模式下不允许充值修正"
+    IDS_FORBID_LOCAL_REVERSE "本地用户不允许充值修正"
+    IDS_FORBID_CHECKIN      "应急模式下不允许中心用户上机，请先开本地账户，然后在上机"
+    IDS_FORBID_SOLD         "应急模式下不允许在线购物"
+    IDS_FORBID_LOCAL_SOLD   "本地用户不允许在线购物"
+    IDS_LOCALMODE_INFO      "收银台与计费中心的网络已中断，进入应急模式之后，您需要注意几下3点：\n\n1.收银台只能使用开户，充值退款，修改密码，全场结账功能\n2.客户端只能查看余额，扣率，请勿随意上下机，更换机器\n3.网络刚恢复正常时，交班将有少许延迟，请等待几分钟之后重试"
+    IDS_LOCALUSER_RETURN    "本地用户退款"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BT_NOT_PC           "包时未上机"
+    IDS_COMPUTERLIST        "机器视图"
+    IDS_NETBARSEAT          "场景视图"
+    IDS_STANDARD            "标准"
+    IDS_COSTOM              "自定义(&C)..."
+    IDS_SYSMSG              "系统公告"
+    IDS_QUICKNOTES          "便签"
+    IDS_FASTLANE            "便捷通道"
+    IDS_MAN                 "男"
+    IDS_WOMAN               "女"
+    IDS_PAYTYPE1            "累计封顶"
+    IDS_PAYTYPE2            "足额预扣"
+    IDS_PAYTYPE0            "普通计费"
+    IDS_COMPUTERLISTHEADER  "电脑名称|终端状态|上网账号|用户级别|上机时间|消费模式|用时|费用|余额|姓名|证件号码|区域|IP地址|终端版本|漫游"
+    IDS_TERMONLINE          "用户在线"
+    IDS_TERMOFFLINE         "离线"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "IBA"
+    IDS_BUNDLETIMELISTHEADER 
+                            "编号|开始时间|结束时间|时长|金额|包时类型|其他信息"
+    IDS_RETURNSTATE         "已经退款|未退款"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DUTY_ON              "\n刷新"
+    ID_DUTY_OFF             "\n上下班"
+    ID_REFRESH              "\n刷新"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TERMLOCKED          "终端锁屏"
+    IDS_TERMLITTERMONEY     "余额不多"
+    IDS_TERMTHIEF           "可疑电脑"
+    IDS_TERMSUSPEND         "挂机中"
+    IDS_TERMBIRTHDAY        "用户生日"
+    IDS_TERMVIP             "重点用户"
+    IDS_TERMBLACK           "低评用户"
+    IDS_TERMNORECORD        "无记录终端"
+    IDS_TERMCONFLICT        "终端冲突"
+    IDS_TERMUNLOCK          "维护模式"
+    IDS_SELTERMS            "所选终端"
+    IDS_ALLTERMS            "全部区域"
+    IDS_ALLCASHIER          "其他收银台"
+    IDS_RELPYMSG            "回复本条信息"
+    IDS_FORMTERMIP          "终端:%s, IP:%s\n\n"
+    IDS_CLIENTINFO          "客户端消息"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CASHIERINFO         "收银台信息"
+    IDS_TOOLTIPHEADER       "<center>嘟嘟牛收银台<br><hr color=blue></center><br>"
+    IDS_INPUTACCOUNT        "请先输入收银员账号和密码！"
+    IDS_LOGINERROR          "账号或者密码错误，请检查！"
+    IDS_MACERROR            "本机MAC地址（或机器名）与后台登记的不一致(错误码:%d)，请先到后台修改！\r\n本机MAC地址为%s，已经复制到剪贴板！"
+    IDS_NETFAILED           "网络连接失败！"
+    IDS_INPUTERROR          "输入错误，请检查！"
+    IDS_REGRESULT           "开户成功 本次充值:%.2f元 赠送:%.2f元 密码:%s"
+    IDS_MONEYERROR          "请输入开户金额！"
+    IDS_HASUSED             "此账号已注册！"
+    IDS_HASNOTUSED          "此账号未注册！"
+    IDS_IBATITLE            "嘟嘟牛收银台"
+    IDS_CREDITRESULT        "本次充值:%.2f元 赠送:%.2f元"
+    IDS_CREDITQUESTION      "确定给 %s 充值 %.2f 元吗？"
+    IDS_DREGRESULT          "退款成功 已退金额: %.2f元"
+    IDS_DREGQUESTION        "确定给 %s 退款吗？"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ONLINECREDIT        "在线充值:%.2f元 赠送:%.2f元"
+    IDS_STATUSTEXT          "  "
+    IDS_LOCALNETBAR         "本地"
+    IDS_STATTEXT            "总机数:%d 在线:%d(%.2f%%) 锁屏:%d(%.2f%%) 维护:%d(%.2f%%) 不正常:%d(%.2f%%) 普通用户:%d(%.2f%%) 会员用户:%d(%.2f%%) 包时用户:%d(%.2f%%)  "
+    IDS_DISCONNECT          "无法连接本地服务器，请检查！"
+    IDS_OPERATELOG          "操作日志"
+    IDS_STATINFO            "统计信息"
+    IDS_MEMBERINFOLISTHEAD  "上网账号|姓名|性别|用户级别|证件类型|证件号码|用户号"
+    IDS_NOTHING             "无"
+    IDS_MAXMONEY            "金额必须小于1万！"
+    IDS_PAYOUT3             "会员 %s 包时未结束，确定要结账吗？"
+    IDS_SHUTDOWNQUESTION    "确定关闭 %s 吗？"
+    IDS_OFFDUTYOK           "%s，您已成功下班！谢谢！"
+    IDS_ONDUTYOK            "%s，您已成功上班！谢谢！"
+    IDS_NOTONDUTY           "%s(未上班)"
+    IDS_CREDITRLISTHEAD     "充值时间|充值金额|赠送金额|操作|操作"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EXITQUESTION        "%s，确定要退出嘟嘟牛收银台？"
+    IDS_USERINFO            "用户信息"
+    IDS_IBASET              " 收银台设置"
+    IDS_PARAMERROR          "对不起，命令参数有误，请重新输入！"
+    IDS_PWDWRONG            "密码错误"
+    IDS_MORE                "更多..."
+    IDS_NOSAMLE             "两次输入的密码不一致"
+    IDS_MODIFYPWDSUCCESS    "密码修改成功！"
+    IDS_MODIFYPWDFAILE      "修改密码失败"
+    IDS_BUNDLETIMEINFO      "该用户%s包时：%s。"
+    IDS_CREDITRESULT2       "%s，本次充值：%.2f 元， 赠送：%.2f 元。"
+    IDS_PAYOUT              "确定结账 %s 这台电脑吗？"
+    IDS_MODIFYMEMBERINFOSUCCESS "用户资料修改成功！"
+    IDS_BUNDLETIMETYPE      "累计封顶|足额预扣"
+    IDS_BTSUCCESSED         "包时成功"
+    IDS_NOLIMITAREA         "不限区域"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_NEWUSER             "\n开户"
+    IDM_CREDIT              "\n充值退款"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_CREDITREVERSE       "\n充值修正"
+    IDM_CASHSALE            "\n销售商品"
+    IDM_MODIFYUSERINFO      "\n修改资料"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_MODIFYPWS           "\n修改密码"
+    IDM_HANDBACK            "\n退货"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_MODIFYPWD           "\n修改密码"
+    IDM_BOUNDTIME           "\n包时"
+    IDM_CHANGESN            "\n修改账号"
+    IDM_UPGRADE             "\n用户升级"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTCANCELOK          "包时已取消"
+    IDS_OPERATEOK           "操作成功"
+    IDS_OPREATEFAILED       "操作失败"
+    IDS_SNNOLONG            "账号必须为6到20个数字或字母。"
+    IDS_CANCELBUNDLETIME    "确定取消 %s 的当前包时？"
+    IDS_ASKBUNDLETIME       "确定要包时吗？"
+    IDS_NETBARCONFIG        " 门店设置"
+    IDS_NETBARTYPE          "真实|虚拟"
+    IDS_REGWINHTTPDLL       "请先注册系统目录下的WinHttp.dll！"
+    IDS_SYNCFAILED          "中心设置校验失败！更多信息请查看日志文件！"
+    IDS_CONFIGLISTHEADER    "配置名称|数值1|数值2|字符串|说明"
+    IDS_REBOOTQUESTION      "确定重启 %s 吗？"
+    IDS_SCANFAILED          "扫描识别失败，请检查相关设备。"
+    IDS_CREDITREVERSE       "您确定撤销该笔充值交易吗？"
+    IDS_USERONLINE          "该用户正在终端%s上机！"
+    IDS_BTINFO              "编号:%d，%s - %s，时长:%d，价格:%.2f  (%s)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INPUTCONDITION      "请先输入查询条件。"
+    IDS_CONSUMELSITHEADER   "上网账号|消费地点|消费类型|时间|充值|消费|退款|相关信息|备注"
+    IDS_NORECORD            "没有任何消费记录，请重新设置条件。"
+    IDS_TERMCONSUMELISTHEADER 
+                            "上网账号|姓名|证件号码|开始时间|结束时间|消费金额|用户号"
+    IDS_SHIFTCASHHEADER     "班次开始时间|班次结束时间|班别|收银员|上交金额|留给下一班|充值金额|退款金额|充值卡|现金商品销售|账户商品销售|商品进货支出|其他支出|备注|押金|点卡销售"
+    IDS_JXCQUERYRESULT      "共查询到%d条记录，销售总额：%.2f，退货总额：%.2f，净销售额：%.2f，兑换积分：%d"
+    IDS_REMOTECHECKOUTFIALED "远程下机失败，是否要执行换机？"
+    IDS_FORCERETURN         "用户在线，确定强制退款？"
+    IDS_REGBUNDLETIME       "开户成功 本次充值:%.2f元 赠送:%.2f元 包时:%.2f元 密码:%s"
+    IDS_ERRORUSERNAME       "用户姓名必须为2到10字符。"
+    IDS_IDNUMERROR          "身份证号码有误，请检查！"
+    IDS_CASHREGISTERID      "无效收银台(错误码:%d)，请先到后台登记收银台！\r\n本机MAC地址为%s，已经复制到剪贴板！"
+    IDS_INPUTCERTIFICATENUM "请输入证件号码！"
+    IDS_INPUTNETID          "请先输入上网账号！"
+    IDS_TERMCONSUME         "终端消费查询"
+    IDS_TERMCONSUMERESULT   "查询到 %d 条记录，总共消费：%.2f 元"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_CARDCREDIT          "\n充值卡充值"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPERATIONQUERY      "操作查询"
+    IDS_SHIFTCASHQUERYRESULT 
+                            "充值：%.2f，退款：%.2f，现金购物：%.2f，点卡销售：%.2f，其他支出：%.2f，上交金额：%.2f"
+    IDS_SHIFICASHQUERY      "交款查询"
+    IDS_CONSUMELISTQUERY    "用户消费查询"
+    IDS_CONSUMELISTQUERYRESULT 
+                            "总查询到%d条记录，其中充值：%.2f，消费：%.2f，退款：%.2f"
+    IDS_CONSUMETYPE         "上网|充值|账户购物|增收宝消费|卡购物(旧)|退款|充值卡|增收宝充值"
+    IDS_CONNETCTDBFIALED    "数据库连接失败，部分功能无法正常使用！"
+    IDS_CREDITRESERVEROK    "冲正成功！"
+    IDS_DONOTONDUTY         "对不起，您不能上班， %s 已经在这上班了！"
+    IDS_SYNCOK              "中心设置校验成功！"
+    IDS_BTCANCELOK2         "包时已取消，钱已退到用户的账户中。如果要选择其他包时，请先冲正。"
+    IDS_LOGINFOLISTGHEADER  "时间|操作类型|姓名|上网账号|金额|备注"
+    IDS_DOONDUTY            "我要上班(&O)"
+    IDS_DUTYJXC             "商品类别|商品名称|商品编码|价格|库存|现金购物|金额|账户购物|赠送|兑换积分|入库数量|入库金额"
+    IDS_DOSTAT              "盘点库存(&S)"
+    IDS_NOCOMMODITY         "对不起，找不到任何商品！"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_MYREFRESH           "\n刷新"
+    IDM_CREDITDIRECT        "\n账户直充"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TTSTEST             "充值成功，余额12.7元。"
+    IDS_CONNETPROYERROR     "上传照片失败！请检查‘希之光实名代理程序’是否正常运行！"
+    IDS_JXCQUERYHEADER      "销售单号|商品名称|商品编码|数量|价格|总金额|购买方式|兑换积分"
+    IDS_UPGRADELOG          "充值 %s, 上网账号:%s, 用户号:%d, 充值:%.2f, 赠送:%.2f"
+    IDS_ONLINECREDITREVERSE "在线充值冲正:%.2f元"
+    ID_SEAT_TERMINALINFO    "终端号：%s\r\n终端IP：%s\r\n机器名：%s\r\n用户姓名：%s\r\n性别：%s\r\n用户类型：%s\r\n开始时间：%s\r\n用机时长：%s\r\n终端状态：%s\r\n"
+    IDS_MUTIREFUNDRESULT    "共计退款临时用户 %d 位！"
+    IDS_ERRORBCCS           "班次超时，请到嘟嘟管家强制下班！"
+    IDS_CONFORMREFUND       "确定要批量退款吗?"
+    IDS_REFUNDLISTHEAD      "上网账号|姓名|是否自动退款|证件号码|用户号|开户时间"
+    IDS_ACTIVELOG           "刷卡记录"
+    IDS_CARDACTIVELOG       "卡已激活  姓名:%s, 上网账号:%s, 用户号:%d"
+    IDS_LOGACTIVELISTGHEADER "时间|姓名|上网账号|用户级别|余额|积分|证件号码"
+    IDS_REGISTERINFO        "上网账号|姓名|性别|用户级别|证件类型|证件号码"
+    IDM_LOCAL_EXITIBA       "断网模式更改需要重新启动收银台！"
+    IDS_POINT               "积分兑换"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_POINTEXCHANGE        "\n积分礼品兑换"
+    IDM_POINTEXCHANGE       "\n礼品兑换"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SHIFTCASH           "如需查询更详尽交班经营数据，请登录嘟嘟管家，谢谢!"
+    IDS_LOGMSGLISTGHEADER   "时间|电脑名称|消息"
+    IDS_SHORTMSGRESULT      "查询到消息记录：%d 条！"
+    IDS_SHORTMSGQUERY       "开户|%s|%s|%s||%.2f元|%d|赠送:%.2f"
+    IDS_NONAGEERROR         "此用户身份未成年，请确认是否需要开户！"
+    IDS_CARDSTATE           "未消费|已消费"
+    IDS_NEEDRETURNED        "是|否"
+    IDS_OPERATIONSUCCESS    "操作成功！"
+    IDS_ERRORYJSB           "%s 已经在这上班了！"
+    IDS_CREDITBEFOREBT      "请先充值！"
+    IDS_NOCONSUME           "查询到未消费记录：%d 条！"
+    IDS_CARDOPENCONSUME     "开户未消费查询"
+    IDS_CARDOPENCONSUMEHEAD "上网账号|姓名|证件号码|开户时间|备注"
+    IDS_TMPUSERCREDITLOG    "充值|%s|%s|%.2f元|%d|赠送:%.2f, 用户密码:%s"
+    IDS_NOENOUGHMONEY       "开户金额不足，请重新输入！"
+    IDS_REGDIPOSIT          "押金：%.1f"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_SELL                "\n商品销售"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ONLINEBUNDTIME      "在线包时成功！"
+    IDS_PAYTYPE             "普通消费|包时|未知"
+    IDS_ONLINECHECKOUT      "已经成功结账用户共：%d 名！"
+    IDS_ONLINEQUERY         "共查询到%d条记录！"
+    IDS_MUTIPAYOUTHEAD      "上网账号|姓名|上机时间|用户级别|消费方式|证件类型|证件号码|用户号"
+    IDS_ONLINEBTFAILE       "在线包时失败！"
+    IDS_COMPUTERSTATUS      "在线|异常"
+    IDS_RETURNED            "退款"
+    IDS_RETURNLOG           "消费记录"
+    IDS_TTSERROR            "播报声音失败！请确认该电脑是否正确安装了声卡和语音包！"
+    IDS_PSWEMPTY            "密码为空，请检查实名或收银台密码设置是否正确！"
+    IDS_CARDDEREGISTER      "请先执行退款操作！"
+    IDS_INPUTEERRO          "对不起，不能输入负数，请重新输入！"
+    IDS_NOMEMBERID          "用户不存在！"
+    IDS_INPUTEMPTY          "请输入查询条件！"
+    IDS_CHANGECOMPUTERERROR "该电脑已经有人在使用，请选择其他电脑！"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_PRINTTEMPLATE       "打印模板设计"
+    IDM_BUNDTIMEONLINE      "包时(&B)"
+    IDM_MERGEMEMBER         "\n合并账户"
+    IDM_MUTICHECKOUT        "全场结账"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CONFORMRETURN        "确认退款\n"
+    ID_CANCELRETURN         "取消退款\n"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CHANGECOMPUTERSUCCESS "请到 %s 上机！谢谢！"
+    IDS_SELFDEFINEBUNDLETIME "自定义包时..."
+    IDS_NEEDMOREMONEY       "在线购物失败，余额不足！"
+    IDS_ACTIVEMEMBERVIEW    "用户视图"
+    IDS_CLIENTSET           " 客户端设置"
+    IDS_HASCHECKOUT         "用户 %s 已注销或作废"
+    IDS_ISERVERLOWVER       "请使用V%s或者以上版本的本地服务器(IServer)！"
+    IDS_ONDUTY              "%s(上班时间：%s)"
+    IDS_PLEASEONDUTYFISRT   "%s，您还没上班，请先上班！"
+    IDS_PAYOUTMEMBER        "会员结账"
+    IDS_OFFDUTYQUESTION     "%s，您确定要下班吗？"
+    IDS_ACTIVEMEMBERLISTHEAD 
+                            "上网账号|用户级别|余额|开始时间|电脑名称|区域|上机时间|用时|费用|消费模式|预付款|明细|姓名|证件号码|备注"
+    IDS_ASKBUNDLETIMEAGEIN  "用户已经包时了，确定要进行续包时吗？"
+    IDS_INPUTBTMONEY        "请先输入包时金额！"
+    IDS_TERMTAKEUP          "选择的电脑已经有人使用！"
+    IDS_RETURN2INFO         "操作成功，退余额：%.2f 元"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RETURN2QUESTION     "确定要退用户包时后的余额吗？"
+    IDS_DETAILBALANCE       "<table><tr><td>无送账户:%.2f</td><td>有送账户:%.2f</td></tr><tr><td>赠送账户:%.2f</td><td>上网预留:%.2f</td></tr><tr><td colspan=2 align=center><font color=blue>账户合计:￥%.2f</font></td></tr></table>"
+    IDS_NOPRESENTCREDITASK  "本次充值将不享受赠送，确定继续充值吗？"
+    IDS_BTNEEDMONEY         "应收现金(元)："
+    IDS_CREDITMODIFYOK      "充值修改成功!"
+    IDS_NOMONEYLOCK         "没钱了,锁屏"
+    IDS_STRING326           "只能在上班状态进行断网恢复"
+    IDS_BIRTHDAY            "今天是他生日"
+    IDS_GUAJIERROR          "挂机中不能进行充值"
+    IDS_DUTY_REMARK         "班次收入 = 充值 - 退款 + 点卡销售 + 购物 - 采购支出 - 其他支出\n现金总额 = 班次收入 + 上一班预留   \n上缴金额 = 现金总额 - 留给下一班"
+    IDS_DUTY_REMARK2        "班次收入 = 充值 - 退款 + 购物 - 采购支出 - 其他支出 + 押金\n现金总额 = 班次收入 + 上一班预留   \n上缴金额 = 现金总额 - 留给下一班"
+    IDS_MODIFYCREDIT        "确定修改充值金额?"
+    IDS_MODIFYMONEY         "修改充值金额"
+    IDS_DELETEMONEY         "撤销充值(冲正)"
+    IDS_OPENLOCAL           "启用断网模式"
+    IDS_CLOSELOCAL          "关闭断网模式"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_SENDSHORTMESSAGE    "发送消息(&M)"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ZENGSHOUBAO          "\n增收宝"
+    ID_ACTIVE_REMARK        "\n修改备注(&D)"
+    IDM_DIANKA              "\n点卡销售"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_AUTO_RETURN         "自动退款"
+    IDS_ZSB_GUANGBO         "增收宝"
+    IDS_BJTD                "便捷通道"
+    IDS_BJTD_1              "上网账号(长度大于等于6)              (进入充值退款界面)"
+    IDS_BJTD_2              "上网账号(长度等于4或5)                (选择所要账号后进入充值退款界面)"
+    IDS_BJTD_3              "终端号(长度小于4或以字母开始)  (在机器列表中选中所查找的终端)"
+    IDS_BJTD_4              "\\终端号                                             (在机器列表中选中所查找的终端)"
+    IDS_BJTD_5              "\\\\IP                                                    (在机器列表中选中根据IP所查找到的终端)"
+    IDS_BJTD_6              "?上网账号                                         (在机器列表中选中根据上网账号所查找到的终端)"
+    IDS_BJTD_7              "+上网账号 金额                               (给指定的上网账号充值，金额单位为元)"
+    IDS_CONSUME_LIST_HEAD   "消费类型|金额|详细信息|其他|上网账号|姓名"
+    IDS_ZSB_GOOD            "1. 增收宝协助门店挖掘赚钱潜力|2. 增收宝延长网民上网时间，轻而易举|3. 增收宝吸引顾客来门店，一步到位|4. 增收宝增加门店回头客，财源滚滚|5. 增收宝7*24小时服务热线：400 668 3755|"
+    IDS_CHECKIN_HEAD        "电脑名称|状态|区域"
+    IDS_SHORTMSG_HEAD       " 时间|终端号|IP地址|用户号|消息"
+    IDS_JXC_STORE_HEAD      "商品类别+价格|商品名称|商品编码|库存|现金购物|金额|账户购物|赠送|兑换积分"
+    IDS_JXC_STORE_HEAD2     "商品价格|商品名称|商品编码|商品类别|库存|现金购物|金额|账户购物|赠送|兑换积分"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_JXC_COMM_HEAD1      "商品类别|商品名称|商品编码|所需积分|库存数量"
+    IDS_JXC_COMM_HEAD2      "商品类别|商品名称|商品编码|价格|库存数量"
+    IDS_JXC_COMM_SEL_HEAD   "商品类别|商品名称|商品编码|价格|单位|库存数量"
+    IDS_JXC_EXCHANGE_HEAD   "商品名称|商品编码|所需积分|数量|总积分"
+    IDS_JXC_PRESENT_HEAD    "商品名称|商品编码|单价|数量|总金额"
+    IDS_JXC_ONLINE_HEAD     "商品名称|商品编码|价格|数量|金额"
+    IDS_JXC_RETURN_HEAD     "商品名称|商品编码|价格|数量|金额|时间"
+    IDS_JXC_SELL_HEAD       "商品名称|商品编码|价格|数量|金额"
+    IDS_JXC_STORE_IN_HEAD   "商品名称|商品编码|单价|单位|入库数量|合计总额|库存量"
+    IDS_JXC_VOUCHER_HEAD    "销售单号|商品名称|商品编码|价格|数量|实收金额"
+    IDS_I_WANT_GO           "我想去："
+    IDS_RETURN_F3           "结账(F3)>>"
+    IDS_BUNDLETIME_EX       "包时>>"
+    IDS_USERNAME            "用户姓名："
+    IDS_PC_NAME             "电脑名称："
+    IDS_BALANCE             "余额(元)："
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CANCEL_ACTIVE       "取消激活"
+    IDS_QUERY_CONSUME_LIST  "查询消费记录"
+    IDS_ZSB_CONSUME_LIST    "增收宝消费记录"
+    IDS_NO_PRESENT_CREDIT   "进行无送充值(这些钱可以到增收宝消费)"
+    IDS_DETAIL_EX           "详情>>"
+    IDS_REAL_TAKEIN         "实收(元)："
+    IDS_CREDIT_C            "充值(&C)"
+    IDS_CREDIT              "充值"
+    IDS_CREDIT_F3           "充值(F3)>>"
+    IDS_RETURN_BUNDLETIME   "退包时后余额"
+    IDS_OPEN_NETBAR         "开户网吧："
+    IDS_BUNDLETIME_INFO     "包时信息："
+    IDS_REAL_RETURN         "实退(元)："
+    IDS_JZ_RETURN           "结账退款(&R)"
+    IDS_VIP_RETURN          "会员结账(&R)"
+    IDS_RETURN_FAILURE      "退款失败"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_JZ_FAILURE          "结账失败"
+    IDS_MAIN_MENU_CAPTION   "收银台(&C)|用户管理(&D)|查询统计(&Q)|系统设置(&S)|实名系统(&R)|常用工具(&T)|帮助(&H)"
+    IDS_WINDOW_LAYOUT       "窗口布局(&V)"
+    IDS_CHANGE_SKIN         "更换皮肤(&F)"
+    IDS_SITE_OPERATION      "座位操作(&S)"
+    IDS_TASK_INFO           "姓名:%s\r\n账号:%s\r\n用户级别:%s\r\n证件号码:%s\r\n\r\n\r\n电脑名称:%s\r\n机器区域:%s\r\n使用时间:%s\r\n使用时长:%s\r\n\r\n\r\n可用金额:%s\r\n消费金额:%s\r\n\r\n"
+    IDS_REMOTE_OPERATION    "远程操作(&Y)"
+    IDS_JZ_RETURN_0         "结账退款"
+    IDCS_OK                 "确定"
+    IDCS_CANCEL             "取消"
+    IDCS_YES                "是(&Y)"
+    IDCS_NO                 "否(&N)"
+    IDS_NETWORK_RESTORE     "网络连接已恢复"
+    IDS_TRYING_CONNECTION   "正在尝试网络连接..."
+    IDS_LOCALMODE           "应急模式"
+    IDS_USER_QUERY          "用户查询"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NETID               "上网账号："
+    IDS_QUERY_EX            "查询(&Q)"
+    IDS_USERCLASS           "用户级别："
+    IDS_IDNUMBER            "证件号码："
+    IDS_LOOKUP_BALANCE      "查看余额"
+    IDS_ACCOUNT_TOTAL       "账户合计(元)："
+    IDS_SHOULD_TAKEIN       "应扣账户(元)："
+    IDS_BT_NO               "包时编号："
+    IDS_BT_MONEY            "包时金额："
+    IDS_BT_TYPE             "包时类型："
+    IDS_BT_AREA             "包时区域："
+    IDS_BT_REAL_MONEY       "实扣金额："
+    IDS_START_TIME          "开始时间："
+    IDS_END_TIME            "结束时间："
+    IDS_PRINT_TICKET        "打印小票"
+    IDS_PRINT               "打印"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BUNDLETIME          "包时(&B)"
+    IDS_FORWARD_BT          "提前包时(&T)"
+    IDS_CHANGE_BT           "转包时(&Z)"
+    IDS_CANCEL_BT           "取消包时(&C)"
+    IDS_SELF_BT             "自定义包时(&S)"
+    IDS_CASHIER_BT          "收银台包时"
+    IDS_CREDIT_MODIFY       "充值修正"
+    IDS_REFRESH             "刷新"
+    IDS_AUTO_POWER_ON       "自动开机"
+    IDS_CHECKIN             "上机"
+    IDS_MSGDLG_TIP          "       在编辑框输入要发送的内容后点击“发送”按钮，您也可以选择发送范围。\n若要使用快捷短信，请不要在编辑框输入，直接点击“发送”按钮就会弹出快捷短信菜单。"
+    IDS_SEND_RANGE          "发送范围："
+    IDS_CLOSE_C             "关闭(&C)"
+    IDS_SEND_S              "发送(&S)"
+    IDS_SEND_MSG            "发送消息"
+    IDS_MODIFY_REMARK       "修改备注"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REMARK              "备注："
+    IDS_CASHER_ON_FMT       "\r\n收银员:%s\r\n\r\n上班时间:%s\r\n\r\n"
+    IDS_CASHER_OFF_FMT      "\r\n收银员:%s\r\n\r\n您还没上班，请先上班!\r\n\r\n"
+    IDS_IBA_STATUS_TEXT     "<h3>嘟嘟牛收银台</h3><br></br><h4>正常模式</h4><br></br><p>收银台与计费中心正常连接，所有功能都能正常使用。</p>\t<br></br><h4>应急模式</h4><br></br><p>收银台与计费中心失去连接，只能开本地用户、充值退款和修改密码，不能交班。</p><br></br><h4>恢复模式</h4><br></br><p>收银台与计费中心正常连接，仍有本地用户还没有结账退款，暂时还不能交班。</p>"
+    IDS_DIANKA_SELL         "点卡销售："
+    IDS_ON_DUTY_INFO        "上班信息"
+    IDS_DUTY_TYPE           "班别："
+    IDS_THIS_BEIYONGJIN     "本班备用金："
+    IDS_THIS_OTHER_INFO     "本班其他信息"
+    IDS_CZK_MONEY           "充值卡金额："
+    IDS_ACCOUNT_SHOPPINT    "账户购物："
+    IDS_ZSB_INFO            "增收宝信息"
+    IDS_ZSB_CONSUME         "增收宝消费："
+    IDS_ZSB_BALANCE         "预存款余额："
+    IDS_CREDIT_MONEY        "充值金额："
+    IDS_RETURN_MONEY        "退款金额："
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MONEY_SHOPPINT      "现金购物："
+    IDS_CAIGOU_OUT          "商品采购支出："
+    IDS_OTHER_OUT           "其他支出："
+    IDS_DEPOSITE            "押金："
+    IDS_DUTY_INCOME         "班次收入："
+    IDS_PRE_KEEP            "上一班预留："
+    IDS_CASH_TOTAL          "现金总额："
+    IDS_NEXT_KEEP           "留给下一班："
+    IDS_HANDIN_AMOUNT       "上缴金额："
+    IDS_PANDIANKUCUN        "盘点库存(&T)"
+    IDS_STAT_DATA           "统计数据(&S)"
+    IDS_PRINT_GOODS         "打印商品(&R)"
+    IDS_PRINT_DUTY_REPORT   "打印交班表(&P)"
+    IDS_I_WANT_OFF          "我要下班(&F)"
+    IDS_THIS_DUTY_INFO      "本班信息"
+    IDS_OPEN_USER           "开户"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPEN_USER_EX        "开户(&R)"
+    IDS_OPEN_TEMPUSER       "开临时用户"
+    IDS_OPEN_MEMBER         "开会员"
+    IDS_IDTYPE              "证件类型："
+    IDS_SELECT_PC           "选择电脑上机："
+    IDS_OPEN_BT             "开户直接包时"
+    IDS_SEX                 "性别："
+    IDS_SCAN_ID             "扫描证件(&S)"
+    IDS_AUTO_MAKE_NETID     "自动生成上网账号"
+    IDS_SELECT_BT           "选包时(&B)"
+    IDS_SELF_BT_2           "自定义"
+    IDS_USERHASCARD         "用户自带ID卡"
+    IDS_RE_PRINT            "重复打印"
+    IDS_MODIFY_PWD          "修改密码"
+    IDS_MODIFY_PWD_EX       "修改密码(&M)"
+    IDS_USER_ID             "用户号："
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PWD_LIMIT           "请输入您的新密码(最长限制8位)："
+    IDS_PRESENT_CREDIT0     "无送充值："
+    IDS_PRESENT_ACCOUNT     "赠送账户："
+    IDS_POINT2              "积分："
+    IDS_PRESENT_CREDIT1     "有送充值："
+    IDS_CREDIT_CARD_INFO    "充值卡信息"
+    IDS_CARD_NO             "卡号："
+    IDS_PASSWORD            "密码："
+    IDS_KIND                "类型："
+    IDS_MONEY               "金额："
+    IDS_READ_CREDIT_CARD    "读取充值卡"
+    IDS_CARD_CREDIT         "充值卡充值"
+    IDS_VISUAL_CARD         "虚拟卡"
+    IDS_REAL_CARD           "充值卡"
+    IDS_REAL_CARD2          "真实卡"
+    IDS_NO_PRESENT_ACCOUNT  "无送账户："
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HAS_PRESENT_ACCOUNT "有送账户："
+    IDS_PRE_RESERVE         "上网预留："
+    IDS_BT_LEAVE_TIME       "剩余时间："
+    IDS_BT_SEGMENT          "包时时段："
+    IDS_ACCOUNT_INFO        "账户信息"
+    IDS_CREDIT_AND_PRINT    "充值并打印"
+    IDS_RETURN_EX           "退款(&R)"
+    IDS_REMOTE_CHECKOUT     "远程下机"
+    IDS_CAN_RETURN_MONEY    "可退金额(元)："
+    IDS_CREDIT_RETURN       "充值退款"
+    IDS_COMSUME_LIST        "消费记录"
+    IDS_LOCAL_CREDIT_FAULT  "本地充值失败"
+    IDS_IBA_NET_STATUS      "正常模式|应急模式|恢复模式|尝试连接"
+    IDS_JXC_TABS            "销  售|在线购物|退  货|赠  送|积分兑换|入  库|查  询"
+    IDS_PAYTYPE_COMBO       "现金购物|账户购物"
+    IDS_PAYTYPE_COMBO_EX    "全部|现金购物|账户购物"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_QUERY_JXC_TYPE      "全部|销售|退货|赠送"
+    IDS_OPT_TYPE_NAMES      "(NULL)|充值|退款|开户|换机|自动退款|会员结账|包时|退余额|冲正|修改充值|本地开户|本地用户退款|本地充值|断网退款|会员断网结账|包房结账"
+    IDS_OPTYPE_BALANCE      "余额:%.2f"
+    IDS_OPTYPE_BALANCE_EX   "余额:%.2f + 押金:%.2f"
+    IDS_OP_VIEW_OPEN_HEAD   "上网账号|姓名|证件号码|用户号|用户级别|开户金额|赠送|押金|时间|收银员"
+    IDS_OP_VIEW_CREDIT_HEAD "上网账号|姓名|证件号码|用户号|用户级别|充值金额|赠送|时间|收银员"
+    IDS_OP_VIEW_RETURN_HEAD "上网账号|姓名|证件号码|用户号|用户级别|已退金额|押金|时间|收银员"
+    IDS_OP_VIEW_REVERSE_HEAD 
+                            "上网账号|姓名|证件号码|用户号|用户级别|撤销金额|赠送|时间|收银员"
+    IDS_OP_VIEW_CARD_HEAD   "上网账号|姓名|证件号码|用户号|用户级别|充值卡金额|类型|卡号|时间|收银员"
+    IDS_OP_VIEW_UP_HEAD     "上网账号|姓名|证件号码|用户号|原级别|新级别|时间|收银员|升级理由"
+    IDS_ALL                 "全部"
+    IDS_OP_VIEW_TYPES       "开户|充值|退款|撤销充值|充值卡充值|用户升级"
+    IDS_COM_LIST_TYPES      "全部|上网|充值|充值卡|退款|嘟嘟牛消费|嘟嘟牛充值"
+    IDS_OP_VIEW_RESULT      "总共查询到 %d 条记录，充值金额:%.2f，赠送金额:%.2f，合计:%.2f"
+    IDS_RZX_NAME_IP         "任子行审计IP："
+    IDS_GLV_NAME_IP         "过滤王核心IP："
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_WD_NAME_IP          "网盾实名服务器IP："
+    IDS_DUTY_NEXTRESERVE_ERROR "备用金可能异常，请核查。"
+    IDS_BALANCE_REMINDER    "余额不足"
+    IDS_NOTICE_BTN_NAMES    "签收|查看|关闭"
+    IDS_ENSURE_REBILLING    "确定要重新计费吗？"
+    IDS_CHECKOUT_RECORD     "结账记录"
+    IDS_CHECKOUT_RECORD_HEAD "1"
+    IDS_REFUND_RECORD_HEAD  "结账时间|用户级别|终端号|上机时间|上网账号|姓名|证件号码|金额|备注"
+    IDS_OPERATION_AFTER     "不弹出任何界面|弹出充值界面|弹出结账或退款界面"
+    IDS_ROOM_LIST_HEAD      "包房名称|包房状态|主账号|上机人数|机器总数"
+    IDS_ROOM_IDLE           "空闲"
+    IDS_ROOM_STANDALONE     "单机计费"
+    IDS_ROOM_WHOLE          "包房计费"
+    IDS_ROOM_OPEN           "开通"
+    IDS_ROOM_RETURN         "包房退款"
+    IDS_ROOM_BODY           "上机人数:%d"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ROOM_CHECKOUT       "包房结账"
+    IDS_ROOM_REFUND         "结账"
+    IDS_ROOM_OPENED         "已开通"
+    IDS_ROOM_OPEN_TIME      "包房开通时间："
+    IDS_ROOM_CHECKIN_ERROR1 "开通包房的用户只能在对应的包房内上机！"
+    IDS_PRESENT_FORMAT      "赠送:%.2f"
+    IDS_DEPOSIT_FORMAT      "押金:%.2f"
+    IDS_PASSWORD_FORMAT     "密码:%s"
+    IDS_BUNDLETIME_FORMAT   "包时金额:%.2f"
+    IDS_ROOM_HAS_REFUND     "包房已经结账，等待退款"
+    IDS_OVERFLOW_MAXMONEY   "当前的充值金额超过收银台设置的最大充值金额"
+    IDS_OVERFLOW_MAXMONEY2  "充值金额不能超过10000元"
+    IDS_IBA_RESTART_TIP     "应相关部门要求，点击确定后收银台将重新启动并完成升级"
+    IDS_IBA_VERBELOW_TIP    "您的收银台版本过低，请更新到%s版本以上！"
+    IDS_INVALID_MOBILE      "请在上网帐号栏目输入有效的手机号码!"
+    IDS_NETBAR_NOTICE       "网吧公告"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NETBAR_NOTICE_TIPS  "请输入公告内容后按回车保存！"
+    IDS_ERROR_TELNUM_TIPS   "手机号码不符合规则"
+    IDS_ERROR_TELNUM_COUNT  "手机号码位数不对"
+    IDS_ERROR_TELNUM_EMPTY  "手机号码不能为空"
+    IDS_ERROR_TELNUM_ALERADY_BIND "手机号码已绑定"
+    IDS_SCAN2_BACK_SUCCESS  "扫描二代证背面成功，发证机关:%s"
+    IDS_SCAN2_BACK_FAILED   "获取发证机关失败，请确认扫描的是否为二代背面"
+    IDS_ERROR_PHOTO         "请输入上网帐号后再拍照!"
+    IDS_VEDIO_OVERWRITE     "照片已存在,是否覆盖?"
+    IDS_VEDIO_TIMEOUT       "设备超时!"
+    IDS_VEDIO_DELETEFAILED  "删除失败!"
+    IDS_VEDIO_CAPTURE_FAILED "拍照失败!"
+    IDS_VEDIO_NO_DEVICE     "没有一个可用的摄像头设备!"
+    IDS_READCARD_FAILED     "读取失败，请检查相关设备。"
+    IDS_NOTERMTOADD         "没有终端可以添加！"
+    IDS_CLEAR_SHORTMSG_SUCCESSED "删除客户端消息成功"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CLEAR_SHORTMSG_FAILED "删除客户端消息失败"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\IBA.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

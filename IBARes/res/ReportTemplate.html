@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>交班报表</title>
+</head>
+<style type="text/css">
+*{padding:0; margin:0;}
+body{ font-family:Microsoft Yahei; font-size:14px;}
+table{ border-spacing: 0;}
+.bo_h2{ font-size:28px; text-align:center; width:708px;font-weight: 100;}
+.sy_t{ width:708px; height:35px; line-height:35px;}
+.sy_t .sy_left{ display:inline-block; float:right;}
+td{ border-bottom:1px solid #ccc;width: 235px; height:44px; line-height:44px;}
+table td span{ font-weight:bold; margin:0 20px 0 20px;font-size:14px;}
+.sy_font{ font-size:14px;height: 30px; line-height:30px;width:688px; margin-left:20px;}
+.sy_font span{ padding-left:35px;}
+</style>
+<body>
+<div style="margin:0 auto;width: 708px;">
+<h2 class="bo_h2">[netbarname]</h2>
+<div class="sy_t"><span style="display:inline-block;width:200px; float:left;">&nbsp;收银台：[value1]</span><span class="sy_left">查询时间： [value15]</span></div>
+<table width="708" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #ccc;">
+  <tr>
+    <td colspan="2"  style="width:410px;"><span>班次开始时间</span>[value2]</td>
+    <td style="width:298px;"><span>班次结束时间</span> [value16]</td>
+  </tr>
+  <tr>
+    <td ><span>充值金额</span> [value3]</td>
+    <td style="border-right:1px solid #ccc;"><span>退款金额</span> [value9]</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><span>现金购物</span> [value4]</td>
+    <td style="border-right:1px solid #ccc;"><span>点卡销售</span> [value10]</td>
+    <td rowspan="2"><span style="color: #4559E9;">班次收入</span>  [value17]</td>
+  </tr>
+  <tr>
+    <td><span>商品采购支出</span> [value5]</td>
+    <td style="border-right:1px solid #ccc;"><span>其他支出</span> [value11]</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border-right:1px solid #ccc;padding-right: 82px;text-align: right;"><span>上一班预留</span> [value12]</td>
+    <td><span style="color: #4559E9;">现金总额</span>  [value18]</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border-right:1px solid #ccc;padding-right: 82px;text-align: right;"><span>留给下一班</span> [value13]</td>
+    <td><span style="color: #4559E9;">上缴金额</span> [value19]</td>
+  </tr>
+  <tr>
+    <td style="border-bottom:0;"><span>充值卡金额</span> [value6]</td>
+    <td style="border-bottom:0;"><span>账户购物</span> [value14]</td>
+    <td style="border-bottom:0;"><span>增收宝消费</span> [value20]</td>
+  </tr>
+    <tr>
+    <td colspan="3"><span>微信充值金额</span> [value7]</td>
+  </tr>
+  <tr>
+    <td colspan="3" style="border:0;"><span>备注</span> [value8]</td>
+  </tr>
+</table>
+<div class="sy_font">班次收入=充值金额-退款金额+现金购物+点卡销售-采购支出-其他支出</div>
+<div class="sy_font">现金总额=班次收入+上一班预留   <span>上缴金额=现金总额-留给下一班</span></div>
+</div>
+</body>
+</html>

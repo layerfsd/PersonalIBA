@@ -1,0 +1,11 @@
+; sdtapi.def : 声明 DLL 的模块参数。
+
+LIBRARY      "sdtapi"
+
+EXPORTS
+    ; 此处可以是显式导出
+	SDT_OpenPort
+	SDT_ClosePort
+	SDT_StartFindIDCard
+	SDT_SelectIDCard
+	SDT_ReadBaseMsg

@@ -1,0 +1,211 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TestScanReco.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TestScanReco.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TESTSCANRECO_DIALOG DIALOGEX 0, 0, 157, 159
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "TestScanReco"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Scan && Reco",IDOK,85,47,50,14
+    PUSHBUTTON      "Close",IDCANCEL,53,138,50,14
+    PUSHBUTTON      "Open",IDC_BUTTON_OPEN,21,47,50,14
+    PUSHBUTTON      "Scan",IDC_BUTTON_SCAN,21,68,50,14
+    PUSHBUTTON      "Recognise",IDC_BUTTON_RECOGNISE,85,68,50,14
+    PUSHBUTTON      "Close",IDC_BUTTON_CLOSE,85,89,50,14
+    PUSHBUTTON      "Scan && RecoAll",IDC_BUTTON_SCAN_RECO_ALL,40,119,76,14
+    GROUPBOX        "Scanner operate:",IDC_STATIC,7,7,143,110
+    COMBOBOX        IDC_COMBO_TYPE,68,26,76,137,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Reader",IDC_BUTTON_READER,21,89,50,14
+    LTEXT           "ID TYPE:",IDC_STATIC,24,28,38,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "TestScanReco Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "TestScanReco"
+            VALUE "LegalCopyright", "版权所有 (C) 2007"
+            VALUE "OriginalFilename", "TestScanReco.EXE"
+            VALUE "ProductName", "TestScanReco 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_TESTSCANRECO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TESTSCANRECO_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_TYPE, 0x403, 17, 0
+0x3031, 0x202c, 0x2f2f, 0xbbd2, 0xfab4, 0xedc9, 0xddb7, 0xa4d6, "\000" 
+    IDC_COMBO_TYPE, 0x403, 17, 0
+0x3131, 0x202c, 0x2f2f, 0xfeb6, 0xfab4, 0xedc9, 0xddb7, 0xa4d6, "\000" 
+    IDC_COMBO_TYPE, 0x403, 13, 0
+0x3531, 0x202c, 0x2f2f, 0xa7d1, 0xfac9, 0xa4d6, "\000" 
+    IDC_COMBO_TYPE, 0x403, 13, 0
+0x3039, 0x202c, 0x2f2f, 0xfcbe, 0xd9b9, 0xa4d6, "\000" 
+    IDC_COMBO_TYPE, 0x403, 13, 0
+0x3139, 0x202c, 0x2f2f, 0xafbe, 0xd9b9, 0xa4d6, "\000" 
+    IDC_COMBO_TYPE, 0x403, 13, 0
+0x3239, 0x202c, 0x2f2f, 0xbfca, 0xf8b1, 0xa4d6, "\000" 
+    IDC_COMBO_TYPE, 0x403, 13, 0
+0x3339, 0x202c, 0x2f2f, 0xa7bb, 0xdabf, 0xbeb2, "\000" 
+    IDC_COMBO_TYPE, 0x403, 11, 0
+0x3439, 0x202c, 0x2f2f, 0xa4bb, 0xd5d5, "\000" 
+    IDC_COMBO_TYPE, 0x403, 13, 0
+0x3539, 0x202c, 0x2f2f, 0xa8cc, 0xfbb0, 0xa4d6, "\000" 
+    IDC_COMBO_TYPE, 0x403, 15, 0
+0x3939, 0x202c, 0x2f2f, 0xe4c6, 0xfccb, 0xa4d6, 0xfebc, "\000" 
+    0
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\TestScanReco.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
