@@ -495,8 +495,8 @@ void CDlgIBAFastlane::OnCbnSelendokComboFast()
 					CString strSelectedID;
 					UINT nMemberId;
 					if(FALSE == QueryIDs_PartialMatch(strTmp,strSelectedID)){return;}
-					if(FALSE == QueryIDs_PartialMatch(strTmp,nMemberId)){return;}					
-					//if(FALSE == CIBADAL::GetInstance()->GetMemberId(strSelectedID,nMemberId)){return;}
+					//if(FALSE == QueryIDs_PartialMatch(strTmp,nMemberId)){return;}					
+					if(FALSE == CIBADAL::GetInstance()->GetMemberId(strSelectedID,nMemberId)){return;}
 
 					//ÊÇ·ñ¼¤»î
 					CActiveMember ActiveMember;
