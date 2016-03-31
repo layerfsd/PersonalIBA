@@ -49,3 +49,6 @@ Debug/
 *.htm
 *.APS
 *.bak
+Crash.txt
+Crash.dmp
+Crash.sln
