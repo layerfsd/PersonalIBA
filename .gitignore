@@ -23,7 +23,7 @@
 #*.lib
 
 # Executables
-*.exe
+#*.exe
 *.out
 *.app
 
@@ -33,11 +33,11 @@ Debug/
 *.log
 *.ini
 *.sup
-*.pdb
+#*.pdb  
 *.wlt
 *.nlb
-*.map
-*.exp
+#*.map
+#*.exp
 *.bsc
 *.suo
 *.ncb

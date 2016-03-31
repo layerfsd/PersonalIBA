@@ -1,0 +1,2033 @@
+ WXM
+
+ Timestamp is 569f16b0 (Wed Jan 20 13:10:08 2016)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00009a32H .text                   CODE
+ 0001:00009a40 00000c4aH .text$x                 CODE
+ 0001:0000a690 0000009cH .text$yc                CODE
+ 0001:0000a730 00000066H .text$yd                CODE
+ 0002:00000000 000004c4H .idata$5                DATA
+ 0002:000004d0 00000f60H .rdata                  DATA
+ 0002:00001430 0000004fH .rdata$debug            DATA
+ 0002:00001480 00000104H .rdata$r                DATA
+ 0002:00001590 000000f8H .rdata$sxdata           DATA
+ 0002:00001688 00000004H .rtc$IAA                DATA
+ 0002:0000168c 00000004H .rtc$IZZ                DATA
+ 0002:00001690 00000004H .rtc$TAA                DATA
+ 0002:00001694 00000004H .rtc$TZZ                DATA
+ 0002:00001698 00001004H .xdata$x                DATA
+ 0002:0000269c 00000000H ATL$__a                 DATA
+ 0002:0000269c 00000000H ATL$__z                 DATA
+ 0002:0000269c 000000dcH .idata$2                DATA
+ 0002:00002778 00000014H .idata$3                DATA
+ 0002:0000278c 000004c4H .idata$4                DATA
+ 0002:00002c50 000009daH .idata$6                DATA
+ 0002:00003630 00000094H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCAA               DATA
+ 0003:00000008 00000008H .CRT$XCL                DATA
+ 0003:00000010 00000010H .CRT$XCU                DATA
+ 0003:00000020 00000004H .CRT$XCZ                DATA
+ 0003:00000024 00000004H .CRT$XIA                DATA
+ 0003:00000028 00000004H .CRT$XIZ                DATA
+ 0003:00000030 00000178H .data                   DATA
+ 0003:000001a8 00002260H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000002d8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000003e       ___safe_se_handler_count   0000003e     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ?objectReleased@GxxObject@@MAEXXZ 10001000 f i WX_base.obj
+ 0001:00000000       ??3@YAXPAX0@Z              10001000 f i ConnNotice.obj
+ 0001:00000000       ?print@GxxObject@@UAEXXZ   10001000 f i WX_base.obj
+ 0001:00000000       ?objectReleased@GxxDictionary@@MAEXXZ 10001000 f i WX_base.obj
+ 0001:00000000       ?AssertValid@CObject@@UBEXXZ 10001000 f i G2XSocketClient.obj
+ 0001:00000000       ?objectReleased@GxxValue@@MAEXXZ 10001000 f i WX_base.obj
+ 0001:00000000       ?objectReleased@GxxArray@@MAEXXZ 10001000 f i WX_base.obj
+ 0001:00000000       ?print@GxxString@@UAEXXZ   10001000 f i WX_base.obj
+ 0001:00000010       ?_AtlGetThreadACPFake@ATL@@YGIXZ 10001010 f i ConnNotice.obj
+ 0001:00000090       ?_AtlGetThreadACPReal@ATL@@YGIXZ 10001090 f i ConnNotice.obj
+ 0001:000000a0       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 100010a0 f i ConnNotice.obj
+ 0001:00000110       ??1logic_error@std@@UAE@XZ 10001110 f i ConnNotice.obj
+ 0001:00000170       ?what@logic_error@std@@UBEPBDXZ 10001170 f i ConnNotice.obj
+ 0001:00000180       ??_Elogic_error@std@@UAEPAXI@Z 10001180 f i ConnNotice.obj
+ 0001:00000180       ??_Glogic_error@std@@UAEPAXI@Z 10001180 f i ConnNotice.obj
+ 0001:000001a0       ??_Glength_error@std@@UAEPAXI@Z 100011a0 f i ConnNotice.obj
+ 0001:000001a0       ??_Elength_error@std@@UAEPAXI@Z 100011a0 f i ConnNotice.obj
+ 0001:000001c0       ??1length_error@std@@UAE@XZ 100011c0 f i ConnNotice.obj
+ 0001:000001d0       ?AtlThrow@ATL@@YGXJ@Z      100011d0 f i ConnNotice.obj
+ 0001:000001f0       ??0CComCriticalSection@ATL@@QAE@XZ 100011f0 f i ConnNotice.obj
+ 0001:00000210       ?Init@CComCriticalSection@ATL@@QAEJXZ 10001210 f i ConnNotice.obj
+ 0001:00000290       ?GetAsSystemTime@CTime@ATL@@QBE_NAAU_SYSTEMTIME@@@Z 10001290 f i ConnNotice.obj
+ 0001:000002f0       ??3CObject@@SGXPAX@Z       100012f0 f i ConnNotice.obj
+ 0001:00000300       ??4COleDateTime@ATL@@QAEAAV01@AB_J@Z 10001300 f i ConnNotice.obj
+ 0001:00000360       ?Format@COleDateTime@ATL@@QBE?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@2@PB_W@Z 10001360 f i ConnNotice.obj
+ 0001:00000500       ?ToString@@YA?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@J@Z 10001500 f   ConnNotice.obj
+ 0001:00000570       ?SetWxMiddlewareDelegate@CConnNotice@@QAEXPAVCWxMiddlewareDelete@@@Z 10001570 f   ConnNotice.obj
+ 0001:00000580       ?GetWxMiddlewareDelegate@CConnNotice@@QAEPAVCWxMiddlewareDelete@@XZ 10001580 f   ConnNotice.obj
+ 0001:00000590       ?ConnectNotice@CConnNotice@@QAEHXZ 10001590 f   ConnNotice.obj
+ 0001:00000700       ?SendData@CConnNotice@@QAEXHPB_WH@Z 10001700 f   ConnNotice.obj
+ 0001:000007d0       ?StopConn@CConnNotice@@QAEXXZ 100017d0 f   ConnNotice.obj
+ 0001:00000870       ?SendHeart@CConnNotice@@AAEXXZ 10001870 f   ConnNotice.obj
+ 0001:00000920       ?SendClientLoginRet@CConnNotice@@QAEXPB_WH@Z 10001920 f   ConnNotice.obj
+ 0001:000009c0       ?SendClientLogoutRet@CConnNotice@@QAEXPB_WH@Z 100019c0 f   ConnNotice.obj
+ 0001:00000a60       ?SendClientMessageRet@CConnNotice@@QAEXH@Z 10001a60 f   ConnNotice.obj
+ 0001:00000b00       ??HATL@@YA?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@0@ABV10@0@Z 10001b00 f i ConnNotice.obj
+ 0001:00000ba0       ??HATL@@YA?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@0@PB_WABV10@@Z 10001ba0 f i ConnNotice.obj
+ 0001:00000c40       ??1?$CW2AEX@$0IA@@ATL@@QAE@XZ 10001c40 f i Encrypt.obj
+ 0001:00000c40       ??1?$CW2WEX@$0IA@@ATL@@QAE@XZ 10001c40 f i ConnNotice.obj
+ 0001:00000c60       ??1?$CGxxString@_W@G2XUtility@@UAE@XZ 10001c60 f i ConnNotice.obj
+ 0001:00000c90       ??_G?$CGxxString@_W@G2XUtility@@UAEPAXI@Z 10001c90 f i ConnNotice.obj
+ 0001:00000c90       ??_E?$CGxxString@_W@G2XUtility@@UAEPAXI@Z 10001c90 f i ConnNotice.obj
+ 0001:00000cd0       ?Init@?$CW2WEX@$0IA@@ATL@@AAEXPB_W@Z 10001cd0 f i ConnNotice.obj
+ 0001:00000d30       ?FindString@?$CGxxString@_W@G2XUtility@@QAEHPB_WH@Z 10001d30 f i ConnNotice.obj
+ 0001:00000df0       ?_Xlen@?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@IBEXXZ 10001df0 f i ConnNotice.obj
+ 0001:00000e70       ??0logic_error@std@@QAE@ABV01@@Z 10001e70 f i ConnNotice.obj
+ 0001:00000ed0       ??$?H_WU?$char_traits@_W@std@@V?$allocator@_W@1@@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@0@PB_WABV10@@Z 10001ed0 f i ConnNotice.obj
+ 0001:00000f50       ??_ECConnNotice@@MAEPAXI@Z 10001f50 f i ConnNotice.obj
+ 0001:00000f50       ??_GCConnNotice@@MAEPAXI@Z 10001f50 f i ConnNotice.obj
+ 0001:00000f70       ?TimerProc@CConnNotice@@CGXPAUHWND__@@IIK@Z 10001f70 f   ConnNotice.obj
+ 0001:00000fc0       ?didServerDisconnected@CConnNotice@@MAE_NPAVCG2XSocketClient@@@Z 10001fc0 f   ConnNotice.obj
+ 0001:00001000       ??0?$CW2WEX@$0IA@@ATL@@QAE@PB_W@Z 10002000 f i ConnNotice.obj
+ 0001:00001020       ?Append@?$CGxxString@_W@G2XUtility@@QAEXPB_WH@Z 10002020 f i ConnNotice.obj
+ 0001:000010e0       ??0length_error@std@@QAE@ABV01@@Z 100020e0 f i ConnNotice.obj
+ 0001:00001100       ??0COleDateTime@ATL@@QAE@J@Z 10002100 f i ConnNotice.obj
+ 0001:00001140       ?GetInstance@CConnNotice@@SAPAV1@XZ 10002140 f   ConnNotice.obj
+ 0001:00001180       ?SendLogin@CConnNotice@@QAEXXZ 10002180 f   ConnNotice.obj
+ 0001:00001400       ?didServerConnected@CConnNotice@@MAEXPAVCG2XSocketClient@@@Z 10002400 f   ConnNotice.obj
+ 0001:00001420       ??$_Copy_backward_opt@PAV?$CGxxString@_W@G2XUtility@@PAV12@@std@@YAPAV?$CGxxString@_W@G2XUtility@@PAV12@00U_Nonscalar_ptr_iterator_tag@0@@Z 10002420 f i ConnNotice.obj
+ 0001:00001470       ??0?$CGxxString@_W@G2XUtility@@QAE@PB_W@Z 10002470 f i ConnNotice.obj
+ 0001:000014b0       ??0?$CGxxString@_W@G2XUtility@@QAE@ABV01@@Z 100024b0 f i ConnNotice.obj
+ 0001:00001500       ??HG2XUtility@@YA?AV?$CGxxString@_W@0@ABV10@0@Z 10002500 f i ConnNotice.obj
+ 0001:000015d0       ??HG2XUtility@@YA?AV?$CGxxString@_W@0@ABV10@PB_W@Z 100025d0 f i ConnNotice.obj
+ 0001:000016a0       ?Mid@?$CGxxString@_W@G2XUtility@@QAE?AV12@HI@Z 100026a0 f i ConnNotice.obj
+ 0001:000017c0       ??$fill@PAV?$CGxxString@_W@G2XUtility@@V12@@std@@YAXPAV?$CGxxString@_W@G2XUtility@@0ABV12@@Z 100027c0 f i ConnNotice.obj
+ 0001:00001810       ?_Destroy@?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@IAEXPAV?$CGxxString@_W@G2XUtility@@0@Z 10002810 f i ConnNotice.obj
+ 0001:00001840       ??$_Uninit_copy@PAV?$CGxxString@_W@G2XUtility@@PAV12@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@YAPAV?$CGxxString@_W@G2XUtility@@PAV12@00AAV?$allocator@V?$CGxxString@_W@G2XUtility@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z 10002840 f i ConnNotice.obj
+ 0001:00001900       ?_Tidy@?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@IAEXXZ 10002900 f i ConnNotice.obj
+ 0001:00001950       ??$_Uninit_fill_n@PAV?$CGxxString@_W@G2XUtility@@IV12@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@YAXPAV?$CGxxString@_W@G2XUtility@@IABV12@AAV?$allocator@V?$CGxxString@_W@G2XUtility@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z 10002950 f i ConnNotice.obj
+ 0001:00001a10       ??1?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@QAE@XZ 10002a10 f i ConnNotice.obj
+ 0001:00001a20       ?_Ufill@?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@IAEPAV?$CGxxString@_W@G2XUtility@@PAV34@IABV34@@Z 10002a20 f i ConnNotice.obj
+ 0001:00001a50       ?_Insert_n@?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@IAEXViterator@12@IABV?$CGxxString@_W@G2XUtility@@@Z 10002a50 f i ConnNotice.obj
+ 0001:00001d20       ?push_back@?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@QAEXABV?$CGxxString@_W@G2XUtility@@@Z 10002d20 f i ConnNotice.obj
+ 0001:00001d90       ?Split@?$CGxxString@_W@G2XUtility@@QAEHPB_WAAV?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@@Z 10002d90 f i ConnNotice.obj
+ 0001:00001f40       ?didReceiveData@CConnNotice@@MAEXPAVCG2XSocketClient@@PAXH@Z 10002f40 f   ConnNotice.obj
+ 0001:00003630       ?AtlThrowLastWin32@ATL@@YGXXZ 10004630 f i Encrypt.obj
+ 0001:00003650       ?Init@?$CW2AEX@$0IA@@ATL@@AAEXPB_WI@Z 10004650 f i Encrypt.obj
+ 0001:000036c0       ?CalcMD5@CEncrypt@@SAXV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@AAV23@@Z 100046c0 f   Encrypt.obj
+ 0001:00003840       ?Utf8_to_WideChar@CG2XCommonTool@G2XUtility@@SA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z 10004840 f   G2XCommonTool.obj
+ 0001:00003930       ?WideChar_to_Utf8@CG2XCommonTool@G2XUtility@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@4@@Z 10004930 f   G2XCommonTool.obj
+ 0001:00003a50       ??0CG2XSocketClient@@QAE@PAVCG2XClientSocketDelegate@@@Z 10004a50 f   G2XSocketClient.obj
+ 0001:00003ac0       ??1CG2XSocketClient@@UAE@XZ 10004ac0 f   G2XSocketClient.obj
+ 0001:00003ae0       ?ConnectServer@CG2XSocketClient@@QAEHPB_WI@Z 10004ae0 f   G2XSocketClient.obj
+ 0001:00003b40       ?SendData@CG2XSocketClient@@QAEHPBXH@Z 10004b40 f   G2XSocketClient.obj
+ 0001:00003b60       ?OnConnect@CG2XSocketClient@@MAEXH@Z 10004b60 f   G2XSocketClient.obj
+ 0001:00003b90       ?OnReceive@CG2XSocketClient@@MAEXH@Z 10004b90 f   G2XSocketClient.obj
+ 0001:00003c20       ?OnSend@CG2XSocketClient@@MAEXH@Z 10004c20 f   G2XSocketClient.obj
+ 0001:00003c40       ?OnClose@CG2XSocketClient@@MAEXH@Z 10004c40 f   G2XSocketClient.obj
+ 0001:00003c90       ?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z 10004c90 f i G2XSocketClient.obj
+ 0001:00003c90       ?didSend@CG2XClientSocketDelegate@@MAEXPAVCG2XSocketClient@@@Z 10004c90 f i ConnNotice.obj
+ 0001:00003c90       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 10004c90 f i G2XSocketClient.obj
+ 0001:00003c90       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 10004c90 f i G2XSocketClient.obj
+ 0001:00003ca0       ?BeginModalState@CWnd@@UAEXXZ 10004ca0 f i G2XSocketClient.obj
+ 0001:00003cb0       ?EndModalState@CWnd@@UAEXXZ 10004cb0 f i G2XSocketClient.obj
+ 0001:00003cc0       ??_ECG2XSocketClient@@UAEPAXI@Z 10004cc0 f i G2XSocketClient.obj
+ 0001:00003cc0       ??_GCG2XSocketClient@@UAEPAXI@Z 10004cc0 f i G2XSocketClient.obj
+ 0001:00003ce0       ?GetRuntimeClass@CMainWnd@@UBEPAUCRuntimeClass@@XZ 10004ce0 f   MainWnd.obj
+ 0001:00003cf0       ??0CMainWnd@@QAE@XZ        10004cf0 f   MainWnd.obj
+ 0001:00003d10       ??1CMainWnd@@UAE@XZ        10004d10 f   MainWnd.obj
+ 0001:00003d20       ?GetMessageMap@CMainWnd@@MBEPBUAFX_MSGMAP@@XZ 10004d20 f   MainWnd.obj
+ 0001:00003d30       ??_GCMainWnd@@UAEPAXI@Z    10004d30 f i MainWnd.obj
+ 0001:00003d30       ??_ECMainWnd@@UAEPAXI@Z    10004d30 f i MainWnd.obj
+ 0001:00003d50       ??0Data_t@_bstr_t@@QAE@PA_W_N@Z 10004d50 f i WX_ado.obj
+ 0001:00003db0       ??1_variant_t@@QAE@XZ      10004db0 f i WX_ado.obj
+ 0001:00003dd0       ??1_com_error@@UAE@XZ      10004dd0 f i WX_ado.obj
+ 0001:00003e00       ??_G_com_error@@UAEPAXI@Z  10004e00 f i WX_ado.obj
+ 0001:00003e00       ??_E_com_error@@UAEPAXI@Z  10004e00 f i WX_ado.obj
+ 0001:00003e40       ?GetCollect@Recordset15@@QAE?AV_variant_t@@ABV2@@Z 10004e40 f i WX_ado.obj
+ 0001:00003ec0       ??1?$GxxAutoPtr@VGxxArray@@@@QAE@XZ 10004ec0 f i WX_ado.obj
+ 0001:00003ec0       ??1?$GxxAutoPtr@VGxxValue@@@@QAE@XZ 10004ec0 f i WX_ado.obj
+ 0001:00003ec0       ??1?$GxxAutoPtr@VGxxValueMap@@@@QAE@XZ 10004ec0 f i WX_ado.obj
+ 0001:00003ec0       ??1?$GxxAutoPtr@VGxxDictionary@@@@QAE@XZ 10004ec0 f i WX_ado.obj
+ 0001:00003ed0       ?_Xlen@?$vector@V?$GxxAutoPtr@VGxxValue@@@@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@IBEXXZ 10004ed0 f i WX_ado.obj
+ 0001:00003f50       ??0_bstr_t@@QAE@PBD@Z      10004f50 f i WX_ado.obj
+ 0001:00003fe0       ??0_bstr_t@@QAE@PA_W_N@Z   10004fe0 f i WX_ado.obj
+ 0001:00004060       ?create@GxxDictionary@@SA?AV?$GxxAutoPtr@VGxxDictionary@@@@XZ 10005060 f i WX_ado.obj
+ 0001:00004100       ?Close@GxxADO@@QAE_NXZ     10005100 f   WX_ado.obj
+ 0001:00004140       ??1?$_com_ptr_t@V?$_com_IIID@U_Recordset@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@QAE@XZ 10005140 f i WX_ado.obj
+ 0001:00004140       ??1?$_com_ptr_t@V?$_com_IIID@UField@@$1?_GUID_00000569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@QAE@XZ 10005140 f i WX_ado.obj
+ 0001:00004140       ??1?$_com_ptr_t@V?$_com_IIID@UFields@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@QAE@XZ 10005140 f i WX_ado.obj
+ 0001:00004150       ?Release@Data_t@_bstr_t@@QAEKXZ 10005150 f i WX_ado.obj
+ 0001:000041a0       ?GetItem@Fields15@@QAE?AV?$_com_ptr_t@V?$_com_IIID@UField@@$1?_GUID_00000569_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@ABV_variant_t@@@Z 100051a0 f i WX_ado.obj
+ 0001:00004210       ?GetFields@Recordset15@@QAE?AV?$_com_ptr_t@V?$_com_IIID@UFields@@$1?_GUID_00000564_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@XZ 10005210 f i WX_ado.obj
+ 0001:00004260       ??_EGxxDictionary@@UAEPAXI@Z 10005260 f i WX_ado.obj
+ 0001:00004260       ??_GGxxDictionary@@UAEPAXI@Z 10005260 f i WX_ado.obj
+ 0001:00004280       ??1GxxDictionary@@UAE@XZ   10005280 f i WX_ado.obj
+ 0001:000042d0       ??0GxxADO@@QAE@XZ          100052d0 f   WX_ado.obj
+ 0001:000042f0       ??1GxxADO@@QAE@XZ          100052f0 f   WX_ado.obj
+ 0001:00004310       ??1GxxADORecordSet@@QAE@XZ 10005310 f i WX_ado.obj
+ 0001:00004370       ??0GxxADORecordSet@@QAE@ABV0@@Z 10005370 f i WX_ado.obj
+ 0001:000043e0       ??0GxxADORecordSet@@QAE@V?$_com_ptr_t@V?$_com_IIID@U_Recordset@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@@Z 100053e0 f   WX_ado.obj
+ 0001:00004470       ?CreateInstance@?$_com_ptr_t@V?$_com_IIID@U_Connection@@$1?_GUID_00000550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@QAEJABU_GUID@@PAUIUnknown@@K@Z 10005470 f i WX_ado.obj
+ 0001:00004500       ?CreateInstance@?$_com_ptr_t@V?$_com_IIID@U_Connection@@$1?_GUID_00000550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@QAEJPB_WPAUIUnknown@@K@Z 10005500 f i WX_ado.obj
+ 0001:00004580       ??$_Destroy_range@V?$GxxAutoPtr@VGxxValue@@@@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@YAXPAV?$GxxAutoPtr@VGxxValue@@@@0AAV?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z 10005580 f i WX_ado.obj
+ 0001:000045b0       ??1_bstr_t@@QAE@XZ         100055b0 f i WX_ado.obj
+ 0001:000045d0       ??4_bstr_t@@QAEAAV0@PB_W@Z 100055d0 f i WX_ado.obj
+ 0001:00004680       ??0_bstr_t@@QAE@ABV_variant_t@@@Z 10005680 f i WX_ado.obj
+ 0001:00004750       ?GetName@Field20@@QAE?AV_bstr_t@@XZ 10005750 f i WX_ado.obj
+ 0001:000047a0       ?Execute@Connection15@@QAE?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PAUtagVARIANT@@J@Z 100057a0 f i WX_ado.obj
+ 0001:00004830       ?Open@Connection15@@QAEJV_bstr_t@@00J@Z 10005830 f i WX_ado.obj
+ 0001:000048e0       ?CreateInstance@?$_com_ptr_t@V?$_com_IIID@U_Connection@@$1?_GUID_00000550_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@QAEJPBDPAUIUnknown@@K@Z 100058e0 f i WX_ado.obj
+ 0001:000049f0       ?Connect@GxxADO@@QAE_NPBD@Z 100059f0 f   WX_ado.obj
+ 0001:00004ae0       ?GetRecords@GxxADO@@QAE?AVGxxADORecordSet@@PBD@Z 10005ae0 f   WX_ado.obj
+ 0001:00004c40       ?ExcuteSql@GxxADO@@QAEHPBD@Z 10005c40 f   WX_ado.obj
+ 0001:00004d30       ?_Destroy@?$vector@V?$GxxAutoPtr@VGxxValue@@@@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@IAEXPAV?$GxxAutoPtr@VGxxValue@@@@0@Z 10005d30 f i WX_ado.obj
+ 0001:00004d60       ?IsConnect@GxxADO@@QAE_NXZ 10005d60 f   WX_ado.obj
+ 0001:00004e20       ?_Tidy@?$vector@V?$GxxAutoPtr@VGxxValue@@@@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@IAEXXZ 10005e20 f i WX_ado.obj
+ 0001:00004e70       ?create@GxxArray@@SA?AV?$GxxAutoPtr@VGxxArray@@@@XZ 10005e70 f i WX_ado.obj
+ 0001:00004f10       ?GetFields@GxxADORecordSet@@QAE?AV?$GxxAutoPtr@VGxxArray@@@@XZ 10005f10 f   WX_ado.obj
+ 0001:00005160       ?GetCurrentRecord@GxxADORecordSet@@QAE?AV?$GxxAutoPtr@VGxxDictionary@@@@XZ 10006160 f   WX_ado.obj
+ 0001:00005410       ??_GGxxArray@@UAEPAXI@Z    10006410 f i WX_ado.obj
+ 0001:00005410       ??_EGxxArray@@UAEPAXI@Z    10006410 f i WX_ado.obj
+ 0001:00005430       ??1GxxArray@@UAE@XZ        10006430 f i WX_ado.obj
+ 0001:00005480       ?CountOfRecords@GxxADO@@QAEHPBD0@Z 10006480 f   WX_ado.obj
+ 0001:00005600       ??_Eout_of_range@std@@UAEPAXI@Z 10006600 f i WX_base.obj
+ 0001:00005600       ??_Gout_of_range@std@@UAEPAXI@Z 10006600 f i WX_base.obj
+ 0001:00005620       ??1out_of_range@std@@UAE@XZ 10006620 f i WX_base.obj
+ 0001:00005630       ??1GxxKey@@QAE@XZ          10006630 f i WX_base.obj
+ 0001:00005650       ?reset@GxxKey@@AAEXPBD@Z   10006650 f i WX_base.obj
+ 0001:000056a0       ?appendTabByDepth@@YAXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z 100066a0 f   WX_base.obj
+ 0001:000056f0       ?appendStringDoesEscape@@YAXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD@Z 100066f0 f   WX_base.obj
+ 0001:00005790       ??0GxxObject@@IAE@XZ       10006790 f   WX_base.obj
+ 0001:000057a0       ?describe@GxxObject@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 100067a0 f i WX_base.obj
+ 0001:000057d0       ?retain@GxxObject@@QAEXXZ  100067d0 f   WX_base.obj
+ 0001:000057e0       ?release@GxxObject@@QAEXXZ 100067e0 f   WX_base.obj
+ 0001:00005800       ??1?$GxxAutoPtr@VGxxString@@@@QAE@XZ 10006800 f i WX_base.obj
+ 0001:00005820       ??1?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@QAE@XZ 10006820 f i WX_base.obj
+ 0001:00005890       ??R?$less@VGxxKey@@@std@@QBE_NABVGxxKey@@0@Z 10006890 f i WX_base.obj
+ 0001:000058f0       ?_Min@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@PAU342@@Z 100068f0 f i WX_base.obj
+ 0001:00005910       ?_Max@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@PAU342@@Z 10006910 f i WX_base.obj
+ 0001:00005930       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAEXXZ 10006930 f i WX_base.obj
+ 0001:00005990       ??$fill@PAV?$GxxAutoPtr@VGxxValue@@@@V1@@std@@YAXPAV?$GxxAutoPtr@VGxxValue@@@@0ABV1@@Z 10006990 f i WX_base.obj
+ 0001:000059e0       ??1_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAE@XZ 100069e0 f i WX_base.obj
+ 0001:000059f0       ??0GxxString@@IAE@XZ       100069f0 f i WX_base.obj
+ 0001:00005a40       ?create@GxxString@@SA?AV?$GxxAutoPtr@VGxxString@@@@XZ 10006a40 f i WX_base.obj
+ 0001:00005ae0       ?create@GxxValue@@SA?AV?$GxxAutoPtr@VGxxValue@@@@XZ 10006ae0 f i WX_base.obj
+ 0001:00005b50       ?init@GxxValue@@UAE_NXZ    10006b50 f i WX_base.obj
+ 0001:00005b50       ?init@GxxObject@@MAE_NXZ   10006b50 f i WX_ado.obj
+ 0001:00005b60       ?create@GxxValueMap@@SA?AV?$GxxAutoPtr@VGxxValueMap@@@@XZ 10006b60 f i WX_base.obj
+ 0001:00005bd0       ??_EGxxObject@@UAEPAXI@Z   10006bd0 f i WX_base.obj
+ 0001:00005bd0       ??_GGxxObject@@UAEPAXI@Z   10006bd0 f i WX_base.obj
+ 0001:00005bf0       ?init@GxxDictionary@@MAE_NXZ 10006bf0 f   WX_base.obj
+ 0001:00005c90       ?count@GxxArray@@QAEHXZ    10006c90 f   WX_base.obj
+ 0001:00005cb0       ?_Lbound@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@IBEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@ABVGxxKey@@@Z 10006cb0 f i WX_base.obj
+ 0001:00005d20       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAEXXZ 10006d20 f i WX_base.obj
+ 0001:00005d80       ?_Lrotate@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@@Z 10006d80 f i WX_base.obj
+ 0001:00005de0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@@Z 10006de0 f i WX_base.obj
+ 0001:00005e40       ??$_Copy_backward_opt@PAV?$GxxAutoPtr@VGxxValue@@@@PAV1@@std@@YAPAV?$GxxAutoPtr@VGxxValue@@@@PAV1@00U_Nonscalar_ptr_iterator_tag@0@@Z 10006e40 f i WX_base.obj
+ 0001:00005ea0       ??_GGxxString@@UAEPAXI@Z   10006ea0 f i WX_base.obj
+ 0001:00005ea0       ??_EGxxString@@UAEPAXI@Z   10006ea0 f i WX_base.obj
+ 0001:00005ec0       ??1GxxString@@UAE@XZ       10006ec0 f i WX_base.obj
+ 0001:00005f10       ??_EGxxValue@@UAEPAXI@Z    10006f10 f i WX_base.obj
+ 0001:00005f10       ??_GGxxValue@@UAEPAXI@Z    10006f10 f i WX_base.obj
+ 0001:00005f30       ??1GxxValue@@UAE@XZ        10006f30 f i WX_base.obj
+ 0001:00005ff0       ??_GGxxValueMap@@UAEPAXI@Z 10006ff0 f i WX_base.obj
+ 0001:00005ff0       ??_EGxxValueMap@@UAEPAXI@Z 10006ff0 f i WX_base.obj
+ 0001:00006010       ??1GxxValueMap@@UAE@XZ     10007010 f i WX_base.obj
+ 0001:00006010       ??1GxxObject@@UAE@XZ       10007010 f i WX_base.obj
+ 0001:00006020       ?stringValue@GxxValue@@QAEPBDXZ 10007020 f   WX_base.obj
+ 0001:00006040       ?intValue@GxxValue@@QAEHXZ 10007040 f   WX_base.obj
+ 0001:00006070       ?print@GxxValue@@UAEXXZ    10007070 f   WX_base.obj
+ 0001:000060b0       ?describe@GxxValue@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 100070b0 f   WX_base.obj
+ 0001:00006130       ?create@GxxString@@SA?AV?$GxxAutoPtr@VGxxString@@@@PBD@Z 10007130 f   WX_base.obj
+ 0001:000061f0       ?_Buynode@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@XZ 100071f0 f i WX_base.obj
+ 0001:00006230       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@2@D@Z 10007230 f i WX_base.obj
+ 0001:000062b0       ??$_Uninit_copy@PAV?$GxxAutoPtr@VGxxValue@@@@PAV1@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@YAPAV?$GxxAutoPtr@VGxxValue@@@@PAV1@00AAV?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z 100072b0 f i WX_base.obj
+ 0001:000062f0       ?create@GxxValue@@SA?AV?$GxxAutoPtr@VGxxValue@@@@PBD@Z 100072f0 f   WX_base.obj
+ 0001:00006410       ?print@GxxArray@@UAEXXZ    10007410 f   WX_base.obj
+ 0001:00006460       ?valueAtIndex@GxxArray@@QAEPAVGxxValue@@H@Z 10007460 f   WX_base.obj
+ 0001:000064a0       ?find@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@ABVGxxKey@@@Z 100074a0 f i WX_base.obj
+ 0001:00006500       ?erase@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10007500 f i WX_base.obj
+ 0001:000067e0       ??0out_of_range@std@@QAE@ABV01@@Z 100077e0 f i WX_base.obj
+ 0001:00006800       ?_Buynode@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@2@D@Z 10007800 f i WX_base.obj
+ 0001:00006890       ??$_Uninit_fill_n@PAV?$GxxAutoPtr@VGxxValue@@@@IV1@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@YAXPAV?$GxxAutoPtr@VGxxValue@@@@IABV1@AAV?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z 10007890 f i WX_base.obj
+ 0001:000068d0       ?ValueForKey@GxxValueMap@@QAE?AV?$GxxAutoPtr@VGxxValue@@@@ABVGxxKey@@@Z 100078d0 f   WX_base.obj
+ 0001:00006930       ?_Erase@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@@Z 10007930 f i WX_base.obj
+ 0001:00006970       ?_Insert@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@ABU?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@2@@Z 10007970 f i WX_base.obj
+ 0001:00006b30       ?print@GxxDictionary@@UAEXXZ 10007b30 f   WX_base.obj
+ 0001:00006ba0       ?valueForKey@GxxDictionary@@QAEPAVGxxValue@@PBD@Z 10007ba0 f   WX_base.obj
+ 0001:00006c60       ?describe_d@GxxDictionary@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_N@Z 10007c60 f   WX_base.obj
+ 0001:00007040       ?describe_d@GxxArray@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_N@Z 10008040 f   WX_base.obj
+ 0001:000073a0       ?_Ufill@?$vector@V?$GxxAutoPtr@VGxxValue@@@@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@IAEPAV?$GxxAutoPtr@VGxxValue@@@@PAV3@IABV3@@Z 100083a0 f i WX_base.obj
+ 0001:000073d0       ?_Insert_n@?$vector@V?$GxxAutoPtr@VGxxValue@@@@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@IAEXViterator@12@IABV?$GxxAutoPtr@VGxxValue@@@@@Z 100083d0 f i WX_base.obj
+ 0001:00007690       ?insert@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@2@@Z 10008690 f i WX_base.obj
+ 0001:000077b0       ?erase@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 100087b0 f i WX_base.obj
+ 0001:00007870       ?describe@GxxDictionary@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 10008870 f   WX_base.obj
+ 0001:00007890       ?describe@GxxArray@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 10008890 f   WX_base.obj
+ 0001:000078b0       ?insert@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@ABU?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@2@@Z 100088b0 f i WX_base.obj
+ 0001:00007a60       ?push_back@?$vector@V?$GxxAutoPtr@VGxxValue@@@@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@QAEXABV?$GxxAutoPtr@VGxxValue@@@@@Z 10008a60 f i WX_base.obj
+ 0001:00007ad0       ??A?$map@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@@std@@QAEAAV?$GxxAutoPtr@VGxxValue@@@@ABVGxxKey@@@Z 10008ad0 f i WX_base.obj
+ 0001:00007bd0       ?addValue@GxxArray@@QAEXABV?$GxxAutoPtr@VGxxValue@@@@@Z 10008bd0 f   WX_base.obj
+ 0001:00007be0       ??1?$map@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@@std@@QAE@XZ 10008be0 f i WX_base.obj
+ 0001:00007c10       ?setValueForKey@GxxDictionary@@QAEXAAV?$GxxAutoPtr@VGxxValue@@@@PBD@Z 10008c10 f   WX_base.obj
+ 0001:00007cd0       ?init@GxxValueMap@@MAE_NXZ 10008cd0 f   WX_base.obj
+ 0001:00007d60       ?objectReleased@GxxValueMap@@MAEXXZ 10008d60 f   WX_base.obj
+ 0001:00007db0       ?Init@CCriticalSection@@AAEHXZ 10008db0 f i WxLog.obj
+ 0001:00007e30       ??0CCriticalSection@@QAE@XZ 10008e30 f i WxLog.obj
+ 0001:00007e90       ?Unlock@CSyncObject@@UAEHJPAJ@Z 10008e90 f i WxLog.obj
+ 0001:00007ea0       ??1CCriticalSection@@UAE@XZ 10008ea0 f i WxLog.obj
+ 0001:00007ec0       ?Lock@CCriticalSection@@UAEHK@Z 10008ec0 f i WxLog.obj
+ 0001:00007ed0       ?Lock@CCriticalSection@@QAEHXZ 10008ed0 f i WxLog.obj
+ 0001:00007f40       ?Unlock@CCriticalSection@@UAEHXZ 10008f40 f i WxLog.obj
+ 0001:00007f50       ??1CWxLog@@EAE@XZ          10008f50 f   WxLog.obj
+ 0001:00007fe0       ?MakeLogInfoHead@CWxLog@@IAEXAAV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@@Z 10008fe0 f   WxLog.obj
+ 0001:000080a0       ??0CFileException@@QAE@HJPB_W@Z 100090a0 f i WxLog.obj
+ 0001:00008110       ??1CFileException@@UAE@XZ  10009110 f i WxLog.obj
+ 0001:00008120       ??_ECCriticalSection@@UAEPAXI@Z 10009120 f i WxLog.obj
+ 0001:00008120       ??_GCCriticalSection@@UAEPAXI@Z 10009120 f i WxLog.obj
+ 0001:00008140       ??_ECWxLog@@EAEPAXI@Z      10009140 f i WxLog.obj
+ 0001:00008140       ??_GCWxLog@@EAEPAXI@Z      10009140 f i WxLog.obj
+ 0001:00008160       ?OpenLogFile@CWxLog@@IAEXXZ 10009160 f   WxLog.obj
+ 0001:00008230       ?SetLogPath@CWxLog@@QAEXV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@@Z 10009230 f   WxLog.obj
+ 0001:000082c0       ??_GCFileException@@UAEPAXI@Z 100092c0 f i WxLog.obj
+ 0001:000082c0       ??_ECFileException@@UAEPAXI@Z 100092c0 f i WxLog.obj
+ 0001:000082e0       ??0CWxLog@@AAE@XZ          100092e0 f   WxLog.obj
+ 0001:00008460       ?LogBuf@CWxLog@@IAE_NPBXI@Z 10009460 f   WxLog.obj
+ 0001:00008520       ?GetInstance@CWxLog@@SAPAV1@XZ 10009520 f   WxLog.obj
+ 0001:00008580       ?LogInfo@CWxLog@@IAE_NPB_W@Z 10009580 f   WxLog.obj
+ 0001:00008640       ?Write@CWxLog@@QAE_NPB_W@Z 10009640 f   WxLog.obj
+ 0001:000086e0       ?WriteFormat@CWxLog@@QAA_NPB_WZZ 100096e0 f   WxLog.obj
+ 0001:00008780       ?ChangeLogFileName@CWxLog@@IAEXXZ 10009780 f   WxLog.obj
+ 0001:00008860       ?GetMessageMap@CWxMiddlewareApp@@MBEPBUAFX_MSGMAP@@XZ 10009860 f   WxMiddleware.obj
+ 0001:00008870       ??0CWxMiddlewareApp@@QAE@XZ 10009870 f   WxMiddleware.obj
+ 0001:00008890       ??1CWxMiddlewareApp@@UAE@XZ 10009890 f i WxMiddleware.obj
+ 0001:000088a0       ?TimerProc@CWxMiddlewareApp@@KGXPAUHWND__@@IIK@Z 100098a0 f   WxMiddleware.obj
+ 0001:00008900       ?SetDelegate@@YGXPAVCWxMiddlewareDelete@@@Z 10009900 f   WxMiddleware.obj
+ 0001:00008920       ?LoginStatus@@YGXPB_WH@Z   10009920 f   WxMiddleware.obj
+ 0001:00008940       ?LogoutStatus@@YGXPB_WH@Z  10009940 f   WxMiddleware.obj
+ 0001:00008960       ?MessageStatus@@YGXH@Z     10009960 f   WxMiddleware.obj
+ 0001:00008980       ??_ECWxMiddlewareApp@@UAEPAXI@Z 10009980 f i WxMiddleware.obj
+ 0001:00008980       ??_GCWxMiddlewareApp@@UAEPAXI@Z 10009980 f i WxMiddleware.obj
+ 0001:000089a0       ?InitInstance@CWxMiddlewareApp@@UAEHXZ 100099a0 f   WxMiddleware.obj
+ 0001:00008a8e       ?MD5Final@@YGXPAUMD5_CTX@@@Z 10009a8e f   MD5:ADVAPI32.dll
+ 0001:00008a94       ?MD5Update@@YGXPAUMD5_CTX@@PBXI@Z 10009a94 f   MD5:ADVAPI32.dll
+ 0001:00008a9a       ?MD5Init@@YGXPAUMD5_CTX@@@Z 10009a9a f   MD5:ADVAPI32.dll
+ 0001:00008aa0       ??3@YAXPAX@Z               10009aa0 f   mfc71u:MFC71U.DLL
+ 0001:00008aa6       ?AfxThrowOleException@@YGXJ@Z 10009aa6 f   mfc71u:MFC71U.DLL
+ 0001:00008aac       ?AfxThrowMemoryException@@YGXXZ 10009aac f   mfc71u:MFC71U.DLL
+ 0001:00008ab2       ??2@YAPAXI@Z               10009ab2 f   mfc71u:MFC71U.DLL
+ 0001:00008ab8       ??_U@YAPAXI@Z              10009ab8 f   mfc71u:MFC71U.DLL
+ 0001:00008abe       ??_V@YAXPAX@Z              10009abe f   mfc71u:MFC71U.DLL
+ 0001:00008ac4       ?SendToHelper@CAsyncSocket@@MAEHPBXHPBUsockaddr@@HH@Z 10009ac4 f   mfc71u:MFC71U.DLL
+ 0001:00008aca       ?ReceiveFromHelper@CAsyncSocket@@MAEHPAXHPAUsockaddr@@PAHH@Z 10009aca f   mfc71u:MFC71U.DLL
+ 0001:00008ad0       ?ConnectHelper@CAsyncSocket@@MAEHPBUsockaddr@@H@Z 10009ad0 f   mfc71u:MFC71U.DLL
+ 0001:00008ad6       ?OnAccept@CAsyncSocket@@MAEXH@Z 10009ad6 f   mfc71u:MFC71U.DLL
+ 0001:00008adc       ?OnOutOfBandData@CAsyncSocket@@MAEXH@Z 10009adc f   mfc71u:MFC71U.DLL
+ 0001:00008ae2       ?Send@CAsyncSocket@@UAEHPBXHH@Z 10009ae2 f   mfc71u:MFC71U.DLL
+ 0001:00008ae8       ?Receive@CAsyncSocket@@UAEHPAXHH@Z 10009ae8 f   mfc71u:MFC71U.DLL
+ 0001:00008aee       ?Close@CAsyncSocket@@UAEXXZ 10009aee f   mfc71u:MFC71U.DLL
+ 0001:00008af4       ?Accept@CAsyncSocket@@UAEHAAV1@PAUsockaddr@@PAH@Z 10009af4 f   mfc71u:MFC71U.DLL
+ 0001:00008afa       ?GetRuntimeClass@CAsyncSocket@@UBEPAUCRuntimeClass@@XZ 10009afa f   mfc71u:MFC71U.DLL
+ 0001:00008b00       ??0CAsyncSocket@@QAE@XZ    10009b00 f   mfc71u:MFC71U.DLL
+ 0001:00008b06       ??1CAsyncSocket@@UAE@XZ    10009b06 f   mfc71u:MFC71U.DLL
+ 0001:00008b0c       ?Connect@CAsyncSocket@@QAEHPB_WI@Z 10009b0c f   mfc71u:MFC71U.DLL
+ 0001:00008b12       ?Create@CAsyncSocket@@QAEHIHJPB_W@Z 10009b12 f   mfc71u:MFC71U.DLL
+ 0001:00008b18       ?OnConnect@CAsyncSocket@@MAEXH@Z 10009b18 f   mfc71u:MFC71U.DLL
+ 0001:00008b1e       ?OnClose@CAsyncSocket@@MAEXH@Z 10009b1e f   mfc71u:MFC71U.DLL
+ 0001:00008b24       ?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 10009b24 f   mfc71u:MFC71U.DLL
+ 0001:00008b2a       ?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 10009b2a f   mfc71u:MFC71U.DLL
+ 0001:00008b30       ?IsFrameWnd@CWnd@@UBEHXZ   10009b30 f   mfc71u:MFC71U.DLL
+ 0001:00008b36       ?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 10009b36 f   mfc71u:MFC71U.DLL
+ 0001:00008b3c       ?PostNcDestroy@CWnd@@MAEXXZ 10009b3c f   mfc71u:MFC71U.DLL
+ 0001:00008b42       ?DefWindowProcW@CWnd@@MAEJIIJ@Z 10009b42 f   mfc71u:MFC71U.DLL
+ 0001:00008b48       ?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 10009b48 f   mfc71u:MFC71U.DLL
+ 0001:00008b4e       ?WindowProc@CWnd@@MAEJIIJ@Z 10009b4e f   mfc71u:MFC71U.DLL
+ 0001:00008b54       ?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 10009b54 f   mfc71u:MFC71U.DLL
+ 0001:00008b5a       ?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 10009b5a f   mfc71u:MFC71U.DLL
+ 0001:00008b60       ?OnNotify@CWnd@@MAEHIJPAJ@Z 10009b60 f   mfc71u:MFC71U.DLL
+ 0001:00008b66       ?OnCommand@CWnd@@MAEHIJ@Z  10009b66 f   mfc71u:MFC71U.DLL
+ 0001:00008b6c       ?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 10009b6c f   mfc71u:MFC71U.DLL
+ 0001:00008b72       ?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 10009b72 f   mfc71u:MFC71U.DLL
+ 0001:00008b78       ?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 10009b78 f   mfc71u:MFC71U.DLL
+ 0001:00008b7e       ?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 10009b7e f   mfc71u:MFC71U.DLL
+ 0001:00008b84       ?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 10009b84 f   mfc71u:MFC71U.DLL
+ 0001:00008b8a       ?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 10009b8a f   mfc71u:MFC71U.DLL
+ 0001:00008b90       ?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 10009b90 f   mfc71u:MFC71U.DLL
+ 0001:00008b96       ?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 10009b96 f   mfc71u:MFC71U.DLL
+ 0001:00008b9c       ?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 10009b9c f   mfc71u:MFC71U.DLL
+ 0001:00008ba2       ?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10009ba2 f   mfc71u:MFC71U.DLL
+ 0001:00008ba8       ?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 10009ba8 f   mfc71u:MFC71U.DLL
+ 0001:00008bae       ?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 10009bae f   mfc71u:MFC71U.DLL
+ 0001:00008bb4       ?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10009bb4 f   mfc71u:MFC71U.DLL
+ 0001:00008bba       ?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 10009bba f   mfc71u:MFC71U.DLL
+ 0001:00008bc0       ?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10009bc0 f   mfc71u:MFC71U.DLL
+ 0001:00008bc6       ?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 10009bc6 f   mfc71u:MFC71U.DLL
+ 0001:00008bcc       ?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 10009bcc f   mfc71u:MFC71U.DLL
+ 0001:00008bd2       ?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10009bd2 f   mfc71u:MFC71U.DLL
+ 0001:00008bd8       ?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10009bd8 f   mfc71u:MFC71U.DLL
+ 0001:00008bde       ?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10009bde f   mfc71u:MFC71U.DLL
+ 0001:00008be4       ?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 10009be4 f   mfc71u:MFC71U.DLL
+ 0001:00008bea       ?get_accChildCount@CWnd@@UAEJPAJ@Z 10009bea f   mfc71u:MFC71U.DLL
+ 0001:00008bf0       ?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 10009bf0 f   mfc71u:MFC71U.DLL
+ 0001:00008bf6       ?EnsureStdObj@CWnd@@UAEJXZ 10009bf6 f   mfc71u:MFC71U.DLL
+ 0001:00008bfc       ?EndModalLoop@CWnd@@UAEXH@Z 10009bfc f   mfc71u:MFC71U.DLL
+ 0001:00008c02       ?ContinueModal@CWnd@@UAEHXZ 10009c02 f   mfc71u:MFC71U.DLL
+ 0001:00008c08       ?WinHelpInternal@CWnd@@UAEXKI@Z 10009c08 f   mfc71u:MFC71U.DLL
+ 0001:00008c0e       ?HtmlHelpW@CWnd@@UAEXKI@Z  10009c0e f   mfc71u:MFC71U.DLL
+ 0001:00008c14       ?WinHelpW@CWnd@@UAEXKI@Z   10009c14 f   mfc71u:MFC71U.DLL
+ 0001:00008c1a       ?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 10009c1a f   mfc71u:MFC71U.DLL
+ 0001:00008c20       ?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOW@@@Z 10009c20 f   mfc71u:MFC71U.DLL
+ 0001:00008c26       ?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 10009c26 f   mfc71u:MFC71U.DLL
+ 0001:00008c2c       ?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTW@@@Z 10009c2c f   mfc71u:MFC71U.DLL
+ 0001:00008c32       ?DestroyWindow@CWnd@@UAEHXZ 10009c32 f   mfc71u:MFC71U.DLL
+ 0001:00008c38       ?CreateEx@CWnd@@UAEHKPB_W0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 10009c38 f   mfc71u:MFC71U.DLL
+ 0001:00008c3e       ?CreateEx@CWnd@@UAEHKPB_W0KABUtagRECT@@PAV1@IPAX@Z 10009c3e f   mfc71u:MFC71U.DLL
+ 0001:00008c44       ?Create@CWnd@@UAEHPB_W0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 10009c44 f   mfc71u:MFC71U.DLL
+ 0001:00008c4a       ?PreSubclassWindow@CWnd@@UAEXXZ 10009c4a f   mfc71u:MFC71U.DLL
+ 0001:00008c50       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 10009c50 f   mfc71u:MFC71U.DLL
+ 0001:00008c56       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 10009c56 f   mfc71u:MFC71U.DLL
+ 0001:00008c5c       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 10009c5c f   mfc71u:MFC71U.DLL
+ 0001:00008c62       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 10009c62 f   mfc71u:MFC71U.DLL
+ 0001:00008c68       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 10009c68 f   mfc71u:MFC71U.DLL
+ 0001:00008c6e       ?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 10009c6e f   mfc71u:MFC71U.DLL
+ 0001:00008c74       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 10009c74 f   mfc71u:MFC71U.DLL
+ 0001:00008c7a       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10009c7a f   mfc71u:MFC71U.DLL
+ 0001:00008c80       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10009c80 f   mfc71u:MFC71U.DLL
+ 0001:00008c86       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 10009c86 f   mfc71u:MFC71U.DLL
+ 0001:00008c8c       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 10009c8c f   mfc71u:MFC71U.DLL
+ 0001:00008c92       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 10009c92 f   mfc71u:MFC71U.DLL
+ 0001:00008c98       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 10009c98 f   mfc71u:MFC71U.DLL
+ 0001:00008c9e       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 10009c9e f   mfc71u:MFC71U.DLL
+ 0001:00008ca4       ?OnFinalRelease@CWnd@@UAEXXZ 10009ca4 f   mfc71u:MFC71U.DLL
+ 0001:00008caa       ?GetThisMessageMap@CWnd@@KGPBUAFX_MSGMAP@@XZ 10009caa f   mfc71u:MFC71U.DLL
+ 0001:00008cb0       ?GetThisClass@CWnd@@SGPAUCRuntimeClass@@XZ 10009cb0 f   mfc71u:MFC71U.DLL
+ 0001:00008cb6       ?SetOccDialogInfo@CWnd@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 10009cb6 f   mfc71u:MFC71U.DLL
+ 0001:00008cbc       ?CheckAutoCenter@CWnd@@UAEHXZ 10009cbc f   mfc71u:MFC71U.DLL
+ 0001:00008cc2       ?PreTranslateMessage@CWnd@@UAEHPAUtagMSG@@@Z 10009cc2 f   mfc71u:MFC71U.DLL
+ 0001:00008cc8       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 10009cc8 f   mfc71u:MFC71U.DLL
+ 0001:00008cce       ??0CWnd@@QAE@XZ            10009cce f   mfc71u:MFC71U.DLL
+ 0001:00008cd4       ??1CWnd@@UAE@XZ            10009cd4 f   mfc71u:MFC71U.DLL
+ 0001:00008cda       ?Unlock@CSingleLock@@QAEHXZ 10009cda f   mfc71u:MFC71U.DLL
+ 0001:00008ce0       ?GetRuntimeClass@CCriticalSection@@UBEPAUCRuntimeClass@@XZ 10009ce0 f   mfc71u:MFC71U.DLL
+ 0001:00008ce6       ??1CSyncObject@@UAE@XZ     10009ce6 f   mfc71u:MFC71U.DLL
+ 0001:00008cec       ??0CSyncObject@@QAE@PB_W@Z 10009cec f   mfc71u:MFC71U.DLL
+ 0001:00008cf2       ??1CFile@@UAE@XZ           10009cf2 f   mfc71u:MFC71U.DLL
+ 0001:00008cf8       ?ReportError@CException@@UAEHII@Z 10009cf8 f   mfc71u:MFC71U.DLL
+ 0001:00008cfe       ?GetErrorMessage@CFileException@@UAEHPA_WIPAI@Z 10009cfe f   mfc71u:MFC71U.DLL
+ 0001:00008d04       ?GetRuntimeClass@CFileException@@UBEPAUCRuntimeClass@@XZ 10009d04 f   mfc71u:MFC71U.DLL
+ 0001:00008d0a       ??0CException@@QAE@XZ      10009d0a f   mfc71u:MFC71U.DLL
+ 0001:00008d10       ??0CSingleLock@@QAE@PAVCSyncObject@@H@Z 10009d10 f   mfc71u:MFC71U.DLL
+ 0001:00008d16       ??0CFile@@QAE@XZ           10009d16 f   mfc71u:MFC71U.DLL
+ 0001:00008d1c       ?Delete@CException@@QAEXXZ 10009d1c f   mfc71u:MFC71U.DLL
+ 0001:00008d22       ?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ 10009d22 f   mfc71u:MFC71U.DLL
+ 0001:00008d28       ?LoadSysPolicies@CWinApp@@UAEHXZ 10009d28 f   mfc71u:MFC71U.DLL
+ 0001:00008d2e       ?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ 10009d2e f   mfc71u:MFC71U.DLL
+ 0001:00008d34       ?WinHelpInternal@CWinApp@@UAEXKI@Z 10009d34 f   mfc71u:MFC71U.DLL
+ 0001:00008d3a       ?HtmlHelpW@CWinApp@@UAEXKI@Z 10009d3a f   mfc71u:MFC71U.DLL
+ 0001:00008d40       ?WinHelpW@CWinApp@@UAEXKI@Z 10009d40 f   mfc71u:MFC71U.DLL
+ 0001:00008d46       ?OnDDECommand@CWinApp@@UAEHPA_W@Z 10009d46 f   mfc71u:MFC71U.DLL
+ 0001:00008d4c       ?DoWaitCursor@CWinApp@@UAEXH@Z 10009d4c f   mfc71u:MFC71U.DLL
+ 0001:00008d52       ?DoMessageBox@CWinApp@@UAEHPB_WII@Z 10009d52 f   mfc71u:MFC71U.DLL
+ 0001:00008d58       ?SaveAllModified@CWinApp@@UAEHXZ 10009d58 f   mfc71u:MFC71U.DLL
+ 0001:00008d5e       ?InitApplication@CWinApp@@UAEHXZ 10009d5e f   mfc71u:MFC71U.DLL
+ 0001:00008d64       ?AddToRecentFileList@CWinApp@@UAEXPB_W@Z 10009d64 f   mfc71u:MFC71U.DLL
+ 0001:00008d6a       ?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PB_W@Z 10009d6a f   mfc71u:MFC71U.DLL
+ 0001:00008d70       ?Unregister@CWinApp@@UAEHXZ 10009d70 f   mfc71u:MFC71U.DLL
+ 0001:00008d76       ?Register@CWinApp@@UAEHXZ  10009d76 f   mfc71u:MFC71U.DLL
+ 0001:00008d7c       ?InitLibId@CWinApp@@UAEXXZ 10009d7c f   mfc71u:MFC71U.DLL
+ 0001:00008d82       ?Delete@CWinThread@@UAEXXZ 10009d82 f   mfc71u:MFC71U.DLL
+ 0001:00008d88       ?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 10009d88 f   mfc71u:MFC71U.DLL
+ 0001:00008d8e       ?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 10009d8e f   mfc71u:MFC71U.DLL
+ 0001:00008d94       ?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 10009d94 f   mfc71u:MFC71U.DLL
+ 0001:00008d9a       ?ExitInstance@CWinApp@@UAEHXZ 10009d9a f   mfc71u:MFC71U.DLL
+ 0001:00008da0       ?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 10009da0 f   mfc71u:MFC71U.DLL
+ 0001:00008da6       ?OnIdle@CWinApp@@UAEHJ@Z   10009da6 f   mfc71u:MFC71U.DLL
+ 0001:00008dac       ?PumpMessage@CWinThread@@UAEHXZ 10009dac f   mfc71u:MFC71U.DLL
+ 0001:00008db2       ?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 10009db2 f   mfc71u:MFC71U.DLL
+ 0001:00008db8       ?Run@CWinApp@@UAEHXZ       10009db8 f   mfc71u:MFC71U.DLL
+ 0001:00008dbe       ?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 10009dbe f   mfc71u:MFC71U.DLL
+ 0001:00008dc4       ?OnFinalRelease@CCmdTarget@@UAEXXZ 10009dc4 f   mfc71u:MFC71U.DLL
+ 0001:00008dca       ?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 10009dca f   mfc71u:MFC71U.DLL
+ 0001:00008dd0       ??0CWinApp@@QAE@PB_W@Z     10009dd0 f   mfc71u:MFC71U.DLL
+ 0001:00008dd6       ??1CWinApp@@UAE@XZ         10009dd6 f   mfc71u:MFC71U.DLL
+ 0001:00008ddc       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10009ddc f   mfc71u:MFC71U.DLL
+ 0001:00008de2       ?AfxThrowResourceException@@YGXXZ 10009de2 f   mfc71u:MFC71U.DLL
+ 0001:00008de8       ?AfxRegisterClass@@YGHPAUtagWNDCLASSW@@@Z 10009de8 f   mfc71u:MFC71U.DLL
+ 0001:00008dee       ?AfxGetAfxWndProc@@YGP6GJPAUHWND__@@IIJ@ZXZ 10009dee f   mfc71u:MFC71U.DLL
+ 0001:00008df4       ?InitInstance@CWinApp@@UAEHXZ 10009df4 f   mfc71u:MFC71U.DLL
+ 0001:00008dfa       ??1_AFX_DLL_MODULE_STATE@@UAE@XZ 10009dfa f i mfcs71u:dllmodul.obj
+ 0001:00008dff       _RawDllMain@12             10009dff f   mfcs71u:dllmodul.obj
+ 0001:00008e50       ??1AFX_MAINTAIN_STATE2@@QAE@XZ 10009e50 f i mfcs71u:dllmodul.obj
+ 0001:00008e59       ?AfxWndProcDllStatic@@YGJPAUHWND__@@IIJ@Z 10009e59 f   mfcs71u:dllmodul.obj
+ 0001:00008e9e       _DllMain@12                10009e9e f   mfcs71u:dllmodul.obj
+ 0001:00008fc5       ??0_AFX_DLL_MODULE_STATE@@QAE@XZ 10009fc5 f i mfcs71u:dllmodul.obj
+ 0001:00008fe5       ??_E_AFX_DLL_MODULE_STATE@@UAEPAXI@Z 10009fe5 f i mfcs71u:dllmodul.obj
+ 0001:00008fe5       ??_G_AFX_DLL_MODULE_STATE@@UAEPAXI@Z 10009fe5 f i mfcs71u:dllmodul.obj
+ 0001:00009031       @__security_check_cookie@4 1000a031 f   msvcrt:secchk.obj
+ 0001:00009040       ___CxxFrameHandler         1000a040 f   msvcrt:MSVCR71.dll
+ 0001:00009050       __except_handler3          1000a050 f   msvcrt:MSVCR71.dll
+ 0001:00009056       _wcslen                    1000a056 f   msvcrt:MSVCR71.dll
+ 0001:0000905c       _free                      1000a05c f   msvcrt:MSVCR71.dll
+ 0001:00009062       _malloc                    1000a062 f   msvcrt:MSVCR71.dll
+ 0001:00009068       ??0exception@@QAE@ABV0@@Z  1000a068 f   msvcrt:MSVCR71.dll
+ 0001:0000906e       ??_Etype_info@@UAEPAXI@Z   1000a06e f i msvcrt:ti_inst.obj
+ 0001:000090ba       __CxxThrowException@8      1000a0ba f   msvcrt:MSVCR71.dll
+ 0001:000090c0       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000a0c0 f   msvcrt:ehvecdtr.obj
+ 0001:0000911e       ??_M@YGXPAXIHP6EX0@Z@Z     1000a11e f   msvcrt:ehvecdtr.obj
+ 0001:0000917e       __onexit                   1000a17e f   msvcrt:atonexit.obj
+ 0001:000091a4       _atexit                    1000a1a4 f   msvcrt:atonexit.obj
+ 0001:000091c0       __alloca_probe             1000a1c0     msvcrt:chkstk.obj
+ 0001:000091c0       __chkstk                   1000a1c0 f   msvcrt:chkstk.obj
+ 0001:000091fd       __CRT_INIT@12              1000a1fd f   msvcrt:crtdll.obj
+ 0001:000092bb       __DllMainCRTStartup@12     1000a2bb f   msvcrt:crtdll.obj
+ 0001:000093a0       __EH_prolog                1000a3a0 f   msvcrt:ehprolog.obj
+ 0001:000093c0       _memset                    1000a3c0 f   msvcrt:MSVCR71.dll
+ 0001:000093c8       __SEH_prolog               1000a3c8 f   msvcrt:sehprolg.obj
+ 0001:00009403       __SEH_epilog               1000a403 f   msvcrt:sehprolg.obj
+ 0001:00009414       ___security_init_cookie    1000a414 f   msvcrt:seccinit.obj
+ 0001:0000947a       ___security_error_handler  1000a47a f   msvcrt:MSVCR71.dll
+ 0001:00009480       ??1type_info@@UAE@XZ       1000a480 f   msvcrt:MSVCR71.dll
+ 0001:00009486       ?terminate@@YAXXZ          1000a486 f   msvcrt:MSVCR71.dll
+ 0001:0000948c       ___dllonexit               1000a48c f   msvcrt:MSVCR71.dll
+ 0001:00009492       __initterm                 1000a492 f   msvcrt:MSVCR71.dll
+ 0001:00009498       __RTC_Initialize           1000a498 f   msvcrt:initsect.obj
+ 0001:000094dc       __RTC_Terminate            1000a4dc f   msvcrt:initsect.obj
+ 0001:00009520       ___CppXcptFilter           1000a520 f   msvcrt:MSVCR71.dll
+ 0001:00009526       ?RemoveAll@?$CSimpleArray@PAUHINSTANCE__@@V?$CSimpleArrayEqualHelper@PAUHINSTANCE__@@@ATL@@@ATL@@QAEXXZ 1000a526 f i atls:atlbase.obj
+ 0001:00009543       ??0_ATL_BASE_MODULE70@ATL@@QAE@XZ 1000a543 f i atls:atlbase.obj
+ 0001:0000955d       ??1CAtlBaseModule@ATL@@QAE@XZ 1000a55d f   atls:atlbase.obj
+ 0001:00009573       ??0CAtlBaseModule@ATL@@QAE@XZ 1000a573 f   atls:atlbase.obj
+ 0001:00009620       ?_com_issue_error@@YGXJ@Z  1000a620 f   comsuppw:comsupp.obj
+ 0001:00009630       ?_com_issue_errorex@@YGXJPAUIUnknown@@ABU_GUID@@@Z 1000a630 f   comsuppw:comsupp.obj
+ 0001:000096a0       ?ConvertStringToBSTR@_com_util@@YGPA_WPBD@Z 1000a6a0 f   comsuppw:comutil.obj
+ 0001:00009800       ?ConvertBSTRToString@_com_util@@YGPADPA_W@Z 1000a800 f   comsuppw:comutil.obj
+ 0001:00009960       ?_com_raise_error@@YGXJPAUIErrorInfo@@@Z 1000a960 f   comsuppw:comraise.obj
+ 0001:000099a0       ??0_com_error@@QAE@ABV0@@Z 1000a9a0 f i comsuppw:comraise.obj
+ 0001:000099d2       ??1AFX_MODULE_STATE@@UAE@XZ 1000a9d2 f   mfc71u:MFC71U.DLL
+ 0001:000099d8       ?AfxSetModuleState@@YGPAVAFX_MODULE_STATE@@PAV1@@Z 1000a9d8 f   mfc71u:MFC71U.DLL
+ 0001:000099de       ?AfxGetThreadState@@YGPAV_AFX_THREAD_STATE@@XZ 1000a9de f   mfc71u:MFC71U.DLL
+ 0001:000099e4       ?AfxWndProc@@YGJPAUHWND__@@IIJ@Z 1000a9e4 f   mfc71u:MFC71U.DLL
+ 0001:000099ea       ??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 1000a9ea f   mfc71u:MFC71U.DLL
+ 0001:000099f0       ?AfxTermThread@@YGXPAUHINSTANCE__@@@Z 1000a9f0 f   mfc71u:MFC71U.DLL
+ 0001:000099f6       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1000a9f6 f   mfc71u:MFC71U.DLL
+ 0001:000099fc       ?AfxUnlockTempMaps@@YGHH@Z 1000a9fc f   mfc71u:MFC71U.DLL
+ 0001:00009a02       ?AfxLockTempMaps@@YGXXZ    1000aa02 f   mfc71u:MFC71U.DLL
+ 0001:00009a08       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1000aa08 f   mfc71u:MFC71U.DLL
+ 0001:00009a0e       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000aa0e f   mfc71u:MFC71U.DLL
+ 0001:00009a14       ?AfxWinTerm@@YGXXZ         1000aa14 f   mfc71u:MFC71U.DLL
+ 0001:00009a1a       ?AfxWinInit@@YGHPAUHINSTANCE__@@0PA_WH@Z 1000aa1a f   mfc71u:MFC71U.DLL
+ 0001:00009a20       ?AfxCoreInitModule@@YGXXZ  1000aa20 f   mfc71u:MFC71U.DLL
+ 0001:00009a26       ??0AFX_MODULE_STATE@@QAE@HP6GJPAUHWND__@@IIJ@ZKH@Z 1000aa26 f   mfc71u:MFC71U.DLL
+ 0001:00009a2c       ??3CNoTrackObject@@SGXPAX@Z 1000aa2c f   mfc71u:MFC71U.DLL
+ 0002:00000000       __imp_?MD5Update@@YGXPAUMD5_CTX@@PBXI@Z 1000c000     MD5:ADVAPI32.dll
+ 0002:00000004       __imp_?MD5Init@@YGXPAUMD5_CTX@@@Z 1000c004     MD5:ADVAPI32.dll
+ 0002:00000008       __imp_?MD5Final@@YGXPAUMD5_CTX@@@Z 1000c008     MD5:ADVAPI32.dll
+ 0002:0000000c       \177ADVAPI32_NULL_THUNK_DATA 1000c00c     MD5:ADVAPI32.dll
+ 0002:00000010       __imp__MultiByteToWideChar@24 1000c010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetLastError@0      1000c014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__WideCharToMultiByte@32 1000c018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__lstrlenW@4          1000c01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__DeleteCriticalSection@4 1000c020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__InitializeCriticalSection@4 1000c024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetVersionExW@4     1000c028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetThreadLocale@0   1000c02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetLocaleInfoA@16   1000c030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetACP@0            1000c034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__InterlockedExchange@8 1000c038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__InterlockedIncrement@4 1000c03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__LocalFree@4         1000c040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__InterlockedDecrement@4 1000c044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__EnterCriticalSection@4 1000c048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__LeaveCriticalSection@4 1000c04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetCurrentThreadId@0 1000c050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetLocalTime@4      1000c054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetModuleFileNameW@12 1000c058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__LocalAlloc@8        1000c05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__ExitProcess@4       1000c060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__QueryPerformanceCounter@4 1000c064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetTickCount@0      1000c068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetCurrentProcessId@0 1000c06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__GetSystemTimeAsFileTime@4 1000c070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetVersionExA@4     1000c074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__lstrlenA@4          1000c078     kernel32:KERNEL32.dll
+ 0002:0000007c       \177KERNEL32_NULL_THUNK_DATA 1000c07c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_?AppendFormat@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAAXPB_WZZ 1000c080     mfc71u:MFC71U.DLL
+ 0002:00000084       __imp_?Append@?$CSimpleStringT@_W$00@ATL@@QAEXPB_W@Z 1000c084     mfc71u:MFC71U.DLL
+ 0002:00000088       __imp_?Left@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QBE?AV12@H@Z 1000c088     mfc71u:MFC71U.DLL
+ 0002:0000008c       __imp_??Y?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAEAAV01@PB_W@Z 1000c08c     mfc71u:MFC71U.DLL
+ 0002:00000090       __imp_?SendToHelper@CAsyncSocket@@MAEHPBXHPBUsockaddr@@HH@Z 1000c090     mfc71u:MFC71U.DLL
+ 0002:00000094       __imp_?ReceiveFromHelper@CAsyncSocket@@MAEHPAXHPAUsockaddr@@PAHH@Z 1000c094     mfc71u:MFC71U.DLL
+ 0002:00000098       __imp_?ConnectHelper@CAsyncSocket@@MAEHPBUsockaddr@@H@Z 1000c098     mfc71u:MFC71U.DLL
+ 0002:0000009c       __imp_?OnAccept@CAsyncSocket@@MAEXH@Z 1000c09c     mfc71u:MFC71U.DLL
+ 0002:000000a0       __imp_?OnOutOfBandData@CAsyncSocket@@MAEXH@Z 1000c0a0     mfc71u:MFC71U.DLL
+ 0002:000000a4       __imp_?Send@CAsyncSocket@@UAEHPBXHH@Z 1000c0a4     mfc71u:MFC71U.DLL
+ 0002:000000a8       __imp_?Receive@CAsyncSocket@@UAEHPAXHH@Z 1000c0a8     mfc71u:MFC71U.DLL
+ 0002:000000ac       __imp_?Close@CAsyncSocket@@UAEXXZ 1000c0ac     mfc71u:MFC71U.DLL
+ 0002:000000b0       __imp_?Accept@CAsyncSocket@@UAEHAAV1@PAUsockaddr@@PAH@Z 1000c0b0     mfc71u:MFC71U.DLL
+ 0002:000000b4       __imp_?GetRuntimeClass@CAsyncSocket@@UBEPAUCRuntimeClass@@XZ 1000c0b4     mfc71u:MFC71U.DLL
+ 0002:000000b8       __imp_??0CAsyncSocket@@QAE@XZ 1000c0b8     mfc71u:MFC71U.DLL
+ 0002:000000bc       __imp_??1CAsyncSocket@@UAE@XZ 1000c0bc     mfc71u:MFC71U.DLL
+ 0002:000000c0       __imp_?Connect@CAsyncSocket@@QAEHPB_WI@Z 1000c0c0     mfc71u:MFC71U.DLL
+ 0002:000000c4       __imp_?Create@CAsyncSocket@@QAEHIHJPB_W@Z 1000c0c4     mfc71u:MFC71U.DLL
+ 0002:000000c8       __imp_?OnConnect@CAsyncSocket@@MAEXH@Z 1000c0c8     mfc71u:MFC71U.DLL
+ 0002:000000cc       __imp_?OnClose@CAsyncSocket@@MAEXH@Z 1000c0cc     mfc71u:MFC71U.DLL
+ 0002:000000d0       __imp_?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 1000c0d0     mfc71u:MFC71U.DLL
+ 0002:000000d4       __imp_?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 1000c0d4     mfc71u:MFC71U.DLL
+ 0002:000000d8       __imp_?IsFrameWnd@CWnd@@UBEHXZ 1000c0d8     mfc71u:MFC71U.DLL
+ 0002:000000dc       __imp_?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 1000c0dc     mfc71u:MFC71U.DLL
+ 0002:000000e0       __imp_?PostNcDestroy@CWnd@@MAEXXZ 1000c0e0     mfc71u:MFC71U.DLL
+ 0002:000000e4       __imp_?DefWindowProcW@CWnd@@MAEJIIJ@Z 1000c0e4     mfc71u:MFC71U.DLL
+ 0002:000000e8       __imp_?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 1000c0e8     mfc71u:MFC71U.DLL
+ 0002:000000ec       __imp_?WindowProc@CWnd@@MAEJIIJ@Z 1000c0ec     mfc71u:MFC71U.DLL
+ 0002:000000f0       __imp_?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 1000c0f0     mfc71u:MFC71U.DLL
+ 0002:000000f4       __imp_?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 1000c0f4     mfc71u:MFC71U.DLL
+ 0002:000000f8       __imp_?OnNotify@CWnd@@MAEHIJPAJ@Z 1000c0f8     mfc71u:MFC71U.DLL
+ 0002:000000fc       __imp_?OnCommand@CWnd@@MAEHIJ@Z 1000c0fc     mfc71u:MFC71U.DLL
+ 0002:00000100       __imp_?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 1000c100     mfc71u:MFC71U.DLL
+ 0002:00000104       __imp_?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 1000c104     mfc71u:MFC71U.DLL
+ 0002:00000108       __imp_?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 1000c108     mfc71u:MFC71U.DLL
+ 0002:0000010c       __imp_?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 1000c10c     mfc71u:MFC71U.DLL
+ 0002:00000110       __imp_?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 1000c110     mfc71u:MFC71U.DLL
+ 0002:00000114       __imp_?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 1000c114     mfc71u:MFC71U.DLL
+ 0002:00000118       __imp_?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 1000c118     mfc71u:MFC71U.DLL
+ 0002:0000011c       __imp_?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 1000c11c     mfc71u:MFC71U.DLL
+ 0002:00000120       __imp_?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 1000c120     mfc71u:MFC71U.DLL
+ 0002:00000124       __imp_?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1000c124     mfc71u:MFC71U.DLL
+ 0002:00000128       __imp_?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 1000c128     mfc71u:MFC71U.DLL
+ 0002:0000012c       __imp_?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 1000c12c     mfc71u:MFC71U.DLL
+ 0002:00000130       __imp_?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1000c130     mfc71u:MFC71U.DLL
+ 0002:00000134       __imp_?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 1000c134     mfc71u:MFC71U.DLL
+ 0002:00000138       __imp_?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1000c138     mfc71u:MFC71U.DLL
+ 0002:0000013c       __imp_?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 1000c13c     mfc71u:MFC71U.DLL
+ 0002:00000140       __imp_?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 1000c140     mfc71u:MFC71U.DLL
+ 0002:00000144       __imp_?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1000c144     mfc71u:MFC71U.DLL
+ 0002:00000148       __imp_?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1000c148     mfc71u:MFC71U.DLL
+ 0002:0000014c       __imp_?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1000c14c     mfc71u:MFC71U.DLL
+ 0002:00000150       __imp_?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 1000c150     mfc71u:MFC71U.DLL
+ 0002:00000154       __imp_?get_accChildCount@CWnd@@UAEJPAJ@Z 1000c154     mfc71u:MFC71U.DLL
+ 0002:00000158       __imp_?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 1000c158     mfc71u:MFC71U.DLL
+ 0002:0000015c       __imp_?EnsureStdObj@CWnd@@UAEJXZ 1000c15c     mfc71u:MFC71U.DLL
+ 0002:00000160       __imp_?EndModalLoop@CWnd@@UAEXH@Z 1000c160     mfc71u:MFC71U.DLL
+ 0002:00000164       __imp_?ContinueModal@CWnd@@UAEHXZ 1000c164     mfc71u:MFC71U.DLL
+ 0002:00000168       __imp_?WinHelpInternal@CWnd@@UAEXKI@Z 1000c168     mfc71u:MFC71U.DLL
+ 0002:0000016c       __imp_?HtmlHelpW@CWnd@@UAEXKI@Z 1000c16c     mfc71u:MFC71U.DLL
+ 0002:00000170       __imp_?WinHelpW@CWnd@@UAEXKI@Z 1000c170     mfc71u:MFC71U.DLL
+ 0002:00000174       __imp_?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 1000c174     mfc71u:MFC71U.DLL
+ 0002:00000178       __imp_?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOW@@@Z 1000c178     mfc71u:MFC71U.DLL
+ 0002:0000017c       __imp_?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 1000c17c     mfc71u:MFC71U.DLL
+ 0002:00000180       __imp_?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTW@@@Z 1000c180     mfc71u:MFC71U.DLL
+ 0002:00000184       __imp_?DestroyWindow@CWnd@@UAEHXZ 1000c184     mfc71u:MFC71U.DLL
+ 0002:00000188       __imp_?CreateEx@CWnd@@UAEHKPB_W0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 1000c188     mfc71u:MFC71U.DLL
+ 0002:0000018c       __imp_?CreateEx@CWnd@@UAEHKPB_W0KABUtagRECT@@PAV1@IPAX@Z 1000c18c     mfc71u:MFC71U.DLL
+ 0002:00000190       __imp_?Create@CWnd@@UAEHPB_W0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 1000c190     mfc71u:MFC71U.DLL
+ 0002:00000194       __imp_?PreSubclassWindow@CWnd@@UAEXXZ 1000c194     mfc71u:MFC71U.DLL
+ 0002:00000198       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 1000c198     mfc71u:MFC71U.DLL
+ 0002:0000019c       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 1000c19c     mfc71u:MFC71U.DLL
+ 0002:000001a0       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 1000c1a0     mfc71u:MFC71U.DLL
+ 0002:000001a4       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 1000c1a4     mfc71u:MFC71U.DLL
+ 0002:000001a8       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 1000c1a8     mfc71u:MFC71U.DLL
+ 0002:000001ac       __imp_?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 1000c1ac     mfc71u:MFC71U.DLL
+ 0002:000001b0       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 1000c1b0     mfc71u:MFC71U.DLL
+ 0002:000001b4       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@PBD@Z 1000c1b4     mfc71u:MFC71U.DLL
+ 0002:000001b8       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 1000c1b8     mfc71u:MFC71U.DLL
+ 0002:000001bc       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 1000c1bc     mfc71u:MFC71U.DLL
+ 0002:000001c0       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 1000c1c0     mfc71u:MFC71U.DLL
+ 0002:000001c4       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 1000c1c4     mfc71u:MFC71U.DLL
+ 0002:000001c8       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 1000c1c8     mfc71u:MFC71U.DLL
+ 0002:000001cc       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 1000c1cc     mfc71u:MFC71U.DLL
+ 0002:000001d0       __imp_?OnFinalRelease@CWnd@@UAEXXZ 1000c1d0     mfc71u:MFC71U.DLL
+ 0002:000001d4       __imp_?GetThisMessageMap@CWnd@@KGPBUAFX_MSGMAP@@XZ 1000c1d4     mfc71u:MFC71U.DLL
+ 0002:000001d8       __imp_?GetThisClass@CWnd@@SGPAUCRuntimeClass@@XZ 1000c1d8     mfc71u:MFC71U.DLL
+ 0002:000001dc       __imp_?SetOccDialogInfo@CWnd@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 1000c1dc     mfc71u:MFC71U.DLL
+ 0002:000001e0       __imp_?CheckAutoCenter@CWnd@@UAEHXZ 1000c1e0     mfc71u:MFC71U.DLL
+ 0002:000001e4       __imp_?PreTranslateMessage@CWnd@@UAEHPAUtagMSG@@@Z 1000c1e4     mfc71u:MFC71U.DLL
+ 0002:000001e8       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 1000c1e8     mfc71u:MFC71U.DLL
+ 0002:000001ec       __imp_??0CWnd@@QAE@XZ      1000c1ec     mfc71u:MFC71U.DLL
+ 0002:000001f0       __imp_??1CWnd@@UAE@XZ      1000c1f0     mfc71u:MFC71U.DLL
+ 0002:000001f4       __imp_?Unlock@CSingleLock@@QAEHXZ 1000c1f4     mfc71u:MFC71U.DLL
+ 0002:000001f8       __imp_?GetRuntimeClass@CCriticalSection@@UBEPAUCRuntimeClass@@XZ 1000c1f8     mfc71u:MFC71U.DLL
+ 0002:000001fc       __imp_??1CSyncObject@@UAE@XZ 1000c1fc     mfc71u:MFC71U.DLL
+ 0002:00000200       __imp_??0CSyncObject@@QAE@PB_W@Z 1000c200     mfc71u:MFC71U.DLL
+ 0002:00000204       __imp_??1CFile@@UAE@XZ     1000c204     mfc71u:MFC71U.DLL
+ 0002:00000208       __imp_?Compare@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QBEHPB_W@Z 1000c208     mfc71u:MFC71U.DLL
+ 0002:0000020c       __imp_?ReportError@CException@@UAEHII@Z 1000c20c     mfc71u:MFC71U.DLL
+ 0002:00000210       __imp_?GetErrorMessage@CFileException@@UAEHPA_WIPAI@Z 1000c210     mfc71u:MFC71U.DLL
+ 0002:00000214       __imp_?GetRuntimeClass@CFileException@@UBEPAUCRuntimeClass@@XZ 1000c214     mfc71u:MFC71U.DLL
+ 0002:00000218       __imp_??0CException@@QAE@XZ 1000c218     mfc71u:MFC71U.DLL
+ 0002:0000021c       __imp_??0CSingleLock@@QAE@PAVCSyncObject@@H@Z 1000c21c     mfc71u:MFC71U.DLL
+ 0002:00000220       __imp_?Right@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QBE?AV12@H@Z 1000c220     mfc71u:MFC71U.DLL
+ 0002:00000224       __imp_?Trim@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAEAAV12@XZ 1000c224     mfc71u:MFC71U.DLL
+ 0002:00000228       __imp_?ReverseFind@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QBEH_W@Z 1000c228     mfc71u:MFC71U.DLL
+ 0002:0000022c       __imp_??0CFile@@QAE@XZ     1000c22c     mfc71u:MFC71U.DLL
+ 0002:00000230       __imp_?Delete@CException@@QAEXXZ 1000c230     mfc71u:MFC71U.DLL
+ 0002:00000234       __imp_?hFileNull@CFile@@2QAXA 1000c234     mfc71u:MFC71U.DLL
+ 0002:00000238       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PBD@Z 1000c238     mfc71u:MFC71U.DLL
+ 0002:0000023c       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 1000c23c     mfc71u:MFC71U.DLL
+ 0002:00000240       __imp_?AppendFormatV@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAEXPB_WPAD@Z 1000c240     mfc71u:MFC71U.DLL
+ 0002:00000244       __imp_?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ 1000c244     mfc71u:MFC71U.DLL
+ 0002:00000248       __imp_?LoadSysPolicies@CWinApp@@UAEHXZ 1000c248     mfc71u:MFC71U.DLL
+ 0002:0000024c       __imp_?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ 1000c24c     mfc71u:MFC71U.DLL
+ 0002:00000250       __imp_?WinHelpInternal@CWinApp@@UAEXKI@Z 1000c250     mfc71u:MFC71U.DLL
+ 0002:00000254       __imp_?HtmlHelpW@CWinApp@@UAEXKI@Z 1000c254     mfc71u:MFC71U.DLL
+ 0002:00000258       __imp_?WinHelpW@CWinApp@@UAEXKI@Z 1000c258     mfc71u:MFC71U.DLL
+ 0002:0000025c       __imp_?OnDDECommand@CWinApp@@UAEHPA_W@Z 1000c25c     mfc71u:MFC71U.DLL
+ 0002:00000260       __imp_?DoWaitCursor@CWinApp@@UAEXH@Z 1000c260     mfc71u:MFC71U.DLL
+ 0002:00000264       __imp_?DoMessageBox@CWinApp@@UAEHPB_WII@Z 1000c264     mfc71u:MFC71U.DLL
+ 0002:00000268       __imp_?SaveAllModified@CWinApp@@UAEHXZ 1000c268     mfc71u:MFC71U.DLL
+ 0002:0000026c       __imp_?InitApplication@CWinApp@@UAEHXZ 1000c26c     mfc71u:MFC71U.DLL
+ 0002:00000270       __imp_?AddToRecentFileList@CWinApp@@UAEXPB_W@Z 1000c270     mfc71u:MFC71U.DLL
+ 0002:00000274       __imp_?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PB_W@Z 1000c274     mfc71u:MFC71U.DLL
+ 0002:00000278       __imp_?Unregister@CWinApp@@UAEHXZ 1000c278     mfc71u:MFC71U.DLL
+ 0002:0000027c       __imp_?Register@CWinApp@@UAEHXZ 1000c27c     mfc71u:MFC71U.DLL
+ 0002:00000280       __imp_?InitLibId@CWinApp@@UAEXXZ 1000c280     mfc71u:MFC71U.DLL
+ 0002:00000284       __imp_?Delete@CWinThread@@UAEXXZ 1000c284     mfc71u:MFC71U.DLL
+ 0002:00000288       __imp_?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 1000c288     mfc71u:MFC71U.DLL
+ 0002:0000028c       __imp_?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 1000c28c     mfc71u:MFC71U.DLL
+ 0002:00000290       __imp_?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 1000c290     mfc71u:MFC71U.DLL
+ 0002:00000294       __imp_?ExitInstance@CWinApp@@UAEHXZ 1000c294     mfc71u:MFC71U.DLL
+ 0002:00000298       __imp_?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 1000c298     mfc71u:MFC71U.DLL
+ 0002:0000029c       __imp_?OnIdle@CWinApp@@UAEHJ@Z 1000c29c     mfc71u:MFC71U.DLL
+ 0002:000002a0       __imp_?PumpMessage@CWinThread@@UAEHXZ 1000c2a0     mfc71u:MFC71U.DLL
+ 0002:000002a4       __imp_?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 1000c2a4     mfc71u:MFC71U.DLL
+ 0002:000002a8       __imp_?Run@CWinApp@@UAEHXZ 1000c2a8     mfc71u:MFC71U.DLL
+ 0002:000002ac       __imp_?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 1000c2ac     mfc71u:MFC71U.DLL
+ 0002:000002b0       __imp_?OnFinalRelease@CCmdTarget@@UAEXXZ 1000c2b0     mfc71u:MFC71U.DLL
+ 0002:000002b4       __imp_?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 1000c2b4     mfc71u:MFC71U.DLL
+ 0002:000002b8       __imp_??0CWinApp@@QAE@PB_W@Z 1000c2b8     mfc71u:MFC71U.DLL
+ 0002:000002bc       __imp_??1CWinApp@@UAE@XZ   1000c2bc     mfc71u:MFC71U.DLL
+ 0002:000002c0       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1000c2c0     mfc71u:MFC71U.DLL
+ 0002:000002c4       __imp_?AfxThrowResourceException@@YGXXZ 1000c2c4     mfc71u:MFC71U.DLL
+ 0002:000002c8       __imp_?AfxRegisterClass@@YGHPAUtagWNDCLASSW@@@Z 1000c2c8     mfc71u:MFC71U.DLL
+ 0002:000002cc       __imp_?AfxGetAfxWndProc@@YGP6GJPAUHWND__@@IIJ@ZXZ 1000c2cc     mfc71u:MFC71U.DLL
+ 0002:000002d0       __imp_?InitInstance@CWinApp@@UAEHXZ 1000c2d0     mfc71u:MFC71U.DLL
+ 0002:000002d4       __imp_?GetBuffer@?$CSimpleStringT@D$00@ATL@@QAEPADXZ 1000c2d4     mfc71u:MFC71U.DLL
+ 0002:000002d8       __imp_??3CNoTrackObject@@SGXPAX@Z 1000c2d8     mfc71u:MFC71U.DLL
+ 0002:000002dc       __imp_??0AFX_MODULE_STATE@@QAE@HP6GJPAUHWND__@@IIJ@ZKH@Z 1000c2dc     mfc71u:MFC71U.DLL
+ 0002:000002e0       __imp_?AfxCoreInitModule@@YGXXZ 1000c2e0     mfc71u:MFC71U.DLL
+ 0002:000002e4       __imp_?AfxWinInit@@YGHPAUHINSTANCE__@@0PA_WH@Z 1000c2e4     mfc71u:MFC71U.DLL
+ 0002:000002e8       __imp_?AfxWinTerm@@YGXXZ   1000c2e8     mfc71u:MFC71U.DLL
+ 0002:000002ec       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000c2ec     mfc71u:MFC71U.DLL
+ 0002:000002f0       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1000c2f0     mfc71u:MFC71U.DLL
+ 0002:000002f4       __imp_?AfxLockTempMaps@@YGXXZ 1000c2f4     mfc71u:MFC71U.DLL
+ 0002:000002f8       __imp_?AfxUnlockTempMaps@@YGHH@Z 1000c2f8     mfc71u:MFC71U.DLL
+ 0002:000002fc       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1000c2fc     mfc71u:MFC71U.DLL
+ 0002:00000300       __imp_?AfxTermThread@@YGXPAUHINSTANCE__@@@Z 1000c300     mfc71u:MFC71U.DLL
+ 0002:00000304       __imp_??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 1000c304     mfc71u:MFC71U.DLL
+ 0002:00000308       __imp_?AfxWndProc@@YGJPAUHWND__@@IIJ@Z 1000c308     mfc71u:MFC71U.DLL
+ 0002:0000030c       __imp_?AfxGetThreadState@@YGPAV_AFX_THREAD_STATE@@XZ 1000c30c     mfc71u:MFC71U.DLL
+ 0002:00000310       __imp_?AfxSetModuleState@@YGPAVAFX_MODULE_STATE@@PAV1@@Z 1000c310     mfc71u:MFC71U.DLL
+ 0002:00000314       __imp_??1AFX_MODULE_STATE@@UAE@XZ 1000c314     mfc71u:MFC71U.DLL
+ 0002:00000318       __imp_??1?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 1000c318     mfc71u:MFC71U.DLL
+ 0002:0000031c       __imp_??0?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@PBD@Z 1000c31c     mfc71u:MFC71U.DLL
+ 0002:00000320       __imp_?CompareNoCase@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QBEHPB_W@Z 1000c320     mfc71u:MFC71U.DLL
+ 0002:00000324       __imp_??4?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAEAAV01@PB_W@Z 1000c324     mfc71u:MFC71U.DLL
+ 0002:00000328       __imp_?GetBuffer@?$CSimpleStringT@_W$00@ATL@@QAEPA_WXZ 1000c328     mfc71u:MFC71U.DLL
+ 0002:0000032c       __imp_?Mid@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QBE?AV12@HH@Z 1000c32c     mfc71u:MFC71U.DLL
+ 0002:00000330       __imp_??4?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAEAAV01@ABV01@@Z 1000c330     mfc71u:MFC71U.DLL
+ 0002:00000334       __imp_?MakeLower@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAEAAV12@XZ 1000c334     mfc71u:MFC71U.DLL
+ 0002:00000338       __imp_??_V@YAXPAX@Z        1000c338     mfc71u:MFC71U.DLL
+ 0002:0000033c       __imp_?StringLength@?$CSimpleStringT@_W$00@ATL@@SAHPB_W@Z 1000c33c     mfc71u:MFC71U.DLL
+ 0002:00000340       __imp_?GetManager@?$CSimpleStringT@_W$00@ATL@@QBEPAUIAtlStringMgr@2@XZ 1000c340     mfc71u:MFC71U.DLL
+ 0002:00000344       __imp_??0?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@PAUIAtlStringMgr@1@@Z 1000c344     mfc71u:MFC71U.DLL
+ 0002:00000348       __imp_?Concatenate@?$CSimpleStringT@_W$00@ATL@@KAXAAV12@PB_WH1H@Z 1000c348     mfc71u:MFC71U.DLL
+ 0002:0000034c       __imp_??_U@YAPAXI@Z        1000c34c     mfc71u:MFC71U.DLL
+ 0002:00000350       __imp_??B?$CSimpleStringT@_W$00@ATL@@QBEPB_WXZ 1000c350     mfc71u:MFC71U.DLL
+ 0002:00000354       __imp_?Format@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAAXPB_WZZ 1000c354     mfc71u:MFC71U.DLL
+ 0002:00000358       __imp_??0?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@PB_W@Z 1000c358     mfc71u:MFC71U.DLL
+ 0002:0000035c       __imp_??0?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@XZ 1000c35c     mfc71u:MFC71U.DLL
+ 0002:00000360       __imp_?LoadStringW@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAEHI@Z 1000c360     mfc71u:MFC71U.DLL
+ 0002:00000364       __imp_??0?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@ABV01@@Z 1000c364     mfc71u:MFC71U.DLL
+ 0002:00000368       __imp_?GetBufferSetLength@?$CSimpleStringT@_W$00@ATL@@QAEPA_WH@Z 1000c368     mfc71u:MFC71U.DLL
+ 0002:0000036c       __imp_?GetLength@?$CSimpleStringT@_W$00@ATL@@QBEHXZ 1000c36c     mfc71u:MFC71U.DLL
+ 0002:00000370       __imp_?ReleaseBuffer@?$CSimpleStringT@_W$00@ATL@@QAEXH@Z 1000c370     mfc71u:MFC71U.DLL
+ 0002:00000374       __imp_??1?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@XZ 1000c374     mfc71u:MFC71U.DLL
+ 0002:00000378       __imp_??2@YAPAXI@Z         1000c378     mfc71u:MFC71U.DLL
+ 0002:0000037c       __imp_?AfxThrowMemoryException@@YGXXZ 1000c37c     mfc71u:MFC71U.DLL
+ 0002:00000380       __imp_?AfxThrowOleException@@YGXJ@Z 1000c380     mfc71u:MFC71U.DLL
+ 0002:00000384       __imp_??3@YAXPAX@Z         1000c384     mfc71u:MFC71U.DLL
+ 0002:00000388       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 1000c388     mfc71u:MFC71U.DLL
+ 0002:0000038c       \177MFC71U_NULL_THUNK_DATA 1000c38c     mfc71u:MFC71U.DLL
+ 0002:00000390       __imp_?substr@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBE?AV12@II@Z 1000c390     msvcprt:MSVCP71.dll
+ 0002:00000394       __imp_?find@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEI_WI@Z 1000c394     msvcprt:MSVCP71.dll
+ 0002:00000398       __imp_??4?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@PB_W@Z 1000c398     msvcprt:MSVCP71.dll
+ 0002:0000039c       __imp_?npos@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@2IB 1000c39c     msvcprt:MSVCP71.dll
+ 0002:000003a0       __imp_?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z 1000c3a0     msvcprt:MSVCP71.dll
+ 0002:000003a4       __imp_?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z 1000c3a4     msvcprt:MSVCP71.dll
+ 0002:000003a8       __imp_??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z 1000c3a8     msvcprt:MSVCP71.dll
+ 0002:000003ac       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000c3ac     msvcprt:MSVCP71.dll
+ 0002:000003b0       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 1000c3b0     msvcprt:MSVCP71.dll
+ 0002:000003b4       __imp_??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 1000c3b4     msvcprt:MSVCP71.dll
+ 0002:000003b8       __imp_??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@PB_W@Z 1000c3b8     msvcprt:MSVCP71.dll
+ 0002:000003bc       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 1000c3bc     msvcprt:MSVCP71.dll
+ 0002:000003c0       __imp_??Y?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@ABV01@@Z 1000c3c0     msvcprt:MSVCP71.dll
+ 0002:000003c4       __imp_??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV01@@Z 1000c3c4     msvcprt:MSVCP71.dll
+ 0002:000003c8       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 1000c3c8     msvcprt:MSVCP71.dll
+ 0002:000003cc       \177MSVCP71_NULL_THUNK_DATA 1000c3cc     msvcprt:MSVCP71.dll
+ 0002:000003d0       __imp___wtol               1000c3d0     msvcrt:MSVCR71.dll
+ 0002:000003d4       __imp___CxxThrowException@8 1000c3d4     msvcrt:MSVCR71.dll
+ 0002:000003d8       __imp_??0exception@@QAE@ABV0@@Z 1000c3d8     msvcrt:MSVCR71.dll
+ 0002:000003dc       __imp__malloc              1000c3dc     msvcrt:MSVCR71.dll
+ 0002:000003e0       __imp__free                1000c3e0     msvcrt:MSVCR71.dll
+ 0002:000003e4       __imp__wcslen              1000c3e4     msvcrt:MSVCR71.dll
+ 0002:000003e8       __imp__swprintf            1000c3e8     msvcrt:MSVCR71.dll
+ 0002:000003ec       __imp__wcsftime            1000c3ec     msvcrt:MSVCR71.dll
+ 0002:000003f0       __imp___localtime64        1000c3f0     msvcrt:MSVCR71.dll
+ 0002:000003f4       __imp___except_handler3    1000c3f4     msvcrt:MSVCR71.dll
+ 0002:000003f8       __imp____CxxFrameHandler   1000c3f8     msvcrt:MSVCR71.dll
+ 0002:000003fc       __imp_??0exception@@QAE@XZ 1000c3fc     msvcrt:MSVCR71.dll
+ 0002:00000400       __imp_??1exception@@UAE@XZ 1000c400     msvcrt:MSVCR71.dll
+ 0002:00000404       __imp__wcstol              1000c404     msvcrt:MSVCR71.dll
+ 0002:00000408       __imp__sprintf             1000c408     msvcrt:MSVCR71.dll
+ 0002:0000040c       __imp__atoi                1000c40c     msvcrt:MSVCR71.dll
+ 0002:00000410       __imp__memset              1000c410     msvcrt:MSVCR71.dll
+ 0002:00000414       __imp____security_error_handler 1000c414     msvcrt:MSVCR71.dll
+ 0002:00000418       __imp_??1type_info@@UAE@XZ 1000c418     msvcrt:MSVCR71.dll
+ 0002:0000041c       __imp_?terminate@@YAXXZ    1000c41c     msvcrt:MSVCR71.dll
+ 0002:00000420       __imp____dllonexit         1000c420     msvcrt:MSVCR71.dll
+ 0002:00000424       __imp___onexit             1000c424     msvcrt:MSVCR71.dll
+ 0002:00000428       __imp___initterm           1000c428     msvcrt:MSVCR71.dll
+ 0002:0000042c       __imp___adjust_fdiv        1000c42c     msvcrt:MSVCR71.dll
+ 0002:00000430       __imp____CppXcptFilter     1000c430     msvcrt:MSVCR71.dll
+ 0002:00000434       __imp___wtoi               1000c434     msvcrt:MSVCR71.dll
+ 0002:00000438       \177MSVCR71_NULL_THUNK_DATA 1000c438     msvcrt:MSVCR71.dll
+ 0002:0000043c       __imp__VariantClear@4      1000c43c     oleaut32:OLEAUT32.dll
+ 0002:00000440       __imp__VariantChangeType@16 1000c440     oleaut32:OLEAUT32.dll
+ 0002:00000444       __imp__VariantCopy@8       1000c444     oleaut32:OLEAUT32.dll
+ 0002:00000448       __imp__VariantInit@4       1000c448     oleaut32:OLEAUT32.dll
+ 0002:0000044c       __imp__SysStringByteLen@4  1000c44c     oleaut32:OLEAUT32.dll
+ 0002:00000450       __imp__SysAllocStringByteLen@8 1000c450     oleaut32:OLEAUT32.dll
+ 0002:00000454       __imp__SysAllocString@4    1000c454     oleaut32:OLEAUT32.dll
+ 0002:00000458       __imp__VarUdateFromDate@16 1000c458     oleaut32:OLEAUT32.dll
+ 0002:0000045c       __imp__SystemTimeToVariantTime@8 1000c45c     oleaut32:OLEAUT32.dll
+ 0002:00000460       __imp__SysFreeString@4     1000c460     oleaut32:OLEAUT32.dll
+ 0002:00000464       __imp__GetErrorInfo@8      1000c464     oleaut32:OLEAUT32.dll
+ 0002:00000468       \177OLEAUT32_NULL_THUNK_DATA 1000c468     oleaut32:OLEAUT32.dll
+ 0002:0000046c       __imp__SHCreateDirectoryExW@12 1000c46c     shell32:SHELL32.dll
+ 0002:00000470       \177SHELL32_NULL_THUNK_DATA 1000c470     shell32:SHELL32.dll
+ 0002:00000474       __imp__PathFileExistsW@4   1000c474     shlwapi:SHLWAPI.dll
+ 0002:00000478       \177SHLWAPI_NULL_THUNK_DATA 1000c478     shlwapi:SHLWAPI.dll
+ 0002:0000047c       __imp__EnableWindow@8      1000c47c     user32:USER32.dll
+ 0002:00000480       __imp__KillTimer@8         1000c480     user32:USER32.dll
+ 0002:00000484       __imp__SetTimer@16         1000c484     user32:USER32.dll
+ 0002:00000488       __imp__LoadCursorW@8       1000c488     user32:USER32.dll
+ 0002:0000048c       __imp__wsprintfW           1000c48c     user32:USER32.dll
+ 0002:00000490       \177USER32_NULL_THUNK_DATA 1000c490     user32:USER32.dll
+ 0002:00000494       __imp__shutdown@8          1000c494     ws2_32:WS2_32.dll
+ 0002:00000498       __imp__WSAStartup@8        1000c498     ws2_32:WS2_32.dll
+ 0002:0000049c       __imp__WSACleanup@0        1000c49c     ws2_32:WS2_32.dll
+ 0002:000004a0       __imp__WSAGetLastError@0   1000c4a0     ws2_32:WS2_32.dll
+ 0002:000004a4       \177WS2_32_NULL_THUNK_DATA 1000c4a4     ws2_32:WS2_32.dll
+ 0002:000004a8       __imp__CoUninitialize@0    1000c4a8     ole32:ole32.dll
+ 0002:000004ac       __imp__OleRun@4            1000c4ac     ole32:ole32.dll
+ 0002:000004b0       __imp__CLSIDFromProgID@8   1000c4b0     ole32:ole32.dll
+ 0002:000004b4       __imp__CLSIDFromString@8   1000c4b4     ole32:ole32.dll
+ 0002:000004b8       __imp__CoCreateInstance@20 1000c4b8     ole32:ole32.dll
+ 0002:000004bc       __imp__CoInitialize@4      1000c4bc     ole32:ole32.dll
+ 0002:000004c0       \177ole32_NULL_THUNK_DATA  1000c4c0     ole32:ole32.dll
+ 0002:000004ec       ??_C@_1CC@FFBCNGIJ@?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAD?$AAa?$AAt?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 1000c4ec     ConnNotice.obj
+ 0002:00000530       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 1000c530     ConnNotice.obj
+ 0002:00000540       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 1000c540     ConnNotice.obj
+ 0002:00000554       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 1000c554     ConnNotice.obj
+ 0002:0000056c       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 1000c56c     ConnNotice.obj
+ 0002:00000574       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 1000c574     ConnNotice.obj
+ 0002:00000578       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 1000c578     ConnNotice.obj
+ 0002:0000057c       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 1000c57c     ConnNotice.obj
+ 0002:00000580       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 1000c580     ConnNotice.obj
+ 0002:00000584       ??_7logic_error@std@@6B@   1000c584     ConnNotice.obj
+ 0002:0000058c       ??_7length_error@std@@6B@  1000c58c     ConnNotice.obj
+ 0002:000005a4       ??_C@_11LOCGONAA@?$AA?$AA@ 1000c5a4     ConnNotice.obj
+ 0002:000005a8       ??_C@_15KNBIKKIN@?$AA?$CF?$AAd?$AA?$AA@ 1000c5a8     ConnNotice.obj
+ 0002:000005b0       ??_C@_1CI@EEADGOIK@_?$KOO?aN?9?$JF?tN?v?$AAI?$AAP?$AA?3?$AA?$CF?$AAs?$AA?0?$AA?5?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 1000c5b0     ConnNotice.obj
+ 0002:000005d8       ??_C@_1BE@MFLMDPGA@?$IP?$NOc?$KF?$AA?$CF?$AAs?$AA?3?$AA?$CF?$AAdY1?$IN?$CF?$AA?$AA@ 1000c5d8     ConnNotice.obj
+ 0002:000005ec       ??_C@_1BG@CADOGLEB@_?$AAY?K?$IP?$NOc?$KFg?$ANR?$KBVh?$AA?4?$AA?4?$AA?4?$AA?$AA@ 1000c5ec     ConnNotice.obj
+ 0002:00000604       ??_7CConnNotice@@6B@       1000c604     ConnNotice.obj
+ 0002:00000618       ??_C@_1BI@HEMKKAHN@?$AA?$CF?$AA0?$AA4?$AAX?$AA?$CF?$AA0?$AA4?$AAX?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 1000c618     ConnNotice.obj
+ 0002:00000630       ??_C@_1BI@COBEHEFO@_?$KOO?a?$HO?$LPz?$ALP?2kb?$IP?P?$IIL?$AA?5_?$AC?$FO8?$AA?$AA@ 1000c630     ConnNotice.obj
+ 0002:00000648       ??_C@_1BC@CNIDDFIB@_?$KOO?a?$HO?$LPz?$ALP?2kb?$IP?P?$IIL?$AA?$AA@ 1000c648     ConnNotice.obj
+ 0002:0000065c       ??_C@_1O@FDADECLN@?$AA?$CD?$AA?$CF?$AAd?$AA?$CD?$AA?$CF?$AAd?$AA?$AA@ 1000c65c     ConnNotice.obj
+ 0002:0000066c       ??_C@_1BO@PMLLFPHC@?$AA?$CD?$AA?$CF?$AAd?$AA?$CD?$AA?$CF?$AAd?$AA?$CD?$AA?$CF?$AAs?$AA?$CD?$AA?$CF?$AA0?$AA2?$AAd?$AA?$AA@ 1000c66c     ConnNotice.obj
+ 0002:0000068c       ??_C@_1BI@KJDOILNC@?$AA?$CD?$AA?$CF?$AAd?$AA?$CD?$AA?$CF?$AAd?$AA?$CD?$AA?$CF?$AA0?$AA2?$AAd?$AA?$AA@ 1000c68c     ConnNotice.obj
+ 0002:000006a4       ??_7?$CGxxString@_W@G2XUtility@@6B@ 1000c6a4     ConnNotice.obj
+ 0002:000006a8       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ 1000c6a8     ConnNotice.obj
+ 0002:000006bc       ??_C@_1CI@HJJPLNEP@N?9?$JF?tN?v?$IP?$NOc?$KFe?$KN_?$AA?$PP?$AMz?$ANT?$AO?2?$BN?$IL?U?$JB?Me?$LA?$IP?$NOc?$KF?$AA?4?$AA?4?$AA?4?$AA?$AA@ 1000c6bc     ConnNotice.obj
+ 0002:000006e8       __real@0000000000000000    1000c6e8     ConnNotice.obj
+ 0002:000006f0       ??_C@_19CIFAFIN@?$AA?$CF?$AAd?$AA?$CF?$AAd?$AA?$AA@ 1000c6f0     ConnNotice.obj
+ 0002:000006fc       ??_C@_1BA@HLDOKDJK@?$AA?$CD?$AA?$CF?$AAd?$AA?$CD?$AA?$CF?$AAd?$AA?$CD?$AA?$AA@ 1000c6fc     ConnNotice.obj
+ 0002:0000070c       ??_C@_1CC@BAHKCBPG@?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AA?5?$AAs?$AAu?$AAc?$AAc?$AAe?$AAs?$AAs?$AA?4?$AA?$AA@ 1000c70c     ConnNotice.obj
+ 0002:00000730       ??_C@_1BG@KACNEDG@e6R0N?$AN?$IA?$PN?$II?$KL?$IL?FR?$CLv?$IEm?$II?$GAo?$AA?$AA@ 1000c730     ConnNotice.obj
+ 0002:00000748       ??_C@_1EG@MPKKGGNG@?$AAF?$AAr?$AAe?$AAe?$AAS?$AAe?$AAa?$AAt?$AA?3?$AA?5?$AAN?$AAo?$AA?5?$AAm?$AAa?$AAt?$AAc?$AAh?$AAe?$AAd@ 1000c748     ConnNotice.obj
+ 0002:00000790       ??_C@_1CI@IPAHHODB@?$AAF?$AAr?$AAe?$AAe?$AAS?$AAe?$AAa?$AAt?$AA?5?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 1000c790     ConnNotice.obj
+ 0002:000007b8       ??_C@_1HG@KPPNDAEI@?$AAd?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAo?$AAc?$AAc?$AAu?$AAp?$AAy?$AAs?$AAe@ 1000c7b8     ConnNotice.obj
+ 0002:00000830       ??_C@_1EI@HBICBJOI@?$AAF?$AAr?$AAe?$AAe?$AAS?$AAe?$AAa?$AAt?$AA?3?$AA?5?$AAs?$AAe?$AAl?$AAe?$AAc?$AAt?$AA?5?$AA?$CK?$AA?5?$AAf@ 1000c830     ConnNotice.obj
+ 0002:00000878       ??_C@_1DM@PKNOCEHL@?$AAt?$AAe?$AAr?$AAm?$AAI?$AAd?$AA?5?$AA?$DN?$AA?5?$AA?8?$AA?$CF?$AAs?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa@ 1000c878     ConnNotice.obj
+ 0002:000008b4       ??_C@_1BC@DNBBDBOO@S?$GA?$FO?$KHO?a?$GAoh?$CB?$JK?$IMY1?$IN?$CF?$AA?$AA@ 1000c8b4     ConnNotice.obj
+ 0002:000008c8       ??_C@_1BG@MAAOGLHG@?$AAS?$AAQ?$AAL?$AAA?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 1000c8c8     ConnNotice.obj
+ 0002:000008e0       ??_C@_1BE@CDLPCCPL@?$AAS?$AAQ?$AAL?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 1000c8e0     ConnNotice.obj
+ 0002:000008f8       ??_C@_1MG@CCPMEMNE@?$AAI?$AAn?$AAs?$AAe?$AAr?$AAt?$AA?5?$AAi?$AAn?$AAt?$AAo?$AA?5?$AAO?$AAc?$AAc?$AAu?$AAp?$AAy?$AAS?$AAe@ 1000c8f8     ConnNotice.obj
+ 0002:000009c0       ??_C@_1NC@PCHJIBFJ@?$AAu?$AAp?$AAd?$AAa?$AAt?$AAe?$AA?5?$AAO?$AAc?$AAc?$AAu?$AAp?$AAy?$AAS?$AAe?$AAa?$AAt?$AA?5?$AAs?$AAe@ 1000c9c0     ConnNotice.obj
+ 0002:00000a94       ??_C@_1BM@OPEBCDBN@?$AAt?$AAe?$AAr?$AAm?$AAI?$AAd?$AA?5?$AA?$DN?$AA?5?$AA?8?$AA?$CF?$AAs?$AA?8?$AA?$AA@ 1000ca94     ConnNotice.obj
+ 0002:00000ab0       ??_C@_1BG@NHIMMDPC@?$AAO?$AAc?$AAc?$AAu?$AAp?$AAy?$AAS?$AAe?$AAa?$AAt?$AA?$AA@ 1000cab0     ConnNotice.obj
+ 0002:00000ac8       ??_C@_1IA@LMDLDMOD@?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAt?$AAo?$AA?5?$AAd?$AAa?$AAt?$AAa?$AAb?$AAa@ 1000cac8     ConnNotice.obj
+ 0002:00000b48       ??_C@_0L@OCIDONLJ@DSN?$DNnetbar?$AA@ 1000cb48     ConnNotice.obj
+ 0002:00000b54       ??_C@_1BK@BDMFGLBO@?$AAE?$AAn?$AAd?$AAT?$AAi?$AAm?$AAe?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 1000cb54     ConnNotice.obj
+ 0002:00000b70       ??_C@_1BO@BODPHEHM@?$AAS?$AAt?$AAa?$AAr?$AAt?$AAT?$AAi?$AAm?$AAe?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 1000cb70     ConnNotice.obj
+ 0002:00000b90       ??_C@_1CE@IEOLOJPC@?$AA?$CF?$AAY?$AA?9?$AA?$CF?$AAm?$AA?9?$AA?$CF?$AAd?$AA?5?$AA?$CF?$AAH?$AA?3?$AA?$CF?$AAM?$AA?3?$AA?$CF?$AAS?$AA?$AA@ 1000cb90     ConnNotice.obj
+ 0002:00000bb4       ??_C@_1DA@IHBNPIF@?$AAr?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AAd?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AAc?$AAo?$AAd?$AAe?$AA?5?$AA?$DN@ 1000cbb4     ConnNotice.obj
+ 0002:00000be4       ??_C@_1CO@CKEDGPEK@?$AAr?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AAd?$AA?5?$AAU?$AAs?$AAe?$AAr?$AAN?$AAa?$AAm?$AAe?$AA?5?$AA?$DN?$AA?5@ 1000cbe4     ConnNotice.obj
+ 0002:00000c14       ??_C@_1CK@PFHJIIHI@?$AAr?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AAd?$AA?5?$AAT?$AAe?$AAr?$AAm?$AAI?$AAd?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAs@ 1000cc14     ConnNotice.obj
+ 0002:00000c40       ??_C@_1BI@OKCAHDDI@?$AAn?$AAF?$AAo?$AAr?$AAt?$AAh?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 1000cc40     ConnNotice.obj
+ 0002:00000c58       ??_C@_1BI@CGNDIBNF@?$AAn?$AAT?$AAh?$AAi?$AAr?$AAd?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 1000cc58     ConnNotice.obj
+ 0002:00000c70       ??_C@_1BK@PLNOOCDA@?$AAn?$AAS?$AAe?$AAc?$AAo?$AAn?$AAd?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 1000cc70     ConnNotice.obj
+ 0002:00000c8c       ??_C@_1BI@NPLNLLNJ@?$AAn?$AAF?$AAi?$AAr?$AAs?$AAt?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 1000cc8c     ConnNotice.obj
+ 0002:00000ca4       ??_C@_19JABIAOFN@f?$DOy?3m?$II?$GAo?$AA?$AA@ 1000cca4     ConnNotice.obj
+ 0002:00000cb0       ??_C@_1O@FBIPPEFF@m?$II?$GAoh?$CB?$JK?$IMY1?$IN?$CF?$AA?$AA@ 1000ccb0     ConnNotice.obj
+ 0002:00000cc0       ??_C@_1BC@PFEBKDJF@epcnS?BepN?$CKepN?$AN?$FL?y?$AA?$AA@ 1000ccc0     ConnNotice.obj
+ 0002:00000cd4       ??_C@_13GMDMCADD@?$AA?$CD?$AA?$AA@ 1000ccd4     ConnNotice.obj
+ 0002:00000cd8       ??_C@_1M@NNIEBNGK@_?C?$IN?sY1?$IN?$CF?$AA?$CB?$AA?$AA@ 1000ccd8     ConnNotice.obj
+ 0002:00000ce4       ??_C@_1M@PCMIFGJB@_?C?$IN?sb?$BAR?$JP?$AA?$CB?$AA?$AA@ 1000cce4     ConnNotice.obj
+ 0002:00000cf0       ??_C@_1M@MMAAJAAL@v?$HL_UY1?$IN?$CF?$AA?$CB?$AA?$AA@ 1000ccf0     ConnNotice.obj
+ 0002:00000cfc       ??_C@_1M@ODEMNLPA@v?$HL_Ub?$BAR?$JP?$AA?$CB?$AA?$AA@ 1000ccfc     ConnNotice.obj
+ 0002:00000d08       ??_C@_1BA@HLDNKNIE@N?9_?C?$IP?TV?$NO?$AA?3?$AA?$CF?$AAs?$AA?$AA@ 1000cd08     ConnNotice.obj
+ 0002:00000d18       ??_C@_0CB@EHCJDIMA@8d4ac26906c442a18ac7938a87090cb8@ 1000cd18     ConnNotice.obj
+ 0002:00000d3c       ??_C@_19NHPFCCLF@?$AA?$CF?$AA0?$AA2?$AAx?$AA?$AA@ 1000cd3c     Encrypt.obj
+ 0002:00000d46       ??_C@_00CNPNBAHC@?$AA@     1000cd46     G2XCommonTool.obj
+ 0002:00000d48       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 1000cd48     G2XCommonTool.obj
+ 0002:00000d60       ??_7CG2XSocketClient@@6B@  1000cd60     G2XSocketClient.obj
+ 0002:00000da8       ?messageMap@CMainWnd@@1UAFX_MSGMAP@@B 1000cda8     MainWnd.obj
+ 0002:00000db0       ?_messageEntries@CWxMiddlewareApp@@0QBUAFX_MSGMAP_ENTRY@@B 1000cdb0     WxMiddleware.obj
+ 0002:00000db0       ?_messageEntries@CMainWnd@@0QBUAFX_MSGMAP_ENTRY@@B 1000cdb0     MainWnd.obj
+ 0002:00000dc8       ?classCMainWnd@CMainWnd@@2UCRuntimeClass@@B 1000cdc8     MainWnd.obj
+ 0002:00000de4       ??_C@_08HNELKMNC@CMainWnd?$AA@ 1000cde4     MainWnd.obj
+ 0002:00000df0       ??_7CMainWnd@@6B@          1000cdf0     MainWnd.obj
+ 0002:00000f28       __GUID_00000512_0000_0010_8000_00aa006d2ea4 1000cf28     WX_ado.obj
+ 0002:00000f38       __GUID_00000515_0000_0010_8000_00aa006d2ea4 1000cf38     WX_ado.obj
+ 0002:00000f48       __GUID_0000050e_0000_0010_8000_00aa006d2ea4 1000cf48     WX_ado.obj
+ 0002:00000f58       __GUID_00000550_0000_0010_8000_00aa006d2ea4 1000cf58     WX_ado.obj
+ 0002:00000f68       ??_7GxxDictionary@@6B@     1000cf68     WX_ado.obj
+ 0002:00000f7c       __GUID_00000506_0000_0010_8000_00aa006d2ea4 1000cf7c     WX_ado.obj
+ 0002:00000f8c       __GUID_00000000_0000_0000_c000_000000000046 1000cf8c     WX_ado.obj
+ 0002:00000f9c       __GUID_0000054c_0000_0010_8000_00aa006d2ea4 1000cf9c     WX_ado.obj
+ 0002:00000fbc       ??_C@_0BB@GHOJBECM@ADODB?4Connection?$AA@ 1000cfbc     WX_ado.obj
+ 0002:00000fd0       ??_C@_0BA@KDNNDIJG@select?5?5?5NOW?$CI?$CJ?5?$AA@ 1000cfd0     WX_ado.obj
+ 0002:00000fe0       ??_7GxxArray@@6B@          1000cfe0     WX_ado.obj
+ 0002:00000ff4       ??_C@_04CNOAOJKE@r_cc?$AA@ 1000cff4     WX_ado.obj
+ 0002:00000ffc       ??_C@_0CJ@OINHDIAL@select?5count?$CI?$CK?$CJ?5as?5r_cc?5from?5?$CFs?5@ 1000cffc     WX_ado.obj
+ 0002:00001028       ??_7out_of_range@std@@6B@  1000d028     WX_base.obj
+ 0002:00001030       ??_7GxxObject@@6B@         1000d030     WX_base.obj
+ 0002:00001044       ??_7GxxString@@6B@         1000d044     WX_base.obj
+ 0002:00001058       ??_7GxxValue@@6B@          1000d058     WX_base.obj
+ 0002:0000106c       ??_7GxxValueMap@@6B@       1000d06c     WX_base.obj
+ 0002:00001080       ??_C@_06OJHGLDPL@?$CInull?$CJ?$AA@ 1000d080     WX_base.obj
+ 0002:00001088       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 1000d088     WX_base.obj
+ 0002:000010a4       ??_C@_01CELHOKLL@?$HN?$AA@ 1000d0a4     WX_base.obj
+ 0002:000010a8       ??_C@_01IHBHIGKO@?0?$AA@   1000d0a8     WX_base.obj
+ 0002:000010ac       ??_C@_02BONOGKBK@?$CC?3?$AA@ 1000d0ac     WX_base.obj
+ 0002:000010b0       ??_C@_01BJJEKLCA@?$CC?$AA@ 1000d0b0     WX_base.obj
+ 0002:000010b4       ??_C@_01EEMJAFIK@?6?$AA@   1000d0b4     WX_base.obj
+ 0002:000010b8       ??_C@_01HCONENDN@?$HL?$AA@ 1000d0b8     WX_base.obj
+ 0002:000010bc       ??_C@_01LBDDMOBJ@?$FN?$AA@ 1000d0bc     WX_base.obj
+ 0002:000010c0       ??_C@_01OHGJGJJP@?$FL?$AA@ 1000d0c0     WX_base.obj
+ 0002:000010d4       ??_7CCriticalSection@@6B@  1000d0d4     WxLog.obj
+ 0002:00001104       ??_7CWxLog@@6B@            1000d104     WxLog.obj
+ 0002:00001108       ??_C@_19KPBJCKDN@?$AA?5?$AA?9?$AA?$DO?$AA?5?$AA?$AA@ 1000d108     WxLog.obj
+ 0002:00001114       ??_C@_1BA@CPKMNGMD@?$AA?5?$AA?$FL?$AA?$CF?$AA0?$AA4?$AAd?$AA?$FN?$AA?$AA@ 1000d114     WxLog.obj
+ 0002:00001128       ??_C@_1EG@LLAKIBL@?$AA?$CF?$AA0?$AA4?$AAd?$AA?9?$AA?$CF?$AA0?$AA2?$AAd?$AA?9?$AA?$CF?$AA0?$AA2?$AAd?$AA?5?$AA?$CF?$AA0?$AA2?$AAd?$AA?3@ 1000d128     WxLog.obj
+ 0002:00001170       ??_7CFileException@@6B@    1000d170     WxLog.obj
+ 0002:0000118c       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 1000d18c     WxLog.obj
+ 0002:00001190       ??_C@_1O@KPKGAPPA@?$AA?2?$AAW?$AAx?$AAL?$AAo?$AAg?$AA?$AA@ 1000d190     WxLog.obj
+ 0002:000011a0       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 1000d1a0     WxLog.obj
+ 0002:000011a8       ??_C@_1FA@MEOPHKBJ@?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK@ 1000d1a8     WxLog.obj
+ 0002:000011f8       ??_C@_1CC@FENJGKPF@?$AA?$CF?$AA0?$AA4?$AAd?$AA?$CF?$AA0?$AA2?$AAd?$AA?$CF?$AA0?$AA2?$AAd?$AA?4?$AAl?$AAo?$AAg?$AA?$AA@ 1000d1f8     WxLog.obj
+ 0002:0000121c       ?messageMap@CWxMiddlewareApp@@1UAFX_MSGMAP@@B 1000d21c     WxMiddleware.obj
+ 0002:00001228       ??_7CWxMiddlewareApp@@6B@  1000d228     WxMiddleware.obj
+ 0002:000012e8       ??_C@_1CE@DKLHCLDA@?$AAI?$AAB?$AAA?$AAT?$AAe?$AAm?$AAp?$AAT?$AAe?$AAm?$AAp?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AA?$AA@ 1000d2e8     WxMiddleware.obj
+ 0002:00001310       ??_7_AFX_DLL_MODULE_STATE@@6B@ 1000d310     mfcs71u:dllmodul.obj
+ 0002:00001348       ??_7type_info@@6B@         1000d348     msvcrt:ti_inst.obj
+ 0002:0000139c       _GUID_ATLVer30             1000d39c     atls:atlbase.obj
+ 0002:000013ac       _GUID_ATLVer70             1000d3ac     atls:atlbase.obj
+ 0002:000013bc       __GUID_df0b3d60_548f_101b_8e65_08002b2bd119 1000d3bc     comsuppw:comsupp.obj
+ 0002:000013e0       ??_7_com_error@@6B@        1000d3e0     comsuppw:comraise.obj
+ 0002:000013e8       __load_config_used         1000d3e8     msvcrt:loadcfg.obj
+ 0002:00001480       ??_R1A@?0A@A@CNoTrackObject@@8 1000d480     mfcs71u:dllmodul.obj
+ 0002:00001498       ??_R1A@?0A@A@AFX_MODULE_STATE@@8 1000d498     mfcs71u:dllmodul.obj
+ 0002:000014b0       ??_R1A@?0A@A@_AFX_DLL_MODULE_STATE@@8 1000d4b0     mfcs71u:dllmodul.obj
+ 0002:000014c8       ??_R2_AFX_DLL_MODULE_STATE@@8 1000d4c8     mfcs71u:dllmodul.obj
+ 0002:000014d8       ??_R3_AFX_DLL_MODULE_STATE@@8 1000d4d8     mfcs71u:dllmodul.obj
+ 0002:000014e8       ??_R4_AFX_DLL_MODULE_STATE@@6B@ 1000d4e8     mfcs71u:dllmodul.obj
+ 0002:000014fc       ??_R1A@?0A@A@type_info@@8  1000d4fc     msvcrt:ti_inst.obj
+ 0002:00001514       ??_R2type_info@@8          1000d514     msvcrt:ti_inst.obj
+ 0002:0000151c       ??_R3type_info@@8          1000d51c     msvcrt:ti_inst.obj
+ 0002:0000152c       ??_R4type_info@@6B@        1000d52c     msvcrt:ti_inst.obj
+ 0002:00001540       ??_R1A@?0A@A@_com_error@@8 1000d540     comsuppw:comraise.obj
+ 0002:00001558       ??_R2_com_error@@8         1000d558     comsuppw:comraise.obj
+ 0002:00001560       ??_R3_com_error@@8         1000d560     comsuppw:comraise.obj
+ 0002:00001570       ??_R4_com_error@@6B@       1000d570     comsuppw:comraise.obj
+ 0002:00001590       ___safe_se_handler_table   1000d590     <linker-defined>
+ 0002:00001688       ___rtc_iaa                 1000d688     msvcrt:initsect.obj
+ 0002:0000168c       ___rtc_izz                 1000d68c     msvcrt:initsect.obj
+ 0002:00001690       ___rtc_taa                 1000d690     msvcrt:initsect.obj
+ 0002:00001694       ___rtc_tzz                 1000d694     msvcrt:initsect.obj
+ 0002:000017a0       __CT??_R0?AVexception@@@8??0exception@@QAE@ABV0@@Z12 1000d7a0     ConnNotice.obj
+ 0002:000017bc       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 1000d7bc     ConnNotice.obj
+ 0002:000017d8       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 1000d7d8     ConnNotice.obj
+ 0002:000017f4       __CTA3?AVlength_error@std@@ 1000d7f4     ConnNotice.obj
+ 0002:00001804       __TI3?AVlength_error@std@@ 1000d804     ConnNotice.obj
+ 0002:00002188       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z40 1000e188     WX_base.obj
+ 0002:000021a4       __CTA3?AVout_of_range@std@@ 1000e1a4     WX_base.obj
+ 0002:000021b4       __TI3?AVout_of_range@std@@ 1000e1b4     WX_base.obj
+ 0002:00002668       __CT??_R0?AV_com_error@@@8??0_com_error@@QAE@ABV0@@Z16 1000e668     comsuppw:comraise.obj
+ 0002:00002684       __CTA1?AV_com_error@@      1000e684     comsuppw:comraise.obj
+ 0002:0000268c       __TI1?AV_com_error@@       1000e68c     comsuppw:comraise.obj
+ 0002:0000269c       __IMPORT_DESCRIPTOR_ADVAPI32 1000e69c     MD5:ADVAPI32.dll
+ 0002:000026b0       __IMPORT_DESCRIPTOR_MFC71U 1000e6b0     mfc71u:MFC71U.DLL
+ 0002:000026c4       __IMPORT_DESCRIPTOR_MSVCR71 1000e6c4     msvcrt:MSVCR71.dll
+ 0002:000026d8       __IMPORT_DESCRIPTOR_KERNEL32 1000e6d8     kernel32:KERNEL32.dll
+ 0002:000026ec       __IMPORT_DESCRIPTOR_USER32 1000e6ec     user32:USER32.dll
+ 0002:00002700       __IMPORT_DESCRIPTOR_SHELL32 1000e700     shell32:SHELL32.dll
+ 0002:00002714       __IMPORT_DESCRIPTOR_SHLWAPI 1000e714     shlwapi:SHLWAPI.dll
+ 0002:00002728       __IMPORT_DESCRIPTOR_ole32  1000e728     ole32:ole32.dll
+ 0002:0000273c       __IMPORT_DESCRIPTOR_OLEAUT32 1000e73c     oleaut32:OLEAUT32.dll
+ 0002:00002750       __IMPORT_DESCRIPTOR_MSVCP71 1000e750     msvcprt:MSVCP71.dll
+ 0002:00002764       __IMPORT_DESCRIPTOR_WS2_32 1000e764     ws2_32:WS2_32.dll
+ 0002:00002778       __NULL_IMPORT_DESCRIPTOR   1000e778     MD5:ADVAPI32.dll
+ 0003:00000000       ___xc_a                    10010000     msvcrt:cinitexe.obj
+ 0003:00000020       ___xc_z                    10010020     msvcrt:cinitexe.obj
+ 0003:00000024       ___xi_a                    10010024     msvcrt:cinitexe.obj
+ 0003:00000028       ___xi_z                    10010028     msvcrt:cinitexe.obj
+ 0003:00000030       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 10010030     ConnNotice.obj
+ 0003:00000034       ??_R0?AVexception@@@8      10010034     ConnNotice.obj
+ 0003:0000004c       ??_R0?AVlogic_error@std@@@8 1001004c     ConnNotice.obj
+ 0003:0000006c       ??_R0?AVlength_error@std@@@8 1001006c     ConnNotice.obj
+ 0003:0000008c       ??_R0?AV_com_error@@@8     1001008c     WX_ado.obj
+ 0003:000000a8       ??_R0?AVout_of_range@std@@@8 100100a8     WX_base.obj
+ 0003:000000c8       ??_R0PAVCException@@@8     100100c8     WxLog.obj
+ 0003:000000e4       ??_R0PAVCFileException@@@8 100100e4     WxLog.obj
+ 0003:00000104       __pRawDllMain              10010104     mfcs71u:dllmodul.obj
+ 0003:00000108       ??_R0?AVCNoTrackObject@@@8 10010108     mfcs71u:dllmodul.obj
+ 0003:00000128       ??_R0?AVAFX_MODULE_STATE@@@8 10010128     mfcs71u:dllmodul.obj
+ 0003:00000148       ??_R0?AV_AFX_DLL_MODULE_STATE@@@8 10010148     mfcs71u:dllmodul.obj
+ 0003:0000016c       ___security_cookie         1001016c     msvcrt:seccook.obj
+ 0003:00000170       ??_R0?AVtype_info@@@8      10010170     msvcrt:ti_inst.obj
+ 0003:00000190       ?__errorPfn@@3P6GXJPAUIErrorInfo@@@ZA 10010190     comsuppw:comsupp.obj
+ 0003:00000198       ?vtMissing@@3V_variant_t@@A 10010198     comsuppw:comutil.obj
+ 0003:000001a8       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 100101a8     ConnNotice.obj
+ 0003:000001ac       ?m_Instance@CConnNotice@@1PAV1@A 100101ac     ConnNotice.obj
+ 0003:00000210       ?theApp@@3VCWxMiddlewareApp@@A 10010210     WxMiddleware.obj
+ 0003:000002b8       ?theMainWnd@@3VCMainWnd@@A 100102b8     WxMiddleware.obj
+ 0003:0000030c       __afxForceEXCLUDE          1001030c     mfcs71u:nolib.obj
+ 0003:00000324       __afxForceUSRDLL           10010324     mfcs71u:dllmodul.obj
+ 0003:000023b8       __afxForceSTDAFX           100123b8     mfcs71u:stdafx.obj
+ 0003:000023c0       ?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A 100123c0     atls:atlbase.obj
+ 0003:000023fc       __adjust_fdiv              100123fc     <common>
+ 0003:00002400       ___onexitend               10012400     <common>
+ 0003:00002404       ___onexitbegin             10012404     <common>
+
+ entry point at        0001:000092bb
+
+ Static symbols
+
+ 0001:00000831       $L160845                   10001831 f   ConnNotice.obj
+ 0001:000018bf       $L163837                   100028bf f i ConnNotice.obj
+ 0001:000019d3       $L164028                   100029d3 f i ConnNotice.obj
+ 0001:00001bff       $L164203                   10002bff f i ConnNotice.obj
+ 0001:00001c96       $L164205                   10002c96 f i ConnNotice.obj
+ 0001:00004dfd       $L129644                   10005dfd f   WX_ado.obj
+ 0001:00006872       $L124791                   10007872 f i WX_base.obj
+ 0001:00007563       $L128093                   10008563 f i WX_base.obj
+ 0001:000075f8       $L128095                   100085f8 f i WX_base.obj
+ 0001:000084e4       $L102166                   100094e4 f   WxLog.obj
+ 0001:000084f2       $L102167                   100094f2 f   WxLog.obj
+ 0001:00009000       _report_failure            1000a000 f   msvcrt:secchk.obj
+ 0001:000098bc       $L60940                    1000a8bc f   comsuppw:comutil.obj
+ 0001:00009a40       $L160719                   1000aa40 f   ConnNotice.obj
+ 0001:00009a49       $L160720                   1000aa49 f   ConnNotice.obj
+ 0001:00009a52       $L160721                   1000aa52 f   ConnNotice.obj
+ 0001:00009a5b       __ehhandler$?Format@COleDateTime@ATL@@QBE?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@2@PB_W@Z 1000aa5b f   ConnNotice.obj
+ 0001:00009a70       $L160786                   1000aa70 f   ConnNotice.obj
+ 0001:00009a7c       $L160787                   1000aa7c f   ConnNotice.obj
+ 0001:00009a89       __ehhandler$?ConnectNotice@CConnNotice@@QAEHXZ 1000aa89 f   ConnNotice.obj
+ 0001:00009aa0       $L160810                   1000aaa0 f   ConnNotice.obj
+ 0001:00009aa9       $L160811                   1000aaa9 f   ConnNotice.obj
+ 0001:00009ab2       __ehhandler$?SendData@CConnNotice@@QAEXHPB_WH@Z 1000aab2 f   ConnNotice.obj
+ 0001:00009ac0       __ehhandler$?StopConn@CConnNotice@@QAEXXZ 1000aac0 f   ConnNotice.obj
+ 0001:00009ad0       $L160880                   1000aad0 f   ConnNotice.obj
+ 0001:00009ad0       $L160746                   1000aad0 f   ConnNotice.obj
+ 0001:00009ad0       $L160893                   1000aad0 f   ConnNotice.obj
+ 0001:00009ad9       __ehhandler$??HATL@@YA?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@0@ABV10@0@Z 1000aad9 f   ConnNotice.obj
+ 0001:00009ad9       __ehhandler$??HATL@@YA?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@0@PB_WABV10@@Z 1000aad9 f   ConnNotice.obj
+ 0001:00009ad9       __ehhandler$?ToString@@YA?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@J@Z 1000aad9 f   ConnNotice.obj
+ 0001:00009af0       $L161074                   1000aaf0 f   ConnNotice.obj
+ 0001:00009af9       $L161078                   1000aaf9 f   ConnNotice.obj
+ 0001:00009b02       __ehhandler$?_Xlen@?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@IBEXXZ 1000ab02 f   ConnNotice.obj
+ 0001:00009b10       $L161170                   1000ab10 f   ConnNotice.obj
+ 0001:00009b10       $L160594                   1000ab10 f   ConnNotice.obj
+ 0001:00009b19       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 1000ab19 f   ConnNotice.obj
+ 0001:00009b19       __ehhandler$??1logic_error@std@@UAE@XZ 1000ab19 f   ConnNotice.obj
+ 0001:00009b30       $L161339                   1000ab30 f   ConnNotice.obj
+ 0001:00009b39       $L161340                   1000ab39 f   ConnNotice.obj
+ 0001:00009b53       __ehhandler$??$?H_WU?$char_traits@_W@std@@V?$allocator@_W@1@@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@0@PB_WABV10@@Z 1000ab53 f   ConnNotice.obj
+ 0001:00009b60       $L162995                   1000ab60 f   ConnNotice.obj
+ 0001:00009b6c       $L162996                   1000ab6c f   ConnNotice.obj
+ 0001:00009b78       $L162998                   1000ab78 f   ConnNotice.obj
+ 0001:00009b84       $L162999                   1000ab84 f   ConnNotice.obj
+ 0001:00009b8f       $L163000                   1000ab8f f   ConnNotice.obj
+ 0001:00009b98       $L163001                   1000ab98 f   ConnNotice.obj
+ 0001:00009ba1       __ehhandler$?SendLogin@CConnNotice@@QAEXXZ 1000aba1 f   ConnNotice.obj
+ 0001:00009bb0       $L163605                   1000abb0 f   ConnNotice.obj
+ 0001:00009bb0       $L164714                   1000abb0 f   ConnNotice.obj
+ 0001:00009bb0       $L163503                   1000abb0 f   ConnNotice.obj
+ 0001:00009bb0       $L163393                   1000abb0 f   ConnNotice.obj
+ 0001:00009bb8       __ehhandler$?Mid@?$CGxxString@_W@G2XUtility@@QAE?AV12@HI@Z 1000abb8 f   ConnNotice.obj
+ 0001:00009bb8       __ehhandler$??HG2XUtility@@YA?AV?$CGxxString@_W@0@ABV10@0@Z 1000abb8 f   ConnNotice.obj
+ 0001:00009bb8       __ehhandler$??HG2XUtility@@YA?AV?$CGxxString@_W@0@ABV10@PB_W@Z 1000abb8 f   ConnNotice.obj
+ 0001:00009bb8       __ehhandler$?Split@?$CGxxString@_W@G2XUtility@@QAEHPB_WAAV?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@@Z 1000abb8 f   ConnNotice.obj
+ 0001:00009bd0       $L163844                   1000abd0 f   ConnNotice.obj
+ 0001:00009be1       __ehhandler$??$_Uninit_copy@PAV?$CGxxString@_W@G2XUtility@@PAV12@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@YAPAV?$CGxxString@_W@G2XUtility@@PAV12@00AAV?$allocator@V?$CGxxString@_W@G2XUtility@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z 1000abe1 f   ConnNotice.obj
+ 0001:00009bf0       $L164035                   1000abf0 f   ConnNotice.obj
+ 0001:00009c01       __ehhandler$??$_Uninit_fill_n@PAV?$CGxxString@_W@G2XUtility@@IV12@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@YAXPAV?$CGxxString@_W@G2XUtility@@IABV12@AAV?$allocator@V?$CGxxString@_W@G2XUtility@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z 1000ac01 f   ConnNotice.obj
+ 0001:00009c10       $L164206                   1000ac10 f   ConnNotice.obj
+ 0001:00009c18       __ehhandler$?_Insert_n@?$vector@V?$CGxxString@_W@G2XUtility@@V?$allocator@V?$CGxxString@_W@G2XUtility@@@std@@@std@@IAEXViterator@12@IABV?$CGxxString@_W@G2XUtility@@@Z 1000ac18 f   ConnNotice.obj
+ 0001:00009c30       $L164800                   1000ac30 f   ConnNotice.obj
+ 0001:00009c39       $L164801                   1000ac39 f   ConnNotice.obj
+ 0001:00009c45       $L164802                   1000ac45 f   ConnNotice.obj
+ 0001:00009c51       $L164806                   1000ac51 f   ConnNotice.obj
+ 0001:00009c5d       $L164807                   1000ac5d f   ConnNotice.obj
+ 0001:00009c69       $L164809                   1000ac69 f   ConnNotice.obj
+ 0001:00009c74       $L164810                   1000ac74 f   ConnNotice.obj
+ 0001:00009c80       $L164811                   1000ac80 f   ConnNotice.obj
+ 0001:00009c8b       $L164812                   1000ac8b f   ConnNotice.obj
+ 0001:00009c96       $L164813                   1000ac96 f   ConnNotice.obj
+ 0001:00009ca1       $L164814                   1000aca1 f   ConnNotice.obj
+ 0001:00009cac       $L164815                   1000acac f   ConnNotice.obj
+ 0001:00009cb7       $L164816                   1000acb7 f   ConnNotice.obj
+ 0001:00009cc3       $L164818                   1000acc3 f   ConnNotice.obj
+ 0001:00009ccf       $L164819                   1000accf f   ConnNotice.obj
+ 0001:00009cda       $L164820                   1000acda f   ConnNotice.obj
+ 0001:00009ce5       $L164821                   1000ace5 f   ConnNotice.obj
+ 0001:00009cf0       $L164822                   1000acf0 f   ConnNotice.obj
+ 0001:00009cfb       $L164823                   1000acfb f   ConnNotice.obj
+ 0001:00009d07       $L164824                   1000ad07 f   ConnNotice.obj
+ 0001:00009d12       $L164825                   1000ad12 f   ConnNotice.obj
+ 0001:00009d1d       $L164826                   1000ad1d f   ConnNotice.obj
+ 0001:00009d28       $L164827                   1000ad28 f   ConnNotice.obj
+ 0001:00009d33       $L164828                   1000ad33 f   ConnNotice.obj
+ 0001:00009d3e       $L164829                   1000ad3e f   ConnNotice.obj
+ 0001:00009d49       $L164830                   1000ad49 f   ConnNotice.obj
+ 0001:00009d54       $L164831                   1000ad54 f   ConnNotice.obj
+ 0001:00009d60       $L164833                   1000ad60 f   ConnNotice.obj
+ 0001:00009d6c       $L164834                   1000ad6c f   ConnNotice.obj
+ 0001:00009d78       $L164835                   1000ad78 f   ConnNotice.obj
+ 0001:00009d84       $L164836                   1000ad84 f   ConnNotice.obj
+ 0001:00009d90       $L164837                   1000ad90 f   ConnNotice.obj
+ 0001:00009d99       $L164838                   1000ad99 f   ConnNotice.obj
+ 0001:00009da5       $L164839                   1000ada5 f   ConnNotice.obj
+ 0001:00009db1       $L164840                   1000adb1 f   ConnNotice.obj
+ 0001:00009dbd       $L164841                   1000adbd f   ConnNotice.obj
+ 0001:00009dc9       $L164842                   1000adc9 f   ConnNotice.obj
+ 0001:00009dd5       $L164843                   1000add5 f   ConnNotice.obj
+ 0001:00009de1       $L164844                   1000ade1 f   ConnNotice.obj
+ 0001:00009ded       $L164845                   1000aded f   ConnNotice.obj
+ 0001:00009df9       $L164846                   1000adf9 f   ConnNotice.obj
+ 0001:00009e05       $L164847                   1000ae05 f   ConnNotice.obj
+ 0001:00009e0d       $L164848                   1000ae0d f   ConnNotice.obj
+ 0001:00009e19       $L164849                   1000ae19 f   ConnNotice.obj
+ 0001:00009e25       $L164850                   1000ae25 f   ConnNotice.obj
+ 0001:00009e31       $L164851                   1000ae31 f   ConnNotice.obj
+ 0001:00009e3d       $L164852                   1000ae3d f   ConnNotice.obj
+ 0001:00009e49       $L164853                   1000ae49 f   ConnNotice.obj
+ 0001:00009e55       $L164854                   1000ae55 f   ConnNotice.obj
+ 0001:00009e61       $L164855                   1000ae61 f   ConnNotice.obj
+ 0001:00009e6d       $L164856                   1000ae6d f   ConnNotice.obj
+ 0001:00009e76       $L164857                   1000ae76 f   ConnNotice.obj
+ 0001:00009e82       $L164858                   1000ae82 f   ConnNotice.obj
+ 0001:00009e8e       $L164859                   1000ae8e f   ConnNotice.obj
+ 0001:00009e9a       $L164860                   1000ae9a f   ConnNotice.obj
+ 0001:00009ea6       $L164861                   1000aea6 f   ConnNotice.obj
+ 0001:00009eb2       $L164862                   1000aeb2 f   ConnNotice.obj
+ 0001:00009ebe       $L164863                   1000aebe f   ConnNotice.obj
+ 0001:00009eca       $L164864                   1000aeca f   ConnNotice.obj
+ 0001:00009ed2       $L164865                   1000aed2 f   ConnNotice.obj
+ 0001:00009ede       $L164866                   1000aede f   ConnNotice.obj
+ 0001:00009eea       $L164867                   1000aeea f   ConnNotice.obj
+ 0001:00009ef6       __ehhandler$?didReceiveData@CConnNotice@@MAEXPAVCG2XSocketClient@@PAXH@Z 1000aef6 f   ConnNotice.obj
+ 0001:00009f00       $L100677                   1000af00 f   Encrypt.obj
+ 0001:00009f09       $L100678                   1000af09 f   Encrypt.obj
+ 0001:00009f14       $L100679                   1000af14 f   Encrypt.obj
+ 0001:00009f20       __ehhandler$?CalcMD5@CEncrypt@@SAXV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@AAV23@@Z 1000af20 f   Encrypt.obj
+ 0001:00009f30       $L117268                   1000af30 f   G2XCommonTool.obj
+ 0001:00009f4a       $L117271                   1000af4a f   G2XCommonTool.obj
+ 0001:00009f53       __ehhandler$?Utf8_to_WideChar@CG2XCommonTool@G2XUtility@@SA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z 1000af53 f   G2XCommonTool.obj
+ 0001:00009f60       $L117315                   1000af60 f   G2XCommonTool.obj
+ 0001:00009f7a       $L117318                   1000af7a f   G2XCommonTool.obj
+ 0001:00009f83       __ehhandler$?WideChar_to_Utf8@CG2XCommonTool@G2XUtility@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@4@@Z 1000af83 f   G2XCommonTool.obj
+ 0001:00009f90       $L126199                   1000af90 f   WX_ado.obj
+ 0001:00009f99       $L126203                   1000af99 f   WX_ado.obj
+ 0001:00009fa2       __ehhandler$?_Xlen@?$vector@V?$GxxAutoPtr@VGxxValue@@@@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@IBEXXZ 1000afa2 f   WX_ado.obj
+ 0001:00009fb0       $L128936                   1000afb0 f   WX_ado.obj
+ 0001:00009fb0       $L126544                   1000afb0 f   WX_ado.obj
+ 0001:00009fb0       $L126565                   1000afb0 f   WX_ado.obj
+ 0001:00009fbb       __ehhandler$??0_bstr_t@@QAE@PBD@Z 1000afbb f   WX_ado.obj
+ 0001:00009fbb       __ehhandler$??0_bstr_t@@QAE@PA_W_N@Z 1000afbb f   WX_ado.obj
+ 0001:00009fbb       __ehhandler$??4_bstr_t@@QAEAAV0@PB_W@Z 1000afbb f   WX_ado.obj
+ 0001:00009fd0       $L128457                   1000afd0 f   WX_ado.obj
+ 0001:00009fd0       $L130829                   1000afd0 f   WX_ado.obj
+ 0001:00009fd8       __ehhandler$??1GxxDictionary@@UAE@XZ 1000afd8 f   WX_ado.obj
+ 0001:00009fd8       __ehhandler$??1GxxArray@@UAE@XZ 1000afd8 f   WX_ado.obj
+ 0001:00009ff0       $L128499                   1000aff0 f   WX_ado.obj
+ 0001:00009ff0       $L128525                   1000aff0 f   WX_ado.obj
+ 0001:00009ff8       __ehhandler$??0GxxADORecordSet@@QAE@ABV0@@Z 1000aff8 f   WX_ado.obj
+ 0001:00009ff8       __ehhandler$??1GxxADORecordSet@@QAE@XZ 1000aff8 f   WX_ado.obj
+ 0001:0000a010       $L128587                   1000b010 f   WX_ado.obj
+ 0001:0000a018       $L128588                   1000b018 f   WX_ado.obj
+ 0001:0000a020       __ehhandler$??0GxxADORecordSet@@QAE@V?$_com_ptr_t@V?$_com_IIID@U_Recordset@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@@Z 1000b020 f   WX_ado.obj
+ 0001:0000a030       $L128959                   1000b030 f   WX_ado.obj
+ 0001:0000a038       __ehhandler$??0_bstr_t@@QAE@ABV_variant_t@@@Z 1000b038 f   WX_ado.obj
+ 0001:0000a050       $L129005                   1000b050 f   WX_ado.obj
+ 0001:0000a058       __ehhandler$?Execute@Connection15@@QAE?AV?$_com_ptr_t@V?$_com_IIID@U_Recordset@@$1?_GUID_00000556_0000_0010_8000_00aa006d2ea4@@3U__s_GUID@@B@@@@V_bstr_t@@PAUtagVARIANT@@J@Z 1000b058 f   WX_ado.obj
+ 0001:0000a070       $L129054                   1000b070 f   WX_ado.obj
+ 0001:0000a078       $L129055                   1000b078 f   WX_ado.obj
+ 0001:0000a080       $L129056                   1000b080 f   WX_ado.obj
+ 0001:0000a088       __ehhandler$?Open@Connection15@@QAEJV_bstr_t@@00J@Z 1000b088 f   WX_ado.obj
+ 0001:0000a0a0       $L129237                   1000b0a0 f   WX_ado.obj
+ 0001:0000a0a8       $L129238                   1000b0a8 f   WX_ado.obj
+ 0001:0000a0b0       $L129239                   1000b0b0 f   WX_ado.obj
+ 0001:0000a0b8       __ehhandler$?Connect@GxxADO@@QAE_NPBD@Z 1000b0b8 f   WX_ado.obj
+ 0001:0000a0d0       $L129277                   1000b0d0 f   WX_ado.obj
+ 0001:0000a0d8       $L129278                   1000b0d8 f   WX_ado.obj
+ 0001:0000a0f1       $L129281                   1000b0f1 f   WX_ado.obj
+ 0001:0000a0f9       $L129282                   1000b0f9 f   WX_ado.obj
+ 0001:0000a101       $L129284                   1000b101 f   WX_ado.obj
+ 0001:0000a109       __ehhandler$?GetRecords@GxxADO@@QAE?AVGxxADORecordSet@@PBD@Z 1000b109 f   WX_ado.obj
+ 0001:0000a120       $L129343                   1000b120 f   WX_ado.obj
+ 0001:0000a128       $L129344                   1000b128 f   WX_ado.obj
+ 0001:0000a130       __ehhandler$?ExcuteSql@GxxADO@@QAEHPBD@Z 1000b130 f   WX_ado.obj
+ 0001:0000a140       __ehhandler$?IsConnect@GxxADO@@QAE_NXZ 1000b140 f   WX_ado.obj
+ 0001:0000a150       $L126705                   1000b150 f   WX_ado.obj
+ 0001:0000a150       $L129897                   1000b150 f   WX_ado.obj
+ 0001:0000a15b       $L129902                   1000b15b f   WX_ado.obj
+ 0001:0000a15b       $L126710                   1000b15b f   WX_ado.obj
+ 0001:0000a163       __ehhandler$?create@GxxDictionary@@SA?AV?$GxxAutoPtr@VGxxDictionary@@@@XZ 1000b163 f   WX_ado.obj
+ 0001:0000a163       __ehhandler$?create@GxxArray@@SA?AV?$GxxAutoPtr@VGxxArray@@@@XZ 1000b163 f   WX_ado.obj
+ 0001:0000a170       $L130040                   1000b170 f   WX_ado.obj
+ 0001:0000a178       $L130041                   1000b178 f   WX_ado.obj
+ 0001:0000a180       $L130042                   1000b180 f   WX_ado.obj
+ 0001:0000a188       $L130043                   1000b188 f   WX_ado.obj
+ 0001:0000a190       $L130044                   1000b190 f   WX_ado.obj
+ 0001:0000a198       $L130045                   1000b198 f   WX_ado.obj
+ 0001:0000a1a0       __ehhandler$?GetFields@GxxADORecordSet@@QAE?AV?$GxxAutoPtr@VGxxArray@@@@XZ 1000b1a0 f   WX_ado.obj
+ 0001:0000a1b0       $L130299                   1000b1b0 f   WX_ado.obj
+ 0001:0000a1b8       $L130300                   1000b1b8 f   WX_ado.obj
+ 0001:0000a1c0       $L130301                   1000b1c0 f   WX_ado.obj
+ 0001:0000a1c8       $L130302                   1000b1c8 f   WX_ado.obj
+ 0001:0000a1d0       $L130303                   1000b1d0 f   WX_ado.obj
+ 0001:0000a1d8       $L130304                   1000b1d8 f   WX_ado.obj
+ 0001:0000a1e0       $L130305                   1000b1e0 f   WX_ado.obj
+ 0001:0000a1e8       $L130306                   1000b1e8 f   WX_ado.obj
+ 0001:0000a1f0       $L130307                   1000b1f0 f   WX_ado.obj
+ 0001:0000a209       __ehhandler$?GetCurrentRecord@GxxADORecordSet@@QAE?AV?$GxxAutoPtr@VGxxDictionary@@@@XZ 1000b209 f   WX_ado.obj
+ 0001:0000a220       $L130848                   1000b220 f   WX_ado.obj
+ 0001:0000a22b       $L130849                   1000b22b f   WX_ado.obj
+ 0001:0000a236       __ehhandler$?CountOfRecords@GxxADO@@QAEHPBD0@Z 1000b236 f   WX_ado.obj
+ 0001:0000a240       $L118049                   1000b240 f   WX_base.obj
+ 0001:0000a248       __ehhandler$??1?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@QAE@XZ 1000b248 f   WX_base.obj
+ 0001:0000a260       $L132959                   1000b260 f   WX_base.obj
+ 0001:0000a260       $L118924                   1000b260 f   WX_base.obj
+ 0001:0000a26b       __ehhandler$?create@GxxString@@SA?AV?$GxxAutoPtr@VGxxString@@@@XZ 1000b26b f   WX_base.obj
+ 0001:0000a26b       __ehhandler$?init@GxxValueMap@@MAE_NXZ 1000b26b f   WX_base.obj
+ 0001:0000a280       $L119243                   1000b280 f   WX_base.obj
+ 0001:0000a288       __ehhandler$?init@GxxDictionary@@MAE_NXZ 1000b288 f   WX_base.obj
+ 0001:0000a2a0       $L118906                   1000b2a0 f   WX_base.obj
+ 0001:0000a2a0       $L121584                   1000b2a0 f   WX_base.obj
+ 0001:0000a2a8       __ehhandler$??1GxxString@@UAE@XZ 1000b2a8 f   WX_base.obj
+ 0001:0000a2a8       __ehhandler$??0GxxString@@IAE@XZ 1000b2a8 f   WX_base.obj
+ 0001:0000a2c0       $L121602                   1000b2c0 f   WX_base.obj
+ 0001:0000a2c8       $L121603                   1000b2c8 f   WX_base.obj
+ 0001:0000a2d3       $L121604                   1000b2d3 f   WX_base.obj
+ 0001:0000a2de       $L121605                   1000b2de f   WX_base.obj
+ 0001:0000a2e9       __ehhandler$??1GxxValue@@UAE@XZ 1000b2e9 f   WX_base.obj
+ 0001:0000a300       $L122798                   1000b300 f   WX_base.obj
+ 0001:0000a308       $L122799                   1000b308 f   WX_base.obj
+ 0001:0000a321       __ehhandler$?create@GxxString@@SA?AV?$GxxAutoPtr@VGxxString@@@@PBD@Z 1000b321 f   WX_base.obj
+ 0001:0000a330       $L123485                   1000b330 f   WX_base.obj
+ 0001:0000a338       $L123486                   1000b338 f   WX_base.obj
+ 0001:0000a351       $L123489                   1000b351 f   WX_base.obj
+ 0001:0000a359       __ehhandler$?create@GxxValue@@SA?AV?$GxxAutoPtr@VGxxValue@@@@PBD@Z 1000b359 f   WX_base.obj
+ 0001:0000a370       $L124792                   1000b370 f   WX_base.obj
+ 0001:0000a381       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@2@D@Z 1000b381 f   WX_base.obj
+ 0001:0000a390       $L124360                   1000b390 f   WX_base.obj
+ 0001:0000a390       $L125300                   1000b390 f   WX_base.obj
+ 0001:0000a399       $L124370                   1000b399 f   WX_base.obj
+ 0001:0000a399       $L125320                   1000b399 f   WX_base.obj
+ 0001:0000a3a2       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@2@ABU?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@2@@Z 1000b3a2 f   WX_base.obj
+ 0001:0000a3a2       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 1000b3a2 f   WX_base.obj
+ 0001:0000a3b0       $L126122                   1000b3b0 f   WX_base.obj
+ 0001:0000a3b8       __ehhandler$?valueForKey@GxxDictionary@@QAEPAVGxxValue@@PBD@Z 1000b3b8 f   WX_base.obj
+ 0001:0000a3d0       $L126873                   1000b3d0 f   WX_base.obj
+ 0001:0000a3d9       $L126876                   1000b3d9 f   WX_base.obj
+ 0001:0000a3f3       $L126874                   1000b3f3 f   WX_base.obj
+ 0001:0000a3fc       $L126875                   1000b3fc f   WX_base.obj
+ 0001:0000a405       __ehhandler$?describe_d@GxxDictionary@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_N@Z 1000b405 f   WX_base.obj
+ 0001:0000a410       $L127585                   1000b410 f   WX_base.obj
+ 0001:0000a419       $L127586                   1000b419 f   WX_base.obj
+ 0001:0000a422       $L127587                   1000b422 f   WX_base.obj
+ 0001:0000a42b       $L127588                   1000b42b f   WX_base.obj
+ 0001:0000a445       __ehhandler$?describe_d@GxxArray@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_N@Z 1000b445 f   WX_base.obj
+ 0001:0000a450       $L128096                   1000b450 f   WX_base.obj
+ 0001:0000a458       __ehhandler$?_Insert_n@?$vector@V?$GxxAutoPtr@VGxxValue@@@@V?$allocator@V?$GxxAutoPtr@VGxxValue@@@@@std@@@std@@IAEXViterator@12@IABV?$GxxAutoPtr@VGxxValue@@@@@Z 1000b458 f   WX_base.obj
+ 0001:0000a470       $L130301                   1000b470 f   WX_base.obj
+ 0001:0000a478       $L130302                   1000b478 f   WX_base.obj
+ 0001:0000a480       __ehhandler$??A?$map@VGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@U?$less@VGxxKey@@@std@@V?$allocator@U?$pair@$$CBVGxxKey@@V?$GxxAutoPtr@VGxxValue@@@@@std@@@4@@std@@QAEAAV?$GxxAutoPtr@VGxxValue@@@@ABVGxxKey@@@Z 1000b480 f   WX_base.obj
+ 0001:0000a490       $L132113                   1000b490 f   WX_base.obj
+ 0001:0000a498       __ehhandler$?setValueForKey@GxxDictionary@@QAEXAAV?$GxxAutoPtr@VGxxValue@@@@PBD@Z 1000b498 f   WX_base.obj
+ 0001:0000a4b0       $L101869                   1000b4b0 f   WxLog.obj
+ 0001:0000a4b8       __ehhandler$??0CCriticalSection@@QAE@XZ 1000b4b8 f   WxLog.obj
+ 0001:0000a4d0       $L101917                   1000b4d0 f   WxLog.obj
+ 0001:0000a4dc       $L101918                   1000b4dc f   WxLog.obj
+ 0001:0000a4e8       $L101919                   1000b4e8 f   WxLog.obj
+ 0001:0000a4f3       $L101920                   1000b4f3 f   WxLog.obj
+ 0001:0000a4fe       __ehhandler$??1CWxLog@@EAE@XZ 1000b4fe f   WxLog.obj
+ 0001:0000a510       $L102039                   1000b510 f   WxLog.obj
+ 0001:0000a51c       __ehhandler$??0CFileException@@QAE@HJPB_W@Z 1000b51c f   WxLog.obj
+ 0001:0000a530       $L102069                   1000b530 f   WxLog.obj
+ 0001:0000a538       __ehhandler$?OpenLogFile@CWxLog@@IAEXXZ 1000b538 f   WxLog.obj
+ 0001:0000a550       $L102095                   1000b550 f   WxLog.obj
+ 0001:0000a559       __ehhandler$?SetLogPath@CWxLog@@QAEXV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@@Z 1000b559 f   WxLog.obj
+ 0001:0000a570       $L102129                   1000b570 f   WxLog.obj
+ 0001:0000a57f       $L102130                   1000b57f f   WxLog.obj
+ 0001:0000a58e       $L102131                   1000b58e f   WxLog.obj
+ 0001:0000a59c       $L102132                   1000b59c f   WxLog.obj
+ 0001:0000a5aa       $L102133                   1000b5aa f   WxLog.obj
+ 0001:0000a5b6       $L102134                   1000b5b6 f   WxLog.obj
+ 0001:0000a5c2       __ehhandler$??0CWxLog@@AAE@XZ 1000b5c2 f   WxLog.obj
+ 0001:0000a5d0       __ehhandler$?LogBuf@CWxLog@@IAE_NPBXI@Z 1000b5d0 f   WxLog.obj
+ 0001:0000a5e0       $L102189                   1000b5e0 f   WxLog.obj
+ 0001:0000a5ee       __ehhandler$?GetInstance@CWxLog@@SAPAV1@XZ 1000b5ee f   WxLog.obj
+ 0001:0000a600       $L102202                   1000b600 f   WxLog.obj
+ 0001:0000a60c       $L102203                   1000b60c f   WxLog.obj
+ 0001:0000a617       __ehhandler$?LogInfo@CWxLog@@IAE_NPB_W@Z 1000b617 f   WxLog.obj
+ 0001:0000a630       $L102243                   1000b630 f   WxLog.obj
+ 0001:0000a630       $L102285                   1000b630 f   WxLog.obj
+ 0001:0000a639       __ehhandler$?Write@CWxLog@@QAE_NPB_W@Z 1000b639 f   WxLog.obj
+ 0001:0000a639       __ehhandler$?WriteFormat@CWxLog@@QAA_NPB_WZZ 1000b639 f   WxLog.obj
+ 0001:0000a650       $L102313                   1000b650 f   WxLog.obj
+ 0001:0000a659       __ehhandler$?ChangeLogFileName@CWxLog@@IAEXXZ 1000b659 f   WxLog.obj
+ 0001:0000a663       $L184992                   1000b663 f   mfcs71u:dllmodul.obj
+ 0001:0000a66b       __ehhandler$?AfxWndProcDllStatic@@YGJPAUHWND__@@IIJ@Z 1000b66b f   mfcs71u:dllmodul.obj
+ 0001:0000a680       __ehhandler$?ConvertBSTRToString@_com_util@@YGPADPA_W@Z 1000b680 f   comsuppw:comutil.obj
+ 0001:0000a690       _$E5                       1000b690 f   ConnNotice.obj
+ 0001:0000a6b0       _$E1                       1000b6b0 f   WxMiddleware.obj
+ 0001:0000a6d0       _$E4                       1000b6d0 f   WxMiddleware.obj
+ 0001:0000a6e6       _$E5                       1000b6e6 f   mfcs71u:dllmodul.obj
+ 0001:0000a6fc       _$E5                       1000b6fc f   atls:atlbase.obj
+ 0001:0000a720       _$E1                       1000b720 f   comsuppw:comutil.obj
+ 0001:0000a730       _$E6                       1000b730 f   ConnNotice.obj
+ 0001:0000a740       _$E2                       1000b740 f   WxLog.obj
+ 0001:0000a750       _$E2                       1000b750 f   WxMiddleware.obj
+ 0001:0000a760       _$E5                       1000b760 f   WxMiddleware.obj
+ 0001:0000a76a       _$E6                       1000b76a f   mfcs71u:dllmodul.obj
+ 0001:0000a774       _$E6                       1000b774 f   atls:atlbase.obj
+ 0001:0000a780       _$E2                       1000b780 f   comsuppw:comutil.obj
+
+Line numbers for .\Release\WxMiddleware.obj(e:\works\iba_local\wxmiddleware\wxmiddleware.cpp) segment .text
+
+    43 0001:00008860    50 0001:00008870    53 0001:00008880    54 0001:0000888a
+   100 0001:000088a0   101 0001:000088a1   103 0001:000088af   105 0001:000088bf
+   108 0001:000088c8   110 0001:000088e4   113 0001:000088f1   117 0001:00008900
+   116 0001:00008900   118 0001:00008911   121 0001:00008920   122 0001:00008920
+   123 0001:00008936   127 0001:00008940   126 0001:00008940   128 0001:00008956
+   132 0001:00008960   131 0001:00008960   133 0001:00008971    66 0001:000089a0
+    67 0001:000089a7    72 0001:000089ac    77 0001:000089d0    78 0001:00008a00
+    79 0001:00008a04    80 0001:00008a10    83 0001:00008a15    84 0001:00008a33
+    86 0001:00008a38    89 0001:00008a66    91 0001:00008a83    92 0001:00008a89
+    59 0001:0000a6b0    60 0001:0000a6d0
+
+Line numbers for .\Release\WxLog.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\afx.inl) segment .text
+
+    89 0001:000080a0    91 0001:00008110
+
+Line numbers for .\Release\WxLog.obj(e:\works\iba_local\wxmiddleware\wxlog.cpp) segment .text
+
+    34 0001:00007f50    35 0001:00007f74    36 0001:00007f87   245 0001:00007fe0
+   246 0001:00007fe3   247 0001:00007ff1   251 0001:0000800c   253 0001:00008046
+   255 0001:00008050   258 0001:00008066   260 0001:00008073   263 0001:00008084
+   266 0001:00008090   289 0001:00008160   290 0001:0000817e   292 0001:00008196
+   294 0001:000081a1   298 0001:000081b0   300 0001:000081d3   303 0001:000081d8
+   306 0001:000081f0   309 0001:000081f2   310 0001:000081ff   318 0001:00008230
+   319 0001:00008248   321 0001:00008266   323 0001:00008295   325 0001:000082a2
+    15 0001:000082e0    18 0001:0000835b    22 0001:0000835e    23 0001:00008372
+    24 0001:0000839c    25 0001:000083ad    26 0001:000083f4    28 0001:00008403
+    31 0001:0000841c    73 0001:00008460    76 0001:00008483    80 0001:0000849e
+    82 0001:000084ae    85 0001:000084b5    86 0001:000084c8    87 0001:000084cf
+   101 0001:000084d1    92 0001:000084e4    93 0001:000084ec    97 0001:000084f2
+    98 0001:000084fa   101 0001:00008500     8 0001:00008520     9 0001:00008526
+    12 0001:00008569   104 0001:00008580   109 0001:0000859f   110 0001:000085a9
+   111 0001:00008606   119 0001:00008616   120 0001:00008622   123 0001:00008640
+   124 0001:0000865a   126 0001:00008664   128 0001:00008678   130 0001:00008687
+   132 0001:00008696   134 0001:000086a8   136 0001:000086b6   137 0001:000086c0
+   181 0001:000086e0   182 0001:000086f8   184 0001:00008702   188 0001:0000871a
+   191 0001:0000872e   193 0001:0000873d   195 0001:0000874f   197 0001:0000875d
+   198 0001:00008767   269 0001:00008780   270 0001:0000879c   272 0001:000087b2
+   275 0001:000087c4   277 0001:000087cf   278 0001:000087d9   280 0001:000087fc
+   282 0001:00008821   283 0001:0000882f   285 0001:00008836   286 0001:00008842
+
+Line numbers for .\Release\WxLog.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\afxmt.h) segment .text
+
+    71 0001:00007e90
+
+Line numbers for .\Release\WxLog.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\afxmt.inl) segment .text
+
+    42 0001:00007db0    43 0001:00007dd6    45 0001:00007ddd    52 0001:00007dee
+    53 0001:00007df3    47 0001:00007e04    49 0001:00007e14    53 0001:00007e16
+    56 0001:00007e30    59 0001:00007e54    60 0001:00007e69    61 0001:00007e6d
+    62 0001:00007e72    67 0001:00007ea0    81 0001:00007ec0    69 0001:00007ed0
+    70 0001:00007ef6    72 0001:00007efd    78 0001:00007f0e    79 0001:00007f13
+    74 0001:00007f24    76 0001:00007f2d    83 0001:00007f40
+
+Line numbers for .\Release\WX_base.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\map) segment .text
+
+   142 0001:00007ad0   143 0001:00007aea   144 0001:00007af9   146 0001:00007b16
+   147 0001:00007b99   148 0001:00007b9e
+
+Line numbers for .\Release\WX_base.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\vector) segment .text
+
+   878 0001:000073a0   877 0001:000073a0   879 0001:000073bf   880 0001:000073c4
+   809 0001:000073d0   810 0001:000073eb   811 0001:00007417   813 0001:0000742f
+   815 0001:0000743a   816 0001:00007451   817 0001:00007458   820 0001:00007472
+   821 0001:00007487   822 0001:0000749d   823 0001:000074af   828 0001:000074bb
+   829 0001:000074da   830 0001:000074f0   837 0001:0000750f   838 0001:0000752e
+   840 0001:00007532   841 0001:00007541   843 0001:0000754d   844 0001:00007552
+   845 0001:0000755b   847 0001:0000755e   832 0001:00007563   833 0001:00007573
+   834 0001:0000757c   847 0001:00007585   850 0001:00007594   854 0001:000075b2
+   860 0001:000075d2   862 0001:000075dd   864 0001:000075f6   856 0001:000075f8
+   857 0001:00007612   868 0001:0000761b   870 0001:0000762c   872 0001:0000763e
+   874 0001:00007654   579 0001:00007a60   580 0001:00007a63   581 0001:00007a86
+   584 0001:00007aa8   583 0001:00007aab   584 0001:00007abe
+
+Line numbers for .\Release\WX_base.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\memory) segment .text
+
+    81 0001:000062b0    77 0001:000062b0    82 0001:000062c2    89 0001:000062ec
+   211 0001:00006890   207 0001:00006890   212 0001:000068a4   218 0001:000068ca
+
+Line numbers for .\Release\WX_base.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\xutility) segment .text
+
+  1135 0001:00005990  1134 0001:00005990  1136 0001:000059a4  1137 0001:000059dd
+  1048 0001:00005e40  1049 0001:00005e41  1050 0001:00005e54  1049 0001:00005e87
+  1051 0001:00005e8c  1052 0001:00005e91  1051 0001:00005e92  1052 0001:00005e98
+
+Line numbers for .\Release\WX_base.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\xtree) segment .text
+
+  1042 0001:000058f0  1041 0001:000058f0  1043 0001:00005900  1045 0001:0000590b
+  1035 0001:00005910  1034 0001:00005910  1036 0001:00005920  1038 0001:0000592c
+   250 0001:00005930   251 0001:00005930   252 0001:00005939   264 0001:0000593e
+   253 0001:0000593f   254 0001:00005949   264 0001:00005962   259 0001:00005963
+   260 0001:00005976   261 0001:00005982   262 0001:00005989   264 0001:0000598c
+   988 0001:00005cb0   987 0001:00005cb0   991 0001:00005cb7   992 0001:00005cc7
+   993 0001:00005cfd   994 0001:00005d00   996 0001:00005d02   997 0001:00005d04
+  1001 0001:00005d11   268 0001:00005d20   267 0001:00005d20   270 0001:00005d29
+   271 0001:00005d34   280 0001:00005d4e   276 0001:00005d4f   277 0001:00005d67
+   278 0001:00005d73   280 0001:00005d76  1015 0001:00005d80  1014 0001:00005d80
+  1016 0001:00005d89  1018 0001:00005d8e  1019 0001:00005d97  1020 0001:00005d9a
+  1022 0001:00005da0  1023 0001:00005da8  1029 0001:00005dac  1030 0001:00005dae
+  1031 0001:00005db2  1024 0001:00005db5  1025 0001:00005dbc  1029 0001:00005dbf
+  1030 0001:00005dc1  1031 0001:00005dc5  1027 0001:00005dc8  1029 0001:00005dcc
+  1030 0001:00005dce  1031 0001:00005dd2  1069 0001:00005de0  1068 0001:00005de0
+  1070 0001:00005de8  1072 0001:00005ded  1073 0001:00005df7  1074 0001:00005dfa
+  1076 0001:00005e00  1077 0001:00005e08  1083 0001:00005e0c  1084 0001:00005e0f
+  1085 0001:00005e13  1078 0001:00005e16  1079 0001:00005e1e  1083 0001:00005e22
+  1084 0001:00005e25  1085 0001:00005e29  1081 0001:00005e2c  1083 0001:00005e2f
+  1084 0001:00005e32  1085 0001:00005e36  1105 0001:000061f0  1106 0001:000061f0
+  1110 0001:000061fa  1112 0001:00006204  1114 0001:00006211  1123 0001:0000621e
+  1124 0001:00006222  1126 0001:00006226    40 0001:00006230    41 0001:0000627d
+    40 0001:00006284    41 0001:0000629a   787 0001:000064a0   788 0001:000064a2
+   790 0001:000064b0   791 0001:000064da   790 0001:000064de   791 0001:000064f1
+   590 0001:00006500   591 0001:0000650e   592 0001:00006526   593 0001:00006581
+   594 0001:00006584   600 0001:00006591   601 0001:0000659a   602 0001:0000659d
+   603 0001:000065a9   604 0001:000065ab   607 0001:000065ad   610 0001:000065b1
+   613 0001:000065b8   614 0001:000065c2   616 0001:000065c5   617 0001:000065cd
+   618 0001:000065d0   619 0001:000065d6   620 0001:000065d8   621 0001:000065da
+   623 0001:000065dd   626 0001:000065e8   628 0001:000065fe   631 0001:0000660a
+   633 0001:00006616   631 0001:00006618   633 0001:00006624   635 0001:00006626
+   636 0001:00006629   638 0001:0000662d   639 0001:00006632   640 0001:00006634
+   643 0001:00006636   644 0001:00006640   645 0001:00006643   646 0001:00006645
+   647 0001:0000664b   650 0001:00006651   651 0001:00006659   652 0001:0000665c
+   653 0001:00006665   654 0001:00006667   655 0001:00006669   657 0001:0000666c
+   658 0001:00006672   661 0001:0000667e   664 0001:0000668f   665 0001:000066a9
+   667 0001:000066af   668 0001:000066b2   670 0001:000066b9   672 0001:000066bc
+   673 0001:000066c8   676 0001:000066cb   678 0001:000066d0   679 0001:000066d2
+   686 0001:000066e1   688 0001:000066e9   690 0001:000066ee   691 0001:000066fa
+   694 0001:000066fd   695 0001:00006703   696 0001:00006706   697 0001:00006709
+   698 0001:00006714   704 0001:00006716   706 0001:0000671d   708 0001:00006720
+   709 0001:0000672c   711 0001:0000672e   713 0001:00006733   714 0001:00006735
+   716 0001:00006744   664 0001:00006748   717 0001:0000674e   664 0001:0000675b
+   721 0001:0000675d   723 0001:00006764   725 0001:0000676a   726 0001:00006776
+   729 0001:00006778   730 0001:0000677e   731 0001:00006781   732 0001:00006783
+   737 0001:0000678e   740 0001:00006791   741 0001:0000679d   743 0001:000067a7
+   744 0001:000067b4   746 0001:000067b8   747 0001:000067c2  1130 0001:00006800
+  1131 0001:00006821  1132 0001:00006830  1133 0001:00006837  1139 0001:0000685d
+  1135 0001:00006872  1136 0001:0000687e   890 0001:00006930   891 0001:00006933
+   893 0001:00006942   894 0001:0000694d   895 0001:0000694f   896 0001:00006956
+   898 0001:0000696b   911 0001:00006970   912 0001:0000698b   913 0001:00006994
+   915 0001:000069ed   917 0001:00006a07   918 0001:00006a0c   920 0001:00006a1b
+   921 0001:00006a1e   923 0001:00006a29   925 0001:00006a33   926 0001:00006a35
+   927 0001:00006a3c   929 0001:00006a3e   931 0001:00006a40   932 0001:00006a43
+   933 0001:00006a4b   936 0001:00006a4e   937 0001:00006a63   939 0001:00006a6f
+   940 0001:00006a72   942 0001:00006a78   943 0001:00006a7d   944 0001:00006a80
+   945 0001:00006a89   947 0001:00006a8e   949 0001:00006a90   951 0001:00006a95
+   952 0001:00006a97   954 0001:00006a9f   955 0001:00006aa5   956 0001:00006aaf
+   959 0001:00006abd   962 0001:00006abf   969 0001:00006ac3   971 0001:00006ac5
+   973 0001:00006ac9   974 0001:00006acb   976 0001:00006ad3   977 0001:00006ad9
+   978 0001:00006ae3   982 0001:00006b07   983 0001:00006b0d   984 0001:00006b17
+   477 0001:00007690   478 0001:00007697   481 0001:0000769f   484 0001:000076b2
+   485 0001:000076fe   481 0001:0000770d   493 0001:00007714   495 0001:0000771e
+   496 0001:00007725   505 0001:00007749   498 0001:0000774f   500 0001:0000775c
+   501 0001:00007770   505 0001:00007793   503 0001:00007799   505 0001:000077a7
+   750 0001:000077b0   751 0001:000077b1   753 0001:000077c8   754 0001:000077eb
+   762 0001:000077f9   758 0001:000077fc   759 0001:00007800   760 0001:0000785b
+   762 0001:00007864   509 0001:000078b0   512 0001:000078b6   513 0001:000078be
+   580 0001:000078d9   548 0001:000078df   550 0001:000078e4   551 0001:00007906
+   580 0001:0000791c   553 0001:00007922   555 0001:00007926   556 0001:0000793b
+   580 0001:00007951   560 0001:00007957   562 0001:00007986   563 0001:0000798e
+   580 0001:000079a6   565 0001:000079ac   580 0001:000079bb   570 0001:000079c1
+   572 0001:000079f7   573 0001:000079ff   580 0001:00007a17   575 0001:00007a1d
+   580 0001:00007a2c   579 0001:00007a32   580 0001:00007a4b
+
+Line numbers for .\Release\WX_base.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\functional) segment .text
+
+   139 0001:00005890   138 0001:00005890   140 0001:000058d1   139 0001:000058d4
+   140 0001:000058e4
+
+Line numbers for .\Release\WX_base.obj(e:\works\iba_local\wxmiddleware\wx_base.cpp) segment .text
+
+    88 0001:00000000   809 0001:00000000   811 0001:00000000  1187 0001:00000000
+  1189 0001:00000000  1303 0001:00000000  1305 0001:00000000    90 0001:00000000
+    11 0001:000056a0    12 0001:000056a1    13 0001:000056a9    14 0001:000056b6
+    18 0001:000056d5    19 0001:000056e4    20 0001:000056ef    23 0001:000056f0
+    24 0001:000056f1    25 0001:00005709    26 0001:00005718    27 0001:0000571d
+    29 0001:00005731    27 0001:00005738    30 0001:00005740    31 0001:0000575c
+    33 0001:00005760    34 0001:00005768    36 0001:0000576d    37 0001:00005778
+    39 0001:00005784    45 0001:00005790    47 0001:0000579f    55 0001:000057d0
+    56 0001:000057d0    57 0001:000057d3    60 0001:000057e0    61 0001:000057e3
+    62 0001:000057e6    64 0001:000057e8    65 0001:000057ed    67 0001:000057f6
+    82 0001:00005bf0    83 0001:00005c08    85 0001:00005c7b  1193 0001:00005c90
+  1192 0001:00005c90  1194 0001:00005c99  1193 0001:00005c9a  1194 0001:00005ca2
+    50 0001:00006010    52 0001:00006016   819 0001:00006020   818 0001:00006020
+   820 0001:00006027   823 0001:00006030   820 0001:00006031   823 0001:00006034
+   822 0001:00006035   823 0001:00006037   826 0001:00006040   827 0001:00006040
+   828 0001:00006047   831 0001:0000605a   828 0001:0000605b   831 0001:00006068
+   830 0001:00006069   831 0001:0000606b   928 0001:00006070   929 0001:00006072
+   930 0001:0000607e   931 0001:0000608a   932 0001:00006096   933 0001:000060a4
+   936 0001:000060b0   937 0001:000060b3   938 0001:000060c3   941 0001:000060d4
+   942 0001:000060d7   939 0001:000060db   941 0001:000060ec   942 0001:000060ef
+   940 0001:000060f3   941 0001:00006106   942 0001:00006109   941 0001:0000610d
+   942 0001:0000611d  1313 0001:00006130  1314 0001:00006148  1315 0001:0000615d
+  1316 0001:0000616d  1320 0001:00006179  1318 0001:00006188  1319 0001:00006197
+  1320 0001:000061d4   880 0001:000062f0   881 0001:00006308   882 0001:0000631d
+   883 0001:0000632d   887 0001:00006339   885 0001:00006348   886 0001:000063b7
+   887 0001:000063f4  1163 0001:00006410  1165 0001:00006414  1167 0001:00006420
+  1168 0001:00006425  1170 0001:00006429  1172 0001:0000642e  1174 0001:00006437
+  1176 0001:0000643c  1178 0001:00006445  1181 0001:00006454  1182 0001:00006456
+  1197 0001:00006460  1198 0001:00006461  1200 0001:00006480  1201 0001:00006489
+  1199 0001:0000648c  1201 0001:0000648f  1340 0001:000068d0  1341 0001:000068d1
+  1342 0001:000068ee  1343 0001:000068fa  1346 0001:0000690e  1343 0001:00006912
+  1346 0001:0000691b  1345 0001:0000691f  1346 0001:00006929   340 0001:00006b30
+   342 0001:00006b34   344 0001:00006b50   347 0001:00006b56   349 0001:00006b5a
+   351 0001:00006b5f   353 0001:00006b69   355 0001:00006b6e   357 0001:00006b78
+   361 0001:00006b9e   369 0001:00006ba0   370 0001:00006bb9   371 0001:00006c43
+   723 0001:00006c60   724 0001:00006c84   725 0001:00006c9a   726 0001:00006cb0
+   728 0001:00006cc5   729 0001:00006cd4   730 0001:00006cd8   733 0001:00006ce7
+   734 0001:00006cf0   735 0001:00006cf8   737 0001:00006d15   738 0001:00006d20
+   740 0001:00006d73   741 0001:00006d82   742 0001:00006d93   743 0001:00006da2
+   744 0001:00006db0   745 0001:00006dbf   746 0001:00006de9   747 0001:00006df8
+   775 0001:00006dff   777 0001:00006e0e   778 0001:00006e19   783 0001:00006e57
+   784 0001:00006e63   786 0001:00006eb4   787 0001:00006ec3   788 0001:00006ec7
+   791 0001:00006ed6   792 0001:00006f04   752 0001:00006f23   753 0001:00006f2e
+   754 0001:00006f39   755 0001:00006f48   756 0001:00006f90   757 0001:00006f9b
+   758 0001:00006fbd   759 0001:00006fcb   767 0001:00006fd0   768 0001:00006fdb
+   769 0001:00006fe6   770 0001:00006ff5   774 0001:0000702f  1232 0001:00007040
+  1233 0001:00007065  1234 0001:0000707b  1235 0001:0000708e  1237 0001:000070a3
+  1238 0001:000070b2  1239 0001:000070b6  1241 0001:000070c5  1243 0001:000070e4
+  1245 0001:00007109  1246 0001:00007114  1247 0001:0000711f  1249 0001:00007172
+  1250 0001:00007181  1251 0001:000071a8  1252 0001:000071b7  1276 0001:000071cf
+  1278 0001:000071de  1279 0001:000071e9  1257 0001:00007205  1258 0001:0000720c
+  1259 0001:0000723e  1260 0001:0000724d  1261 0001:0000726f  1262 0001:0000727d
+  1270 0001:00007282  1271 0001:0000728d  1272 0001:000072ca  1284 0001:000072dc
+  1285 0001:000072e0  1287 0001:00007331  1288 0001:00007340  1289 0001:00007344
+  1292 0001:00007353  1293 0001:0000737e   718 0001:00007870   719 0001:00007872
+   720 0001:0000788b  1227 0001:00007890  1228 0001:00007892  1229 0001:000078ab
+  1205 0001:00007bd0  1204 0001:00007bd0   394 0001:00007c10   395 0001:00007c28
+   396 0001:00007cb5  1323 0001:00007cd0  1324 0001:00007ce8  1325 0001:00007d30
+  1326 0001:00007d33  1329 0001:00007d60  1330 0001:00007d64  1331 0001:00007d8d
+  1332 0001:00007da6
+
+Line numbers for .\Release\WX_base.obj(e:\works\iba_local\wxmiddleware\wx_base.h) segment .text
+
+   240 0001:00000000   233 0001:00000000   128 0001:00005630   129 0001:00005633
+   130 0001:00005639   131 0001:00005642   132 0001:00005649   157 0001:00005650
+   158 0001:00005655   159 0001:0000565b   160 0001:00005664   161 0001:00005679
+   162 0001:00005684   163 0001:0000569c   243 0001:000057a0    69 0001:00005800
+    70 0001:00005801    71 0001:0000581c   317 0001:000059f0   317 0001:00005a40
+   332 0001:00005ae0   347 0001:00005b50   345 0001:00005b50   348 0001:00005b52
+   376 0001:00005b60
+
+Line numbers for .\Release\WX_base.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\stdexcept) segment .text
+
+   122 0001:00005620
+
+Line numbers for .\Release\WX_ado.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\xmemory) segment .text
+
+   224 0001:00004580   225 0001:00004581   226 0001:00004590   227 0001:000045a4
+
+Line numbers for .\Release\WX_ado.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\comip.h) segment .text
+
+   304 0001:00004140   305 0001:00004140   305 0001:00004140   304 0001:00004140
+   305 0001:00004140   304 0001:00004140   306 0001:0000414c   306 0001:0000414c
+   306 0001:0000414c   617 0001:00004470   620 0001:00004474   622 0001:00004480
+   624 0001:00004486   626 0001:000044a5   627 0001:000044a9   629 0001:000044b6
+   630 0001:000044ba   633 0001:000044cb   636 0001:000044d5   637 0001:000044d7
+   640 0001:000044ec   642 0001:000044f0   645 0001:000044f7   646 0001:000044fa
+   652 0001:00004500   653 0001:0000450c   654 0001:00004517   672 0001:0000451d
+   660 0001:0000452c   661 0001:00004532   663 0001:0000453e   664 0001:00004540
+   667 0001:0000454c   668 0001:0000454e   671 0001:00004550   672 0001:00004566
+   678 0001:000048e0   679 0001:00004909   680 0001:00004910   683 0001:0000491a
+   684 0001:00004927   686 0001:0000493c   687 0001:0000493e   691 0001:00004940
+   692 0001:00004947   694 0001:00004966   695 0001:0000496f   698 0001:0000497e
+   699 0001:00004982   702 0001:00004989   703 0001:0000499e   706 0001:000049bc
+   707 0001:000049cd
+
+Line numbers for .\Release\WX_ado.obj(e:\works\iba_local\wxmiddleware\wx_ado.cpp) segment .text
+
+    65 0001:00004100    67 0001:00004104    69 0001:0000412f    73 0001:00004132
+    71 0001:00004133    72 0001:00004138    73 0001:0000413b     5 0001:000042d0
+     6 0001:000042de     7 0001:000042e8    10 0001:000042f0    11 0001:000042f3
+    12 0001:000042f9   165 0001:000043e0   166 0001:0000440d   167 0001:00004439
+    16 0001:000049f0    17 0001:000049fe    19 0001:00004a17    20 0001:00004a1c
+    22 0001:00004a22    23 0001:00004a35    24 0001:00004a37    27 0001:00004a39
+    28 0001:00004aa8    29 0001:00004aac    35 0001:00004aae    32 0001:00004ac1
+    35 0001:00004ac5    77 0001:00004ae0    78 0001:00004b03    79 0001:00004b0a
+    80 0001:00004b24    84 0001:00004b64    85 0001:00004b66    83 0001:00004b78
+    84 0001:00004bb8    85 0001:00004c1e    89 0001:00004c40    90 0001:00004c5b
+    91 0001:00004c63    92 0001:00004c7d    99 0001:00004c7f    96 0001:00004c92
+    97 0001:00004ca7    98 0001:00004d07    99 0001:00004d16    38 0001:00004d60
+    42 0001:00004d7f    44 0001:00004d90    46 0001:00004d92    47 0001:00004db9
+    57 0001:00004dbc    62 0001:00004dbe    50 0001:00004dcf    62 0001:00004de7
+    56 0001:00004dfd    57 0001:00004e00   177 0001:00004f10   178 0001:00004f33
+   179 0001:00004f40   181 0001:00004f86   182 0001:00004f91   183 0001:00004f9b
+   185 0001:00004fd4   186 0001:00004ff0   187 0001:0000502f   188 0001:000050e5
+   185 0001:00005109   189 0001:0000510d   191 0001:0000511c   192 0001:0000513c
+   225 0001:00005160   226 0001:0000517c   227 0001:00005192   228 0001:000051a7
+   229 0001:000051d0   230 0001:000051db   232 0001:00005271   234 0001:0000527d
+   236 0001:00005336   237 0001:00005338   239 0001:0000537d   240 0001:000053a7
+   241 0001:000053ef   141 0001:00005480   143 0001:000054a8   145 0001:000054cd
+   146 0001:000054de   147 0001:000054f1   149 0001:0000550c   150 0001:00005527
+   151 0001:0000556b   153 0001:00005571   154 0001:0000557b   155 0001:0000558b
+   157 0001:000055c7   158 0001:000055da
+
+Line numbers for .\Release\WX_ado.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\vector) segment .text
+
+   883 0001:00003ed0   884 0001:00003ee8   786 0001:00004d30   787 0001:00004d31
+   788 0001:00004d54   791 0001:00004e20   792 0001:00004e24   794 0001:00004e2c
+   795 0001:00004e45   797 0001:00004e53   798 0001:00004e69
+
+Line numbers for .\Release\WX_ado.obj(e:\works\iba_local\wxmiddleware\wx_base.h) segment .text
+
+    69 0001:00003ec0    70 0001:00003ec0    70 0001:00003ec0    69 0001:00003ec0
+    70 0001:00003ec0    69 0001:00003ec0    69 0001:00003ec0    70 0001:00003ec0
+    71 0001:00003ecb    71 0001:00003ecb    71 0001:00003ecb    71 0001:00003ecb
+   255 0001:00004060   288 0001:00004e70   239 0001:00005b50
+
+Line numbers for .\Release\WX_ado.obj(e:\works\iba_local\wxmiddleware\release\msado15.tli) segment .text
+
+  1686 0001:00003e40  1688 0001:00003e45  1689 0001:00003e5a  1690 0001:00003e87
+  1691 0001:00003e97  1692 0001:00003eb5   333 0001:000041a0   335 0001:000041a1
+   336 0001:000041df   337 0001:000041ef   338 0001:000041f9   337 0001:000041ff
+   338 0001:00004207  1422 0001:00004210  1424 0001:00004214  1425 0001:0000422f
+  1426 0001:0000423f  1427 0001:0000424a  1426 0001:0000424e  1427 0001:00004259
+   210 0001:00004750   212 0001:00004754   213 0001:0000476f   214 0001:0000477f
+   215 0001:00004794  1202 0001:000047a0  1204 0001:000047c2  1205 0001:000047f6
+  1206 0001:00004806  1207 0001:0000481b  1228 0001:00004830  1229 0001:0000484b
+  1230 0001:0000488d  1231 0001:0000489d  1232 0001:000048c2
+
+Line numbers for .\Release\WX_ado.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\comdef.h) segment .text
+
+   144 0001:00003dd0   145 0001:00003dd3   146 0001:00003de0   148 0001:00003de6
+   149 0001:00003ded   151 0001:00003df5
+
+Line numbers for .\Release\WX_ado.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\comutil.h) segment .text
+
+   626 0001:00003d50   625 0001:00003d50   628 0001:00003d72   630 0001:00003d81
+   631 0001:00003d87   637 0001:00003d92   635 0001:00003d98   637 0001:00003d9b
+  2232 0001:00003db0  2231 0001:00003db0  2233 0001:00003dc1   251 0001:00003f50
+   252 0001:00003fa4   253 0001:00003fb2   255 0001:00003fbc   272 0001:00003fe0
+   273 0001:00004028   274 0001:00004036   276 0001:00004040   679 0001:00004150
+   680 0001:00004154   681 0001:00004162   682 0001:0000418d   686 0001:00004190
+   685 0001:00004191   686 0001:00004195   281 0001:000045b0   282 0001:000045b3
+   283 0001:000045c5   324 0001:000045d0   327 0001:000045e9   329 0001:000045fb
+   330 0001:0000464c   331 0001:00004659   335 0001:00004663  2245 0001:00004680
+  2246 0001:0000469a  2247 0001:000046ac  2255 0001:000046b6  2251 0001:000046ca
+  2252 0001:000046d5  2254 0001:00004707  2255 0001:00004713
+
+Line numbers for .\Release\MainWnd.obj(e:\works\iba_local\wxmiddleware\mainwnd.cpp) segment .text
+
+    11 0001:00003ce0    13 0001:00003cf0    14 0001:00003cfe    17 0001:00003d10
+    18 0001:00003d16    21 0001:00003d20
+
+Line numbers for .\Release\G2XSocketClient.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\afxwin2.inl) segment .text
+
+   545 0001:00003c90   549 0001:00003ca0   551 0001:00003cb0
+
+Line numbers for .\Release\G2XSocketClient.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\afx.inl) segment .text
+
+    41 0001:00000000    43 0001:00003c90    25 0001:00003c90
+
+Line numbers for .\Release\G2XSocketClient.obj(e:\works\iba_local\wxmiddleware\g2xsocketclient.cpp) segment .text
+
+     5 0001:00003a50     6 0001:00003a79    11 0001:00003a80    17 0001:00003a9a
+    21 0001:00003ac0    22 0001:00003ac9    23 0001:00003acf    26 0001:00003ae0
+    27 0001:00003ae3    28 0001:00003aee    29 0001:00003afb    31 0001:00003b01
+    41 0001:00003b04    38 0001:00003b07    39 0001:00003b15    40 0001:00003b19
+    41 0001:00003b27    36 0001:00003b2b    41 0001:00003b31    60 0001:00003b40
+    59 0001:00003b40    61 0001:00003b5a    64 0001:00003b60    65 0001:00003b62
+    67 0001:00003b6e    68 0001:00003b72    69 0001:00003b79    72 0001:00003b82
+    75 0001:00003b90    76 0001:00003b92    77 0001:00003ba1    79 0001:00003ba3
+    81 0001:00003bb8    83 0001:00003bbd    86 0001:00003bca   100 0001:00003bd6
+   102 0001:00003be1    89 0001:00003be4    92 0001:00003be8   100 0001:00003bf4
+   102 0001:00003bff    96 0001:00003c02    97 0001:00003c09   100 0001:00003c11
+   102 0001:00003c1c   105 0001:00003c20   106 0001:00003c22   107 0001:00003c2a
+   108 0001:00003c31   111 0001:00003c3a   114 0001:00003c40   115 0001:00003c40
+   116 0001:00003c4d   118 0001:00003c54   119 0001:00003c5b   120 0001:00003c67
+   122 0001:00003c6e   126 0001:00003c84
+
+Line numbers for .\Release\G2XCommonTool.obj(e:\works\iba_local\wxmiddleware\g2xcommontool.cpp) segment .text
+
+   221 0001:00003840   222 0001:0000385f   224 0001:0000387c   225 0001:000038a5
+   227 0001:000038a7   228 0001:000038af   233 0001:000038c5   234 0001:000038da
+   235 0001:000038e4   236 0001:0000390b   238 0001:00003930   239 0001:0000394e
+   240 0001:0000396f   241 0001:00003988   242 0001:000039b6   244 0001:000039ba
+   245 0001:000039c0   249 0001:000039d6   251 0001:000039e1   253 0001:000039e8
+   255 0001:000039ea   258 0001:000039ee   259 0001:000039fe   260 0001:00003a08
+   261 0001:00003a2f
+
+Line numbers for .\Release\Encrypt.obj(e:\works\iba_local\wxmiddleware\encrypt.cpp) segment .text
+
+    23 0001:000036c0    24 0001:000036ec    26 0001:0000370a    28 0001:0000376e
+    30 0001:0000377b    32 0001:0000379b    34 0001:000037ae    38 0001:000037d0
+    41 0001:000037ed    42 0001:00003802
+
+Line numbers for .\Release\Encrypt.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\atlconv.h) segment .text
+
+   429 0001:00000c40   428 0001:00000c40   431 0001:00000c49   433 0001:00000c51
+   442 0001:00003650   443 0001:00003652   445 0001:0000365c   464 0001:00003660
+   448 0001:00003665   449 0001:0000366f   451 0001:00003672   453 0001:0000367a
+   454 0001:00003684   456 0001:0000368a   460 0001:00003694   462 0001:000036af
+   464 0001:000036b8
+
+Line numbers for .\Release\Encrypt.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\atlexcept.h) segment .text
+
+    81 0001:00003630    80 0001:00003630    82 0001:00003636
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\memory) segment .text
+
+    77 0001:00001840    78 0001:0000185d    80 0001:00001861    81 0001:00001870
+    82 0001:00001875    84 0001:000018bf    85 0001:000018d0    86 0001:000018de
+    89 0001:000018e5   207 0001:00001950   208 0001:0000196d   210 0001:00001971
+   211 0001:00001980   212 0001:00001985   214 0001:000019d3   215 0001:000019e0
+   216 0001:000019ee   218 0001:000019f5
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\xutility) segment .text
+
+  1048 0001:00001420  1049 0001:00001421  1050 0001:00001433  1051 0001:00001459
+  1052 0001:0000145e  1051 0001:0000145f  1052 0001:00001465  1134 0001:000017c0
+  1135 0001:000017c1  1136 0001:000017e0  1137 0001:00001806
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\string) segment .text
+
+    31 0001:00000ed0    32 0001:00000ee8    33 0001:00000f39
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\vector) segment .text
+
+   883 0001:00000df0   884 0001:00000e08   786 0001:00001810   787 0001:00001811
+   788 0001:00001831   791 0001:00001900   792 0001:00001904   794 0001:0000190c
+   795 0001:00001922   797 0001:00001930   798 0001:00001946   388 0001:00001a10
+   387 0001:00001a10   878 0001:00001a20   877 0001:00001a20   879 0001:00001a3c
+   880 0001:00001a48   809 0001:00001a50   810 0001:00001a6e   811 0001:00001aae
+   813 0001:00001ac4   815 0001:00001acf   816 0001:00001aea   817 0001:00001af1
+   820 0001:00001b0b   821 0001:00001b20   822 0001:00001b36   823 0001:00001b48
+   828 0001:00001b54   829 0001:00001b73   830 0001:00001b89   837 0001:00001bac
+   838 0001:00001bcb   840 0001:00001bcf   841 0001:00001bdb   843 0001:00001be7
+   844 0001:00001bec   845 0001:00001bf7   847 0001:00001bfa   832 0001:00001bff
+   833 0001:00001c0f   834 0001:00001c18   847 0001:00001c21   850 0001:00001c39
+   854 0001:00001c50   860 0001:00001c70   862 0001:00001c7b   864 0001:00001c94
+   856 0001:00001c96   857 0001:00001cb0   868 0001:00001cb9   870 0001:00001cd2
+   872 0001:00001ce4   874 0001:00001cf7   579 0001:00001d20   580 0001:00001d23
+   581 0001:00001d46   584 0001:00001d68   583 0001:00001d6b   584 0001:00001d7e
+
+Line numbers for .\Release\ConnNotice.obj(e:\works\iba_local\wxmiddleware\gxxstring.h) segment .text
+
+    97 0001:00000c60    98 0001:00000c63   100 0001:00000c70   101 0001:00000c79
+   103 0001:00000c81   582 0001:00000d30   583 0001:00000d34   587 0001:00000d4f
+   588 0001:00000d5e   590 0001:00000d70   604 0001:00000d74   593 0001:00000d7a
+   594 0001:00000d81   592 0001:00000d9f   596 0001:00000da3   603 0001:00000dc0
+   604 0001:00000dc3   598 0001:00000dc9   603 0001:00000dce   604 0001:00000dd1
+   585 0001:00000dd7   604 0001:00000ddb   166 0001:00001020   167 0001:00001021
+   168 0001:00001025   170 0001:00001033   172 0001:00001050   173 0001:00001053
+   175 0001:0000105c   178 0001:000010a7   179 0001:000010c5   180 0001:000010cf
+   181 0001:000010dc    88 0001:00001470    89 0001:00001473    90 0001:00001499
+    91 0001:000014a7    92 0001:000014b0    93 0001:000014b4    94 0001:000014e3
+    95 0001:000014f1   920 0001:00001500   921 0001:0000151a   922 0001:0000155d
+   923 0001:00001574   924 0001:000015b8   926 0001:000015d0   927 0001:000015ea
+   928 0001:0000162d   929 0001:00001641   930 0001:00001685   260 0001:000016a0
+   261 0001:000016b8   262 0001:000016d5   263 0001:0000170a   264 0001:00001714
+   265 0001:00001717   266 0001:00001752   267 0001:00001755   268 0001:000017a2
+   655 0001:00001d90   656 0001:00001dac   657 0001:00001db5   660 0001:00001dcc
+   661 0001:00001dda   662 0001:00001de3   664 0001:00001dea   665 0001:00001df4
+   667 0001:00001e09   672 0001:00001e0b   673 0001:00001e1a   678 0001:00001e31
+   680 0001:00001e37   673 0001:00001e53   675 0001:00001e57   683 0001:00001e63
+   685 0001:00001e67   687 0001:00001e80   689 0001:00001e87   685 0001:00001ee8
+   691 0001:00001ef0   692 0001:00001ef6   693 0001:00001efc   694 0001:00001f16
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\cstringt.h) segment .text
+
+  2014 0001:00000b00  2015 0001:00000b17  2017 0001:00000b39  2019 0001:00000b6c
+  2020 0001:00000b8a  2032 0001:00000ba0  2033 0001:00000bb7  2035 0001:00000bd6
+  2037 0001:00000c0b  2038 0001:00000c29
+
+Line numbers for .\Release\ConnNotice.obj(e:\works\iba_local\wxmiddleware\g2xsocketclient.h) segment .text
+
+    13 0001:00003c90
+
+Line numbers for .\Release\ConnNotice.obj(e:\works\iba_local\wxmiddleware\connnotice.cpp) segment .text
+
+    32 0001:00000500    33 0001:00000519    34 0001:00000527    35 0001:00000540
+    36 0001:0000055e    67 0001:00000570    66 0001:00000570    68 0001:00000577
+    71 0001:00000580    72 0001:00000580    73 0001:00000583    76 0001:00000590
+    77 0001:000005b2    78 0001:000005cc    79 0001:000005d1    81 0001:000005dc
+    83 0001:000005ec    85 0001:00000608    86 0001:00000625    89 0001:0000062c
+    90 0001:00000636    91 0001:0000065a    93 0001:00000670    95 0001:0000067a
+    98 0001:000006aa   104 0001:000006b2   106 0001:000006c8   107 0001:000006d7
+   124 0001:00000700   126 0001:00000720   127 0001:00000734   129 0001:00000750
+   130 0001:00000780   131 0001:0000079d   134 0001:000007d0   135 0001:000007f3
+   138 0001:00000807   140 0001:00000813   141 0001:0000081a   149 0001:0000081d
+   150 0001:00000820   146 0001:00000831   147 0001:00000842   150 0001:0000084d
+   171 0001:00000870   175 0001:0000087c   179 0001:00000892   182 0001:000008a1
+   184 0001:000008ec   185 0001:0000090d   219 0001:00000920   223 0001:0000092f
+   227 0001:00000941   231 0001:00000951   232 0001:00000989   233 0001:000009a6
+   237 0001:000009c0   241 0001:000009cf   245 0001:000009e1   249 0001:000009f1
+   250 0001:00000a29   251 0001:00000a46   254 0001:00000a60   258 0001:00000a6f
+   262 0001:00000a81   266 0001:00000a91   267 0001:00000ac4   268 0001:00000ae1
+   153 0001:00000f70   154 0001:00000f70   156 0001:00000f7f   157 0001:00000f84
+   166 0001:00000f8d   168 0001:00000f95   159 0001:00000f98   161 0001:00000f9d
+   162 0001:00000fa2   166 0001:00000fab   168 0001:00000fb4   638 0001:00000fc0
+   639 0001:00000fc1   641 0001:00000fd4   643 0001:00000feb   644 0001:00000fee
+    50 0001:00001140    49 0001:00001140    52 0001:00001149    56 0001:00001170
+    52 0001:00001171    56 0001:00001178   188 0001:00001180   192 0001:000011aa
+   196 0001:000011c0   200 0001:000011d0   202 0001:00001241   203 0001:0000124b
+   205 0001:0000126f   206 0001:00001279   207 0001:000012a8   208 0001:000012e0
+   210 0001:000012ea   212 0001:0000133e   214 0001:0000135e   215 0001:00001390
+   292 0001:00001400   293 0001:00001401   294 0001:00001414   295 0001:0000141c
+   298 0001:00001f40   299 0001:00001f6a   301 0001:00001fb7   302 0001:00001fc1
+   304 0001:00001ffb   307 0001:00002012   309 0001:00002019   311 0001:0000201f
+   312 0001:00002064   314 0001:00002070   316 0001:00002076   318 0001:000020b9
+   322 0001:000020d3   323 0001:00002110   325 0001:00002115   328 0001:0000211a
+   330 0001:0000211f   331 0001:00002126   332 0001:0000212d   335 0001:00002184
+   339 0001:00002189   340 0001:000021c6   342 0001:000021cb   343 0001:000021dc
+   345 0001:000021f3   347 0001:000021f8   348 0001:000021ff   349 0001:00002206
+   352 0001:0000220b   359 0001:00002210   360 0001:0000221e   361 0001:000022a4
+   362 0001:000022b7   364 0001:000022cd   365 0001:000022de   368 0001:000022e3
+   370 0001:00002351   371 0001:0000235b   372 0001:00002389   373 0001:000023c0
+   374 0001:000023ca   377 0001:000023da   380 0001:000023e0   381 0001:000023ed
+   382 0001:00002402   384 0001:00002417   385 0001:00002428   386 0001:0000244c
+   387 0001:00002452   388 0001:0000246e   389 0001:00002492   394 0001:00002497
+   395 0001:000024a5   396 0001:0000252b   397 0001:0000253e   400 0001:00002556
+   404 0001:0000255c   406 0001:0000261c   407 0001:00002626   408 0001:00002650
+   409 0001:00002688   410 0001:00002692   413 0001:000026a4   414 0001:000026b5
+   417 0001:000026ea   418 0001:000026fb   419 0001:0000271b   420 0001:0000274b
+   429 0001:00002750   430 0001:00002768   431 0001:00002783   432 0001:00002797
+   433 0001:000027b0   434 0001:000027c4   435 0001:000027dd   436 0001:000027f1
+   437 0001:0000280a   438 0001:0000281b   443 0001:00002846   445 0001:0000285e
+   447 0001:00002886   448 0001:000028ae   449 0001:000028d9   451 0001:000028f6
+   452 0001:00002919   453 0001:0000294a   455 0001:00002967   456 0001:0000298c
+   457 0001:000029b6   459 0001:000029e2   460 0001:00002a19   461 0001:00002a40
+   462 0001:00002a82   463 0001:00002ac4   464 0001:00002ae6   465 0001:00002b10
+   466 0001:00002b2d   469 0001:00002b48   470 0001:00002b54   471 0001:00002b6d
+   473 0001:00002b81   474 0001:00002b92   476 0001:00002c39   479 0001:00002c43
+   480 0001:00002c57   481 0001:00002c6e   483 0001:00002c86   484 0001:00002c90
+   485 0001:00002c9c   486 0001:00002cb9   487 0001:00002cd0   488 0001:00002cdb
+   489 0001:00002ce8   490 0001:00002d00   492 0001:00002d17   495 0001:00002d27
+   497 0001:00002d47   500 0001:00002d49   502 0001:00002d71   503 0001:00002d77
+   504 0001:00002d80   505 0001:00002d8c   508 0001:00002d98   510 0001:00002db0
+   511 0001:00002dba   512 0001:00002dcf   513 0001:00002ddb   515 0001:00002dec
+   516 0001:00002e04   518 0001:00002e11   519 0001:00002e1d   521 0001:00002e26
+   522 0001:00002e32   523 0001:00002e50   440 0001:00002e55   627 0001:00002e66
+   628 0001:00002e7b   533 0001:00002e80   534 0001:00002e98   535 0001:00002eb3
+   536 0001:00002ec7   537 0001:00002ee0   538 0001:00002ef4   539 0001:00002f0d
+   540 0001:00002f21   541 0001:00002f3a   542 0001:00002f4b   547 0001:00002f75
+   549 0001:00002f8d   551 0001:00002fb5   552 0001:00002fdd   553 0001:00003008
+   555 0001:00003025   556 0001:00003048   557 0001:00003079   559 0001:00003096
+   560 0001:000030bb   561 0001:000030e5   563 0001:00003111   564 0001:00003148
+   565 0001:0000316f   566 0001:000031b1   567 0001:000031f3   568 0001:00003215
+   569 0001:0000323f   570 0001:0000325c   572 0001:00003277   573 0001:00003283
+   574 0001:0000329c   576 0001:000032ac   577 0001:000032bd   579 0001:000032c2
+   583 0001:000032cc   584 0001:000032e0   585 0001:000032f7   587 0001:00003314
+   588 0001:0000331e   589 0001:0000332a   590 0001:00003347   591 0001:0000335e
+   592 0001:00003369   593 0001:00003376   594 0001:0000338e   596 0001:000033a5
+   598 0001:000033c2   600 0001:000033d4   601 0001:000033ee   603 0001:00003409
+   605 0001:0000340b   607 0001:0000341e   608 0001:00003424   609 0001:0000342d
+   610 0001:00003439   615 0001:00003445   616 0001:0000344f   617 0001:00003464
+   618 0001:00003470   621 0001:00003481   623 0001:0000348e   624 0001:0000349a
+   626 0001:000034a3   627 0001:000034af   628 0001:00003591   632 0001:00003593
+   635 0001:000035a4    22 0001:0000a690
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\atlcomtime.h) segment .text
+
+   329 0001:00000360   331 0001:0000037f   332 0001:00000387   368 0001:00000398
+   369 0001:0000039b   335 0001:000003ac   337 0001:000003b1   339 0001:000003bf
+   344 0001:000003c1   346 0001:000003d9   347 0001:000003eb   348 0001:000003fc
+   349 0001:00000418   354 0001:0000042c   355 0001:00000436   357 0001:0000043f
+   358 0001:00000452   359 0001:0000045b   360 0001:00000464   363 0001:00000473
+   364 0001:00000489   365 0001:000004a0   366 0001:000004c1   368 0001:000004cd
+   369 0001:000004e8
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\atlcomtime.inl) segment .text
+
+   432 0001:00000300   434 0001:00000303   437 0001:0000030f   439 0001:0000033e
+   440 0001:00000341   437 0001:00000347   439 0001:0000034f   440 0001:00000352
+   288 0001:00001100   289 0001:00001103   290 0001:0000112c
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\afx.inl) segment .text
+
+    31 0001:000002f0
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\atltime.inl) segment .text
+
+   336 0001:00000290   335 0001:00000290   337 0001:0000029a   338 0001:0000029e
+   350 0001:000002a0   340 0001:000002a3   341 0001:000002b3   342 0001:000002bd
+   343 0001:000002c5   344 0001:000002cd   345 0001:000002d5   346 0001:000002dd
+   347 0001:000002e4   349 0001:000002ea   350 0001:000002ec
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\atlcore.h) segment .text
+
+   114 0001:000001f0   116 0001:000001f2   117 0001:00000207   129 0001:00000210
+   130 0001:00000236   131 0001:00000238   133 0001:0000023b   136 0001:00000244
+   138 0001:00000257   143 0001:00000277   144 0001:00000279
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\atlexcept.h) segment .text
+
+    64 0001:000001d0    61 0001:000001d0    66 0001:000001db    70 0001:000001e0
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\stdexcept) segment .text
+
+    23 0001:00000110    27 0001:00000170    26 0001:00000170    28 0001:00000179
+    27 0001:0000017a    28 0001:0000017d    99 0001:000001c0
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\atlmfc\include\atlconv.h) segment .text
+
+   101 0001:00000010   102 0001:0000001d   104 0001:0000001f   110 0001:00000025
+   113 0001:0000003c   116 0001:00000048   120 0001:00000059   121 0001:0000005d
+   124 0001:00000064   127 0001:00000090   128 0001:00000090   129 0001:00000095
+   134 0001:000000a0   139 0001:000000b2   140 0001:000000c4   143 0001:000000d0
+   147 0001:000000d7   149 0001:000000dc   151 0001:000000e8   152 0001:000000ee
+   188 0001:00000c40   187 0001:00000c40   190 0001:00000c49   192 0001:00000c51
+   201 0001:00000cd0   202 0001:00000cd2   204 0001:00000cdc   217 0001:00000ce0
+   207 0001:00000ce4   208 0001:00000cee   210 0001:00000cf6   211 0001:00000d03
+   213 0001:00000d09   216 0001:00000d13   217 0001:00000d29   176 0001:00001000
+   177 0001:00001003   178 0001:00001014
+
+Line numbers for .\Release\ConnNotice.obj(c:\program files\microsoft visual studio .net 2003\vc7\include\new.h) segment .text
+
+   112 0001:00000000
+
+Line numbers for C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\lib\mfcs71u.lib(f:\vs70builds\3077\vc\mfcatl\ship\atlmfc\include\afxwin1.inl) segment .text
+
+    45 0001:00008e50
+
+Line numbers for C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\lib\mfcs71u.lib(f:\vs70builds\3077\vc\mfcatl\ship\atlmfc\src\mfc\dllmodul.cpp) segment .text
+
+   184 0001:00008dff   182 0001:00008dff   188 0001:00008e06   189 0001:00008e13
+   191 0001:00008e18   194 0001:00008e1f   195 0001:00008e24   198 0001:00008e34
+   201 0001:00008e3d   203 0001:00008e42   208 0001:00008e4a   209 0001:00008e4d
+    51 0001:00008e59    52 0001:00008e65    53 0001:00008e72    54 0001:00008e90
+    69 0001:00008e9e    70 0001:00008ea3    72 0001:00008eb0    76 0001:00008eb5
+    79 0001:00008eba    83 0001:00008ebf    86 0001:00008ed5    90 0001:00008ed7
+    91 0001:00008edf    93 0001:00008eee    94 0001:00008ef5    95 0001:00008efa
+   101 0001:00008efc   102 0001:00008f0d   108 0001:00008f23   111 0001:00008f2a
+   115 0001:00008f2d   118 0001:00008f3a   120 0001:00008f41   126 0001:00008f47
+   129 0001:00008f5b   130 0001:00008f63   131 0001:00008f67   141 0001:00008f6e
+   142 0001:00008f73   145 0001:00008f7a   148 0001:00008f7f   153 0001:00008f8b
+   155 0001:00008f93   165 0001:00008fa0   166 0001:00008fa5   168 0001:00008fac
+   169 0001:00008fb4   171 0001:00008fbd   172 0001:00008fc1    43 0001:00008fc5
+    46 0001:0000a6e6
+
+Line numbers for C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\msvcrt.lib(F:\VS70Builds\3077\vc\crtbld\crt\src\intel\chkstk.asm) segment .text
+
+    69 0001:000091c0    65 0001:000091c0    70 0001:000091c5    72 0001:000091c7
+    73 0001:000091c9    74 0001:000091cb    75 0001:000091ce    76 0001:000091d0
+    77 0001:000091d1    78 0001:000091d3    79 0001:000091d4    82 0001:000091d5
+    83 0001:000091d6    88 0001:000091da    89 0001:000091e0    91 0001:000091e5
+    93 0001:000091e7    94 0001:000091ec    97 0001:000091ee    98 0001:000091f0
+   100 0001:000091f2   102 0001:000091f4   104 0001:000091f6   105 0001:000091f8
+   107 0001:000091fb   109 0001:000091fc
+
+Line numbers for C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\msvcrt.lib(f:\vs70builds\3077\vc\crtbld\crt\src\atonexit.c) segment .text
+
+    81 0001:0000917e    76 0001:0000917e    90 0001:000091a3    96 0001:000091a4
+    95 0001:000091a4    97 0001:000091b5
+
+Line numbers for C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\msvcrt.lib(f:\vs70builds\3077\vc\crtbld\crt\src\crtdll.c) segment .text
+
+   134 0001:000091fd   129 0001:000091fd   135 0001:00009205   136 0001:0000920d
+   158 0001:00009213   163 0001:00009226   168 0001:0000923b   170 0001:0000923f
+   172 0001:00009242   178 0001:0000924c   179 0001:00009251   184 0001:0000925b
+   189 0001:0000926c   192 0001:00009273   219 0001:00009279   220 0001:00009282
+   225 0001:00009284   226 0001:00009290   234 0001:000092a6   236 0001:000092ad
+   234 0001:000092b4   240 0001:000092b5   241 0001:000092b8   249 0001:000092bb
+   250 0001:000092c7   252 0001:000092cd   257 0001:000092d2   258 0001:000092df
+   260 0001:000092e5   262 0001:000092ee   263 0001:000092f7   265 0001:00009303
+   266 0001:0000930c   268 0001:0000931b   269 0001:0000931d   272 0001:0000931f
+   275 0001:0000932f   283 0001:00009338   286 0001:00009342   288 0001:0000934b
+   289 0001:00009359   291 0001:0000935c   292 0001:0000936a   298 0001:00009378
+   294 0001:0000937d   295 0001:00009395   299 0001:00009397
+
+Line numbers for C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\msvcrt.lib(f:\vs70builds\3077\vc\crtbld\crt\src\secchk.c) segment .text
+
+   114 0001:00009000   116 0001:0000900c   117 0001:00009010   119 0001:0000901d
+   123 0001:00009028   100 0001:00009031   103 0001:00009031   104 0001:00009037
+   105 0001:00009039   107 0001:0000903a
+
+Line numbers for C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\msvcrt.lib(f:\vs70builds\3077\vc\crtbld\crt\src\seccinit.c) segment .text
+
+    49 0001:00009414    58 0001:0000941a    67 0001:0000942b    70 0001:00009435
+    75 0001:0000943b    76 0001:00009443    77 0001:0000944b    79 0001:00009453
+    93 0001:0000945d    94 0001:00009478
+
+Line numbers for C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\lib\atls.lib(f:\vs70builds\3077\vc\mfcatl\ship\atlmfc\src\atl\atls\atlbase.cpp) segment .text
+
+    67 0001:0000955d    68 0001:00009560    69 0001:0000956a    29 0001:00009573
+    32 0001:0000958e    36 0001:00009593    38 0001:000095b6    39 0001:000095c7
+    41 0001:000095cd    46 0001:000095d3    49 0001:000095db    51 0001:000095e9
+    58 0001:000095ed    62 0001:00009607    64 0001:0000960e   126 0001:0000a6fc
+
+Line numbers for C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\lib\atls.lib(f:\vs70builds\3077\vc\mfcatl\ship\atlmfc\include\atlsimpcoll.h) segment .text
+
+   173 0001:00009526   174 0001:00009529   178 0001:0000952f   179 0001:00009535
+   181 0001:00009539   182 0001:0000953d   183 0001:00009542
+
+ Exports
+
+  ordinal    name
+
+        1    ?SetDelegate@@YGXPAVCWxMiddlewareDelete@@@Z (void __stdcall SetDelegate(class CWxMiddlewareDelete *))
+               exported name: SetDelegate
+        2    ?LoginStatus@@YGXPB_WH@Z (void __stdcall LoginStatus(wchar_t const *,int))
+               exported name: LoginStatus
+        3    ?LogoutStatus@@YGXPB_WH@Z (void __stdcall LogoutStatus(wchar_t const *,int))
+               exported name: LogoutStatus
+        4    ?MessageStatus@@YGXH@Z (void __stdcall MessageStatus(int))
+               exported name: MessageStatus
