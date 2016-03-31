@@ -321,10 +321,6 @@ BOOL CCashier::CheckIn(CCashRegisterLoginMethod& CashRegisterLogin, CString strO
 
 BOOL CCashier::CheckIn_atLogin(CCashRegisterLoginMethod_atLogin& CashRegisterLogin, CString strOperator)
 {
-	//Êä³öBuildÊ±¼ä
-	CString strTime = CIBALog::GetInstance()->GetAppBuildTime();
-	CIBALog::GetInstance()->WriteFormat(_T("Build Time: %s"), strTime);
-
 	BOOL bRet = FALSE;
 
 	CashRegisterLogin.SetCashRegisterId(CIBAConfig::GetInstance()->GetCashRegisterID());
