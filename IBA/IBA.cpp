@@ -733,18 +733,20 @@ LONG WINAPI CIBAApp::TopLevelUnhandledExceptionFilter(struct _EXCEPTION_POINTERS
 	//获取异常代码和异常地址
 	PVOID dwExpAddress = pExcetpion->ExceptionRecord->ExceptionAddress;
 	DWORD dwExpCode = pExcetpion->ExceptionRecord->ExceptionCode;
-	char lpSubject[256];
-	char lpContent[256];
-	RtlZeroMemory(lpSubject,256);
-	RtlZeroMemory(lpContent,256);
+	char lpSubject[1024];
+	char lpContent[1024];
+	RtlZeroMemory(lpSubject,1024);
+	RtlZeroMemory(lpContent,1024);
 	UINT nNetbarId = CNetBarConfig::GetInstance()->GetNetBarId();
+	UINT nDoMainId = CNetBarConfig::GetInstance()->GetDomainId();
 	CString strBuildTime = CIBALog::GetInstance()->GetAppBuildTime();
 	CStringA strBuildTimeA = CT2A(strBuildTime);
 	CString strVer = CIBALog::GetInstance()->GetAppVer();
 	CStringA strVerA = CT2A(strVer);
 	sprintf(lpSubject,"%d(%s-Build:%s)0x%08x--0x%08x",nNetbarId,strVerA,strBuildTimeA,dwExpCode,(DWORD)dwExpAddress);//邮件标题改为网吧ID+buildTime+ 异常代码+地址
-	sprintf(lpContent,"NetbarId:%d\nDate:%s\nTime:%s\nExceptionCode:0x%08x\nExcetpionAddress:0x%08x\n",
-		(int)2824,
+	sprintf(lpContent,"DomainId:%d\nNetbarId:%d\nDate:%s\nTime:%s\nExceptionCode:0x%08x\nExcetpionAddress:0x%08x\n",
+		nDoMainId,
+		nNetbarId,
 		__DATE__,
 		__TIME__,
 		dwExpCode,
