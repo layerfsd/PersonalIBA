@@ -174,17 +174,17 @@ LONG CSpeechVoice::GetSynchronousSpeakTimeout()
 
 LONG CSpeechVoice::Speak(LPCTSTR Text, SPEAKFLAGS Flags)
 {
-	//try
-	//{
+	try
+	{
 	LONG result;
 	static BYTE parms[] = VTS_BSTR VTS_I4 ;
 	InvokeHelper(0xc, DISPATCH_METHOD, VT_I4, (void*)&result, parms, Text, Flags);
 	return result;
-	//}
-	//catch (...)
-	//{
-	//	AfxMessageBox(IDS_TTSERROR);
-	//}
+	}
+	catch (...)
+	{
+		AfxMessageBox(IDS_TTSERROR);
+	}
 
 	return -1;
 }
