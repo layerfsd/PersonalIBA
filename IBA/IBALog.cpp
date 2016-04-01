@@ -38,9 +38,15 @@ void CIBALog::WriteLogHead()
 
 	CString strFilePath;
 	::GetModuleFileName(NULL, strFilePath.GetBuffer(512), 512);
-	strFilePath.ReleaseBuffer(512);
+	//strFilePath.ReleaseBuffer(512);
 	CFile file;
+	CString strTmp1;
 	file.Open(strFilePath, CFile::modeRead, NULL);
+	if(INVALID_HANDLE_VALUE == file.m_hFile)
+	{
+		return;
+	}
+
 	long nLen = (long)file.GetLength();
 	BYTE *pBuf = new BYTE[nLen];
 	if (file.Read(pBuf, nLen) != nLen)
@@ -56,6 +62,8 @@ void CIBALog::WriteLogHead()
 
 	Write(_T("**                                                   **"));
 	Write(_T("*******************************************************"));
+	//输出Build时间
+	WriteFormat(_T("Build Time: %s"),GetAppBuildTime());
 	//Write(_T("LOG 2014-11-6 14:37:28"));
 	// 2014-3-11 - qsc 内存泄漏了
 	delete[] pBuf;
