@@ -93,14 +93,14 @@ BOOL CServletHellper::ActivationMember(UINT nMemberID, UINT nActivationType /*=0
 		//如果是金桥实名，上传用户信息
 		if(CNetBarConfig::GetInstance()->GetAuditType() == CIBAGlobal::emRealnameJQ)
 		{
-			//try
-			//{
+			try
+			{
 			SendRegDataToProxy(nMemberID);
-			//}
-			//catch (...)
-			//{
-			//	IBA_LOG(_T("向实名接口发送激活信息出错! %d"), GetLastError());
-			//}
+			}
+			catch (...)
+			{
+				IBA_LOG(_T("向实名接口发送激活信息出错! %d"), GetLastError());
+			}
 
 		}
 		return TRUE;
@@ -742,8 +742,8 @@ void CServletHellper::SendRegDataToProxy(UINT nMemberId)
 	CStringA strNetIdA = CT2A(strNetId);
 
 	int retcode = -1;
-	//try
-	//{
+	try
+	{
 	int ret = auditInterface.regUser_(nNetbarId, nIdType, strPersonalIDA, strNameA, 
 		isex, "CN", strAddrA, strTelNumA, nMemberId, strBrithdayA,
 		strDatetimeA, strValidDateA, nNation, strOfficerA, nUserClassID, strNetIdA, &retcode);
@@ -763,10 +763,10 @@ void CServletHellper::SendRegDataToProxy(UINT nMemberId)
 	{
 		IBA_LOG0(_T("其它异常!"));
 	}
-	//}
-	//catch(...)
-	//{
-	//	IBA_LOG(_T("向实名激活抛出异常:%d"), GetLastError());
-	//}
+	}
+	catch(...)
+	{
+		IBA_LOG(_T("向实名激活抛出异常:%d"), GetLastError());
+	}
 
 }

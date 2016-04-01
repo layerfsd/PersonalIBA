@@ -449,7 +449,7 @@ BEGIN
     BEGIN
         BLOCK "080404b0"
         BEGIN
-            VALUE "Comments", "2016-04-01 11:00:01"
+            VALUE "Comments", "2016-04-01 18:00:01"
             VALUE "CompanyName", "深圳市嘟嘟牛科技有限公司"
             VALUE "FileDescription", "嘟嘟牛收银台"
             VALUE "FileVersion", "8, 4, 1, 8"

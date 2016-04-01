@@ -225,14 +225,14 @@ void CRegisterDlg::OnBnClickedOk()
 		//if(CNetBarConfig::GetInstance()->GetAuditType() == CIBAGlobal::emRealnameRZX)
 		if(1 == CNetBarConfig::GetInstance()->GetDomainId() ||	CNetBarConfig::GetInstance()->GetAuditType() == CIBAGlobal::emRealnameJQ)
 		{
-			//try
-			//{
+			try
+			{
 			SendRegDataToProxy();
-			//}
-			//catch (...)
-			//{
-			//	IBA_LOG(_T("向实名接口发送注册信息出错! %d"), GetLastError());
-			//}
+			}
+			catch (...)
+			{
+				IBA_LOG(_T("向实名接口发送注册信息出错! %d"), GetLastError());
+			}
 
 		}
 
@@ -2777,8 +2777,8 @@ void CRegisterDlg::SendRegDataToProxy()
 	CStringA strNetIdA = CT2A(m_strNetId);
 
 	int retcode = -1;
-	//try
-	//{
+	try
+	{
 	int ret = auditInterface.regUser_(nNetbarId, m_nIdType, strPersonalIDA, strNameA, 
 		isex, "CN", strAddrA, strTelNumA, nMemberId, strBrithdayA,
 		strDatetimeA, strValidDateA, nNation, strOfficerA, m_nUserClassID, strNetIdA, &retcode);
@@ -2798,11 +2798,11 @@ void CRegisterDlg::SendRegDataToProxy()
 	{
 		IBA_LOG0(_T("其它异常!"));
 	}
-	//}
-	//catch(...)
-	//{
-	//	IBA_LOG(_T("向实名注册抛出异常:%d"), GetLastError());
-	//}
+	}
+	catch(...)
+	{
+		IBA_LOG(_T("向实名注册抛出异常:%d"), GetLastError());
+	}
 	
 }
 
