@@ -433,8 +433,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 8,4,1,703
- PRODUCTVERSION 8,4,1,703
+ FILEVERSION 8,4,1,8
+ PRODUCTVERSION 8,4,1,8
  FILEFLAGSMASK 0x1fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -449,14 +449,14 @@ BEGIN
     BEGIN
         BLOCK "080404b0"
         BEGIN
-            VALUE "Comments", "2016-03-31 21:00:01"
+            VALUE "Comments", "2016-04-01 11:00:01"
             VALUE "CompanyName", "深圳市嘟嘟牛科技有限公司"
             VALUE "FileDescription", "嘟嘟牛收银台"
-            VALUE "FileVersion", "8, 4, 1, 703"
+            VALUE "FileVersion", "8, 4, 1, 8"
             VALUE "LegalCopyright", "版权所有(C) 2015-2016 深圳市嘟嘟牛科技有限公司。保留所有权利。"
             VALUE "OriginalFilename", "IBA.EXE"
             VALUE "ProductName", "嘟嘟牛计费系统"
-            VALUE "ProductVersion", "8, 4, 1, 703"
+            VALUE "ProductVersion", "8, 4, 1, 8"
         END
     END
     BLOCK "VarFileInfo"
